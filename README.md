@@ -56,9 +56,9 @@ Sabado 6:00 pm a 8:00 pm
 
 ### 08 agosto
 
-**Objetivos de la reunión**
+**Objetivos de la reunión:**
 
-**Resumen de la reunión**
+**Resumen de la reunión:**
 
 Corregimos los roles: agregamos ing.sistemas, simulaciones y calculos, integrador, secretario y business intelligence
 
