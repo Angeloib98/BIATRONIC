@@ -1,8 +1,20 @@
 # Bitacora
 Proyecto académico de un monitor de bioimpedancia eléctrica.
-
+|      Roles   |
+| Nombre                  | Rol administrativo         | Rol técnico |
+| ---                     | ---                        | ---         |
+| Marco Zolla             | Administrador de proyecto  | Ingenierio en Software |
+| Heiner Amador           | Documentador               | Diseño Mecánico |
+| Robert Cerdas           | Business Intelligence      | Lider técnico |
+| Manuel Garita           | Líder administrativo       | ????? |
+| Karen Guadamuz          | Gestora de calidad         | Normas |
+| Angelo Isaac            | Secretario                 | Ingenieria de software | 
+| Adrián Nuñez            | Gestor de riesgos          | Cálculo y simulación |
+| Francinnie Rodriguez    | Asesora financiera         | ???? | 
+| Brayan Solís            | Gestor de tiempo           | ????? |
+ 
 |      Roles administrativos    |
-| Rol                      | Responsabilidad |
+| Roles                    | Responsabilidad |
 | ---                      | --- |
 | Adminstrador de proyecto | Comunicación con el sponsor, verificar que todos los objetivos se cumplan, establecer cada tarea que se tiene que hacer, lidera las reuniones y                                    hacer informes de cada reunión. |
 | Business Intelligence    | se encuentra envuelto en un proceso interactivo en el que explora y analiza información estructurada sobre un área (normalmente almacenada en un                                    datawarehouse), para descubrir tendencias o patrones, a partir de los cuales derivar ideas y extraer conclusiones. |
@@ -14,6 +26,18 @@ Proyecto académico de un monitor de bioimpedancia eléctrica.
 | Gestor de calidad        | Procesos de gestión, plan de administración de calidad, control de calidad. |
 | Documentador             | Documentación del proyecto. |
 
+|      Roles técnicos    |
+| Roles                        | Responsabilidad |
+| ---                          | --- |
+| Líder técnico                | Poner objetivos  y distribuir asignaciones, además de verificar que no hayan problemas  durante el tiempo del proyecto.|
+| Integrador                   | Se encargan de unir componentes independientes incluso de diferentes proveedores– para crear un sistema único, adecuado a la realidad y tareas                                    particulares de una compañı́a |
+| Ingeniero de Hardware        | Diseño de pcb y circuitos.|
+| Ingeniero de Software        | Diseño de aplicaciones y programaciones.|
+| Verificación y validación    | Benchmarks y crear métodos para verificar el funcionamiento del proyecto. |
+| Diseño mecánico              | Encargado del diseño mecánico o estructural es la persona responsable de la elección de componentes y materiales y del diseño fı́sico del                                          ensamble del producto mediante herramientas CAD según las especificaciones y requerimientos del problema. | 
+| Simulaciones y cálculos      | Persona encargada de estudiar y describir la comprensión de los elementos de un sistema de interés, teniendo en cuenta las caracterı́sticas                                        esenciales del mismo, obteniendo ası́ un modelo matemático que describa el comportamiento del mismo |
+| Ingenierio en sistemas       | Encargado de crear las interfaces entre los distintos sistemas del proyecto |
+| Normas                       | Revisar las normas necesarias para el proyecto, tanto técnicas como normas ambientales a seguir, como en el tipo de material a utilizar.  |
 
 
 8/05/2021
@@ -26,4 +50,5 @@ Corregimos los roles: agregamos ing.sistemas, simulaciones y calculos, integrado
 Escogimos nuevo horario: Martes 5:00 pm a 7:00 pm
                          Sabado 6:00 pm a 8:00 pm
 Arreglamos la matriz R&R : se hizo más especifica y se agregaron los roles a cada persona
+Se duró mucho en la reunión por lo que se dejó hasta aqui, y relevamos las asignaciones para revisar el sabado (se ven en los issues).
 
