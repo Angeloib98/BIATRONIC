@@ -1,5 +1,11 @@
 # Bitacora
-Proyecto académico de un monitor de bioimpedancia eléctrica.
+
+* [Horario de Reuniones](#horario-reuniones)
+* [Roles](#roles)
+* [Responsabilidades administrativas](#responsabilidades-administrativas)
+* [Responsabilidaes técnicas](#responsabilidades-técnicas)
+* [08 agosto](#08-agosto)
+
 
 ## Horario de reuniones
 
@@ -20,7 +26,7 @@ Sabado 6:00 pm a 8:00 pm
 | Francinnie Rodriguez    | Asesora financiera         | ???? | 
 | Brayan Solís            | Gestor de tiempo           | ????? |
  
-## Roles administrativos
+## Responsabilidades administrativas
 | Roles                    | Responsabilidad |
 | ---                      | --- |
 | Adminstrador de proyecto | Comunicación con el sponsor, verificar que todos los objetivos se cumplan, establecer cada tarea que se tiene que hacer, lidera las reuniones y                                    hacer informes de cada reunión. |
@@ -33,7 +39,7 @@ Sabado 6:00 pm a 8:00 pm
 | Gestor de calidad        | Procesos de gestión, plan de administración de calidad, control de calidad. |
 | Documentador             | Documentación del proyecto. |
 
-## Roles técnicos
+## Responsabilidades técnicas
 | Roles                        | Responsabilidad |
 | ---                          | --- |
 | Líder técnico                | Poner objetivos  y distribuir asignaciones, además de verificar que no hayan problemas  durante el tiempo del proyecto.|
@@ -47,15 +53,18 @@ Sabado 6:00 pm a 8:00 pm
 | Normas                       | Revisar las normas necesarias para el proyecto, tanto técnicas como normas ambientales a seguir, como en el tipo de material a utilizar.  |
 
 
-8/05/2021
+### 08 agosto
 
 Objetivos de la reunión
 
 Resumen de la reunión
 
 Corregimos los roles: agregamos ing.sistemas, simulaciones y calculos, integrador, secretario y business intelligence
+
 Escogimos nuevo horario: Martes 5:00 pm a 7:00 pm
                          Sabado 6:00 pm a 8:00 pm
+                         
 Arreglamos la matriz R&R : se hizo más especifica y se agregaron los roles a cada persona
+
 Se duró mucho en la reunión por lo que se dejó hasta aqui, y relevamos las asignaciones para revisar el sabado (se ven en los issues).
 
