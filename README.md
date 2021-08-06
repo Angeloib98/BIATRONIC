@@ -1,10 +1,10 @@
-# Bitacora
+# README!!!!
 
 * [Horario de Reuniones](#horario-reuniones)
 * [Roles](#roles)
 * [Responsabilidades administrativas](#responsabilidades-administrativas)
 * [Responsabilidaes técnicas](#responsabilidades-técnicas)
-* [08 agosto](#08-agosto)
+* [Bitácora](#bitácora)
 
 
 ## Horario de reuniones
@@ -52,6 +52,7 @@ Sabado 6:00 pm a 8:00 pm
 | Ingenierio en sistemas       | Encargado de crear las interfaces entre los distintos sistemas del proyecto |
 | Normas                       | Revisar las normas necesarias para el proyecto, tanto técnicas como normas ambientales a seguir, como en el tipo de material a utilizar.  |
 
+## Bitácora
 
 ### 08 agosto
 
