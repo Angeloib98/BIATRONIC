@@ -5,8 +5,7 @@ Proyecto académico de un monitor de bioimpedancia eléctrica.
 | Rol                      | Responsabilidad |
 | ---                      | --- |
 | Adminstrador de proyecto | Comunicación con el sponsor, verificar que todos los objetivos se cumplan, establecer cada tarea que se tiene que hacer, lidera las reuniones y                                    hacer informes de cada reunión. |
-| Business Intelligence    | se encuentra envuelto en un proceso interactivo en el que explora y analiza información estructurada sobre un área (normalmente almacenada
-                             en un datawarehouse), para descubrir tendencias o patrones, a partir de los cuales derivar ideas y extraer conclusiones. |
+| Business Intelligence    | se encuentra envuelto en un proceso interactivo en el que explora y analiza información estructurada sobre un área (normalmente almacenada en un                                    datawarehouse), para descubrir tendencias o patrones, a partir de los cuales derivar ideas y extraer conclusiones. |
 | Lider administrativo     | Unión de cada segmento, verificar que todo este funcionando bien y en armonía y comunicación con administrador de proyectos, delegar las tareas.|
 | Secretario               | El puesto de secretarı́a tiene como responsabilidades encargarse del área administrativa, asistir a los puestos gerenciales o ejecutivos en términos                                de anotaciones,
                              agenda y manejo de comunicaciones. Para este puesto es vital tener habilidades organizativas y atención al detalle. |
