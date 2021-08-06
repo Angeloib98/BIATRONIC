@@ -1,6 +1,12 @@
 # Bitacora
 Proyecto académico de un monitor de bioimpedancia eléctrica.
-|      Roles   |
+
+## Horario de reuniones
+
+Martes 5:00 pm a 7:00 pm
+Sabado 6:00 pm a 8:00 pm
+
+## Roles
 | Nombre                  | Rol administrativo         | Rol técnico |
 | ---                     | ---                        | ---         |
 | Marco Zolla             | Administrador de proyecto  | Ingenierio en Software |
@@ -13,7 +19,7 @@ Proyecto académico de un monitor de bioimpedancia eléctrica.
 | Francinnie Rodriguez    | Asesora financiera         | ???? | 
 | Brayan Solís            | Gestor de tiempo           | ????? |
  
-|      Roles administrativos    |
+## Roles administrativos
 | Roles                    | Responsabilidad |
 | ---                      | --- |
 | Adminstrador de proyecto | Comunicación con el sponsor, verificar que todos los objetivos se cumplan, establecer cada tarea que se tiene que hacer, lidera las reuniones y                                    hacer informes de cada reunión. |
@@ -26,7 +32,7 @@ Proyecto académico de un monitor de bioimpedancia eléctrica.
 | Gestor de calidad        | Procesos de gestión, plan de administración de calidad, control de calidad. |
 | Documentador             | Documentación del proyecto. |
 
-|      Roles técnicos    |
+## Roles técnicos
 | Roles                        | Responsabilidad |
 | ---                          | --- |
 | Líder técnico                | Poner objetivos  y distribuir asignaciones, además de verificar que no hayan problemas  durante el tiempo del proyecto.|
