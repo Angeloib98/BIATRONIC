@@ -4,6 +4,7 @@ Proyecto académico de un monitor de bioimpedancia eléctrica.
 ## Horario de reuniones
 
 Martes 5:00 pm a 7:00 pm
+
 Sabado 6:00 pm a 8:00 pm
 
 ## Roles
