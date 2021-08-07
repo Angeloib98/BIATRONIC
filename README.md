@@ -54,7 +54,7 @@ Sabado 6:00 pm a 8:00 pm
 
 ## Bitácora
 
-### 08 agosto
+### 05 agosto
 
 **Objetivos de la reunión:**
 
@@ -69,3 +69,10 @@ Arreglamos la matriz R&R : se hizo más especifica y se agregaron los roles a ca
 
 Se duró mucho en la reunión por lo que se dejó hasta aqui, y relevamos las asignaciones para revisar el sabado (se ven en los issues).
 
+### 06 agosto
+
+**Sesión extraordinaria**
+
+Se hizo una tabla con los involucrados en el proyecto, además de esto, se decidió que cada persona asignada iba a hacer la caracterzación y gestión de cada invoucrado.
+
+### 07 agosto
