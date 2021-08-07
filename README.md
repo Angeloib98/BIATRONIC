@@ -19,12 +19,12 @@ Sabado 6:00 pm a 8:00 pm
 | Marco Zolla             | Administrador de proyecto  | Ingenierio en Software |
 | Heiner Amador           | Documentador               | Diseño Mecánico |
 | Robert Cerdas           | Business Intelligence      | Lider técnico |
-| Manuel Garita           | Líder administrativo       | ????? |
+| Manuel Garita           | Líder administrativo       | Verificación y Validación  |
 | Karen Guadamuz          | Gestora de calidad         | Normas |
 | Angelo Isaac            | Secretario                 | Ingenieria de software | 
 | Adrián Nuñez            | Gestor de riesgos          | Cálculo y simulación |
-| Francinnie Rodriguez    | Asesora financiera         | ???? | 
-| Brayan Solís            | Gestor de tiempo           | ????? |
+| Francinnie Rodriguez    | Asesora financiera         | Integrador | 
+| Brayan Solís            | Gestor de tiempo           | Ingenieria de hardware |
  
 ## Responsabilidades administrativas
 | Roles                    | Responsabilidad |
