@@ -78,9 +78,9 @@ Se hizo una tabla con los involucrados en el proyecto, además de esto, se decid
 ### 07 agosto
 
 **Asistencia**
-Robert Cerdas: enfermo
-Adrian Nuñez: se fue en media reunión, por perdida de datos
-Manuel: Llegó tarde
+1. Robert Cerdas: enfermo
+2. Adrian Nuñez: se fue en media reunión, por perdida de datos
+3. Manuel: Llegó tarde
 
 
 **Objetivos de la reunión:**
