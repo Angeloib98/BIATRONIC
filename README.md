@@ -76,3 +76,22 @@ Se duró mucho en la reunión por lo que se dejó hasta aqui, y relevamos las as
 Se hizo una tabla con los involucrados en el proyecto, además de esto, se decidió que cada persona asignada iba a hacer la caracterzación y gestión de cada invoucrado.
 
 ### 07 agosto
+
+**Asistencia**
+1. Robert Cerdas: enfermo
+2. Adrian Nuñez: se fue en media reunión, por perdida de datos
+3. Manuel: Llegó tarde
+
+
+**Objetivos de la reunión:**
+
+- Determinar nombre de la empresa y del producto.
+- Revisar lo que faltó de la semana pasada (herramientas, escalación, RACI).
+- Revisar análisis de involucrados (caracterización, estrategia).
+- Revisar paquetes de trabajo y Gantt.
+- Afinar lo que falte de lo revisado.
+- Delegar tareas para la presentación.
+
+**Otro aspecto importante:**
+
+Angelo Isaac dio un minitutorial de como utilizar github y github desktop.
