@@ -95,3 +95,9 @@ Se hizo una tabla con los involucrados en el proyecto, además de esto, se decid
 **Otro aspecto importante:**
 
 Angelo Isaac dio un minitutorial de como utilizar github y github desktop.
+
+### 09 agosto
+
+**Sesión extraordinaria**
+
+Empezando se explicó rapidamente lo que se dijo en consulta con el profesor para luego revisar la presentación para mejorar detalles de formato y qué debe y no debe ir, ademas se dividió la misma. Finalmente se explicó que debemos agregar la tabla de involucros propuesta por Manuel Zolla.
