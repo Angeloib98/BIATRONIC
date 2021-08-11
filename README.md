@@ -101,3 +101,17 @@ Angelo Isaac dio un minitutorial de como utilizar github y github desktop.
 **Sesión extraordinaria**
 
 Empezando se explicó rapidamente lo que se dijo en consulta con el profesor para luego revisar la presentación para mejorar detalles de formato y qué debe y no debe ir, ademas se dividió la misma. Finalmente se explicó que debemos agregar la tabla de involucros propuesta por Manuel Zolla.
+
+### 10 agosto
+
+**Asistencia** 
+
+Todos asistieron
+
+**Objetivo de la reunión**
+
+- Hablar de la retroalimentancio de la presentación de semana 3
+
+**Otro aspecto importante**
+
+Preguntar al profesor en consulta acerca de si los clientes los quiere delimitados para la presentación de semana 5 o los necesita todos los posibles clientes.
