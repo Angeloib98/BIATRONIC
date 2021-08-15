@@ -124,6 +124,8 @@ Adrián Nuñez falto debido a una cena familiar
 
 Heiner Amador llgea tarde
 
+Francinnie llega tarde
+
 **Objetivos de la reunión**
 
 **Otros aspectos importantes**
