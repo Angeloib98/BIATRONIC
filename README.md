@@ -115,3 +115,15 @@ Todos asistieron
 **Otro aspecto importante**
 
 Preguntar al profesor en consulta acerca de si los clientes los quiere delimitados para la presentación de semana 5 o los necesita todos los posibles clientes.
+
+### 14 agosto
+
+**Asistencia**
+
+Adrián Nuñez falto debido a una cena familiar
+
+Heiner Amador llgea tarde
+
+**Objetivos de la reunión**
+
+**Otros aspectos importantes**
