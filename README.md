@@ -128,4 +128,8 @@ Francinnie llega tarde
 
 **Objetivos de la reunión**
 
+- Revisar el trabajo de investigación de normas
+- Revisar el trabajo del área de Business intelligence: gestión de segmentos de clientes, propuestas de valor, valor del mercado elegido...
+- Establecer la misión, visión y valores organizacionales
+
 **Otros aspectos importantes**
