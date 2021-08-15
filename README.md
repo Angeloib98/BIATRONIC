@@ -133,3 +133,5 @@ Francinnie llega tarde
 - Establecer la misión, visión y valores organizacionales
 
 **Otros aspectos importantes**
+
+Se delegó el último punto para hacer tareas.
