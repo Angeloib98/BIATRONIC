@@ -145,10 +145,12 @@ Karen Guadamuz llegó tarde 50 minutos
 
 **Objetivos de la reunión**
 
-Hablar de la tarea 
+- Hablar de la tarea 
 
-Hablar de la retroalimentación
+- Hablar de la retroalimentación
 
 **Otros aspectos importantes**
+
+Revisamos las normas hechas por Karen
 
 
