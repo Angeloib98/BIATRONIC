@@ -135,3 +135,20 @@ Francinnie llega tarde
 **Otros aspectos importantes**
 
 Se delegó el último punto para hacer tareas.
+
+### 17 agosto
+
+**Asistencia**
+
+Karen Guadamuz llegó tarde 50 minutos
+
+
+**Objetivos de la reunión**
+
+Hablar de la tarea 
+
+Hablar de la retroalimentación
+
+**Otros aspectos importantes**
+
+
