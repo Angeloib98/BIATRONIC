@@ -153,4 +153,17 @@ Karen Guadamuz llegó tarde 50 minutos
 
 Revisamos las normas hechas por Karen
 
+### 21 agosto (corte antes de reporte base)
+
+**Asistencia**
+
+
+
+**Objetivos de la reunión**
+
+
+**Otros aspectos importantes**
+
+
+
 
