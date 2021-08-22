@@ -158,7 +158,8 @@ Revisamos las normas hechas por Karen
 **Asistencia**
 
 Karen Guadamuz 15 min tarde
-Adrian Nuñez 30 min tarde
+
+Adrian Nuñez 30 min tarde y se fue faltando una hora
 
 **Objetivos de la reunión**
 
