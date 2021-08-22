@@ -157,10 +157,17 @@ Revisamos las normas hechas por Karen
 
 **Asistencia**
 
-
+Karen 15 min tarde
 
 **Objetivos de la reunión**
 
+- Revisar todas las partes del reporte base
+- 
+- Hacer correcciones si fuera necesario
+- 
+- Discutir sobre la presentación
+- 
+- Discutir un mecanismo de retroalimentación
 
 **Otros aspectos importantes**
 
