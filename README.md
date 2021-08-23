@@ -16,7 +16,7 @@ Sabado 6:00 pm a 8:00 pm
 ## Roles
 | Nombre                  | Rol administrativo         | Rol técnico |
 | ---                     | ---                        | ---         |
-| Marco Zolla             | Administrador de proyecto  | Ingenierio en Software |
+| Marco Zolla             | Administrador de proyecto  | Ingenierio en Sistemas |
 | Heiner Amador           | Documentador               | Diseño Mecánico |
 | Robert Cerdas           | Business Intelligence      | Lider técnico |
 | Manuel Garita           | Líder administrativo       | Verificación y Validación  |
