@@ -170,6 +170,19 @@ Adrian Nuñez 30 min tarde y se fue faltando una hora
 
 **Otros aspectos importantes**
 
+### 07 noviembre (corte antes de reporte base)
+
+**Asistencia**
+
+
+**Objetivos de la reunión**
+
+- Dividirnos el trabajo de SyRS, SRS y validación
+- Hablar de entrevistas con personas relacionadas al producto
+
+**Otros aspectos importantes**
+
+
 
 
 
