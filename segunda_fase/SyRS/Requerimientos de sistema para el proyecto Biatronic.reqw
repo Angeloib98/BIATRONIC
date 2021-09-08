@@ -1,0 +1,1555 @@
+{
+  "id": "Requerimientos de sistema para el proyecto Biatronic",
+  "documents": [
+    {
+      "id": "StRS",
+      "guid": "493ecb86-4567-4878-ba6c-6e836861c24f",
+      "name": "Stakeholder Requirements Specification",
+      "lastId": 25,
+      "createdOn": "2021-09-08T15:28:22.602Z",
+      "createdBy": {
+        "name": "Marco Zolla",
+        "email": "ocramsalazar@gmail.com",
+        "company": ""
+      },
+      "lastChangedOn": "2021-09-08T15:28:22.602Z",
+      "lastChangedBy": {
+        "name": "Marco Zolla",
+        "email": "ocramsalazar@gmail.com",
+        "company": ""
+      },
+      "helpRef": "ISO/IEC/IEEE 29148:2018",
+      "data": [
+        {
+          "id": "1",
+          "guid": "d8ca3d60-64f8-4295-bb67-fe48b5e56507",
+          "heading": "Introduction",
+          "helpRef": "8.3.1",
+          "type": "SEC",
+          "children": [
+            {
+              "id": "2",
+              "guid": "2122245f-5ed4-4477-b55a-db7277e0293e",
+              "heading": "Stakeholder purpose",
+              "helpRef": "9.4.2",
+              "type": "SEC"
+            },
+            {
+              "id": "3",
+              "guid": "25590bde-9016-40a8-bac2-3c2b85837740",
+              "heading": "Stakeholder scope",
+              "helpRef": "9.4.3",
+              "type": "SEC"
+            },
+            {
+              "id": "4",
+              "guid": "b6c63c30-b907-4bad-ab4a-17eb3f220366",
+              "heading": "Overview",
+              "helpRef": "9.4.4",
+              "type": "SEC"
+            },
+            {
+              "id": "5",
+              "guid": "fe0cb8f2-3c7c-4b8a-9c79-43d61cbb53d2",
+              "heading": "Stakeholders",
+              "helpRef": "9.4.5",
+              "type": "SEC"
+            },
+            {
+              "id": "6",
+              "guid": "de4da6eb-a63e-4b6a-8738-2fa56354c2fd",
+              "heading": "Definitions",
+              "helpRef": "9.2.3",
+              "type": "SEC"
+            },
+            {
+              "id": "7",
+              "guid": "622d06e9-5bb9-4aba-90b2-755b1feb9e71",
+              "heading": "Acronyms and abbreviations",
+              "helpRef": "9.2.5",
+              "type": "SEC"
+            }
+          ]
+        },
+        {
+          "id": "8",
+          "guid": "42989e0b-cb81-429c-9a86-d19ae08f24f6",
+          "heading": "Business management requirements",
+          "type": "SEC",
+          "children": [
+            {
+              "id": "9",
+              "guid": "5d1e2f42-b568-4aef-913b-e1252e1b515d",
+              "heading": "Business environment",
+              "helpRef": "9.4.6",
+              "type": "SEC"
+            },
+            {
+              "id": "10",
+              "guid": "dad5ce95-b073-4210-9984-fa8996138852",
+              "heading": "Mission, goals and objectives",
+              "helpRef": "9.4.7",
+              "type": "SEC"
+            },
+            {
+              "id": "11",
+              "guid": "f4b823a1-4ee8-4cd4-8505-03d6c49be0e0",
+              "heading": "Business model",
+              "helpRef": "9.4.8",
+              "type": "SEC"
+            },
+            {
+              "id": "12",
+              "guid": "8c3ca070-1d3b-4c1e-a2f6-241ff3061d78",
+              "heading": "Information environment",
+              "helpRef": "9.4.9",
+              "type": "SEC"
+            }
+          ]
+        },
+        {
+          "id": "13",
+          "guid": "174acf6c-2ac8-4a01-974b-78c1d2d39729",
+          "heading": "System operational requirements",
+          "type": "SEC",
+          "children": [
+            {
+              "id": "14",
+              "guid": "6a6478dd-5647-405f-82b7-870387a8ec1f",
+              "heading": "System processes",
+              "helpRef": "9.4.10",
+              "type": "SEC"
+            },
+            {
+              "id": "15",
+              "guid": "f5caae66-b058-4321-93ab-9eed1bb2d0c2",
+              "heading": "System operational policies and rules",
+              "helpRef": "9.4.11",
+              "type": "SEC"
+            },
+            {
+              "id": "16",
+              "guid": "0d528529-c668-4588-966a-04ca1d5d54cd",
+              "heading": "Operational constraints",
+              "helpRef": "9.4.12",
+              "type": "SEC"
+            },
+            {
+              "id": "17",
+              "guid": "d5881c6d-4da9-4d23-b2b2-7037097d6b90",
+              "heading": "System operational modes and states",
+              "helpRef": "9.4.13",
+              "type": "SEC"
+            },
+            {
+              "id": "18",
+              "guid": "d03f3c4f-923d-4616-8060-2819c1e4606e",
+              "heading": "System operational quality",
+              "helpRef": "9.4.14",
+              "type": "SEC"
+            }
+          ]
+        },
+        {
+          "id": "19",
+          "guid": "206ceb67-de83-4de6-944e-b8abdb126120",
+          "heading": "User requirements",
+          "helpRef": "9.4.15",
+          "type": "SEC"
+        },
+        {
+          "id": "20",
+          "guid": "1079ab03-70c7-459b-ab5f-fd6e994b3339",
+          "heading": "Detailed life-cycle concepts of proposed system",
+          "type": "SEC",
+          "children": [
+            {
+              "id": "21",
+              "guid": "e7b5e6a3-df4a-44ea-b289-a890ec94790c",
+              "heading": "Operational concept",
+              "helpRef": "9.4.16",
+              "type": "SEC"
+            },
+            {
+              "id": "22",
+              "guid": "36d49f87-34d0-4d91-91f6-1e7e92351226",
+              "heading": "Operational scenarios",
+              "helpRef": "9.4.17",
+              "type": "SEC"
+            }
+          ]
+        },
+        {
+          "id": "23",
+          "guid": "9be7f095-698c-4487-b412-f9088ee008c8",
+          "heading": "Other detailed concepts of proposed system",
+          "helpRef": "9.4.18",
+          "type": "SEC"
+        },
+        {
+          "id": "24",
+          "guid": "1cfb504e-47bc-46a2-89b4-35c9b30ac032",
+          "heading": "Project constraints",
+          "helpRef": "9.4.19",
+          "type": "SEC"
+        },
+        {
+          "id": "25",
+          "guid": "83f3483a-003a-4408-971f-dafe55b1d65c",
+          "heading": "References",
+          "helpRef": "9.2.4",
+          "type": "SEC"
+        }
+      ],
+      "attributes": {
+        "difficulty": {
+          "name": "Difficulty",
+          "type": "enum",
+          "values": [
+            {
+              "key": "E",
+              "label": "Easy"
+            },
+            {
+              "key": "N",
+              "label": "Nominal"
+            },
+            {
+              "key": "D",
+              "label": "Difficult"
+            }
+          ]
+        },
+        "owner": {
+          "name": "Owner",
+          "type": "string"
+        },
+        "priority": {
+          "name": "Priority",
+          "type": "enum",
+          "values": [
+            {
+              "key": "L",
+              "label": "Low"
+            },
+            {
+              "key": "M",
+              "label": "Medium"
+            },
+            {
+              "key": "H",
+              "label": "High"
+            }
+          ]
+        },
+        "rationale": {
+          "name": "Rationale",
+          "type": "xhtml"
+        },
+        "source": {
+          "name": "Source",
+          "type": "string"
+        },
+        "status": {
+          "name": "Status",
+          "type": "enum",
+          "values": [
+            {
+              "key": "Draft"
+            },
+            {
+              "key": "Ready"
+            },
+            {
+              "key": "Reviewed"
+            },
+            {
+              "key": "Approved"
+            },
+            {
+              "key": "Released"
+            }
+          ]
+        },
+        "type": {
+          "name": "Type",
+          "type": "enum",
+          "values": [
+            {
+              "key": "FR",
+              "label": "Functional Requirement"
+            },
+            {
+              "key": "INT",
+              "label": "Interface Requirement"
+            },
+            {
+              "key": "NFR",
+              "label": "Non-func. Requirement"
+            },
+            {
+              "key": "SEC",
+              "label": "Section"
+            },
+            {
+              "key": "INF",
+              "label": "Information"
+            }
+          ]
+        }
+      },
+      "view": {
+        "columns": [
+          {
+            "columnId": "id",
+            "hidden": false,
+            "width": 77
+          },
+          {
+            "attribute": "type",
+            "columnId": "type",
+            "hidden": false,
+            "width": 97
+          },
+          {
+            "columnId": "description",
+            "hidden": false,
+            "width": 372
+          },
+          {
+            "columnId": "discussion",
+            "hidden": true,
+            "width": 190
+          },
+          {
+            "columnId": "links",
+            "hidden": true,
+            "width": 196
+          },
+          {
+            "attribute": "source",
+            "columnId": "source",
+            "hidden": false,
+            "width": 106
+          },
+          {
+            "attribute": "rationale",
+            "columnId": "rationale",
+            "hidden": false,
+            "width": 150
+          },
+          {
+            "attribute": "priority",
+            "columnId": "priority",
+            "hidden": false,
+            "width": 96
+          },
+          {
+            "attribute": "status",
+            "columnId": "status",
+            "hidden": false,
+            "width": 86
+          },
+          {
+            "attribute": "owner",
+            "columnId": "owner",
+            "hidden": true,
+            "width": 106
+          },
+          {
+            "attribute": "difficulty",
+            "columnId": "difficulty",
+            "hidden": true,
+            "width": 108
+          },
+          {
+            "columnId": "attributes",
+            "hidden": true,
+            "width": 300
+          }
+        ]
+      }
+    },
+    {
+      "id": "SyRS",
+      "guid": "91e7aa24-8588-4589-9514-cc8734e38f94",
+      "name": "System Requirements Specification",
+      "lastId": 38,
+      "createdOn": "2021-09-08T15:28:22.602Z",
+      "createdBy": {
+        "name": "Marco Zolla",
+        "email": "ocramsalazar@gmail.com",
+        "company": ""
+      },
+      "lastChangedOn": "2021-09-08T17:26:37.800Z",
+      "lastChangedBy": {
+        "name": "Marco Zolla",
+        "email": "ocramsalazar@gmail.com",
+        "company": ""
+      },
+      "helpRef": "ISO/IEC/IEEE 29148:2018",
+      "data": [
+        {
+          "id": "1",
+          "guid": "c20f812d-5ded-4ecd-9a63-ba2d31148bf9",
+          "heading": "Introducción",
+          "helpRef": "8.4.1",
+          "type": "SEC",
+          "history": [
+            {
+              "attributesChanged": {
+                "heading": "Introduction"
+              },
+              "changedBy": {
+                "company": "",
+                "email": "ocramsalazar@gmail.com",
+                "name": "Marco Zolla"
+              },
+              "changedOn": "2021-09-08T16:06:51.580Z"
+            }
+          ],
+          "children": [
+            {
+              "id": "2",
+              "guid": "6247b365-f390-46e6-aa0c-d196df34191f",
+              "heading": "Propósito del sistema",
+              "text": "<p>Medir el porcentaje de masa magra y grasa e hidratación del usuario para contribuir a su salud y seguridad.</p>",
+              "helpRef": "9.5.2",
+              "type": "SEC",
+              "history": [
+                {
+                  "attributesChanged": {
+                    "heading": "System purpose"
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "ocramsalazar@gmail.com",
+                    "name": "Marco Zolla"
+                  },
+                  "changedOn": "2021-09-08T16:06:44.704Z"
+                },
+                {
+                  "attributesChanged": {
+                    "text": null
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "ocramsalazar@gmail.com",
+                    "name": "Marco Zolla"
+                  },
+                  "changedOn": "2021-09-08T16:08:08.164Z"
+                },
+                {
+                  "attributesChanged": {
+                    "text": "<p>Medir la bioimpedancia, el ángulo de fase e hidratación del usuario.</p>"
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "ocramsalazar@gmail.com",
+                    "name": "Marco Zolla"
+                  },
+                  "changedOn": "2021-09-08T16:10:10.309Z"
+                },
+                {
+                  "attributesChanged": {
+                    "text": "<p>Medir la bioimpedancia, el ángulo de fase e hidratación del usuario para contribuir a su salud y seguridad.</p>"
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "ocramsalazar@gmail.com",
+                    "name": "Marco Zolla"
+                  },
+                  "changedOn": "2021-09-08T16:16:05.515Z"
+                }
+              ]
+            },
+            {
+              "id": "3",
+              "guid": "37552712-4568-422f-81e2-101d59d3459e",
+              "heading": "Alcances del sistema",
+              "text": "<p>El dispositivo Biatronic deberá ser capaz de medir la bioimpedancia y el ángulo de fase para poder calcular los porcentajes de interés para el usuario.</p>",
+              "helpRef": "9.5.3",
+              "type": "SEC",
+              "history": [
+                {
+                  "attributesChanged": {
+                    "text": null
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "ocramsalazar@gmail.com",
+                    "name": "Marco Zolla"
+                  },
+                  "changedOn": "2021-09-08T16:11:06.840Z"
+                },
+                {
+                  "attributesChanged": {
+                    "text": "<ol><li><br></li></ol>"
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "ocramsalazar@gmail.com",
+                    "name": "Marco Zolla"
+                  },
+                  "changedOn": "2021-09-08T16:14:23.988Z"
+                },
+                {
+                  "attributesChanged": {
+                    "text": "<p>El proyecto Biatronic deberá&nbsp;</p>"
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "ocramsalazar@gmail.com",
+                    "name": "Marco Zolla"
+                  },
+                  "changedOn": "2021-09-08T16:17:08.105Z"
+                },
+                {
+                  "attributesChanged": {
+                    "text": "<p>El proyecto Biatronic deberá ser capaz de medir la bioimpedancia y el ángulo de fase para poder calcular los porcentajes de interés para el usuario.</p>"
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "ocramsalazar@gmail.com",
+                    "name": "Marco Zolla"
+                  },
+                  "changedOn": "2021-09-08T16:17:55.210Z"
+                },
+                {
+                  "attributesChanged": {
+                    "heading": "System scope"
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "ocramsalazar@gmail.com",
+                    "name": "Marco Zolla"
+                  },
+                  "changedOn": "2021-09-08T16:18:06.378Z"
+                }
+              ]
+            },
+            {
+              "id": "4",
+              "guid": "7c2e38bd-b2da-487a-8e34-52a03d0c45c5",
+              "heading": "Visión general del sistema",
+              "helpRef": "9.5.4",
+              "type": "SEC",
+              "history": [
+                {
+                  "attributesChanged": {
+                    "heading": "System overview"
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "ocramsalazar@gmail.com",
+                    "name": "Marco Zolla"
+                  },
+                  "changedOn": "2021-09-08T16:18:59.549Z"
+                }
+              ],
+              "children": [
+                {
+                  "id": "5",
+                  "guid": "869588a6-d0b7-488b-b943-05b1011575bb",
+                  "heading": "Contexto del sistema",
+                  "text": "<p>El sistema contará con un botón de encendido, una pantalla táctil y una serie de electrodos que el usuario deberá poner en contacto con su piel en puntos específicos dictados por el sistema. Después de realizar la medición, pasando señales eléctricas por los electrodos, el sistema analizará y mostrará la información obtenida y se comunicará con un servidor remoto para almacenarla.</p>",
+                  "helpRef": "9.5.4.1",
+                  "type": "SEC",
+                  "history": [
+                    {
+                      "attributesChanged": {
+                        "heading": "System context"
+                      },
+                      "changedBy": {
+                        "company": "",
+                        "email": "ocramsalazar@gmail.com",
+                        "name": "Marco Zolla"
+                      },
+                      "changedOn": "2021-09-08T16:20:18.054Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": null
+                      },
+                      "changedBy": {
+                        "company": "",
+                        "email": "ocramsalazar@gmail.com",
+                        "name": "Marco Zolla"
+                      },
+                      "changedOn": "2021-09-08T16:22:47.790Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": "<p>El sistema contará con un botón de encendido, una pantalla táctil y una serie de electrodos que el usuario deberá poner en contacto con su piel en puntos específicos. Después de realizar la medición, el sistema se comunicará con un servidor remoto para almacenar la información.</p>"
+                      },
+                      "changedBy": {
+                        "company": "",
+                        "email": "ocramsalazar@gmail.com",
+                        "name": "Marco Zolla"
+                      },
+                      "changedOn": "2021-09-08T16:25:37.968Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": "<p>El sistema contará con un botón de encendido, una pantalla táctil y una serie de electrodos que el usuario deberá poner en contacto con su piel en puntos específicos dictados por el sistema. Después de realizar la medición, el sistema se comunicará con un servidor remoto para almacenar la información.</p>"
+                      },
+                      "changedBy": {
+                        "company": "",
+                        "email": "ocramsalazar@gmail.com",
+                        "name": "Marco Zolla"
+                      },
+                      "changedOn": "2021-09-08T16:26:35.887Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": "<p>El sistema contará con un botón de encendido, una pantalla táctil y una serie de electrodos que el usuario deberá poner en contacto con su piel en puntos específicos dictados por el sistema. Después de realizar la medición, pasando señales eléctricas por los electrodos, el sistema se comunicará con un servidor remoto para almacenar la información.</p>"
+                      },
+                      "changedBy": {
+                        "company": "",
+                        "email": "ocramsalazar@gmail.com",
+                        "name": "Marco Zolla"
+                      },
+                      "changedOn": "2021-09-08T16:27:13.111Z"
+                    }
+                  ]
+                },
+                {
+                  "id": "6",
+                  "guid": "82b191cb-f9c4-460c-98da-46cbff6b43c7",
+                  "heading": "Funciones del sistema",
+                  "helpRef": "9.5.4.2",
+                  "type": "SEC",
+                  "history": [
+                    {
+                      "attributesChanged": {
+                        "heading": "System functions"
+                      },
+                      "changedBy": {
+                        "company": "",
+                        "email": "ocramsalazar@gmail.com",
+                        "name": "Marco Zolla"
+                      },
+                      "changedOn": "2021-09-08T16:28:03.860Z"
+                    }
+                  ],
+                  "children": [
+                    {
+                      "id": "35",
+                      "guid": "3b0c6a14-edeb-4ce6-8011-aa7291e435dd",
+                      "heading": "Capacidades",
+                      "text": "<ul><li>Medir la bioimpedancia y el ángulo de fase</li><li>Desplegar datos medidos</li><li>Establecer el porcentaje de masa grasa/magra</li><li>Establecer el porcentaje de hidratación</li><li>Comunicar con un servidor remoto</li><li>Desplegar historial de mediciones</li><li>Recordar al usuario de realizar las mediciones</li></ul>",
+                      "history": [
+                        {
+                          "affectedNodeId": "6",
+                          "changedBy": {
+                            "company": "",
+                            "email": "ocramsalazar@gmail.com",
+                            "name": "Marco Zolla"
+                          },
+                          "changedOn": "2021-09-08T16:29:01.126Z",
+                          "docId": "SyRS",
+                          "structureAction": "Create"
+                        },
+                        {
+                          "attributesChanged": {
+                            "heading": null
+                          },
+                          "changedBy": {
+                            "company": "",
+                            "email": "ocramsalazar@gmail.com",
+                            "name": "Marco Zolla"
+                          },
+                          "changedOn": "2021-09-08T16:29:07.237Z"
+                        },
+                        {
+                          "attributesChanged": {
+                            "text": null
+                          },
+                          "changedBy": {
+                            "company": "",
+                            "email": "ocramsalazar@gmail.com",
+                            "name": "Marco Zolla"
+                          },
+                          "changedOn": "2021-09-08T16:32:11.739Z"
+                        },
+                        {
+                          "attributesChanged": {
+                            "text": "<ul><li>Medir la bioimpedancia y el ángulo de fase</li><li>Establecer el porcentaje de masa grasa/magra</li><li>Establecer el porcentaje de hidratación</li><li>Comunicar con un servidor remoto</li><li>Desplegar historial de mediciones</li></ul>"
+                          },
+                          "changedBy": {
+                            "company": "",
+                            "email": "ocramsalazar@gmail.com",
+                            "name": "Marco Zolla"
+                          },
+                          "changedOn": "2021-09-08T16:33:18.056Z"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "34",
+                      "guid": "fa1f4526-d01c-4149-871c-6b0c80c0d105",
+                      "heading": "Condiciones",
+                      "text": "<ul><li>El sistema deberá ser integrado en un dispositivo portátil que pese menos de 500g.</li><li>Desarrollar un modelo matemático ápto para las mediciones en la población meta.</li><li>El dispositivo deberá tener una interfaz gráfica para comunicar con el usuario.</li></ul>",
+                      "history": [
+                        {
+                          "affectedNodeId": "6",
+                          "changedBy": {
+                            "company": "",
+                            "email": "ocramsalazar@gmail.com",
+                            "name": "Marco Zolla"
+                          },
+                          "changedOn": "2021-09-08T16:28:59.267Z",
+                          "docId": "SyRS",
+                          "structureAction": "Create"
+                        },
+                        {
+                          "attributesChanged": {
+                            "heading": null
+                          },
+                          "changedBy": {
+                            "company": "",
+                            "email": "ocramsalazar@gmail.com",
+                            "name": "Marco Zolla"
+                          },
+                          "changedOn": "2021-09-08T16:29:14.311Z"
+                        },
+                        {
+                          "attributesChanged": {
+                            "text": null
+                          },
+                          "changedBy": {
+                            "company": "",
+                            "email": "ocramsalazar@gmail.com",
+                            "name": "Marco Zolla"
+                          },
+                          "changedOn": "2021-09-08T16:42:27.198Z"
+                        },
+                        {
+                          "attributesChanged": {
+                            "text": "<ul><li>El dispositivo no deberá pesar más de 500g</li><li>Desarrollar un modelo matemático ápto para las mediciones en la población meta.</li><li>El dispositivo deberá tener una interfaz gráfica para comunicar con el usuario.</li><li>El dispositivo deberá ser autónomo por un día entero.</li><li><br></li></ul><p><br></p>"
+                          },
+                          "changedBy": {
+                            "company": "",
+                            "email": "ocramsalazar@gmail.com",
+                            "name": "Marco Zolla"
+                          },
+                          "changedOn": "2021-09-08T16:42:36.063Z"
+                        },
+                        {
+                          "attributesChanged": {
+                            "text": "<ul><li><br></li><li>Desarrollar un modelo matemático ápto para las mediciones en la población meta.</li><li>El dispositivo deberá tener una interfaz gráfica para comunicar con el usuario.</li><li>El dispositivo deberá ser autónomo por un día entero.</li><li><br></li></ul><p><br></p>"
+                          },
+                          "changedBy": {
+                            "company": "",
+                            "email": "ocramsalazar@gmail.com",
+                            "name": "Marco Zolla"
+                          },
+                          "changedOn": "2021-09-08T16:44:16.953Z"
+                        },
+                        {
+                          "attributesChanged": {
+                            "text": "<ul><li>El sistema deberá ser integrado en un dispositivo portátil que pese menos de 500g.</li><li>Desarrollar un modelo matemático ápto para las mediciones en la población meta.</li><li>El dispositivo deberá tener una interfaz gráfica para comunicar con el usuario.</li><li>El dispositivo deberá ser autónomo por un día entero.</li><li><br></li></ul><p><br></p>"
+                          },
+                          "changedBy": {
+                            "company": "",
+                            "email": "ocramsalazar@gmail.com",
+                            "name": "Marco Zolla"
+                          },
+                          "changedOn": "2021-09-08T16:44:47.420Z"
+                        },
+                        {
+                          "attributesChanged": {
+                            "text": "<ul><li>El sistema deberá ser integrado en un dispositivo portátil que pese menos de 500g.</li><li>Desarrollar un modelo matemático ápto para las mediciones en la población meta.</li><li>El dispositivo deberá tener una interfaz gráfica para comunicar con el usuario.</li><li><br></li></ul><p><br></p>"
+                          },
+                          "changedBy": {
+                            "company": "",
+                            "email": "ocramsalazar@gmail.com",
+                            "name": "Marco Zolla"
+                          },
+                          "changedOn": "2021-09-08T16:45:00.758Z"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "33",
+                      "guid": "a8359f7d-1588-43f2-a596-c0dc5288ac07",
+                      "heading": "Limitaciones",
+                      "text": "<ul><li>El dispositivo deberá ser autónomo por un día entero.</li><li>El costo del proyecto deberá ser menor de $100,000.</li><li>El uso del dispositivo deberá costar por usuario menos de $50/mes.</li><li>El proyecto deberá implementarse en 12 meses.</li><li>Se deberán acatar las normas médicas, ambientales y permisos municipales y de venta pertinentes.</li></ul>",
+                      "history": [
+                        {
+                          "affectedNodeId": "6",
+                          "changedBy": {
+                            "company": "",
+                            "email": "ocramsalazar@gmail.com",
+                            "name": "Marco Zolla"
+                          },
+                          "changedOn": "2021-09-08T16:28:48.666Z",
+                          "docId": "SyRS",
+                          "structureAction": "Create"
+                        },
+                        {
+                          "attributesChanged": {
+                            "heading": null
+                          },
+                          "changedBy": {
+                            "company": "",
+                            "email": "ocramsalazar@gmail.com",
+                            "name": "Marco Zolla"
+                          },
+                          "changedOn": "2021-09-08T16:28:57.399Z"
+                        },
+                        {
+                          "attributesChanged": {
+                            "heading": "Capacidades"
+                          },
+                          "changedBy": {
+                            "company": "",
+                            "email": "ocramsalazar@gmail.com",
+                            "name": "Marco Zolla"
+                          },
+                          "changedOn": "2021-09-08T16:29:23.939Z"
+                        },
+                        {
+                          "attributesChanged": {
+                            "text": null
+                          },
+                          "changedBy": {
+                            "company": "",
+                            "email": "ocramsalazar@gmail.com",
+                            "name": "Marco Zolla"
+                          },
+                          "changedOn": "2021-09-08T16:42:43.108Z"
+                        },
+                        {
+                          "attributesChanged": {
+                            "text": "<ul><li>El dispositivo no deberá pesar más de 500g</li></ul>"
+                          },
+                          "changedBy": {
+                            "company": "",
+                            "email": "ocramsalazar@gmail.com",
+                            "name": "Marco Zolla"
+                          },
+                          "changedOn": "2021-09-08T16:44:56.054Z"
+                        },
+                        {
+                          "attributesChanged": {
+                            "text": "<ul><li>El dispositivo deberá ser autónomo por un día entero.</li></ul>"
+                          },
+                          "changedBy": {
+                            "company": "",
+                            "email": "ocramsalazar@gmail.com",
+                            "name": "Marco Zolla"
+                          },
+                          "changedOn": "2021-09-08T16:46:54.278Z"
+                        },
+                        {
+                          "attributesChanged": {
+                            "text": "<ul><li>El dispositivo deberá ser autónomo por un día entero.</li><li>El costo del proyecto deberá ser menor de $100,000.</li><li>El uso del dispositivo deberá costar por usuario menos de $50/mes.</li></ul>"
+                          },
+                          "changedBy": {
+                            "company": "",
+                            "email": "ocramsalazar@gmail.com",
+                            "name": "Marco Zolla"
+                          },
+                          "changedOn": "2021-09-08T16:49:30.821Z"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "7",
+                  "guid": "b68c792e-abdb-4a42-bfc6-ac53e64cc462",
+                  "heading": "Características de usuario",
+                  "text": "<ul><li>El usuario comercial deberá utilizar el sistema para medir la composición de su cuerpo y almacenar la información en una cuenta personal.</li><li>El médico de empresa deberá utilizar el sistema para medir la composición del cuerpo de sus pacientes y almacenar la información en su cuenta empresarial.</li><li>El técnico deberá asegurarse del correcto funcionamiento del sistema.</li></ul>",
+                  "helpRef": "9.5.4.3",
+                  "type": "SEC",
+                  "history": [
+                    {
+                      "attributesChanged": {
+                        "heading": "User  characteristics"
+                      },
+                      "changedBy": {
+                        "company": "",
+                        "email": "ocramsalazar@gmail.com",
+                        "name": "Marco Zolla"
+                      },
+                      "changedOn": "2021-09-08T16:50:39.739Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": null
+                      },
+                      "changedBy": {
+                        "company": "",
+                        "email": "ocramsalazar@gmail.com",
+                        "name": "Marco Zolla"
+                      },
+                      "changedOn": "2021-09-08T16:52:59.618Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": "<ul><li>El usuario, o el médico,&nbsp;</li></ul>"
+                      },
+                      "changedBy": {
+                        "company": "",
+                        "email": "ocramsalazar@gmail.com",
+                        "name": "Marco Zolla"
+                      },
+                      "changedOn": "2021-09-08T16:58:13.231Z"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "8",
+              "guid": "7628ec0a-e817-4e9c-8f2b-8331fade67d0",
+              "heading": "Suposiciones y dependencias",
+              "text": "<ul><li>Existe una correlación entre la bioimpedancia, el ángulo de fase y la composición corporal.</li><li>El dispositivo se implementará en 12 meses.</li><li>El desarrollo del proyecto costará menos de $100,000.</li><li>Se dependerá del acceso a la información médica pertinente.</li><li>Se dependerá de la aprobación del cumplimiento de las normas y regulaciones medicas y ambientales.</li></ul>",
+              "helpRef": "9.5.19",
+              "type": "SEC",
+              "history": [
+                {
+                  "attributesChanged": {
+                    "heading": "Assumptions and dependencies",
+                    "text": null
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "ocramsalazar@gmail.com",
+                    "name": "Marco Zolla"
+                  },
+                  "changedOn": "2021-09-08T17:02:38.236Z"
+                },
+                {
+                  "attributesChanged": {
+                    "text": "<ul><li>Existe una correlación entre la bioimpedancia, el ángulo de fase y la composición corporal.</li><li>El dispositivo se implementará en 12 meses.</li><li>El desarrollo del proyecto costará menos de $100,000.</li><li><br></li></ul>"
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "ocramsalazar@gmail.com",
+                    "name": "Marco Zolla"
+                  },
+                  "changedOn": "2021-09-08T17:09:05.798Z"
+                },
+                {
+                  "attributesChanged": {
+                    "text": "<ul><li>Existe una correlación entre la bioimpedancia, el ángulo de fase y la composición corporal.</li><li>El dispositivo se implementará en 12 meses.</li><li>El desarrollo del proyecto costará menos de $100,000.</li><li>Se dependerá del acceso a la información médica pertinente.</li><li>Se dependerá de la aprobación del cumplimiento de las normas y regulaciones.</li></ul>"
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "ocramsalazar@gmail.com",
+                    "name": "Marco Zolla"
+                  },
+                  "changedOn": "2021-09-08T17:09:25.995Z"
+                }
+              ]
+            },
+            {
+              "id": "9",
+              "guid": "6d89e456-1f4d-4709-8eb1-2af8d7e9d61a",
+              "heading": "Definitions",
+              "text": "<ul><li>Bioimpedancia: la característica del cuerpo humano de impedir el flujo de una corriente que pasa por el.</li><li>Ángulo de fase: el retraso que sufre una señal eléctrica al pasar por el cuerpo humano.</li><li>Electrodo: conductor eléctrico que hace contacto con la piel.</li></ul>",
+              "helpRef": "9.2.3",
+              "type": "SEC",
+              "history": [
+                {
+                  "attributesChanged": {
+                    "text": null
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "ocramsalazar@gmail.com",
+                    "name": "Marco Zolla"
+                  },
+                  "changedOn": "2021-09-08T17:10:24.954Z"
+                },
+                {
+                  "attributesChanged": {
+                    "text": "<ul><li>Bioimpedancia</li><li>Ángulo de fase</li><li>Electródo</li></ul>"
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "ocramsalazar@gmail.com",
+                    "name": "Marco Zolla"
+                  },
+                  "changedOn": "2021-09-08T17:10:44.357Z"
+                },
+                {
+                  "attributesChanged": {
+                    "text": "<ul><li>Bioimpedancia</li><li>Ángulo de fase</li><li>Electrodo</li><li><br></li></ul>"
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "ocramsalazar@gmail.com",
+                    "name": "Marco Zolla"
+                  },
+                  "changedOn": "2021-09-08T17:17:00.637Z"
+                }
+              ]
+            },
+            {
+              "id": "10",
+              "guid": "097b3066-3db1-4ee3-aa2f-b150d9d5705e",
+              "heading": "Acrónimos y abreviaciones",
+              "text": "<ul><li>BIA: Bioimpedancia</li></ul>",
+              "helpRef": "9.2.5",
+              "type": "SEC",
+              "history": [
+                {
+                  "attributesChanged": {
+                    "heading": "Acronyms and abbreviations",
+                    "text": null
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "ocramsalazar@gmail.com",
+                    "name": "Marco Zolla"
+                  },
+                  "changedOn": "2021-09-08T17:18:34.106Z"
+                },
+                {
+                  "attributesChanged": {
+                    "text": "<ul><li>BIA: Bioimpedancia</li><li><br></li></ul>"
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "ocramsalazar@gmail.com",
+                    "name": "Marco Zolla"
+                  },
+                  "changedOn": "2021-09-08T17:18:41.474Z"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "11",
+          "guid": "fa1305f3-25e7-453e-a46f-eb7f16295bca",
+          "heading": "Requerimientos del sistema",
+          "type": "SEC",
+          "history": [
+            {
+              "attributesChanged": {
+                "heading": "System requirements"
+              },
+              "changedBy": {
+                "company": "",
+                "email": "ocramsalazar@gmail.com",
+                "name": "Marco Zolla"
+              },
+              "changedOn": "2021-09-08T17:20:28.646Z"
+            }
+          ],
+          "children": [
+            {
+              "id": "12",
+              "guid": "3863f929-a8d4-4fb7-b263-d527db48e0fe",
+              "heading": "Requerimientos funcionales",
+              "helpRef": "9.5.5",
+              "type": "SEC",
+              "history": [
+                {
+                  "attributesChanged": {
+                    "heading": "Functional requirements"
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "ocramsalazar@gmail.com",
+                    "name": "Marco Zolla"
+                  },
+                  "changedOn": "2021-09-08T17:21:57.639Z"
+                }
+              ],
+              "children": [
+                {
+                  "id": "36",
+                  "guid": "9c9fef61-e5a1-424f-849b-e6cc753ec3b9",
+                  "heading": "Medición",
+                  "text": "<p>El sistema deberá poder medir la bioimpedancia y el ángulo de fase.</p>",
+                  "history": [
+                    {
+                      "affectedNodeId": "12",
+                      "changedBy": {
+                        "company": "",
+                        "email": "ocramsalazar@gmail.com",
+                        "name": "Marco Zolla"
+                      },
+                      "changedOn": "2021-09-08T17:22:15.985Z",
+                      "docId": "SyRS",
+                      "structureAction": "Create"
+                    },
+                    {
+                      "attributesChanged": {
+                        "heading": null,
+                        "text": null
+                      },
+                      "changedBy": {
+                        "company": "",
+                        "email": "ocramsalazar@gmail.com",
+                        "name": "Marco Zolla"
+                      },
+                      "changedOn": "2021-09-08T17:22:41.682Z"
+                    }
+                  ]
+                },
+                {
+                  "id": "37",
+                  "guid": "7041d97f-68f9-4187-a56c-e6aa94529c67",
+                  "heading": "Procesamiento",
+                  "text": "<p>El sistema deberá poder procesar los datos adquiridos para obtener porcentajes de masa magra y grasa e hidratación.</p>",
+                  "history": [
+                    {
+                      "affectedNodeId": "12",
+                      "changedBy": {
+                        "company": "",
+                        "email": "ocramsalazar@gmail.com",
+                        "name": "Marco Zolla"
+                      },
+                      "changedOn": "2021-09-08T17:22:47.089Z",
+                      "docId": "SyRS",
+                      "structureAction": "Create"
+                    },
+                    {
+                      "attributesChanged": {
+                        "heading": null,
+                        "text": null
+                      },
+                      "changedBy": {
+                        "company": "",
+                        "email": "ocramsalazar@gmail.com",
+                        "name": "Marco Zolla"
+                      },
+                      "changedOn": "2021-09-08T17:23:38.998Z"
+                    }
+                  ]
+                },
+                {
+                  "id": "38",
+                  "guid": "a54e469e-9450-43b3-93e9-a3e45787d9fb",
+                  "history": [
+                    {
+                      "affectedNodeId": "12",
+                      "changedBy": {
+                        "company": "",
+                        "email": "ocramsalazar@gmail.com",
+                        "name": "Marco Zolla"
+                      },
+                      "changedOn": "2021-09-08T17:23:40.177Z",
+                      "docId": "SyRS",
+                      "structureAction": "Create"
+                    },
+                    {
+                      "attributesChanged": {
+                        "deleted": null
+                      },
+                      "changedBy": {
+                        "company": "",
+                        "email": "ocramsalazar@gmail.com",
+                        "name": "Marco Zolla"
+                      },
+                      "changedOn": "2021-09-08T17:26:16.818Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "deleted": true
+                      },
+                      "changedBy": {
+                        "company": "",
+                        "email": "ocramsalazar@gmail.com",
+                        "name": "Marco Zolla"
+                      },
+                      "changedOn": "2021-09-08T17:26:37.800Z"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "13",
+              "guid": "0b6036df-40a7-4681-b357-5a8486c84046",
+              "heading": "Usability requirements",
+              "helpRef": "9.5.6",
+              "type": "SEC"
+            },
+            {
+              "id": "14",
+              "guid": "83a9ff03-0fad-4bcd-9f0f-473e293802e7",
+              "heading": "Performance requirements",
+              "helpRef": "9.5.7",
+              "type": "SEC"
+            },
+            {
+              "id": "15",
+              "guid": "b8871c05-7046-45da-8150-e2de53bb54ae",
+              "heading": "System interface requirements",
+              "helpRef": "9.5.8",
+              "type": "SEC"
+            },
+            {
+              "id": "16",
+              "guid": "c55c7d12-b4d2-44e6-97cb-211fffa90206",
+              "heading": "System operations",
+              "helpRef": "9.5.9",
+              "type": "SEC",
+              "children": [
+                {
+                  "id": "17",
+                  "guid": "1f26ad16-0f0b-4598-8dc6-3589a462ae43",
+                  "heading": "Human system integration requirements",
+                  "helpRef": "9.5.9.1",
+                  "type": "SEC"
+                },
+                {
+                  "id": "18",
+                  "guid": "133b4d43-abd6-4355-924f-e0bf4baef9cc",
+                  "heading": "Maintainability requirements",
+                  "helpRef": "9.5.9.2",
+                  "type": "SEC"
+                },
+                {
+                  "id": "19",
+                  "guid": "73ae0849-9e57-434a-bea0-fa1c267d20c5",
+                  "heading": "Reliability  requirements",
+                  "helpRef": "9.5.9.3",
+                  "type": "SEC"
+                },
+                {
+                  "id": "20",
+                  "guid": "ce364ebe-520a-4c52-9b50-528295f4379b",
+                  "heading": "Other  quality requirements",
+                  "helpRef": "9.5.9.4",
+                  "type": "SEC"
+                }
+              ]
+            },
+            {
+              "id": "21",
+              "guid": "947d80d3-892a-400c-8794-d1bb1e919e38",
+              "heading": "System modes and states",
+              "helpRef": "9.5.10",
+              "type": "SEC"
+            },
+            {
+              "id": "22",
+              "guid": "3c11381d-950c-456e-ba93-2aeed0121ae8",
+              "heading": "Physical  characteristics",
+              "helpRef": "9.5.11",
+              "type": "SEC",
+              "children": [
+                {
+                  "id": "23",
+                  "guid": "cd475b6d-7d3d-496e-aa8f-ad961b0ad3f6",
+                  "heading": "Physical  requirements",
+                  "helpRef": "9.5.11.1",
+                  "type": "SEC"
+                },
+                {
+                  "id": "24",
+                  "guid": "1ce9f0ee-f0e0-4f60-970d-ab62da9732ef",
+                  "heading": "Adaptability  requirements",
+                  "helpRef": "9.5.11.2",
+                  "type": "SEC"
+                }
+              ]
+            },
+            {
+              "id": "25",
+              "guid": "cd8b796b-b649-4f5f-b27c-8d2d743b8fc8",
+              "heading": "Environmental conditions",
+              "helpRef": "9.5.12",
+              "type": "SEC"
+            },
+            {
+              "id": "26",
+              "guid": "70fce3dd-04ed-4097-9a54-9227d490a9da",
+              "heading": "System security requirements",
+              "helpRef": "9.5.13",
+              "type": "SEC"
+            },
+            {
+              "id": "27",
+              "guid": "7670b2c6-c57c-457f-b4fc-25a3bc5b3c02",
+              "heading": "Information management requirements",
+              "helpRef": "9.5.14",
+              "type": "SEC"
+            },
+            {
+              "id": "28",
+              "guid": "1e24b4ae-1378-42a6-8a5f-89cdd2e14982",
+              "heading": "Policy and regulation requirements",
+              "helpRef": "9.5.15",
+              "type": "SEC"
+            },
+            {
+              "id": "29",
+              "guid": "a3372d9e-7f3a-4023-bd90-bbc2fc8add9f",
+              "heading": "System life cycle sustainment requirements",
+              "helpRef": "9.5.16",
+              "type": "SEC"
+            },
+            {
+              "id": "30",
+              "guid": "25f373ce-eeb7-4aa6-9334-4e4228f33270",
+              "heading": "Packaging,  handling,  shipping and  transportation requirements",
+              "helpRef": "9.5.17",
+              "type": "SEC"
+            }
+          ]
+        },
+        {
+          "id": "31",
+          "guid": "aa510ae7-a927-4842-99c3-ce0986f2cf08",
+          "heading": "Verification",
+          "helpRef": "9.5.18",
+          "type": "SEC"
+        },
+        {
+          "id": "32",
+          "guid": "190ce10d-ad51-4fd3-bb6f-ea037e68d4ef",
+          "heading": "References",
+          "helpRef": "9.2.4",
+          "type": "SEC"
+        }
+      ],
+      "attributes": {
+        "difficulty": {
+          "name": "Difficulty",
+          "type": "enum",
+          "values": [
+            {
+              "key": "E",
+              "label": "Easy"
+            },
+            {
+              "key": "N",
+              "label": "Nominal"
+            },
+            {
+              "key": "D",
+              "label": "Difficult"
+            }
+          ]
+        },
+        "owner": {
+          "name": "Owner",
+          "type": "string"
+        },
+        "priority": {
+          "name": "Priority",
+          "type": "enum",
+          "values": [
+            {
+              "key": "M",
+              "label": "Must have"
+            },
+            {
+              "key": "S",
+              "label": "Should have"
+            },
+            {
+              "key": "C",
+              "label": "Could have"
+            },
+            {
+              "key": "W",
+              "label": "Wish to have"
+            }
+          ]
+        },
+        "rationale": {
+          "name": "Rationale",
+          "type": "xhtml"
+        },
+        "source": {
+          "name": "Source",
+          "type": "string"
+        },
+        "status": {
+          "name": "Status",
+          "type": "enum",
+          "values": [
+            {
+              "key": "Draft"
+            },
+            {
+              "key": "Ready"
+            },
+            {
+              "key": "Reviewed"
+            },
+            {
+              "key": "Approved"
+            },
+            {
+              "key": "Released"
+            }
+          ]
+        },
+        "type": {
+          "name": "Type",
+          "type": "enum",
+          "values": [
+            {
+              "key": "FR",
+              "label": "Functional Requirement"
+            },
+            {
+              "key": "INT",
+              "label": "Interface Requirement"
+            },
+            {
+              "key": "NFR",
+              "label": "Non-func. Requirement"
+            },
+            {
+              "key": "SEC",
+              "label": "Section"
+            },
+            {
+              "key": "INF",
+              "label": "Information"
+            }
+          ]
+        },
+        "verMethod": {
+          "name": "Ver. Method",
+          "type": "enum",
+          "values": [
+            {
+              "key": "T",
+              "label": "Test"
+            },
+            {
+              "key": "D",
+              "label": "Demonstration"
+            },
+            {
+              "key": "I",
+              "label": "Inspection"
+            },
+            {
+              "key": "A",
+              "label": "Analysis"
+            }
+          ]
+        }
+      },
+      "view": {
+        "columns": [
+          {
+            "columnId": "id",
+            "hidden": false,
+            "width": 77
+          },
+          {
+            "attribute": "type",
+            "columnId": "type",
+            "hidden": false,
+            "width": 97
+          },
+          {
+            "columnId": "description",
+            "hidden": false,
+            "width": 372
+          },
+          {
+            "columnId": "discussion",
+            "hidden": true,
+            "width": 190
+          },
+          {
+            "columnId": "links",
+            "hidden": true,
+            "width": 196
+          },
+          {
+            "attribute": "source",
+            "columnId": "source",
+            "hidden": false,
+            "width": 150
+          },
+          {
+            "attribute": "rationale",
+            "columnId": "rationale",
+            "hidden": false,
+            "width": 150
+          },
+          {
+            "attribute": "priority",
+            "columnId": "priority",
+            "hidden": false,
+            "width": 96
+          },
+          {
+            "attribute": "status",
+            "columnId": "status",
+            "hidden": false,
+            "width": 86
+          },
+          {
+            "attribute": "verMethod",
+            "columnId": "verMethod",
+            "hidden": false,
+            "width": 105
+          },
+          {
+            "attribute": "difficulty",
+            "columnId": "difficulty",
+            "hidden": true,
+            "width": 108
+          },
+          {
+            "attribute": "owner",
+            "columnId": "owner",
+            "hidden": true,
+            "width": 106
+          },
+          {
+            "columnId": "attributes",
+            "hidden": true,
+            "width": 300
+          }
+        ]
+      }
+    }
+  ],
+  "attachments": {
+  },
+  "traceability": {
+    "conflict": {
+      "name": "Conflict",
+      "source": "Is in conflict with"
+    },
+    "dependency": {
+      "name": "Dependency",
+      "source": "Depends on",
+      "target": "Blocks"
+    },
+    "reference": {
+      "name": "Reference",
+      "source": "References",
+      "target": "Is referenced by"
+    },
+    "satisfaction": {
+      "name": "Satisfaction",
+      "source": "Satisfies",
+      "target": "Is satisfied by"
+    },
+    "validation": {
+      "name": "Validation",
+      "source": "Validates",
+      "target": "Is validated by"
+    },
+    "verification": {
+      "name": "Verification",
+      "source": "Verifies",
+      "target": "Is verified by"
+    }
+  },
+  "metadata": {
+    "format": "2.7",
+    "saveHistory": true
+  }
+}
