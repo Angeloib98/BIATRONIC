@@ -12,11 +12,11 @@
         "email": "francinie23@estudiantec.cr",
         "company": "Instituto de Tecnológico de Costa Rica"
       },
-      "lastChangedOn": "2021-09-08T01:58:52.746Z",
+      "lastChangedOn": "2021-09-10T00:23:47.443Z",
       "lastChangedBy": {
-        "name": "Francinie Rodríguez",
-        "email": "francinie23@estudiantec.cr",
-        "company": "Instituto de Tecnológico de Costa Rica"
+        "name": "Angelo",
+        "email": "aisaac@estudiantec.cr",
+        "company": "ITCR"
       },
       "helpRef": "ISO/IEC/IEEE 29148:2018",
       "data": [
@@ -24,8 +24,22 @@
           "id": "1",
           "guid": "8dde735d-2584-4791-bc29-0e720fd0d1eb",
           "heading": "Introduction",
+          "text": "<p>Hola</p>",
           "helpRef": "8.5",
           "type": "SEC",
+          "history": [
+            {
+              "attributesChanged": {
+                "text": null
+              },
+              "changedBy": {
+                "company": "ITCR",
+                "email": "aisaac@estudiantec.cr",
+                "name": "Angelo"
+              },
+              "changedOn": "2021-09-10T00:23:47.443Z"
+            }
+          ],
           "children": [
             {
               "id": "2",
