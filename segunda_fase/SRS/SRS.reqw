@@ -12,7 +12,7 @@
         "email": "francinie23@estudiantec.cr",
         "company": "Instituto de Tecnológico de Costa Rica"
       },
-      "lastChangedOn": "2021-09-11T21:59:31.420Z",
+      "lastChangedOn": "2021-09-11T22:22:36.794Z",
       "lastChangedBy": {
         "name": "Robert",
         "email": "robertdavidrd360567@gmail.com",
@@ -131,7 +131,7 @@
               "id": "14",
               "guid": "66e81254-d102-40bc-bc63-ec76c698c1a9",
               "heading": "Product functions",
-              "text": "<p>Creacion de usuarios&nbsp;</p><p>Medicion de grasa&nbsp;</p><p>Medicion de hidratacion&nbsp;</p><p>Medicion de grasa/hidratacion</p><p>Historial de mediciones</p>",
+              "text": "<p>Creacion de usuarios&nbsp;</p><p>Seleccion de usuario&nbsp;</p><p>Eliminacion de usuario&nbsp;</p><p>Medicion de grasa&nbsp;</p><p>Medicion de hidratacion&nbsp;</p><p>Medicion de grasa/hidratacion</p><p>Visualizacion de resultados</p><p>Historial de mediciones</p><p>Respaldo con la nube</p><p>Configuracion de recordarios&nbsp;</p><p>Ejecucion de recordatorios</p><p>Configuracion de ajustes</p>",
               "helpRef": "9.6.5",
               "type": "SEC",
               "history": [
@@ -156,6 +156,72 @@
                     "name": "Robert"
                   },
                   "changedOn": "2021-09-11T21:59:31.420Z"
+                },
+                {
+                  "attributesChanged": {
+                    "text": "<p>Creacion de usuarios&nbsp;</p><p>Medicion de grasa&nbsp;</p><p>Medicion de hidratacion&nbsp;</p><p>Medicion de grasa/hidratacion</p><p>Historial de mediciones</p>"
+                  },
+                  "changedBy": {
+                    "company": "Tec",
+                    "email": "robertdavidrd360567@gmail.com",
+                    "name": "Robert"
+                  },
+                  "changedOn": "2021-09-11T22:11:58.715Z"
+                },
+                {
+                  "attributesChanged": {
+                    "text": "<p>Creacion de usuarios&nbsp;</p><p>Seleccion de usuario&nbsp;</p><p>Eliminacion de usuario&nbsp;</p><p>Medicion de grasa&nbsp;</p><p>Medicion de hidratacion&nbsp;</p><p>Medicion de grasa/hidratacion</p><p>Historial de mediciones</p>"
+                  },
+                  "changedBy": {
+                    "company": "Tec",
+                    "email": "robertdavidrd360567@gmail.com",
+                    "name": "Robert"
+                  },
+                  "changedOn": "2021-09-11T22:18:37.197Z"
+                },
+                {
+                  "attributesChanged": {
+                    "text": "<p>Creacion de usuarios&nbsp;</p><p>Seleccion de usuario&nbsp;</p><p>Eliminacion de usuario&nbsp;</p><p>Medicion de grasa&nbsp;</p><p>Medicion de hidratacion&nbsp;</p><p>Medicion de grasa/hidratacion</p><p>Historial de mediciones</p><p>Respaldo con la nube</p>"
+                  },
+                  "changedBy": {
+                    "company": "Tec",
+                    "email": "robertdavidrd360567@gmail.com",
+                    "name": "Robert"
+                  },
+                  "changedOn": "2021-09-11T22:20:50.931Z"
+                },
+                {
+                  "attributesChanged": {
+                    "text": "<p>Creacion de usuarios&nbsp;</p><p>Seleccion de usuario&nbsp;</p><p>Eliminacion de usuario&nbsp;</p><p>Medicion de grasa&nbsp;</p><p>Medicion de hidratacion&nbsp;</p><p>Medicion de grasa/hidratacion</p><p>Historial de mediciones</p><p>Respaldo con la nube</p><p>Configuracion de recordarios&nbsp;</p><p>Configuracion del&nbsp;</p>"
+                  },
+                  "changedBy": {
+                    "company": "Tec",
+                    "email": "robertdavidrd360567@gmail.com",
+                    "name": "Robert"
+                  },
+                  "changedOn": "2021-09-11T22:21:11.439Z"
+                },
+                {
+                  "attributesChanged": {
+                    "text": "<p>Creacion de usuarios&nbsp;</p><p>Seleccion de usuario&nbsp;</p><p>Eliminacion de usuario&nbsp;</p><p>Medicion de grasa&nbsp;</p><p>Medicion de hidratacion&nbsp;</p><p>Medicion de grasa/hidratacion</p><p>Historial de mediciones</p><p>Respaldo con la nube</p><p>Configuracion de recordarios&nbsp;</p><p>Configuracion de ajustes</p>"
+                  },
+                  "changedBy": {
+                    "company": "Tec",
+                    "email": "robertdavidrd360567@gmail.com",
+                    "name": "Robert"
+                  },
+                  "changedOn": "2021-09-11T22:22:09.239Z"
+                },
+                {
+                  "attributesChanged": {
+                    "text": "<p>Creacion de usuarios&nbsp;</p><p>Seleccion de usuario&nbsp;</p><p>Eliminacion de usuario&nbsp;</p><p>Medicion de grasa&nbsp;</p><p>Medicion de hidratacion&nbsp;</p><p>Medicion de grasa/hidratacion</p><p>Visualizacion de resultados</p><p>Historial de mediciones</p><p>Respaldo con la nube</p><p>Configuracion de recordarios&nbsp;</p><p>Ejecucion de&nbsp;</p><p>Configuracion de ajustes</p>"
+                  },
+                  "changedBy": {
+                    "company": "Tec",
+                    "email": "robertdavidrd360567@gmail.com",
+                    "name": "Robert"
+                  },
+                  "changedOn": "2021-09-11T22:22:36.794Z"
                 }
               ]
             },
@@ -163,8 +229,22 @@
               "id": "15",
               "guid": "74976865-af9b-431b-9947-ee9234b3f013",
               "heading": "User  characteristics",
+              "text": "<p>Trabajadores de empresas expuesto a trabajos intensos que necesiten un control de la hidratacion por salud laboral</p><p>Hogares de familia que quieran impulsar la salud preventiva mediante el analisis de grasas e hidratacion.</p>",
               "helpRef": "9.6.6",
-              "type": "SEC"
+              "type": "SEC",
+              "history": [
+                {
+                  "attributesChanged": {
+                    "text": null
+                  },
+                  "changedBy": {
+                    "company": "Tec",
+                    "email": "robertdavidrd360567@gmail.com",
+                    "name": "Robert"
+                  },
+                  "changedOn": "2021-09-11T22:18:06.487Z"
+                }
+              ]
             },
             {
               "id": "16",
@@ -191,8 +271,33 @@
               "id": "19",
               "guid": "544c7bd9-05a4-4016-8188-62aec301625a",
               "heading": "Acronyms and abbreviations",
+              "text": "<p>BIA: &nbsp;bioelectrical impedence analysis&nbsp;</p>",
               "helpRef": "9.2.5",
-              "type": "SEC"
+              "type": "SEC",
+              "history": [
+                {
+                  "attributesChanged": {
+                    "text": null
+                  },
+                  "changedBy": {
+                    "company": "Tec",
+                    "email": "robertdavidrd360567@gmail.com",
+                    "name": "Robert"
+                  },
+                  "changedOn": "2021-09-11T22:01:55.884Z"
+                },
+                {
+                  "attributesChanged": {
+                    "text": "<p>BIA</p>"
+                  },
+                  "changedBy": {
+                    "company": "Tec",
+                    "email": "robertdavidrd360567@gmail.com",
+                    "name": "Robert"
+                  },
+                  "changedOn": "2021-09-11T22:02:28.541Z"
+                }
+              ]
             }
           ]
         },
