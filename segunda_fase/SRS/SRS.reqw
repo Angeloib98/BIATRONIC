@@ -12,11 +12,11 @@
         "email": "francinie23@estudiantec.cr",
         "company": "Instituto de Tecnológico de Costa Rica"
       },
-      "lastChangedOn": "2021-09-10T00:23:47.443Z",
+      "lastChangedOn": "2021-09-11T21:59:31.420Z",
       "lastChangedBy": {
-        "name": "Angelo",
-        "email": "aisaac@estudiantec.cr",
-        "company": "ITCR"
+        "name": "Robert",
+        "email": "robertdavidrd360567@gmail.com",
+        "company": "Tec"
       },
       "helpRef": "ISO/IEC/IEEE 29148:2018",
       "data": [
@@ -131,8 +131,33 @@
               "id": "14",
               "guid": "66e81254-d102-40bc-bc63-ec76c698c1a9",
               "heading": "Product functions",
+              "text": "<p>Creacion de usuarios&nbsp;</p><p>Medicion de grasa&nbsp;</p><p>Medicion de hidratacion&nbsp;</p><p>Medicion de grasa/hidratacion</p><p>Historial de mediciones</p>",
               "helpRef": "9.6.5",
-              "type": "SEC"
+              "type": "SEC",
+              "history": [
+                {
+                  "attributesChanged": {
+                    "text": null
+                  },
+                  "changedBy": {
+                    "company": "Tec",
+                    "email": "robertdavidrd360567@gmail.com",
+                    "name": "Robert"
+                  },
+                  "changedOn": "2021-09-11T21:55:50.241Z"
+                },
+                {
+                  "attributesChanged": {
+                    "text": "<p>Historial de mediciones</p>"
+                  },
+                  "changedBy": {
+                    "company": "Tec",
+                    "email": "robertdavidrd360567@gmail.com",
+                    "name": "Robert"
+                  },
+                  "changedOn": "2021-09-11T21:59:31.420Z"
+                }
+              ]
             },
             {
               "id": "15",
