@@ -381,11 +381,11 @@
         "email": "ocramsalazar@gmail.com",
         "company": ""
       },
-      "lastChangedOn": "2021-09-08T17:26:37.800Z",
+      "lastChangedOn": "2021-09-11T22:08:26.180Z",
       "lastChangedBy": {
-        "name": "Marco Zolla",
-        "email": "ocramsalazar@gmail.com",
-        "company": ""
+        "name": "Adrián Núñez Reina",
+        "email": "adrian9805@gmail.com",
+        "company": "Instituto Tecnológico de Costa Rica"
       },
       "helpRef": "ISO/IEC/IEEE 29148:2018",
       "data": [
@@ -1204,32 +1204,187 @@
                 {
                   "id": "18",
                   "guid": "133b4d43-abd6-4355-924f-e0bf4baef9cc",
-                  "heading": "Maintainability requirements",
+                  "heading": "Mantenibilidad",
+                  "text": "<ul><li>Contará con un tiempo máximo de reparación de 1 a 2 meses como máximo dependiendo de la complejidad de mantenimiento.</li><li>La tasa operativa irá de acorde con el tiempo máximo de reparación más las horas diarias de trabajo, además de un mantenimiento preventivo de cada 6 meses. &nbsp;</li><li>Para la complejidad de mantenimiento se contratará a un técnico avanzado y especializado para el dispositivo, uno para cada variedad de soporte como remover, reparar y reemplazar componentes.&nbsp;</li><li>&nbsp;Los índices de acción se basarán en el salario mínimo y de ahí se establecerá el pago como tal, para el sector privado un técnico de educación superior su salario mínimo es de 463.335.93 colones mensuales, lo cual por hora generalizando un mes de 30 días, estaría ganado aproximadamente 2 mil colones por horas trabajadas, esto en condiciones salariales mínimas.</li><li>La accesibilidad a los componentes necesarios para las reparaciones de sistemas, se conseguirán de los socios proveedores como Multitrónica, Crcibernética, MicroJPM y Mouser Electronics.</li></ul><p><br></p>",
                   "helpRef": "9.5.9.2",
-                  "type": "SEC"
+                  "type": "SEC",
+                  "history": [
+                    {
+                      "attributesChanged": {
+                        "heading": "Maintainability requirements"
+                      },
+                      "changedBy": {
+                        "company": "Instituto Tecnológico de Costa Rica",
+                        "email": "adrian9805@gmail.com",
+                        "name": "Adrián Núñez Reina"
+                      },
+                      "changedOn": "2021-09-11T22:05:33.024Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": null
+                      },
+                      "changedBy": {
+                        "company": "Instituto Tecnológico de Costa Rica",
+                        "email": "adrian9805@gmail.com",
+                        "name": "Adrián Núñez Reina"
+                      },
+                      "changedOn": "2021-09-11T22:05:41.178Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": "<ul><li><br></li></ul>"
+                      },
+                      "changedBy": {
+                        "company": "Instituto Tecnológico de Costa Rica",
+                        "email": "adrian9805@gmail.com",
+                        "name": "Adrián Núñez Reina"
+                      },
+                      "changedOn": "2021-09-11T22:05:52.444Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": "<ul><li>Contará con un tiempo máximo de reparación de 1 a 2 meses como máximo dependiendo de la complejidad de mantenimiento.</li><li><br></li></ul>"
+                      },
+                      "changedBy": {
+                        "company": "Instituto Tecnológico de Costa Rica",
+                        "email": "adrian9805@gmail.com",
+                        "name": "Adrián Núñez Reina"
+                      },
+                      "changedOn": "2021-09-11T22:06:07.985Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": "<ul><li>Contará con un tiempo máximo de reparación de 1 a 2 meses como máximo dependiendo de la complejidad de mantenimiento.</li><li>La tasa operativa irá de acorde con el tiempo máximo de reparación más las horas diarias de trabajo, además de un mantenimiento preventivo de cada 6 meses. &nbsp;</li><li><br></li></ul>"
+                      },
+                      "changedBy": {
+                        "company": "Instituto Tecnológico de Costa Rica",
+                        "email": "adrian9805@gmail.com",
+                        "name": "Adrián Núñez Reina"
+                      },
+                      "changedOn": "2021-09-11T22:06:33.123Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": "<ul><li>Contará con un tiempo máximo de reparación de 1 a 2 meses como máximo dependiendo de la complejidad de mantenimiento.</li><li>La tasa operativa irá de acorde con el tiempo máximo de reparación más las horas diarias de trabajo, además de un mantenimiento preventivo de cada 6 meses. &nbsp;</li><li>Para la complejidad de mantenimiento se contratará a un técnico avanzado y especializado para el dispositivo, uno para cada variedad de soporte como remover, reparar y reemplazar componentes.&nbsp;</li><li><br></li></ul>"
+                      },
+                      "changedBy": {
+                        "company": "Instituto Tecnológico de Costa Rica",
+                        "email": "adrian9805@gmail.com",
+                        "name": "Adrián Núñez Reina"
+                      },
+                      "changedOn": "2021-09-11T22:06:52.998Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": "<ul><li>Contará con un tiempo máximo de reparación de 1 a 2 meses como máximo dependiendo de la complejidad de mantenimiento.</li><li>La tasa operativa irá de acorde con el tiempo máximo de reparación más las horas diarias de trabajo, además de un mantenimiento preventivo de cada 6 meses. &nbsp;</li><li>Para la complejidad de mantenimiento se contratará a un técnico avanzado y especializado para el dispositivo, uno para cada variedad de soporte como remover, reparar y reemplazar componentes.&nbsp;</li><li>&nbsp;Los índices de acción se basarán en el salario mínimo y de ahí se establecerá el pago como tal, para el sector privado un técnico de educación superior su salario mínimo es de 463.335.93 colones mensuales, lo cual por hora generalizando un mes de 30 días, estaría ganado aproximadamente 2 mil colones por horas trabajadas, esto en condiciones salariales mínimas.</li><li><br></li></ul><p><br></p>"
+                      },
+                      "changedBy": {
+                        "company": "Instituto Tecnológico de Costa Rica",
+                        "email": "adrian9805@gmail.com",
+                        "name": "Adrián Núñez Reina"
+                      },
+                      "changedOn": "2021-09-11T22:07:03.129Z"
+                    }
+                  ]
                 },
                 {
                   "id": "19",
                   "guid": "73ae0849-9e57-434a-bea0-fa1c267d20c5",
-                  "heading": "Reliability  requirements",
+                  "heading": "Fiabilidad",
+                  "text": "<ol><li style=\"vertical-align:baseline;\"><p>Normas de seguridad para la soldadura de los electrodos.</p></li><li style=\"vertical-align:baseline;\"><p>Sensores y alertas de irregularidades eléctricas.</p></li><li style=\"vertical-align:baseline;\"><p>Actuadores que apagan el dispositivo por anomalías eléctricas que puedan afectar la salud del usuario.</p></li><li style=\"vertical-align:baseline;\"><p>Respaldo de seguridad de memoria por si hay fallos de emisión de datos para el análisis en la nube.&nbsp;</p></li><li style=\"vertical-align:baseline;\"><p>Si los sensores no toman datos coherentes a un promedio esperado, este reportará su fallo o error de toma de datos de las señales de los electrodos.</p></li></ol>",
                   "helpRef": "9.5.9.3",
-                  "type": "SEC"
+                  "type": "SEC",
+                  "history": [
+                    {
+                      "attributesChanged": {
+                        "heading": "Reliability  requirements"
+                      },
+                      "changedBy": {
+                        "company": "Instituto Tecnológico de Costa Rica",
+                        "email": "adrian9805@gmail.com",
+                        "name": "Adrián Núñez Reina"
+                      },
+                      "changedOn": "2021-09-11T22:07:15.225Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": null
+                      },
+                      "changedBy": {
+                        "company": "Instituto Tecnológico de Costa Rica",
+                        "email": "adrian9805@gmail.com",
+                        "name": "Adrián Núñez Reina"
+                      },
+                      "changedOn": "2021-09-11T22:07:27.436Z"
+                    }
+                  ]
                 },
                 {
                   "id": "20",
                   "guid": "ce364ebe-520a-4c52-9b50-528295f4379b",
-                  "heading": "Other  quality requirements",
+                  "heading": "Otras cualidades",
+                  "text": "<p><br></p><ol><li style=\"vertical-align:baseline;\"><p>Compatibilidad a cable LAN como auxiliar para conexión a internet para la nube o USB para extraer información que se guarda por seguridad por si ser dan fallos de conexión, además de su compatibilidad a la nube de almacenamiento de información principal.</p></li><li style=\"vertical-align:baseline;\"><p>Portabilidad ergonómica y cómoda al usuario, donde la pueda trasladar con facilidad sin necesidad de algún transporte vehicular.</p></li></ol>",
                   "helpRef": "9.5.9.4",
-                  "type": "SEC"
+                  "type": "SEC",
+                  "history": [
+                    {
+                      "attributesChanged": {
+                        "heading": "Other  quality requirements"
+                      },
+                      "changedBy": {
+                        "company": "Instituto Tecnológico de Costa Rica",
+                        "email": "adrian9805@gmail.com",
+                        "name": "Adrián Núñez Reina"
+                      },
+                      "changedOn": "2021-09-11T22:07:46.946Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": null
+                      },
+                      "changedBy": {
+                        "company": "Instituto Tecnológico de Costa Rica",
+                        "email": "adrian9805@gmail.com",
+                        "name": "Adrián Núñez Reina"
+                      },
+                      "changedOn": "2021-09-11T22:07:56.731Z"
+                    }
+                  ]
                 }
               ]
             },
             {
               "id": "21",
               "guid": "947d80d3-892a-400c-8794-d1bb1e919e38",
-              "heading": "System modes and states",
+              "heading": "Modos y estados del sistema",
+              "text": "<ol><li style=\"vertical-align:baseline;\"><p>Modo Main: Cuando el dispositivo no está haciendo uso de los electrodos y se encuentra en su menú principal.</p></li><li style=\"vertical-align:baseline;\"><p>Modo Seguridad: Previo a la toma de datos y emisión de señales en los electrodos para asegurar que los funcionamientos eléctricos internos estén bajo control.</p></li><li style=\"vertical-align:baseline;\"><p>Modo Activo: Toma de datos a tiempo real con los electrodos funcionando y emitiendo las señales correspondientes.</p></li></ol>",
               "helpRef": "9.5.10",
-              "type": "SEC"
+              "type": "SEC",
+              "history": [
+                {
+                  "attributesChanged": {
+                    "heading": "System modes and states"
+                  },
+                  "changedBy": {
+                    "company": "Instituto Tecnológico de Costa Rica",
+                    "email": "adrian9805@gmail.com",
+                    "name": "Adrián Núñez Reina"
+                  },
+                  "changedOn": "2021-09-11T22:08:09.399Z"
+                },
+                {
+                  "attributesChanged": {
+                    "text": null
+                  },
+                  "changedBy": {
+                    "company": "Instituto Tecnológico de Costa Rica",
+                    "email": "adrian9805@gmail.com",
+                    "name": "Adrián Núñez Reina"
+                  },
+                  "changedOn": "2021-09-11T22:08:26.180Z"
+                }
+              ]
             },
             {
               "id": "22",
