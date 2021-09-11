@@ -5,14 +5,14 @@
       "id": "SRS",
       "guid": "254e2b3c-9932-458c-a99a-cec52dad5fde",
       "name": "Software Requirements Specification",
-      "lastId": 34,
+      "lastId": 36,
       "createdOn": "2021-09-08T01:58:52.746Z",
       "createdBy": {
         "name": "Francinie Rodríguez",
         "email": "francinie23@estudiantec.cr",
         "company": "Instituto de Tecnológico de Costa Rica"
       },
-      "lastChangedOn": "2021-09-11T23:49:46.642Z",
+      "lastChangedOn": "2021-09-11T23:59:04.364Z",
       "lastChangedBy": {
         "name": "Angelo",
         "email": "aisaac@estudiantec.cr",
@@ -152,7 +152,7 @@
                   "id": "34",
                   "guid": "71613a92-148a-4584-80cf-dff6db3e751f",
                   "heading": "Aplicación móvil",
-                  "text": "<p>El software de la aplicación móvil deberá poder obtener los datos de la nube para visualizar los datos e incorporarlos a los perfiles personales para tener un sistema de monitoreo, donde se pueden establecer recordatorios, recibir consejos, y tener una visualización de resultados más detallada de la obtenida en el monitor portable.</p>",
+                  "text": "<p>El software de la aplicación móvil deberá poder obtener los datos de la nube para visualizar los datos e incorporarlos a los perfiles personales para tener un sistema de monitoreo, donde se pueden establecer recordatorios, recibir consejos, y tener una visualización de resultados más detallada de la obtenida en el dispositivo portable.</p>",
                   "type": "SEC",
                   "history": [
                     {
@@ -211,13 +211,24 @@
                         "name": "Angelo"
                       },
                       "changedOn": "2021-09-11T22:35:52.521Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": "<p>El software de la aplicación móvil deberá poder obtener los datos de la nube para visualizar los datos e incorporarlos a los perfiles personales para tener un sistema de monitoreo, donde se pueden establecer recordatorios, recibir consejos, y tener una visualización de resultados más detallada de la obtenida en el monitor portable.</p>"
+                      },
+                      "changedBy": {
+                        "company": "ITCR",
+                        "email": "aisaac@estudiantec.cr",
+                        "name": "Angelo"
+                      },
+                      "changedOn": "2021-09-11T23:59:04.364Z"
                     }
                   ]
                 },
                 {
                   "id": "33",
                   "guid": "19bc2aae-7bd8-41bd-881c-3a372c15291c",
-                  "heading": "Monitor portable",
+                  "heading": "Dispositivo portable",
                   "text": "<p>El software del monitor portable deberá permitr el correcto procesamiento de las señales de entrada provenientes de los sensores para poder obtener &nbsp;de manera precisa las caracteristicas de la composición corporal del usuario y mostrarlas en pantalla en porcentajes, además de enviar dichos resultados a la nube.</p>",
                   "type": "SEC",
                   "history": [
@@ -265,6 +276,17 @@
                         "name": "Angelo"
                       },
                       "changedOn": "2021-09-11T22:26:13.583Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "heading": "Monitor portable"
+                      },
+                      "changedBy": {
+                        "company": "ITCR",
+                        "email": "aisaac@estudiantec.cr",
+                        "name": "Angelo"
+                      },
+                      "changedOn": "2021-09-11T23:58:51.330Z"
                     }
                   ]
                 }
@@ -432,8 +454,22 @@
                   "id": "8",
                   "guid": "1bd17f4f-d159-4f8d-bcb6-c49c5ebce03e",
                   "heading": "Software interfaces",
+                  "text": "<p>El software deberá enviar información desde el dispositivo portable a una aplicación móvil, para una mejor visualización de resultados e interacciones con la información extras.</p>",
                   "helpRef": "9.6.4.4",
-                  "type": "SEC"
+                  "type": "SEC",
+                  "history": [
+                    {
+                      "attributesChanged": {
+                        "text": null
+                      },
+                      "changedBy": {
+                        "company": "ITCR",
+                        "email": "aisaac@estudiantec.cr",
+                        "name": "Angelo"
+                      },
+                      "changedOn": "2021-09-11T23:58:32.075Z"
+                    }
+                  ]
                 },
                 {
                   "id": "32",
@@ -491,7 +527,95 @@
                   "guid": "44b75d00-eb04-4f4b-9e07-bd84712ee0f6",
                   "heading": "Communications interfaces",
                   "helpRef": "9.6.4.5",
-                  "type": "SEC"
+                  "type": "SEC",
+                  "history": [
+                    {
+                      "attributesChanged": {
+                        "text": null
+                      },
+                      "changedBy": {
+                        "company": "ITCR",
+                        "email": "aisaac@estudiantec.cr",
+                        "name": "Angelo"
+                      },
+                      "changedOn": "2021-09-11T23:53:20.019Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": "<p>El software deberá conectarse al servicio de la nube&nbsp;</p>"
+                      },
+                      "changedBy": {
+                        "company": "ITCR",
+                        "email": "aisaac@estudiantec.cr",
+                        "name": "Angelo"
+                      },
+                      "changedOn": "2021-09-11T23:53:53.448Z"
+                    }
+                  ],
+                  "children": [
+                    {
+                      "id": "36",
+                      "guid": "cf4339f9-98f8-4ae5-937a-4915b38029a9",
+                      "heading": "Protocolo de transmisión de datos",
+                      "text": "<p>El software deberá conectarse al servicio de la nube mediante el protocolo de wifi.</p>",
+                      "history": [
+                        {
+                          "affectedNodeId": "9",
+                          "changedBy": {
+                            "company": "ITCR",
+                            "email": "aisaac@estudiantec.cr",
+                            "name": "Angelo"
+                          },
+                          "changedOn": "2021-09-11T23:54:53.233Z",
+                          "docId": "SRS",
+                          "structureAction": "Create"
+                        },
+                        {
+                          "attributesChanged": {
+                            "heading": null,
+                            "text": null
+                          },
+                          "changedBy": {
+                            "company": "ITCR",
+                            "email": "aisaac@estudiantec.cr",
+                            "name": "Angelo"
+                          },
+                          "changedOn": "2021-09-11T23:55:40.841Z"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "35",
+                      "guid": "b4a4cb07-cfbb-4031-aeb8-434141c85f50",
+                      "heading": "Protocolo de comunicación con sensores",
+                      "text": "<p>El software debera contar con un protocolo de recolección de datos provenientes de los sensores.</p>",
+                      "history": [
+                        {
+                          "affectedNodeId": "9",
+                          "changedBy": {
+                            "company": "ITCR",
+                            "email": "aisaac@estudiantec.cr",
+                            "name": "Angelo"
+                          },
+                          "changedOn": "2021-09-11T23:53:57.208Z",
+                          "docId": "SRS",
+                          "structureAction": "Create"
+                        },
+                        {
+                          "attributesChanged": {
+                            "heading": null,
+                            "text": null
+                          },
+                          "changedBy": {
+                            "company": "ITCR",
+                            "email": "aisaac@estudiantec.cr",
+                            "name": "Angelo"
+                          },
+                          "changedOn": "2021-09-11T23:54:44.881Z"
+                        }
+                      ]
+                    }
+                  ]
                 },
                 {
                   "id": "10",
@@ -518,8 +642,22 @@
                   "id": "13",
                   "guid": "f47d6f9b-99bc-433a-8d4c-bde6b9023781",
                   "heading": "Interfaces with  services",
+                  "text": "<p>El sotfware deberá contar con el servicio de la nube para almacenar los datos obtenidos del monitor portable, con posibilidad de acceso desde una aplicación móvil.</p>",
                   "helpRef": "9.6.4.9",
-                  "type": "SEC"
+                  "type": "SEC",
+                  "history": [
+                    {
+                      "attributesChanged": {
+                        "text": null
+                      },
+                      "changedBy": {
+                        "company": "ITCR",
+                        "email": "aisaac@estudiantec.cr",
+                        "name": "Angelo"
+                      },
+                      "changedOn": "2021-09-11T23:52:27.708Z"
+                    }
+                  ]
                 }
               ]
             },
