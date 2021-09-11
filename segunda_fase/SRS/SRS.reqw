@@ -12,7 +12,7 @@
         "email": "francinie23@estudiantec.cr",
         "company": "Instituto de Tecnológico de Costa Rica"
       },
-      "lastChangedOn": "2021-09-11T23:30:08.037Z",
+      "lastChangedOn": "2021-09-11T23:49:46.642Z",
       "lastChangedBy": {
         "name": "Angelo",
         "email": "aisaac@estudiantec.cr",
@@ -281,22 +281,152 @@
                   "id": "5",
                   "guid": "404a3007-8970-4312-860f-e0d6bc7c6b9a",
                   "heading": "System interfaces",
+                  "text": "<p>El software deberá correr en las últimas versiones de android, IOS y la versión de linux portable</p>",
                   "helpRef": "9.6.4.1",
-                  "type": "SEC"
+                  "type": "SEC",
+                  "history": [
+                    {
+                      "attributesChanged": {
+                        "text": null
+                      },
+                      "changedBy": {
+                        "company": "ITCR",
+                        "email": "aisaac@estudiantec.cr",
+                        "name": "Angelo"
+                      },
+                      "changedOn": "2021-09-11T23:45:05.556Z"
+                    }
+                  ]
                 },
                 {
                   "id": "6",
                   "guid": "8b326009-82eb-4d52-9620-7930a736db31",
                   "heading": "User interfaces",
+                  "text": "<p>El software deberá tener una pantalla gráfica con menus, botones y ajustes que permita un manejo táctil de fácil entendimiento&nbsp;</p>",
                   "helpRef": "9.6.4.2",
-                  "type": "SEC"
+                  "type": "SEC",
+                  "history": [
+                    {
+                      "attributesChanged": {
+                        "text": null
+                      },
+                      "changedBy": {
+                        "company": "ITCR",
+                        "email": "aisaac@estudiantec.cr",
+                        "name": "Angelo"
+                      },
+                      "changedOn": "2021-09-11T23:37:40.220Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": "<p>El software&nbsp;</p>"
+                      },
+                      "changedBy": {
+                        "company": "ITCR",
+                        "email": "aisaac@estudiantec.cr",
+                        "name": "Angelo"
+                      },
+                      "changedOn": "2021-09-11T23:38:00.458Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": "<p>El software tendra una pantalla</p>"
+                      },
+                      "changedBy": {
+                        "company": "ITCR",
+                        "email": "aisaac@estudiantec.cr",
+                        "name": "Angelo"
+                      },
+                      "changedOn": "2021-09-11T23:39:20.309Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": "<p>El software deberá tener una pantalla gráfica que tenga&nbsp;</p>"
+                      },
+                      "changedBy": {
+                        "company": "ITCR",
+                        "email": "aisaac@estudiantec.cr",
+                        "name": "Angelo"
+                      },
+                      "changedOn": "2021-09-11T23:40:20.081Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": "<p>El software deberá tener una pantalla gráfica con menus, ajustes&nbsp;</p>"
+                      },
+                      "changedBy": {
+                        "company": "ITCR",
+                        "email": "aisaac@estudiantec.cr",
+                        "name": "Angelo"
+                      },
+                      "changedOn": "2021-09-11T23:42:23.011Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": "<p>El software deberá tener una pantalla gráfica con menus, botones y ajustes que permita un manejo táctil de fácil entendimieento&nbsp;</p>"
+                      },
+                      "changedBy": {
+                        "company": "ITCR",
+                        "email": "aisaac@estudiantec.cr",
+                        "name": "Angelo"
+                      },
+                      "changedOn": "2021-09-11T23:42:30.131Z"
+                    }
+                  ]
                 },
                 {
                   "id": "7",
                   "guid": "c1c3aee0-dbe5-4e3f-aa84-6beafbcd072b",
                   "heading": "Hardware interfaces",
+                  "text": "<p>El sotware deberá recibir señales de los sensores para procesar la información.</p><p><br></p><p>El software deberá recibir señales de actuación de la pantalla táctil.</p>",
                   "helpRef": "9.6.4.3",
-                  "type": "SEC"
+                  "type": "SEC",
+                  "history": [
+                    {
+                      "attributesChanged": {
+                        "text": null
+                      },
+                      "changedBy": {
+                        "company": "ITCR",
+                        "email": "aisaac@estudiantec.cr",
+                        "name": "Angelo"
+                      },
+                      "changedOn": "2021-09-11T23:45:46.156Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": "<p>El sotware deberá recibir</p>"
+                      },
+                      "changedBy": {
+                        "company": "ITCR",
+                        "email": "aisaac@estudiantec.cr",
+                        "name": "Angelo"
+                      },
+                      "changedOn": "2021-09-11T23:46:52.747Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": "<p>El sotware deberá recibir señales de los sensores&nbsp;</p>"
+                      },
+                      "changedBy": {
+                        "company": "ITCR",
+                        "email": "aisaac@estudiantec.cr",
+                        "name": "Angelo"
+                      },
+                      "changedOn": "2021-09-11T23:48:28.636Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": "<p>El sotware deberá recibir señales de los sensores para procesar la información.</p>"
+                      },
+                      "changedBy": {
+                        "company": "ITCR",
+                        "email": "aisaac@estudiantec.cr",
+                        "name": "Angelo"
+                      },
+                      "changedOn": "2021-09-11T23:49:46.642Z"
+                    }
+                  ]
                 },
                 {
                   "id": "8",
