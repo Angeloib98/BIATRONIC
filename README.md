@@ -170,10 +170,11 @@ Adrian Nuñez 30 min tarde y se fue faltando una hora
 
 **Otros aspectos importantes**
 
-### 07 noviembre (corte antes de reporte base)
+### 07 setiembre 
 
 **Asistencia**
 
+Robert se ausentó
 
 **Objetivos de la reunión**
 
@@ -183,6 +184,18 @@ Adrian Nuñez 30 min tarde y se fue faltando una hora
 **Otros aspectos importantes**
 
 
+### 11 setiembre 
 
+**Asistencia**
+
+
+**Objetivos de la reunión**
+
+- Discutir la encuesta
+- Discutir la entrevista
+- Discutir la SyRS
+
+
+**Otros aspectos importantes**
 
 
