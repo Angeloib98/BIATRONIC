@@ -5,18 +5,18 @@
       "id": "SRS",
       "guid": "254e2b3c-9932-458c-a99a-cec52dad5fde",
       "name": "Software Requirements Specification",
-      "lastId": 31,
+      "lastId": 36,
       "createdOn": "2021-09-08T01:58:52.746Z",
       "createdBy": {
         "name": "Francinie Rodríguez",
         "email": "francinie23@estudiantec.cr",
         "company": "Instituto de Tecnológico de Costa Rica"
       },
-      "lastChangedOn": "2021-09-11T21:59:31.420Z",
+      "lastChangedOn": "2021-09-11T23:59:04.364Z",
       "lastChangedBy": {
-        "name": "Robert",
-        "email": "robertdavidrd360567@gmail.com",
-        "company": "Tec"
+        "name": "Angelo",
+        "email": "aisaac@estudiantec.cr",
+        "company": "ITCR"
       },
       "helpRef": "ISO/IEC/IEEE 29148:2018",
       "data": [
@@ -24,7 +24,6 @@
           "id": "1",
           "guid": "8dde735d-2584-4791-bc29-0e720fd0d1eb",
           "heading": "Introduction",
-          "text": "<p>Hola</p>",
           "helpRef": "8.5",
           "type": "SEC",
           "history": [
@@ -38,6 +37,17 @@
                 "name": "Angelo"
               },
               "changedOn": "2021-09-10T00:23:47.443Z"
+            },
+            {
+              "attributesChanged": {
+                "text": "<p>Hola</p>"
+              },
+              "changedBy": {
+                "company": "ITCR",
+                "email": "aisaac@estudiantec.cr",
+                "name": "Angelo"
+              },
+              "changedOn": "2021-09-11T22:34:57.750Z"
             }
           ],
           "children": [
@@ -45,15 +55,242 @@
               "id": "2",
               "guid": "ba7851c4-6687-489c-bc43-0fa6abb561ec",
               "heading": "Purpose",
+              "text": "<p>El software deberá ser el responsable de los diferentes algoritmos que permitiran el correcto procesamiento de las señales de entrada para su visualización adecuada acordé para los usuarios.</p>",
               "helpRef": "9.6.2",
-              "type": "SEC"
+              "type": "SEC",
+              "history": [
+                {
+                  "attributesChanged": {
+                    "text": null
+                  },
+                  "changedBy": {
+                    "company": "ITCR",
+                    "email": "aisaac@estudiantec.cr",
+                    "name": "Angelo"
+                  },
+                  "changedOn": "2021-09-11T22:17:33.089Z"
+                },
+                {
+                  "attributesChanged": {
+                    "text": "<p>El software deberá ser el responsable de los diferentes algortimos&nbsp;</p>"
+                  },
+                  "changedBy": {
+                    "company": "ITCR",
+                    "email": "aisaac@estudiantec.cr",
+                    "name": "Angelo"
+                  },
+                  "changedOn": "2021-09-11T22:18:40.554Z"
+                },
+                {
+                  "attributesChanged": {
+                    "text": "<p>El software deberá ser el responsable de los diferentes algoritmos que permitiran el correcto procesamiento de las señales de entrada para su visualización</p>"
+                  },
+                  "changedBy": {
+                    "company": "ITCR",
+                    "email": "aisaac@estudiantec.cr",
+                    "name": "Angelo"
+                  },
+                  "changedOn": "2021-09-11T22:19:40.184Z"
+                },
+                {
+                  "attributesChanged": {
+                    "text": "<p>El software deberá ser el responsable de los diferentes algoritmos que permitiran el correcto procesamiento de las señales de entrada para su visualización adecuada acordé para los usuarios</p>"
+                  },
+                  "changedBy": {
+                    "company": "ITCR",
+                    "email": "aisaac@estudiantec.cr",
+                    "name": "Angelo"
+                  },
+                  "changedOn": "2021-09-11T22:24:26.462Z"
+                }
+              ]
             },
             {
               "id": "3",
               "guid": "db8e8727-b8fd-4517-953b-60fb5314f8c6",
               "heading": "Scope",
+              "text": "<p>El software deberá poder calcular la diferencia de los ángulos de fase entre los diferentes sensores mediante el análisis de la bioimpedancia eléctrica para poder obtener la composición corporal del usuario y generar una visualización de estos resultados de manera entendible para el usuario.</p><p><br></p>",
               "helpRef": "9.6.3",
-              "type": "SEC"
+              "type": "SEC",
+              "history": [
+                {
+                  "attributesChanged": {
+                    "text": null
+                  },
+                  "changedBy": {
+                    "company": "ITCR",
+                    "email": "aisaac@estudiantec.cr",
+                    "name": "Angelo"
+                  },
+                  "changedOn": "2021-09-11T22:31:17.995Z"
+                },
+                {
+                  "attributesChanged": {
+                    "text": "<p>El software deberá poder calcular la diferencia de los ángulos de fase entre los diferentes sensores para poder obtener una&nbsp;</p><p><br></p>"
+                  },
+                  "changedBy": {
+                    "company": "ITCR",
+                    "email": "aisaac@estudiantec.cr",
+                    "name": "Angelo"
+                  },
+                  "changedOn": "2021-09-11T22:33:39.083Z"
+                },
+                {
+                  "attributesChanged": {
+                    "text": "<p>El software deberá poder calcular la diferencia de los ángulos de fase entre los diferentes sensores mediante el análisis de la bioimpedancia eléctrica para poder obtener la composición corporal del usuario</p><p><br></p>"
+                  },
+                  "changedBy": {
+                    "company": "ITCR",
+                    "email": "aisaac@estudiantec.cr",
+                    "name": "Angelo"
+                  },
+                  "changedOn": "2021-09-11T22:34:29.754Z"
+                }
+              ],
+              "children": [
+                {
+                  "id": "34",
+                  "guid": "71613a92-148a-4584-80cf-dff6db3e751f",
+                  "heading": "Aplicación móvil",
+                  "text": "<p>El software de la aplicación móvil deberá poder obtener los datos de la nube para visualizar los datos e incorporarlos a los perfiles personales para tener un sistema de monitoreo, donde se pueden establecer recordatorios, recibir consejos, y tener una visualización de resultados más detallada de la obtenida en el dispositivo portable.</p>",
+                  "type": "SEC",
+                  "history": [
+                    {
+                      "affectedNodeId": "3",
+                      "changedBy": {
+                        "company": "ITCR",
+                        "email": "aisaac@estudiantec.cr",
+                        "name": "Angelo"
+                      },
+                      "changedOn": "2021-09-11T22:25:07.343Z",
+                      "docId": "SRS",
+                      "structureAction": "Create"
+                    },
+                    {
+                      "attributesChanged": {
+                        "heading": null,
+                        "text": null
+                      },
+                      "changedBy": {
+                        "company": "ITCR",
+                        "email": "aisaac@estudiantec.cr",
+                        "name": "Angelo"
+                      },
+                      "changedOn": "2021-09-11T22:25:54.804Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "heading": "Aplicación",
+                        "text": "<p>El software de la aplicación deberá</p>"
+                      },
+                      "changedBy": {
+                        "company": "ITCR",
+                        "email": "aisaac@estudiantec.cr",
+                        "name": "Angelo"
+                      },
+                      "changedOn": "2021-09-11T22:27:33.468Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": "<p>El software de la aplicación móvil deberá poder obtener los datos de la nube para visualizar los datos,&nbsp;</p>"
+                      },
+                      "changedBy": {
+                        "company": "ITCR",
+                        "email": "aisaac@estudiantec.cr",
+                        "name": "Angelo"
+                      },
+                      "changedOn": "2021-09-11T22:30:16.869Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "type": null
+                      },
+                      "changedBy": {
+                        "company": "ITCR",
+                        "email": "aisaac@estudiantec.cr",
+                        "name": "Angelo"
+                      },
+                      "changedOn": "2021-09-11T22:35:52.521Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": "<p>El software de la aplicación móvil deberá poder obtener los datos de la nube para visualizar los datos e incorporarlos a los perfiles personales para tener un sistema de monitoreo, donde se pueden establecer recordatorios, recibir consejos, y tener una visualización de resultados más detallada de la obtenida en el monitor portable.</p>"
+                      },
+                      "changedBy": {
+                        "company": "ITCR",
+                        "email": "aisaac@estudiantec.cr",
+                        "name": "Angelo"
+                      },
+                      "changedOn": "2021-09-11T23:59:04.364Z"
+                    }
+                  ]
+                },
+                {
+                  "id": "33",
+                  "guid": "19bc2aae-7bd8-41bd-881c-3a372c15291c",
+                  "heading": "Dispositivo portable",
+                  "text": "<p>El software del monitor portable deberá permitr el correcto procesamiento de las señales de entrada provenientes de los sensores para poder obtener &nbsp;de manera precisa las caracteristicas de la composición corporal del usuario y mostrarlas en pantalla en porcentajes, además de enviar dichos resultados a la nube.</p>",
+                  "type": "SEC",
+                  "history": [
+                    {
+                      "affectedNodeId": "3",
+                      "changedBy": {
+                        "company": "ITCR",
+                        "email": "aisaac@estudiantec.cr",
+                        "name": "Angelo"
+                      },
+                      "changedOn": "2021-09-11T22:20:08.799Z",
+                      "docId": "SRS",
+                      "structureAction": "Create"
+                    },
+                    {
+                      "attributesChanged": {
+                        "heading": null,
+                        "text": null
+                      },
+                      "changedBy": {
+                        "company": "ITCR",
+                        "email": "aisaac@estudiantec.cr",
+                        "name": "Angelo"
+                      },
+                      "changedOn": "2021-09-11T22:24:22.018Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "type": null
+                      },
+                      "changedBy": {
+                        "company": "ITCR",
+                        "email": "aisaac@estudiantec.cr",
+                        "name": "Angelo"
+                      },
+                      "changedOn": "2021-09-11T22:24:33.471Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": "<p>El software del monitor portable deberá permitr el correcto procesamiento de las señales de entrada provenientes de los sensores para poder obtener &nbsp;de manera precisa las caracteristicas de la composición corporal del usuario y mostrarlas en pantalla en porcentajes.</p>"
+                      },
+                      "changedBy": {
+                        "company": "ITCR",
+                        "email": "aisaac@estudiantec.cr",
+                        "name": "Angelo"
+                      },
+                      "changedOn": "2021-09-11T22:26:13.583Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "heading": "Monitor portable"
+                      },
+                      "changedBy": {
+                        "company": "ITCR",
+                        "email": "aisaac@estudiantec.cr",
+                        "name": "Angelo"
+                      },
+                      "changedOn": "2021-09-11T23:58:51.330Z"
+                    }
+                  ]
+                }
+              ]
             },
             {
               "id": "4",
@@ -66,36 +303,319 @@
                   "id": "5",
                   "guid": "404a3007-8970-4312-860f-e0d6bc7c6b9a",
                   "heading": "System interfaces",
+                  "text": "<p>El software deberá correr en las últimas versiones de android, IOS y la versión de linux portable</p>",
                   "helpRef": "9.6.4.1",
-                  "type": "SEC"
+                  "type": "SEC",
+                  "history": [
+                    {
+                      "attributesChanged": {
+                        "text": null
+                      },
+                      "changedBy": {
+                        "company": "ITCR",
+                        "email": "aisaac@estudiantec.cr",
+                        "name": "Angelo"
+                      },
+                      "changedOn": "2021-09-11T23:45:05.556Z"
+                    }
+                  ]
                 },
                 {
                   "id": "6",
                   "guid": "8b326009-82eb-4d52-9620-7930a736db31",
                   "heading": "User interfaces",
+                  "text": "<p>El software deberá tener una pantalla gráfica con menus, botones y ajustes que permita un manejo táctil de fácil entendimiento&nbsp;</p>",
                   "helpRef": "9.6.4.2",
-                  "type": "SEC"
+                  "type": "SEC",
+                  "history": [
+                    {
+                      "attributesChanged": {
+                        "text": null
+                      },
+                      "changedBy": {
+                        "company": "ITCR",
+                        "email": "aisaac@estudiantec.cr",
+                        "name": "Angelo"
+                      },
+                      "changedOn": "2021-09-11T23:37:40.220Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": "<p>El software&nbsp;</p>"
+                      },
+                      "changedBy": {
+                        "company": "ITCR",
+                        "email": "aisaac@estudiantec.cr",
+                        "name": "Angelo"
+                      },
+                      "changedOn": "2021-09-11T23:38:00.458Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": "<p>El software tendra una pantalla</p>"
+                      },
+                      "changedBy": {
+                        "company": "ITCR",
+                        "email": "aisaac@estudiantec.cr",
+                        "name": "Angelo"
+                      },
+                      "changedOn": "2021-09-11T23:39:20.309Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": "<p>El software deberá tener una pantalla gráfica que tenga&nbsp;</p>"
+                      },
+                      "changedBy": {
+                        "company": "ITCR",
+                        "email": "aisaac@estudiantec.cr",
+                        "name": "Angelo"
+                      },
+                      "changedOn": "2021-09-11T23:40:20.081Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": "<p>El software deberá tener una pantalla gráfica con menus, ajustes&nbsp;</p>"
+                      },
+                      "changedBy": {
+                        "company": "ITCR",
+                        "email": "aisaac@estudiantec.cr",
+                        "name": "Angelo"
+                      },
+                      "changedOn": "2021-09-11T23:42:23.011Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": "<p>El software deberá tener una pantalla gráfica con menus, botones y ajustes que permita un manejo táctil de fácil entendimieento&nbsp;</p>"
+                      },
+                      "changedBy": {
+                        "company": "ITCR",
+                        "email": "aisaac@estudiantec.cr",
+                        "name": "Angelo"
+                      },
+                      "changedOn": "2021-09-11T23:42:30.131Z"
+                    }
+                  ]
                 },
                 {
                   "id": "7",
                   "guid": "c1c3aee0-dbe5-4e3f-aa84-6beafbcd072b",
                   "heading": "Hardware interfaces",
+                  "text": "<p>El sotware deberá recibir señales de los sensores para procesar la información.</p><p><br></p><p>El software deberá recibir señales de actuación de la pantalla táctil.</p>",
                   "helpRef": "9.6.4.3",
-                  "type": "SEC"
+                  "type": "SEC",
+                  "history": [
+                    {
+                      "attributesChanged": {
+                        "text": null
+                      },
+                      "changedBy": {
+                        "company": "ITCR",
+                        "email": "aisaac@estudiantec.cr",
+                        "name": "Angelo"
+                      },
+                      "changedOn": "2021-09-11T23:45:46.156Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": "<p>El sotware deberá recibir</p>"
+                      },
+                      "changedBy": {
+                        "company": "ITCR",
+                        "email": "aisaac@estudiantec.cr",
+                        "name": "Angelo"
+                      },
+                      "changedOn": "2021-09-11T23:46:52.747Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": "<p>El sotware deberá recibir señales de los sensores&nbsp;</p>"
+                      },
+                      "changedBy": {
+                        "company": "ITCR",
+                        "email": "aisaac@estudiantec.cr",
+                        "name": "Angelo"
+                      },
+                      "changedOn": "2021-09-11T23:48:28.636Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": "<p>El sotware deberá recibir señales de los sensores para procesar la información.</p>"
+                      },
+                      "changedBy": {
+                        "company": "ITCR",
+                        "email": "aisaac@estudiantec.cr",
+                        "name": "Angelo"
+                      },
+                      "changedOn": "2021-09-11T23:49:46.642Z"
+                    }
+                  ]
                 },
                 {
                   "id": "8",
                   "guid": "1bd17f4f-d159-4f8d-bcb6-c49c5ebce03e",
                   "heading": "Software interfaces",
+                  "text": "<p>El software deberá enviar información desde el dispositivo portable a una aplicación móvil, para una mejor visualización de resultados e interacciones con la información extras.</p>",
                   "helpRef": "9.6.4.4",
-                  "type": "SEC"
+                  "type": "SEC",
+                  "history": [
+                    {
+                      "attributesChanged": {
+                        "text": null
+                      },
+                      "changedBy": {
+                        "company": "ITCR",
+                        "email": "aisaac@estudiantec.cr",
+                        "name": "Angelo"
+                      },
+                      "changedOn": "2021-09-11T23:58:32.075Z"
+                    }
+                  ]
+                },
+                {
+                  "id": "32",
+                  "guid": "1b2211b7-c7af-45ca-a767-bb8ed2d8ba2d",
+                  "deleted": true,
+                  "history": [
+                    {
+                      "affectedNodeId": "4",
+                      "changedBy": {
+                        "company": "ITCR",
+                        "email": "aisaac@estudiantec.cr",
+                        "name": "Angelo"
+                      },
+                      "changedOn": "2021-09-11T22:14:59.386Z",
+                      "docId": "SRS",
+                      "structureAction": "Create"
+                    },
+                    {
+                      "attributesChanged": {
+                        "deleted": null
+                      },
+                      "changedBy": {
+                        "company": "ITCR",
+                        "email": "aisaac@estudiantec.cr",
+                        "name": "Angelo"
+                      },
+                      "changedOn": "2021-09-11T22:15:48.266Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "deleted": true
+                      },
+                      "changedBy": {
+                        "company": "ITCR",
+                        "email": "aisaac@estudiantec.cr",
+                        "name": "Angelo"
+                      },
+                      "changedOn": "2021-09-11T22:15:52.016Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "deleted": null
+                      },
+                      "changedBy": {
+                        "company": "ITCR",
+                        "email": "aisaac@estudiantec.cr",
+                        "name": "Angelo"
+                      },
+                      "changedOn": "2021-09-11T22:15:52.819Z"
+                    }
+                  ]
                 },
                 {
                   "id": "9",
                   "guid": "44b75d00-eb04-4f4b-9e07-bd84712ee0f6",
                   "heading": "Communications interfaces",
                   "helpRef": "9.6.4.5",
-                  "type": "SEC"
+                  "type": "SEC",
+                  "history": [
+                    {
+                      "attributesChanged": {
+                        "text": null
+                      },
+                      "changedBy": {
+                        "company": "ITCR",
+                        "email": "aisaac@estudiantec.cr",
+                        "name": "Angelo"
+                      },
+                      "changedOn": "2021-09-11T23:53:20.019Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": "<p>El software deberá conectarse al servicio de la nube&nbsp;</p>"
+                      },
+                      "changedBy": {
+                        "company": "ITCR",
+                        "email": "aisaac@estudiantec.cr",
+                        "name": "Angelo"
+                      },
+                      "changedOn": "2021-09-11T23:53:53.448Z"
+                    }
+                  ],
+                  "children": [
+                    {
+                      "id": "36",
+                      "guid": "cf4339f9-98f8-4ae5-937a-4915b38029a9",
+                      "heading": "Protocolo de transmisión de datos",
+                      "text": "<p>El software deberá conectarse al servicio de la nube mediante el protocolo de wifi.</p>",
+                      "history": [
+                        {
+                          "affectedNodeId": "9",
+                          "changedBy": {
+                            "company": "ITCR",
+                            "email": "aisaac@estudiantec.cr",
+                            "name": "Angelo"
+                          },
+                          "changedOn": "2021-09-11T23:54:53.233Z",
+                          "docId": "SRS",
+                          "structureAction": "Create"
+                        },
+                        {
+                          "attributesChanged": {
+                            "heading": null,
+                            "text": null
+                          },
+                          "changedBy": {
+                            "company": "ITCR",
+                            "email": "aisaac@estudiantec.cr",
+                            "name": "Angelo"
+                          },
+                          "changedOn": "2021-09-11T23:55:40.841Z"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "35",
+                      "guid": "b4a4cb07-cfbb-4031-aeb8-434141c85f50",
+                      "heading": "Protocolo de comunicación con sensores",
+                      "text": "<p>El software debera contar con un protocolo de recolección de datos provenientes de los sensores.</p>",
+                      "history": [
+                        {
+                          "affectedNodeId": "9",
+                          "changedBy": {
+                            "company": "ITCR",
+                            "email": "aisaac@estudiantec.cr",
+                            "name": "Angelo"
+                          },
+                          "changedOn": "2021-09-11T23:53:57.208Z",
+                          "docId": "SRS",
+                          "structureAction": "Create"
+                        },
+                        {
+                          "attributesChanged": {
+                            "heading": null,
+                            "text": null
+                          },
+                          "changedBy": {
+                            "company": "ITCR",
+                            "email": "aisaac@estudiantec.cr",
+                            "name": "Angelo"
+                          },
+                          "changedOn": "2021-09-11T23:54:44.881Z"
+                        }
+                      ]
+                    }
+                  ]
                 },
                 {
                   "id": "10",
@@ -122,8 +642,22 @@
                   "id": "13",
                   "guid": "f47d6f9b-99bc-433a-8d4c-bde6b9023781",
                   "heading": "Interfaces with  services",
+                  "text": "<p>El sotfware deberá contar con el servicio de la nube para almacenar los datos obtenidos del monitor portable, con posibilidad de acceso desde una aplicación móvil.</p>",
                   "helpRef": "9.6.4.9",
-                  "type": "SEC"
+                  "type": "SEC",
+                  "history": [
+                    {
+                      "attributesChanged": {
+                        "text": null
+                      },
+                      "changedBy": {
+                        "company": "ITCR",
+                        "email": "aisaac@estudiantec.cr",
+                        "name": "Angelo"
+                      },
+                      "changedOn": "2021-09-11T23:52:27.708Z"
+                    }
+                  ]
                 }
               ]
             },
@@ -131,7 +665,7 @@
               "id": "14",
               "guid": "66e81254-d102-40bc-bc63-ec76c698c1a9",
               "heading": "Product functions",
-              "text": "<p>Creacion de usuarios&nbsp;</p><p>Medicion de grasa&nbsp;</p><p>Medicion de hidratacion&nbsp;</p><p>Medicion de grasa/hidratacion</p><p>Historial de mediciones</p>",
+              "text": "<p>Creacion de usuarios&nbsp;</p><p>Seleccion de usuario&nbsp;</p><p>Eliminacion de usuario&nbsp;</p><p>Medicion de grasa&nbsp;</p><p>Medicion de hidratacion&nbsp;</p><p>Medicion de grasa/hidratacion</p><p>Visualizacion de resultados</p><p>Historial de mediciones</p><p>Respaldo con la nube</p><p>Configuracion de recordarios&nbsp;</p><p>Ejecucion de recordatorios</p><p>Configuracion de ajustes</p>",
               "helpRef": "9.6.5",
               "type": "SEC",
               "history": [
@@ -140,22 +674,11 @@
                     "text": null
                   },
                   "changedBy": {
-                    "company": "Tec",
-                    "email": "robertdavidrd360567@gmail.com",
-                    "name": "Robert"
+                    "company": "ITCR",
+                    "email": "aisaac@estudiantec.cr",
+                    "name": "Angelo"
                   },
-                  "changedOn": "2021-09-11T21:55:50.241Z"
-                },
-                {
-                  "attributesChanged": {
-                    "text": "<p>Historial de mediciones</p>"
-                  },
-                  "changedBy": {
-                    "company": "Tec",
-                    "email": "robertdavidrd360567@gmail.com",
-                    "name": "Robert"
-                  },
-                  "changedOn": "2021-09-11T21:59:31.420Z"
+                  "changedOn": "2021-09-11T23:29:10.400Z"
                 }
               ]
             },
@@ -163,8 +686,22 @@
               "id": "15",
               "guid": "74976865-af9b-431b-9947-ee9234b3f013",
               "heading": "User  characteristics",
+              "text": "<p>Trabajadores de empresas expuesto a trabajos intensos que necesiten un control de la hidratacion por salud laboral</p><p>Hogares de familia que quieran impulsar la salud preventiva mediante el analisis de grasas e hidratacion.</p>",
               "helpRef": "9.6.6",
-              "type": "SEC"
+              "type": "SEC",
+              "history": [
+                {
+                  "attributesChanged": {
+                    "text": null
+                  },
+                  "changedBy": {
+                    "company": "ITCR",
+                    "email": "aisaac@estudiantec.cr",
+                    "name": "Angelo"
+                  },
+                  "changedOn": "2021-09-11T23:29:28.030Z"
+                }
+              ]
             },
             {
               "id": "16",
@@ -191,8 +728,22 @@
               "id": "19",
               "guid": "544c7bd9-05a4-4016-8188-62aec301625a",
               "heading": "Acronyms and abbreviations",
+              "text": "<p>BIA: &nbsp;bioelectrical impedence analysis</p>",
               "helpRef": "9.2.5",
-              "type": "SEC"
+              "type": "SEC",
+              "history": [
+                {
+                  "attributesChanged": {
+                    "text": null
+                  },
+                  "changedBy": {
+                    "company": "ITCR",
+                    "email": "aisaac@estudiantec.cr",
+                    "name": "Angelo"
+                  },
+                  "changedOn": "2021-09-11T23:30:08.037Z"
+                }
+              ]
             }
           ]
         },
