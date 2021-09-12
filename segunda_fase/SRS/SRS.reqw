@@ -5,14 +5,14 @@
       "id": "SRS",
       "guid": "254e2b3c-9932-458c-a99a-cec52dad5fde",
       "name": "Software Requirements Specification",
-      "lastId": 36,
+      "lastId": 37,
       "createdOn": "2021-09-08T01:58:52.746Z",
       "createdBy": {
         "name": "Francinie Rodríguez",
         "email": "francinie23@estudiantec.cr",
         "company": "Instituto de Tecnológico de Costa Rica"
       },
-      "lastChangedOn": "2021-09-11T23:59:04.364Z",
+      "lastChangedOn": "2021-09-12T01:51:12.322Z",
       "lastChangedBy": {
         "name": "Angelo",
         "email": "aisaac@estudiantec.cr",
@@ -679,6 +679,25 @@
                     "name": "Angelo"
                   },
                   "changedOn": "2021-09-11T23:29:10.400Z"
+                }
+              ],
+              "children": [
+                {
+                  "id": "37",
+                  "guid": "454f9f1e-d0e6-4edf-9dd4-cdee6b686c04",
+                  "history": [
+                    {
+                      "affectedNodeId": "14",
+                      "changedBy": {
+                        "company": "ITCR",
+                        "email": "aisaac@estudiantec.cr",
+                        "name": "Angelo"
+                      },
+                      "changedOn": "2021-09-12T01:51:12.322Z",
+                      "docId": "SRS",
+                      "structureAction": "Create"
+                    }
+                  ]
                 }
               ]
             },
