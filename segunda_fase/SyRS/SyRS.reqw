@@ -381,7 +381,7 @@
         "email": "ocramsalazar@gmail.com",
         "company": ""
       },
-      "lastChangedOn": "2021-09-13T02:11:37.491Z",
+      "lastChangedOn": "2021-09-13T02:19:09.387Z",
       "lastChangedBy": {
         "name": "Marco Zolla",
         "email": "ocramsalazar@gmail.com",
@@ -4655,29 +4655,7 @@
                       "changedOn": "2021-09-13T02:05:19.833Z"
                     }
                   ]
-                }
-              ]
-            },
-            {
-              "id": "30",
-              "guid": "25f373ce-eeb7-4aa6-9334-4e4228f33270",
-              "heading": "Requerimientos de empaquetado y transporte",
-              "helpRef": "9.5.17",
-              "type": "SEC",
-              "history": [
-                {
-                  "attributesChanged": {
-                    "heading": "Packaging,  handling,  shipping and  transportation requirements"
-                  },
-                  "changedBy": {
-                    "company": "",
-                    "email": "ocramsalazar@gmail.com",
-                    "name": "Marco Zolla"
-                  },
-                  "changedOn": "2021-09-13T02:10:55.177Z"
-                }
-              ],
-              "children": [
+                },
                 {
                   "id": "105",
                   "guid": "b1d5583c-27f2-4f81-baf0-06e08e8379a6",
@@ -4727,9 +4705,64 @@
                         "name": "Marco Zolla"
                       },
                       "changedOn": "2021-09-13T02:10:08.938Z"
+                    },
+                    {
+                      "affectedNodeId": "30",
+                      "changedBy": {
+                        "company": "",
+                        "email": "ocramsalazar@gmail.com",
+                        "name": "Marco Zolla"
+                      },
+                      "changedOn": "2021-09-13T02:19:01.124Z",
+                      "docId": "SyRS",
+                      "structureAction": "Promote"
+                    },
+                    {
+                      "affectedNodeId": "30",
+                      "changedBy": {
+                        "company": "",
+                        "email": "ocramsalazar@gmail.com",
+                        "name": "Marco Zolla"
+                      },
+                      "changedOn": "2021-09-13T02:19:05.999Z",
+                      "docId": "SyRS",
+                      "structureAction": "SwapUp"
+                    },
+                    {
+                      "affectedNodeId": "11",
+                      "changedBy": {
+                        "company": "",
+                        "email": "ocramsalazar@gmail.com",
+                        "name": "Marco Zolla"
+                      },
+                      "changedOn": "2021-09-13T02:19:09.387Z",
+                      "docId": "SyRS",
+                      "structureAction": "Demote"
                     }
                   ]
-                },
+                }
+              ]
+            },
+            {
+              "id": "30",
+              "guid": "25f373ce-eeb7-4aa6-9334-4e4228f33270",
+              "heading": "Requerimientos de empaquetado y transporte",
+              "helpRef": "9.5.17",
+              "type": "SEC",
+              "history": [
+                {
+                  "attributesChanged": {
+                    "heading": "Packaging,  handling,  shipping and  transportation requirements"
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "ocramsalazar@gmail.com",
+                    "name": "Marco Zolla"
+                  },
+                  "changedOn": "2021-09-13T02:10:55.177Z"
+                }
+              ],
+              "children": [
                 {
                   "id": "106",
                   "guid": "c750cc25-490f-4427-81f6-77625a564468",
