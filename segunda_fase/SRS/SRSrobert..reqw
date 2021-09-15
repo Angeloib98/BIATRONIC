@@ -1,0 +1,3264 @@
+{
+  "id": "Escritorio",
+  "documents": [
+    {
+      "id": "SRS",
+      "guid": "254e2b3c-9932-458c-a99a-cec52dad5fde",
+      "name": "Software Requirements Specification",
+      "lastId": 99,
+      "createdOn": "2021-09-08T01:58:52.746Z",
+      "createdBy": {
+        "name": "Francinie Rodríguez",
+        "email": "francinie23@estudiantec.cr",
+        "company": "Instituto de Tecnológico de Costa Rica"
+      },
+      "lastChangedOn": "2021-09-15T00:27:15.622Z",
+      "lastChangedBy": {
+        "name": "Robert",
+        "email": "robertdavidrd360567@gmail.com",
+        "company": "Tec"
+      },
+      "helpRef": "ISO/IEC/IEEE 29148:2018",
+      "data": [
+        {
+          "id": "1",
+          "guid": "8dde735d-2584-4791-bc29-0e720fd0d1eb",
+          "heading": "Introduction",
+          "helpRef": "8.5",
+          "type": "SEC",
+          "history": [
+            {
+              "attributesChanged": {
+                "text": null
+              },
+              "changedBy": {
+                "company": "ITCR",
+                "email": "aisaac@estudiantec.cr",
+                "name": "Angelo"
+              },
+              "changedOn": "2021-09-10T00:23:47.443Z"
+            },
+            {
+              "attributesChanged": {
+                "text": "<p>Hola</p>"
+              },
+              "changedBy": {
+                "company": "ITCR",
+                "email": "aisaac@estudiantec.cr",
+                "name": "Angelo"
+              },
+              "changedOn": "2021-09-11T22:34:57.750Z"
+            }
+          ],
+          "children": [
+            {
+              "id": "2",
+              "guid": "ba7851c4-6687-489c-bc43-0fa6abb561ec",
+              "heading": "Purpose",
+              "text": "<p>El software deberá ser el responsable de los diferentes algoritmos que permitiran el correcto procesamiento de las señales de entrada para su visualización adecuada acordé para los usuarios.</p>",
+              "helpRef": "9.6.2",
+              "type": "SEC",
+              "history": [
+                {
+                  "attributesChanged": {
+                    "text": null
+                  },
+                  "changedBy": {
+                    "company": "ITCR",
+                    "email": "aisaac@estudiantec.cr",
+                    "name": "Angelo"
+                  },
+                  "changedOn": "2021-09-11T22:17:33.089Z"
+                },
+                {
+                  "attributesChanged": {
+                    "text": "<p>El software deberá ser el responsable de los diferentes algortimos&nbsp;</p>"
+                  },
+                  "changedBy": {
+                    "company": "ITCR",
+                    "email": "aisaac@estudiantec.cr",
+                    "name": "Angelo"
+                  },
+                  "changedOn": "2021-09-11T22:18:40.554Z"
+                },
+                {
+                  "attributesChanged": {
+                    "text": "<p>El software deberá ser el responsable de los diferentes algoritmos que permitiran el correcto procesamiento de las señales de entrada para su visualización</p>"
+                  },
+                  "changedBy": {
+                    "company": "ITCR",
+                    "email": "aisaac@estudiantec.cr",
+                    "name": "Angelo"
+                  },
+                  "changedOn": "2021-09-11T22:19:40.184Z"
+                },
+                {
+                  "attributesChanged": {
+                    "text": "<p>El software deberá ser el responsable de los diferentes algoritmos que permitiran el correcto procesamiento de las señales de entrada para su visualización adecuada acordé para los usuarios</p>"
+                  },
+                  "changedBy": {
+                    "company": "ITCR",
+                    "email": "aisaac@estudiantec.cr",
+                    "name": "Angelo"
+                  },
+                  "changedOn": "2021-09-11T22:24:26.462Z"
+                }
+              ]
+            },
+            {
+              "id": "3",
+              "guid": "db8e8727-b8fd-4517-953b-60fb5314f8c6",
+              "heading": "Scope",
+              "text": "<p>El software deberá poder calcular la diferencia de los ángulos de fase entre los diferentes sensores mediante el análisis de la bioimpedancia eléctrica para poder obtener la composición corporal del usuario y generar una visualización de estos resultados de manera entendible para el usuario.</p><p><br></p>",
+              "helpRef": "9.6.3",
+              "type": "SEC",
+              "history": [
+                {
+                  "attributesChanged": {
+                    "text": null
+                  },
+                  "changedBy": {
+                    "company": "ITCR",
+                    "email": "aisaac@estudiantec.cr",
+                    "name": "Angelo"
+                  },
+                  "changedOn": "2021-09-11T22:31:17.995Z"
+                },
+                {
+                  "attributesChanged": {
+                    "text": "<p>El software deberá poder calcular la diferencia de los ángulos de fase entre los diferentes sensores para poder obtener una&nbsp;</p><p><br></p>"
+                  },
+                  "changedBy": {
+                    "company": "ITCR",
+                    "email": "aisaac@estudiantec.cr",
+                    "name": "Angelo"
+                  },
+                  "changedOn": "2021-09-11T22:33:39.083Z"
+                },
+                {
+                  "attributesChanged": {
+                    "text": "<p>El software deberá poder calcular la diferencia de los ángulos de fase entre los diferentes sensores mediante el análisis de la bioimpedancia eléctrica para poder obtener la composición corporal del usuario</p><p><br></p>"
+                  },
+                  "changedBy": {
+                    "company": "ITCR",
+                    "email": "aisaac@estudiantec.cr",
+                    "name": "Angelo"
+                  },
+                  "changedOn": "2021-09-11T22:34:29.754Z"
+                }
+              ],
+              "children": [
+                {
+                  "id": "34",
+                  "guid": "71613a92-148a-4584-80cf-dff6db3e751f",
+                  "heading": "Aplicación móvil",
+                  "text": "<p>El software de la aplicación móvil deberá poder obtener los datos de la nube para visualizar los datos e incorporarlos a los perfiles personales para tener un sistema de monitoreo, donde se pueden establecer recordatorios, recibir consejos, y tener una visualización de resultados más detallada de la obtenida en el monitor portable.</p>",
+                  "type": "SEC",
+                  "history": [
+                    {
+                      "affectedNodeId": "3",
+                      "changedBy": {
+                        "company": "ITCR",
+                        "email": "aisaac@estudiantec.cr",
+                        "name": "Angelo"
+                      },
+                      "changedOn": "2021-09-11T22:25:07.343Z",
+                      "docId": "SRS",
+                      "structureAction": "Create"
+                    },
+                    {
+                      "attributesChanged": {
+                        "heading": null,
+                        "text": null
+                      },
+                      "changedBy": {
+                        "company": "ITCR",
+                        "email": "aisaac@estudiantec.cr",
+                        "name": "Angelo"
+                      },
+                      "changedOn": "2021-09-11T22:25:54.804Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "heading": "Aplicación",
+                        "text": "<p>El software de la aplicación deberá</p>"
+                      },
+                      "changedBy": {
+                        "company": "ITCR",
+                        "email": "aisaac@estudiantec.cr",
+                        "name": "Angelo"
+                      },
+                      "changedOn": "2021-09-11T22:27:33.468Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": "<p>El software de la aplicación móvil deberá poder obtener los datos de la nube para visualizar los datos,&nbsp;</p>"
+                      },
+                      "changedBy": {
+                        "company": "ITCR",
+                        "email": "aisaac@estudiantec.cr",
+                        "name": "Angelo"
+                      },
+                      "changedOn": "2021-09-11T22:30:16.869Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "type": null
+                      },
+                      "changedBy": {
+                        "company": "ITCR",
+                        "email": "aisaac@estudiantec.cr",
+                        "name": "Angelo"
+                      },
+                      "changedOn": "2021-09-11T22:35:52.521Z"
+                    }
+                  ]
+                },
+                {
+                  "id": "33",
+                  "guid": "19bc2aae-7bd8-41bd-881c-3a372c15291c",
+                  "heading": "Monitor portable",
+                  "text": "<p>El software del monitor portable deberá permitr el correcto procesamiento de las señales de entrada provenientes de los sensores para poder obtener &nbsp;de manera precisa las caracteristicas de la composición corporal del usuario y mostrarlas en pantalla en porcentajes, además de enviar dichos resultados a la nube.</p>",
+                  "type": "SEC",
+                  "history": [
+                    {
+                      "affectedNodeId": "3",
+                      "changedBy": {
+                        "company": "ITCR",
+                        "email": "aisaac@estudiantec.cr",
+                        "name": "Angelo"
+                      },
+                      "changedOn": "2021-09-11T22:20:08.799Z",
+                      "docId": "SRS",
+                      "structureAction": "Create"
+                    },
+                    {
+                      "attributesChanged": {
+                        "heading": null,
+                        "text": null
+                      },
+                      "changedBy": {
+                        "company": "ITCR",
+                        "email": "aisaac@estudiantec.cr",
+                        "name": "Angelo"
+                      },
+                      "changedOn": "2021-09-11T22:24:22.018Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "type": null
+                      },
+                      "changedBy": {
+                        "company": "ITCR",
+                        "email": "aisaac@estudiantec.cr",
+                        "name": "Angelo"
+                      },
+                      "changedOn": "2021-09-11T22:24:33.471Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": "<p>El software del monitor portable deberá permitr el correcto procesamiento de las señales de entrada provenientes de los sensores para poder obtener &nbsp;de manera precisa las caracteristicas de la composición corporal del usuario y mostrarlas en pantalla en porcentajes.</p>"
+                      },
+                      "changedBy": {
+                        "company": "ITCR",
+                        "email": "aisaac@estudiantec.cr",
+                        "name": "Angelo"
+                      },
+                      "changedOn": "2021-09-11T22:26:13.583Z"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "4",
+              "guid": "a3c8876f-e5b9-4f5b-8584-da76f9549551",
+              "heading": "Product perspective",
+              "helpRef": "9.6.4",
+              "type": "SEC",
+              "children": [
+                {
+                  "id": "5",
+                  "guid": "404a3007-8970-4312-860f-e0d6bc7c6b9a",
+                  "heading": "System interfaces",
+                  "helpRef": "9.6.4.1",
+                  "type": "SEC"
+                },
+                {
+                  "id": "6",
+                  "guid": "8b326009-82eb-4d52-9620-7930a736db31",
+                  "heading": "User interfaces",
+                  "helpRef": "9.6.4.2",
+                  "type": "SEC"
+                },
+                {
+                  "id": "7",
+                  "guid": "c1c3aee0-dbe5-4e3f-aa84-6beafbcd072b",
+                  "heading": "Hardware interfaces",
+                  "helpRef": "9.6.4.3",
+                  "type": "SEC"
+                },
+                {
+                  "id": "8",
+                  "guid": "1bd17f4f-d159-4f8d-bcb6-c49c5ebce03e",
+                  "heading": "Software interfaces",
+                  "helpRef": "9.6.4.4",
+                  "type": "SEC"
+                },
+                {
+                  "id": "9",
+                  "guid": "44b75d00-eb04-4f4b-9e07-bd84712ee0f6",
+                  "heading": "Communications interfaces",
+                  "helpRef": "9.6.4.5",
+                  "type": "SEC"
+                },
+                {
+                  "id": "10",
+                  "guid": "d7b18b99-74f8-4855-b7b6-89f0ed956453",
+                  "heading": "Memory constraints",
+                  "helpRef": "9.6.4.6",
+                  "type": "SEC"
+                },
+                {
+                  "id": "11",
+                  "guid": "b6ed7678-d355-4ac2-bb0c-d9c497a916ca",
+                  "heading": "Operations",
+                  "helpRef": "9.6.4.7",
+                  "type": "SEC"
+                },
+                {
+                  "id": "12",
+                  "guid": "1e619681-4e08-416c-827e-c78c1a9838ed",
+                  "heading": "Site adaptation requirements",
+                  "helpRef": "9.6.4.8",
+                  "type": "SEC"
+                },
+                {
+                  "id": "13",
+                  "guid": "f47d6f9b-99bc-433a-8d4c-bde6b9023781",
+                  "heading": "Interfaces with  services",
+                  "helpRef": "9.6.4.9",
+                  "type": "SEC"
+                }
+              ]
+            },
+            {
+              "id": "14",
+              "guid": "66e81254-d102-40bc-bc63-ec76c698c1a9",
+              "heading": "Funciones del producto",
+              "helpRef": "9.6.5",
+              "type": "SEC",
+              "history": [
+                {
+                  "attributesChanged": {
+                    "text": null
+                  },
+                  "changedBy": {
+                    "company": "ITCR",
+                    "email": "aisaac@estudiantec.cr",
+                    "name": "Angelo"
+                  },
+                  "changedOn": "2021-09-11T23:29:10.400Z"
+                },
+                {
+                  "attributesChanged": {
+                    "text": "<p>Creacion de usuarios&nbsp;</p><p>Seleccion de usuario&nbsp;</p><p>Eliminacion de usuario&nbsp;</p><p>Medicion de grasa&nbsp;</p><p>Medicion de hidratacion&nbsp;</p><p>Medicion de grasa/hidratacion</p><p>Visualizacion de resultados</p><p>Historial de mediciones</p><p>Respaldo con la nube</p><p>Configuracion de recordarios&nbsp;</p><p>Ejecucion de recordatorios</p><p>Configuracion de ajustes</p>"
+                  },
+                  "changedBy": {
+                    "company": "Tec",
+                    "email": "robertdavidrd360567@gmail.com",
+                    "name": "Robert"
+                  },
+                  "changedOn": "2021-09-12T00:19:57.195Z"
+                },
+                {
+                  "attributesChanged": {
+                    "text": "<p>Creacion de usuarios&nbsp;</p><p>Seleccion de usuario&nbsp;</p><p>Eliminacion de usuario&nbsp;</p><p>Medicion de grasa&nbsp;</p><p>Medicion de hidratacion&nbsp;</p><p>Medicion de grasa/hidratacion</p><p>Visualizacion de resultados</p><p>Historial de mediciones</p><p>Respaldo con la nube</p><p>Configuracion de recordarios&nbsp;</p><p>Ejecucion de recordatorios</p><p>Configuracion de ajustes</p><p>Consejos de salud</p>"
+                  },
+                  "changedBy": {
+                    "company": "Tec",
+                    "email": "robertdavidrd360567@gmail.com",
+                    "name": "Robert"
+                  },
+                  "changedOn": "2021-09-12T00:55:31.742Z"
+                },
+                {
+                  "attributesChanged": {
+                    "text": "<p>Creacion de usuarios&nbsp;</p><p>Seleccion de usuario&nbsp;</p><p>Eliminacion de usuario&nbsp;</p><p>Medicion de grasa&nbsp;</p><p>Medicion de hidratacion&nbsp;</p><p>Medicion de grasa/hidratacion</p><p>Visualizacion de resultados</p><p>Historial de mediciones</p><p>Respaldo con la nube</p><p>Configuracion de recordarios&nbsp;</p><p>Ejecucion de recordatorios</p><p>Configuracion de ajustes</p><p>Consejos de salud</p><p><br></p>"
+                  },
+                  "changedBy": {
+                    "company": "Tec",
+                    "email": "robertdavidrd360567@gmail.com",
+                    "name": "Robert"
+                  },
+                  "changedOn": "2021-09-12T00:55:53.165Z"
+                },
+                {
+                  "attributesChanged": {
+                    "text": "<p>Creacion de usuarios&nbsp;</p><p>Seleccion de usuario&nbsp;</p><p>Eliminacion de usuario&nbsp;</p><p>Medicion de grasa&nbsp;</p><p>Medicion de hidratacion&nbsp;</p><p>Medicion de grasa/hidratacion</p><p>Visualizacion de resultados</p><p>Historial de mediciones</p><p>Respaldo con la nube</p><p>Configuracion de recordarios&nbsp;</p><p>Ejecucion de recordatorios</p><p>Configuracion de ajustes</p><p>Consejos de salud</p><p>Reinicio del sistema</p>"
+                  },
+                  "changedBy": {
+                    "company": "Tec",
+                    "email": "robertdavidrd360567@gmail.com",
+                    "name": "Robert"
+                  },
+                  "changedOn": "2021-09-14T17:05:07.122Z"
+                },
+                {
+                  "attributesChanged": {
+                    "heading": "Product functions"
+                  },
+                  "changedBy": {
+                    "company": "Tec",
+                    "email": "robertdavidrd360567@gmail.com",
+                    "name": "Robert"
+                  },
+                  "changedOn": "2021-09-14T19:36:27.328Z"
+                },
+                {
+                  "attributesChanged": {
+                    "text": "<p>Medicion de grasa/hidratacion</p><p>Visualizacion de resultados</p><p>Historial de mediciones</p><p>Respaldo con la nube</p><p>Configuracion de recordarios&nbsp;</p><p>Ejecucion de recordatorios</p><p>Configuracion de ajustes</p><p>Consejos de salud</p><p>Reinicio del sistema</p>"
+                  },
+                  "changedBy": {
+                    "company": "Tec",
+                    "email": "robertdavidrd360567@gmail.com",
+                    "name": "Robert"
+                  },
+                  "changedOn": "2021-09-14T19:45:33.952Z"
+                }
+              ],
+              "children": [
+                {
+                  "id": "37",
+                  "guid": "c87e4491-4528-4626-93c4-21fd1b0daa56",
+                  "heading": "Creacion de usuarios",
+                  "text": "<p>El software debera permitir la creación de nuevas cuentas de usuario</p>",
+                  "history": [
+                    {
+                      "affectedNodeId": "14",
+                      "changedBy": {
+                        "company": "Tec",
+                        "email": "robertdavidrd360567@gmail.com",
+                        "name": "Robert"
+                      },
+                      "changedOn": "2021-09-14T16:57:31.909Z",
+                      "docId": "SRS",
+                      "structureAction": "Create"
+                    },
+                    {
+                      "attributesChanged": {
+                        "heading": null,
+                        "text": null
+                      },
+                      "changedBy": {
+                        "company": "Tec",
+                        "email": "robertdavidrd360567@gmail.com",
+                        "name": "Robert"
+                      },
+                      "changedOn": "2021-09-14T16:57:50.400Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "heading": "1.4.1 ",
+                        "text": "<p>C</p>"
+                      },
+                      "changedBy": {
+                        "company": "Tec",
+                        "email": "robertdavidrd360567@gmail.com",
+                        "name": "Robert"
+                      },
+                      "changedOn": "2021-09-14T16:58:34.975Z"
+                    },
+                    {
+                      "affectedNodeId": "39",
+                      "changedBy": {
+                        "company": "Tec",
+                        "email": "robertdavidrd360567@gmail.com",
+                        "name": "Robert"
+                      },
+                      "changedOn": "2021-09-14T16:59:20.022Z",
+                      "docId": "SRS",
+                      "structureAction": "SwapUp"
+                    }
+                  ]
+                },
+                {
+                  "id": "79",
+                  "guid": "4d60f6de-8172-43b0-86cf-82ad7d757aa3",
+                  "heading": "Encendido ",
+                  "text": "<p>El sofware debera contar con la opcion de encenderse&nbsp;</p>",
+                  "history": [
+                    {
+                      "affectedNodeId": "14",
+                      "changedBy": {
+                        "company": "Tec",
+                        "email": "robertdavidrd360567@gmail.com",
+                        "name": "Robert"
+                      },
+                      "changedOn": "2021-09-14T23:48:52.650Z",
+                      "docId": "SRS",
+                      "structureAction": "Create"
+                    },
+                    {
+                      "attributesChanged": {
+                        "heading": null
+                      },
+                      "changedBy": {
+                        "company": "Tec",
+                        "email": "robertdavidrd360567@gmail.com",
+                        "name": "Robert"
+                      },
+                      "changedOn": "2021-09-14T23:49:11.490Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": null
+                      },
+                      "changedBy": {
+                        "company": "Tec",
+                        "email": "robertdavidrd360567@gmail.com",
+                        "name": "Robert"
+                      },
+                      "changedOn": "2021-09-15T00:23:57.835Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "heading": "Encendido y apagado"
+                      },
+                      "changedBy": {
+                        "company": "Tec",
+                        "email": "robertdavidrd360567@gmail.com",
+                        "name": "Robert"
+                      },
+                      "changedOn": "2021-09-15T00:24:34.608Z"
+                    }
+                  ]
+                },
+                {
+                  "id": "96",
+                  "guid": "f5024e8b-21a0-4c2f-ab68-dcb18aef3c5b",
+                  "heading": "Apagado",
+                  "text": "<p>El sofware debera contar con la opcion de apagarse&nbsp;</p>",
+                  "history": [
+                    {
+                      "affectedNodeId": "14",
+                      "changedBy": {
+                        "company": "Tec",
+                        "email": "robertdavidrd360567@gmail.com",
+                        "name": "Robert"
+                      },
+                      "changedOn": "2021-09-15T00:24:12.727Z",
+                      "docId": "SRS",
+                      "structureAction": "Create"
+                    },
+                    {
+                      "attributesChanged": {
+                        "heading": null,
+                        "text": null
+                      },
+                      "changedBy": {
+                        "company": "Tec",
+                        "email": "robertdavidrd360567@gmail.com",
+                        "name": "Robert"
+                      },
+                      "changedOn": "2021-09-15T00:24:30.012Z"
+                    }
+                  ]
+                },
+                {
+                  "id": "39",
+                  "guid": "8a842a49-8f8a-4ac8-924b-c92835c27efb",
+                  "heading": "Seleccion de usuario",
+                  "text": "<p>El software debera permitir &nbsp;seleccionar el usuario</p>",
+                  "history": [
+                    {
+                      "affectedNodeId": "14",
+                      "changedBy": {
+                        "company": "Tec",
+                        "email": "robertdavidrd360567@gmail.com",
+                        "name": "Robert"
+                      },
+                      "changedOn": "2021-09-14T16:58:54.261Z",
+                      "docId": "SRS",
+                      "structureAction": "Create"
+                    },
+                    {
+                      "attributesChanged": {
+                        "heading": null
+                      },
+                      "changedBy": {
+                        "company": "Tec",
+                        "email": "robertdavidrd360567@gmail.com",
+                        "name": "Robert"
+                      },
+                      "changedOn": "2021-09-14T16:59:08.205Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": null
+                      },
+                      "changedBy": {
+                        "company": "Tec",
+                        "email": "robertdavidrd360567@gmail.com",
+                        "name": "Robert"
+                      },
+                      "changedOn": "2021-09-14T17:01:24.715Z"
+                    }
+                  ]
+                },
+                {
+                  "id": "41",
+                  "guid": "e3b5a4fb-23d1-47c2-8e97-ccde2965e988",
+                  "heading": "Eliminacion de usuario",
+                  "text": "<p>El software debera permitir la eliminacion de un usuario</p>",
+                  "history": [
+                    {
+                      "affectedNodeId": "14",
+                      "changedBy": {
+                        "company": "Tec",
+                        "email": "robertdavidrd360567@gmail.com",
+                        "name": "Robert"
+                      },
+                      "changedOn": "2021-09-14T17:01:28.460Z",
+                      "docId": "SRS",
+                      "structureAction": "Create"
+                    },
+                    {
+                      "attributesChanged": {
+                        "heading": null,
+                        "text": null
+                      },
+                      "changedBy": {
+                        "company": "Tec",
+                        "email": "robertdavidrd360567@gmail.com",
+                        "name": "Robert"
+                      },
+                      "changedOn": "2021-09-14T17:01:56.610Z"
+                    }
+                  ]
+                },
+                {
+                  "id": "42",
+                  "guid": "9e425119-d42a-47fb-a0b1-2c52a77dc47a",
+                  "heading": "Medicion de masa grasa/magra",
+                  "text": "<p>El software debera permitir la seleccion de la opcion para medir grasa magra y grasa del usuario</p>",
+                  "history": [
+                    {
+                      "affectedNodeId": "14",
+                      "changedBy": {
+                        "company": "Tec",
+                        "email": "robertdavidrd360567@gmail.com",
+                        "name": "Robert"
+                      },
+                      "changedOn": "2021-09-14T17:02:05.295Z",
+                      "docId": "SRS",
+                      "structureAction": "Create"
+                    },
+                    {
+                      "attributesChanged": {
+                        "heading": null,
+                        "text": null
+                      },
+                      "changedBy": {
+                        "company": "Tec",
+                        "email": "robertdavidrd360567@gmail.com",
+                        "name": "Robert"
+                      },
+                      "changedOn": "2021-09-14T17:03:46.927Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": "<p>El software debera permitir la seleccion de la opcion para medir grasa</p>"
+                      },
+                      "changedBy": {
+                        "company": "Tec",
+                        "email": "robertdavidrd360567@gmail.com",
+                        "name": "Robert"
+                      },
+                      "changedOn": "2021-09-14T17:04:03.707Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": "<p>El software debera permitir la seleccion de la opcion para medir grasa magra y grasa</p>"
+                      },
+                      "changedBy": {
+                        "company": "Tec",
+                        "email": "robertdavidrd360567@gmail.com",
+                        "name": "Robert"
+                      },
+                      "changedOn": "2021-09-14T17:04:47.512Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "heading": "Medicion de grasa"
+                      },
+                      "changedBy": {
+                        "company": "Tec",
+                        "email": "robertdavidrd360567@gmail.com",
+                        "name": "Robert"
+                      },
+                      "changedOn": "2021-09-14T17:05:53.247Z"
+                    }
+                  ]
+                },
+                {
+                  "id": "43",
+                  "guid": "c8e66a4c-a31a-4d64-9eea-f307e4b11491",
+                  "heading": "Medicion de hidratacion",
+                  "text": "<p>El software debera permitir la seleccion de la opcion para medir la hidratacion del usuario<br><br></p>",
+                  "history": [
+                    {
+                      "affectedNodeId": "14",
+                      "changedBy": {
+                        "company": "Tec",
+                        "email": "robertdavidrd360567@gmail.com",
+                        "name": "Robert"
+                      },
+                      "changedOn": "2021-09-14T17:03:49.598Z",
+                      "docId": "SRS",
+                      "structureAction": "Create"
+                    },
+                    {
+                      "attributesChanged": {
+                        "heading": null
+                      },
+                      "changedBy": {
+                        "company": "Tec",
+                        "email": "robertdavidrd360567@gmail.com",
+                        "name": "Robert"
+                      },
+                      "changedOn": "2021-09-14T17:03:55.625Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "heading": "Medicion",
+                        "text": null
+                      },
+                      "changedBy": {
+                        "company": "Tec",
+                        "email": "robertdavidrd360567@gmail.com",
+                        "name": "Robert"
+                      },
+                      "changedOn": "2021-09-14T17:04:41.297Z"
+                    }
+                  ]
+                },
+                {
+                  "id": "44",
+                  "guid": "638fe824-4207-4014-a16d-75e193ef753c",
+                  "heading": "Medicion de masa/hidratacion",
+                  "text": "<p>El software debera permitir la seleccion de la opcion para medir tanto masa grasa/magra como hidratacion<br><br></p>",
+                  "history": [
+                    {
+                      "affectedNodeId": "14",
+                      "changedBy": {
+                        "company": "Tec",
+                        "email": "robertdavidrd360567@gmail.com",
+                        "name": "Robert"
+                      },
+                      "changedOn": "2021-09-14T17:04:53.631Z",
+                      "docId": "SRS",
+                      "structureAction": "Create"
+                    },
+                    {
+                      "attributesChanged": {
+                        "heading": null,
+                        "text": null
+                      },
+                      "changedBy": {
+                        "company": "Tec",
+                        "email": "robertdavidrd360567@gmail.com",
+                        "name": "Robert"
+                      },
+                      "changedOn": "2021-09-14T17:05:40.047Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "heading": "Medicion de grasa/hidratacion",
+                        "text": "<p>El software debera permitir la seleccion de la opcion para medir tanto grasa<br><br></p>"
+                      },
+                      "changedBy": {
+                        "company": "Tec",
+                        "email": "robertdavidrd360567@gmail.com",
+                        "name": "Robert"
+                      },
+                      "changedOn": "2021-09-14T17:06:11.411Z"
+                    }
+                  ]
+                },
+                {
+                  "id": "70",
+                  "guid": "d7d06633-6eda-478e-bc65-7b03a89bce59",
+                  "heading": "Notificacion de error",
+                  "text": "<p>El software debera permitir la notificacion de un error durante la medicion permitiendo abortar la medicion o comenzar de nuevo en el caso que los electrodos no esten conectados</p>",
+                  "history": [
+                    {
+                      "affectedNodeId": "14",
+                      "changedBy": {
+                        "company": "Tec",
+                        "email": "robertdavidrd360567@gmail.com",
+                        "name": "Robert"
+                      },
+                      "changedOn": "2021-09-14T19:47:17.781Z",
+                      "docId": "SRS",
+                      "structureAction": "Create"
+                    },
+                    {
+                      "attributesChanged": {
+                        "heading": null,
+                        "text": null
+                      },
+                      "changedBy": {
+                        "company": "Tec",
+                        "email": "robertdavidrd360567@gmail.com",
+                        "name": "Robert"
+                      },
+                      "changedOn": "2021-09-14T19:47:53.473Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": "<p>El software debera permitir la notificacion de un error durante la medicion permitiendo abortar la medicion o comenzar de nuevo</p>"
+                      },
+                      "changedBy": {
+                        "company": "Tec",
+                        "email": "robertdavidrd360567@gmail.com",
+                        "name": "Robert"
+                      },
+                      "changedOn": "2021-09-14T23:44:52.999Z"
+                    }
+                  ]
+                },
+                {
+                  "id": "45",
+                  "guid": "dbbc4db3-6773-473c-a0cb-e65f7ba2d15e",
+                  "heading": "Visualizacion de resultados",
+                  "text": "<p>El software debera visualizar los resultados una vez realizada la medicion&nbsp;</p>",
+                  "history": [
+                    {
+                      "affectedNodeId": "14",
+                      "changedBy": {
+                        "company": "Tec",
+                        "email": "robertdavidrd360567@gmail.com",
+                        "name": "Robert"
+                      },
+                      "changedOn": "2021-09-14T17:06:17.650Z",
+                      "docId": "SRS",
+                      "structureAction": "Create"
+                    },
+                    {
+                      "attributesChanged": {
+                        "heading": null,
+                        "text": null
+                      },
+                      "changedBy": {
+                        "company": "Tec",
+                        "email": "robertdavidrd360567@gmail.com",
+                        "name": "Robert"
+                      },
+                      "changedOn": "2021-09-14T17:07:27.652Z"
+                    }
+                  ]
+                },
+                {
+                  "id": "73",
+                  "guid": "89636bf9-ce27-4731-9e3d-3e27c5c17ff5",
+                  "heading": "Ajustes de usuario",
+                  "text": "<p>El sofware debera contar con la opcion de ingresar los datos usuarios que permita una correcta medicion</p>",
+                  "history": [
+                    {
+                      "affectedNodeId": "14",
+                      "changedBy": {
+                        "company": "Tec",
+                        "email": "robertdavidrd360567@gmail.com",
+                        "name": "Robert"
+                      },
+                      "changedOn": "2021-09-14T19:54:34.634Z",
+                      "docId": "SRS",
+                      "structureAction": "Create"
+                    },
+                    {
+                      "attributesChanged": {
+                        "heading": null,
+                        "text": null
+                      },
+                      "changedBy": {
+                        "company": "Tec",
+                        "email": "robertdavidrd360567@gmail.com",
+                        "name": "Robert"
+                      },
+                      "changedOn": "2021-09-14T19:55:16.919Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": "<p>El sofware debera contar con la opcion de ingresas los datos de usuario correspondientes a altura y</p>"
+                      },
+                      "changedBy": {
+                        "company": "Tec",
+                        "email": "robertdavidrd360567@gmail.com",
+                        "name": "Robert"
+                      },
+                      "changedOn": "2021-09-14T19:55:54.081Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": "<p>El sofware debera contar con la opcion de ingresas los datos de usuario correspondientes a altura y peso&nbsp;</p>"
+                      },
+                      "changedBy": {
+                        "company": "Tec",
+                        "email": "robertdavidrd360567@gmail.com",
+                        "name": "Robert"
+                      },
+                      "changedOn": "2021-09-14T20:24:01.772Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": "<p>El sofware debera contar con la opcion de ingresar los siguientes datos del usuario:&nbsp;</p><ul><li>Su nacionalidad</li><li>Su edad</li><li>Su peso</li><li>Su altura</li><li>Si el usuario carece de una extremidad</li><li>El horario de los recordatorios</li></ul>"
+                      },
+                      "changedBy": {
+                        "company": "Tec",
+                        "email": "robertdavidrd360567@gmail.com",
+                        "name": "Robert"
+                      },
+                      "changedOn": "2021-09-15T00:18:55.189Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": "<p>El sofware debera contar con la opcion de ingresar los datos usuarios que permita una correcta&nbsp; &nbsp;medicion:&nbsp;</p><ul><li>Su nacionalidad</li><li>Su edad</li><li>Su peso</li><li>Su altura</li><li>Si el usuario carece de una extremidad</li><li>El horario de los recordatorios</li></ul>"
+                      },
+                      "changedBy": {
+                        "company": "Tec",
+                        "email": "robertdavidrd360567@gmail.com",
+                        "name": "Robert"
+                      },
+                      "changedOn": "2021-09-15T00:19:13.113Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": "<p>El sofware debera contar con la opcion de ingresar los datos usuarios que permita una correcta medicion:&nbsp;</p><ul><li>Su nacionalidad</li><li>Su edad</li><li>Su peso</li><li>Su altura</li><li>Si el usuario carece de una extremidad</li><li>El horario de los recordatorios</li></ul>"
+                      },
+                      "changedBy": {
+                        "company": "Tec",
+                        "email": "robertdavidrd360567@gmail.com",
+                        "name": "Robert"
+                      },
+                      "changedOn": "2021-09-15T00:21:24.638Z"
+                    }
+                  ],
+                  "children": [
+                    {
+                      "id": "89",
+                      "guid": "dc317dfe-3eb4-49e2-aef9-e08b31637cf0",
+                      "heading": "Nacionalidad",
+                      "text": "<p>El sofware debera contar con la opcion de ingresar la nacionalidad del usuario</p>",
+                      "history": [
+                        {
+                          "affectedNodeId": "73",
+                          "changedBy": {
+                            "company": "Tec",
+                            "email": "robertdavidrd360567@gmail.com",
+                            "name": "Robert"
+                          },
+                          "changedOn": "2021-09-15T00:19:14.677Z",
+                          "docId": "SRS",
+                          "structureAction": "Create"
+                        },
+                        {
+                          "attributesChanged": {
+                            "heading": null
+                          },
+                          "changedBy": {
+                            "company": "Tec",
+                            "email": "robertdavidrd360567@gmail.com",
+                            "name": "Robert"
+                          },
+                          "changedOn": "2021-09-15T00:19:24.883Z"
+                        },
+                        {
+                          "attributesChanged": {
+                            "text": null
+                          },
+                          "changedBy": {
+                            "company": "Tec",
+                            "email": "robertdavidrd360567@gmail.com",
+                            "name": "Robert"
+                          },
+                          "changedOn": "2021-09-15T00:21:55.472Z"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "90",
+                      "guid": "2078c66b-fbe9-4b66-998f-8ce0e4894174",
+                      "heading": "Edad",
+                      "text": "<p>El sofware debera contar con la opcion de ingresar la edad del usuario</p>",
+                      "history": [
+                        {
+                          "affectedNodeId": "73",
+                          "changedBy": {
+                            "company": "Tec",
+                            "email": "robertdavidrd360567@gmail.com",
+                            "name": "Robert"
+                          },
+                          "changedOn": "2021-09-15T00:19:26.408Z",
+                          "docId": "SRS",
+                          "structureAction": "Create"
+                        },
+                        {
+                          "attributesChanged": {
+                            "heading": null
+                          },
+                          "changedBy": {
+                            "company": "Tec",
+                            "email": "robertdavidrd360567@gmail.com",
+                            "name": "Robert"
+                          },
+                          "changedOn": "2021-09-15T00:19:30.703Z"
+                        },
+                        {
+                          "attributesChanged": {
+                            "text": null
+                          },
+                          "changedBy": {
+                            "company": "Tec",
+                            "email": "robertdavidrd360567@gmail.com",
+                            "name": "Robert"
+                          },
+                          "changedOn": "2021-09-15T00:22:06.196Z"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "91",
+                      "guid": "16186c9f-544f-4341-bbbb-0b20e95e9015",
+                      "heading": "Sexo",
+                      "text": "<p>El sofware debera contar con la opcion de ingresar el sexo del usuario</p>",
+                      "history": [
+                        {
+                          "affectedNodeId": "73",
+                          "changedBy": {
+                            "company": "Tec",
+                            "email": "robertdavidrd360567@gmail.com",
+                            "name": "Robert"
+                          },
+                          "changedOn": "2021-09-15T00:19:32.305Z",
+                          "docId": "SRS",
+                          "structureAction": "Create"
+                        },
+                        {
+                          "attributesChanged": {
+                            "heading": null
+                          },
+                          "changedBy": {
+                            "company": "Tec",
+                            "email": "robertdavidrd360567@gmail.com",
+                            "name": "Robert"
+                          },
+                          "changedOn": "2021-09-15T00:19:37.298Z"
+                        },
+                        {
+                          "attributesChanged": {
+                            "text": null
+                          },
+                          "changedBy": {
+                            "company": "Tec",
+                            "email": "robertdavidrd360567@gmail.com",
+                            "name": "Robert"
+                          },
+                          "changedOn": "2021-09-15T00:22:18.076Z"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "92",
+                      "guid": "26e2ce39-d684-47ea-a757-89607519cb30",
+                      "heading": "Peso",
+                      "text": "<p>El sofware debera contar con la opcion de ingresar el peso del usuario</p>",
+                      "history": [
+                        {
+                          "affectedNodeId": "73",
+                          "changedBy": {
+                            "company": "Tec",
+                            "email": "robertdavidrd360567@gmail.com",
+                            "name": "Robert"
+                          },
+                          "changedOn": "2021-09-15T00:19:38.960Z",
+                          "docId": "SRS",
+                          "structureAction": "Create"
+                        },
+                        {
+                          "attributesChanged": {
+                            "heading": null
+                          },
+                          "changedBy": {
+                            "company": "Tec",
+                            "email": "robertdavidrd360567@gmail.com",
+                            "name": "Robert"
+                          },
+                          "changedOn": "2021-09-15T00:19:41.986Z"
+                        },
+                        {
+                          "attributesChanged": {
+                            "text": null
+                          },
+                          "changedBy": {
+                            "company": "Tec",
+                            "email": "robertdavidrd360567@gmail.com",
+                            "name": "Robert"
+                          },
+                          "changedOn": "2021-09-15T00:22:25.765Z"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "93",
+                      "guid": "005de5d0-e97e-4695-90fc-bf0dfd832966",
+                      "heading": "Altura",
+                      "text": "<p>El sofware debera contar con la opcion de ingresar la altura del usuario</p>",
+                      "history": [
+                        {
+                          "affectedNodeId": "73",
+                          "changedBy": {
+                            "company": "Tec",
+                            "email": "robertdavidrd360567@gmail.com",
+                            "name": "Robert"
+                          },
+                          "changedOn": "2021-09-15T00:19:43.385Z",
+                          "docId": "SRS",
+                          "structureAction": "Create"
+                        },
+                        {
+                          "attributesChanged": {
+                            "heading": null
+                          },
+                          "changedBy": {
+                            "company": "Tec",
+                            "email": "robertdavidrd360567@gmail.com",
+                            "name": "Robert"
+                          },
+                          "changedOn": "2021-09-15T00:19:49.744Z"
+                        },
+                        {
+                          "attributesChanged": {
+                            "text": null
+                          },
+                          "changedBy": {
+                            "company": "Tec",
+                            "email": "robertdavidrd360567@gmail.com",
+                            "name": "Robert"
+                          },
+                          "changedOn": "2021-09-15T00:22:34.107Z"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "94",
+                      "guid": "7a25e7d6-268d-4423-aa60-8be0214b3c52",
+                      "heading": "Falta de alguna extremidad ",
+                      "text": "<p>El sofware debera contar con la opcion de indicar cual extremidad le falta al usuario en el caso de que falte alguna.</p>",
+                      "history": [
+                        {
+                          "affectedNodeId": "73",
+                          "changedBy": {
+                            "company": "Tec",
+                            "email": "robertdavidrd360567@gmail.com",
+                            "name": "Robert"
+                          },
+                          "changedOn": "2021-09-15T00:19:56.085Z",
+                          "docId": "SRS",
+                          "structureAction": "Create"
+                        },
+                        {
+                          "attributesChanged": {
+                            "heading": null
+                          },
+                          "changedBy": {
+                            "company": "Tec",
+                            "email": "robertdavidrd360567@gmail.com",
+                            "name": "Robert"
+                          },
+                          "changedOn": "2021-09-15T00:20:06.920Z"
+                        },
+                        {
+                          "attributesChanged": {
+                            "text": null
+                          },
+                          "changedBy": {
+                            "company": "Tec",
+                            "email": "robertdavidrd360567@gmail.com",
+                            "name": "Robert"
+                          },
+                          "changedOn": "2021-09-15T00:23:25.674Z"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "47",
+                  "guid": "2d0e040c-588e-4a08-bbc9-1fbaf795ff49",
+                  "heading": "Retorno al menu de cuentas",
+                  "text": "<p>El software debera contar con la opcion de volver al menu principal desde el menu de usuario</p>",
+                  "history": [
+                    {
+                      "affectedNodeId": "14",
+                      "changedBy": {
+                        "company": "Tec",
+                        "email": "robertdavidrd360567@gmail.com",
+                        "name": "Robert"
+                      },
+                      "changedOn": "2021-09-14T17:10:28.913Z",
+                      "docId": "SRS",
+                      "structureAction": "Create"
+                    },
+                    {
+                      "attributesChanged": {
+                        "heading": null,
+                        "text": null
+                      },
+                      "changedBy": {
+                        "company": "Tec",
+                        "email": "robertdavidrd360567@gmail.com",
+                        "name": "Robert"
+                      },
+                      "changedOn": "2021-09-14T17:11:50.825Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "heading": "Retorno al menu principal"
+                      },
+                      "changedBy": {
+                        "company": "Tec",
+                        "email": "robertdavidrd360567@gmail.com",
+                        "name": "Robert"
+                      },
+                      "changedOn": "2021-09-14T23:55:06.252Z"
+                    }
+                  ]
+                },
+                {
+                  "id": "48",
+                  "guid": "498df556-020e-481e-a495-109acf0ddf63",
+                  "heading": "Retorno al menu principal",
+                  "text": "<p>El software debera permitir volver al menu de usuario una vez realizada una medicion o revisado el historial</p>",
+                  "history": [
+                    {
+                      "affectedNodeId": "14",
+                      "changedBy": {
+                        "company": "Tec",
+                        "email": "robertdavidrd360567@gmail.com",
+                        "name": "Robert"
+                      },
+                      "changedOn": "2021-09-14T17:12:13.202Z",
+                      "docId": "SRS",
+                      "structureAction": "Create"
+                    },
+                    {
+                      "attributesChanged": {
+                        "heading": null,
+                        "text": null
+                      },
+                      "changedBy": {
+                        "company": "Tec",
+                        "email": "robertdavidrd360567@gmail.com",
+                        "name": "Robert"
+                      },
+                      "changedOn": "2021-09-14T17:13:21.827Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "heading": "Retorno al menu de usuario"
+                      },
+                      "changedBy": {
+                        "company": "Tec",
+                        "email": "robertdavidrd360567@gmail.com",
+                        "name": "Robert"
+                      },
+                      "changedOn": "2021-09-14T23:55:19.036Z"
+                    }
+                  ]
+                },
+                {
+                  "id": "59",
+                  "guid": "09b2d91a-2bf4-42c3-aa38-1ecc4812142b",
+                  "heading": "Historial de mediciones",
+                  "text": "<p>El software debera permitir la visualizacion del historial del usuario seleccionado</p>",
+                  "history": [
+                    {
+                      "affectedNodeId": "14",
+                      "changedBy": {
+                        "company": "Tec",
+                        "email": "robertdavidrd360567@gmail.com",
+                        "name": "Robert"
+                      },
+                      "changedOn": "2021-09-14T19:28:53.532Z",
+                      "docId": "SRS",
+                      "structureAction": "Create"
+                    },
+                    {
+                      "attributesChanged": {
+                        "heading": null
+                      },
+                      "changedBy": {
+                        "company": "Tec",
+                        "email": "robertdavidrd360567@gmail.com",
+                        "name": "Robert"
+                      },
+                      "changedOn": "2021-09-14T19:29:02.497Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": null
+                      },
+                      "changedBy": {
+                        "company": "Tec",
+                        "email": "robertdavidrd360567@gmail.com",
+                        "name": "Robert"
+                      },
+                      "changedOn": "2021-09-14T19:29:31.303Z"
+                    }
+                  ]
+                },
+                {
+                  "id": "60",
+                  "guid": "972b1f2b-f1c0-4a79-9888-5f1ef00e411f",
+                  "heading": "Respaldo en la nube ",
+                  "text": "<p>El software debera permitir almacenar la informacion obtenida en la nube&nbsp;</p>",
+                  "history": [
+                    {
+                      "affectedNodeId": "14",
+                      "changedBy": {
+                        "company": "Tec",
+                        "email": "robertdavidrd360567@gmail.com",
+                        "name": "Robert"
+                      },
+                      "changedOn": "2021-09-14T19:29:52.492Z",
+                      "docId": "SRS",
+                      "structureAction": "Create"
+                    },
+                    {
+                      "attributesChanged": {
+                        "heading": null
+                      },
+                      "changedBy": {
+                        "company": "Tec",
+                        "email": "robertdavidrd360567@gmail.com",
+                        "name": "Robert"
+                      },
+                      "changedOn": "2021-09-14T19:38:12.152Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": null
+                      },
+                      "changedBy": {
+                        "company": "Tec",
+                        "email": "robertdavidrd360567@gmail.com",
+                        "name": "Robert"
+                      },
+                      "changedOn": "2021-09-14T19:38:24.100Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": "<p>El software debera permitir</p>"
+                      },
+                      "changedBy": {
+                        "company": "Tec",
+                        "email": "robertdavidrd360567@gmail.com",
+                        "name": "Robert"
+                      },
+                      "changedOn": "2021-09-14T19:39:20.378Z"
+                    }
+                  ]
+                },
+                {
+                  "id": "88",
+                  "guid": "857f4faa-5898-4dde-8ea6-9c139ca57d03",
+                  "heading": "Respaldo local",
+                  "text": "<p>El software debera permitir almacenar la informacion localmente en el dispositivo</p>",
+                  "history": [
+                    {
+                      "affectedNodeId": "14",
+                      "changedBy": {
+                        "company": "Tec",
+                        "email": "robertdavidrd360567@gmail.com",
+                        "name": "Robert"
+                      },
+                      "changedOn": "2021-09-15T00:17:03.832Z",
+                      "docId": "SRS",
+                      "structureAction": "Create"
+                    },
+                    {
+                      "attributesChanged": {
+                        "heading": null
+                      },
+                      "changedBy": {
+                        "company": "Tec",
+                        "email": "robertdavidrd360567@gmail.com",
+                        "name": "Robert"
+                      },
+                      "changedOn": "2021-09-15T00:17:13.890Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": null
+                      },
+                      "changedBy": {
+                        "company": "Tec",
+                        "email": "robertdavidrd360567@gmail.com",
+                        "name": "Robert"
+                      },
+                      "changedOn": "2021-09-15T00:17:33.466Z"
+                    }
+                  ]
+                },
+                {
+                  "id": "68",
+                  "guid": "b5ace621-aa08-42d8-8d53-1f7e261d4e35",
+                  "heading": "Reinicio del sistema",
+                  "text": "<p>El software debera permitir el reinicio del sistema ante posibles errores</p>",
+                  "history": [
+                    {
+                      "affectedNodeId": "14",
+                      "changedBy": {
+                        "company": "Tec",
+                        "email": "robertdavidrd360567@gmail.com",
+                        "name": "Robert"
+                      },
+                      "changedOn": "2021-09-14T19:44:55.721Z",
+                      "docId": "SRS",
+                      "structureAction": "Create"
+                    },
+                    {
+                      "attributesChanged": {
+                        "heading": null,
+                        "text": null
+                      },
+                      "changedBy": {
+                        "company": "Tec",
+                        "email": "robertdavidrd360567@gmail.com",
+                        "name": "Robert"
+                      },
+                      "changedOn": "2021-09-14T19:45:21.497Z"
+                    }
+                  ]
+                },
+                {
+                  "id": "64",
+                  "guid": "cf0d25e2-1b58-41e8-a0f3-27dadb1d94dc",
+                  "heading": "Aplicacion movil",
+                  "history": [
+                    {
+                      "affectedNodeId": "14",
+                      "changedBy": {
+                        "company": "Tec",
+                        "email": "robertdavidrd360567@gmail.com",
+                        "name": "Robert"
+                      },
+                      "changedOn": "2021-09-14T19:39:38.913Z",
+                      "docId": "SRS",
+                      "structureAction": "Create"
+                    },
+                    {
+                      "attributesChanged": {
+                        "heading": null
+                      },
+                      "changedBy": {
+                        "company": "Tec",
+                        "email": "robertdavidrd360567@gmail.com",
+                        "name": "Robert"
+                      },
+                      "changedOn": "2021-09-14T19:40:47.343Z"
+                    }
+                  ],
+                  "children": [
+                    {
+                      "id": "67",
+                      "guid": "fa792cbc-8857-4abd-ad15-9ed78c61afac",
+                      "heading": "Inicio de sesion ",
+                      "text": "<p>El software debera permitir el inicio de sesion en la app para el usuario</p>",
+                      "history": [
+                        {
+                          "affectedNodeId": "64",
+                          "changedBy": {
+                            "company": "Tec",
+                            "email": "robertdavidrd360567@gmail.com",
+                            "name": "Robert"
+                          },
+                          "changedOn": "2021-09-14T19:41:58.835Z",
+                          "docId": "SRS",
+                          "structureAction": "Create"
+                        },
+                        {
+                          "attributesChanged": {
+                            "heading": null
+                          },
+                          "changedBy": {
+                            "company": "Tec",
+                            "email": "robertdavidrd360567@gmail.com",
+                            "name": "Robert"
+                          },
+                          "changedOn": "2021-09-14T19:42:10.044Z"
+                        },
+                        {
+                          "attributesChanged": {
+                            "heading": "Inicio de secion "
+                          },
+                          "changedBy": {
+                            "company": "Tec",
+                            "email": "robertdavidrd360567@gmail.com",
+                            "name": "Robert"
+                          },
+                          "changedOn": "2021-09-14T19:42:29.811Z"
+                        },
+                        {
+                          "attributesChanged": {
+                            "text": null
+                          },
+                          "changedBy": {
+                            "company": "Tec",
+                            "email": "robertdavidrd360567@gmail.com",
+                            "name": "Robert"
+                          },
+                          "changedOn": "2021-09-14T19:43:19.139Z"
+                        },
+                        {
+                          "attributesChanged": {
+                            "text": "<p>El software debera permitir el inicio de sesion en la aplicacion movil para el usuario</p>"
+                          },
+                          "changedBy": {
+                            "company": "Tec",
+                            "email": "robertdavidrd360567@gmail.com",
+                            "name": "Robert"
+                          },
+                          "changedOn": "2021-09-14T19:44:40.486Z"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "65",
+                      "guid": "45a66f24-3dac-47e7-96df-2a4804178d2d",
+                      "heading": "Visualizacion de tips",
+                      "text": "<p>El software debera permitir visualizar consejos basados en los datos obtenidos para obtener mejores resultados en la app</p>",
+                      "history": [
+                        {
+                          "affectedNodeId": "64",
+                          "changedBy": {
+                            "company": "Tec",
+                            "email": "robertdavidrd360567@gmail.com",
+                            "name": "Robert"
+                          },
+                          "changedOn": "2021-09-14T19:40:54.157Z",
+                          "docId": "SRS",
+                          "structureAction": "Create"
+                        },
+                        {
+                          "attributesChanged": {
+                            "heading": null,
+                            "text": null
+                          },
+                          "changedBy": {
+                            "company": "Tec",
+                            "email": "robertdavidrd360567@gmail.com",
+                            "name": "Robert"
+                          },
+                          "changedOn": "2021-09-14T19:41:26.611Z"
+                        },
+                        {
+                          "attributesChanged": {
+                            "text": "<p>El software debera permitir visualizar consejos basados en los datos obtenidos para obtener mejores resultados</p>"
+                          },
+                          "changedBy": {
+                            "company": "Tec",
+                            "email": "robertdavidrd360567@gmail.com",
+                            "name": "Robert"
+                          },
+                          "changedOn": "2021-09-14T19:43:29.623Z"
+                        },
+                        {
+                          "attributesChanged": {
+                            "text": "<p>El software debera permitir visualizar consejos basados en los datos obtenidos para obtener mejores resultados en la aplicacion movil</p>"
+                          },
+                          "changedBy": {
+                            "company": "Tec",
+                            "email": "robertdavidrd360567@gmail.com",
+                            "name": "Robert"
+                          },
+                          "changedOn": "2021-09-14T19:43:36.539Z"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "97",
+                      "guid": "afaeacb2-4623-4c4a-aacc-20cd0962c582",
+                      "heading": "Visualizacion del historial",
+                      "text": "<p>El software debera permitir visualizar el historial del usuario en uso en la app</p>",
+                      "history": [
+                        {
+                          "affectedNodeId": "64",
+                          "changedBy": {
+                            "company": "Tec",
+                            "email": "robertdavidrd360567@gmail.com",
+                            "name": "Robert"
+                          },
+                          "changedOn": "2021-09-15T00:25:20.136Z",
+                          "docId": "SRS",
+                          "structureAction": "Create"
+                        },
+                        {
+                          "attributesChanged": {
+                            "heading": null
+                          },
+                          "changedBy": {
+                            "company": "Tec",
+                            "email": "robertdavidrd360567@gmail.com",
+                            "name": "Robert"
+                          },
+                          "changedOn": "2021-09-15T00:25:58.587Z"
+                        },
+                        {
+                          "attributesChanged": {
+                            "text": null
+                          },
+                          "changedBy": {
+                            "company": "Tec",
+                            "email": "robertdavidrd360567@gmail.com",
+                            "name": "Robert"
+                          },
+                          "changedOn": "2021-09-15T00:26:09.751Z"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "98",
+                      "guid": "063a604c-6c16-4cf8-9f70-38e4a9f4cb48",
+                      "heading": "Recordatorios",
+                      "text": "<p>El software debera permitir la notificacion de recordarios mediante la app para la realizacion de mediciones</p>",
+                      "history": [
+                        {
+                          "affectedNodeId": "64",
+                          "changedBy": {
+                            "company": "Tec",
+                            "email": "robertdavidrd360567@gmail.com",
+                            "name": "Robert"
+                          },
+                          "changedOn": "2021-09-15T00:26:11.291Z",
+                          "docId": "SRS",
+                          "structureAction": "Create"
+                        },
+                        {
+                          "attributesChanged": {
+                            "heading": null
+                          },
+                          "changedBy": {
+                            "company": "Tec",
+                            "email": "robertdavidrd360567@gmail.com",
+                            "name": "Robert"
+                          },
+                          "changedOn": "2021-09-15T00:26:25.395Z"
+                        },
+                        {
+                          "attributesChanged": {
+                            "text": null
+                          },
+                          "changedBy": {
+                            "company": "Tec",
+                            "email": "robertdavidrd360567@gmail.com",
+                            "name": "Robert"
+                          },
+                          "changedOn": "2021-09-15T00:26:37.578Z"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "99",
+                      "guid": "d06e7ec4-f8b5-4070-ad98-52a23c4aedcc",
+                      "heading": "Chat bot",
+                      "text": "<p>El software debera poseer un bot de preguntas frecuentes</p>",
+                      "history": [
+                        {
+                          "affectedNodeId": "64",
+                          "changedBy": {
+                            "company": "Tec",
+                            "email": "robertdavidrd360567@gmail.com",
+                            "name": "Robert"
+                          },
+                          "changedOn": "2021-09-15T00:26:49.784Z",
+                          "docId": "SRS",
+                          "structureAction": "Create"
+                        },
+                        {
+                          "attributesChanged": {
+                            "heading": null,
+                            "text": null
+                          },
+                          "changedBy": {
+                            "company": "Tec",
+                            "email": "robertdavidrd360567@gmail.com",
+                            "name": "Robert"
+                          },
+                          "changedOn": "2021-09-15T00:27:02.808Z"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "15",
+              "guid": "74976865-af9b-431b-9947-ee9234b3f013",
+              "heading": "Perfil de usuarios",
+              "helpRef": "9.6.6",
+              "type": "SEC",
+              "history": [
+                {
+                  "attributesChanged": {
+                    "text": null
+                  },
+                  "changedBy": {
+                    "company": "ITCR",
+                    "email": "aisaac@estudiantec.cr",
+                    "name": "Angelo"
+                  },
+                  "changedOn": "2021-09-11T23:29:28.030Z"
+                },
+                {
+                  "attributesChanged": {
+                    "text": "<p>Trabajadores de empresas expuesto a trabajos intensos que necesiten un control de la hidratacion por salud laboral</p><p>Hogares de familia que quieran impulsar la salud preventiva mediante el analisis de grasas e hidratacion.</p>"
+                  },
+                  "changedBy": {
+                    "company": "Tec",
+                    "email": "robertdavidrd360567@gmail.com",
+                    "name": "Robert"
+                  },
+                  "changedOn": "2021-09-14T17:21:30.794Z"
+                },
+                {
+                  "attributesChanged": {
+                    "text": "<p>Trabajadores de empresas expuesto a trabajos intensos que necesiten un control de la hidratacion por salud laboral</p><p><br></p>"
+                  },
+                  "changedBy": {
+                    "company": "Tec",
+                    "email": "robertdavidrd360567@gmail.com",
+                    "name": "Robert"
+                  },
+                  "changedOn": "2021-09-14T17:21:38.078Z"
+                },
+                {
+                  "attributesChanged": {
+                    "heading": "User  characteristics"
+                  },
+                  "changedBy": {
+                    "company": "Tec",
+                    "email": "robertdavidrd360567@gmail.com",
+                    "name": "Robert"
+                  },
+                  "changedOn": "2021-09-14T19:36:11.044Z"
+                }
+              ],
+              "children": [
+                {
+                  "id": "56",
+                  "guid": "42a06102-dea1-4311-9c67-82bd5ea64683",
+                  "heading": "Trabajadores de empresas",
+                  "text": "<p>Trabajadores de empresas expuesto a trabajos intensos que necesiten un control de la hidratacion por salud laboral</p>",
+                  "history": [
+                    {
+                      "affectedNodeId": "15",
+                      "changedBy": {
+                        "company": "Tec",
+                        "email": "robertdavidrd360567@gmail.com",
+                        "name": "Robert"
+                      },
+                      "changedOn": "2021-09-14T17:20:54.449Z",
+                      "docId": "SRS",
+                      "structureAction": "Create"
+                    },
+                    {
+                      "attributesChanged": {
+                        "heading": null
+                      },
+                      "changedBy": {
+                        "company": "Tec",
+                        "email": "robertdavidrd360567@gmail.com",
+                        "name": "Robert"
+                      },
+                      "changedOn": "2021-09-14T17:21:06.712Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": null
+                      },
+                      "changedBy": {
+                        "company": "Tec",
+                        "email": "robertdavidrd360567@gmail.com",
+                        "name": "Robert"
+                      },
+                      "changedOn": "2021-09-14T17:21:14.370Z"
+                    }
+                  ]
+                },
+                {
+                  "id": "57",
+                  "guid": "6f43ef86-9352-484c-81f4-efeb0b3afba1",
+                  "heading": "Consumidores",
+                  "text": "<p>Hogares de familia que quieran impulsar la salud preventiva mediante el analisis de grasas e hidratacion.</p>",
+                  "history": [
+                    {
+                      "affectedNodeId": "15",
+                      "changedBy": {
+                        "company": "Tec",
+                        "email": "robertdavidrd360567@gmail.com",
+                        "name": "Robert"
+                      },
+                      "changedOn": "2021-09-14T17:21:15.998Z",
+                      "docId": "SRS",
+                      "structureAction": "Create"
+                    },
+                    {
+                      "attributesChanged": {
+                        "heading": null
+                      },
+                      "changedBy": {
+                        "company": "Tec",
+                        "email": "robertdavidrd360567@gmail.com",
+                        "name": "Robert"
+                      },
+                      "changedOn": "2021-09-14T17:21:24.282Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": null
+                      },
+                      "changedBy": {
+                        "company": "Tec",
+                        "email": "robertdavidrd360567@gmail.com",
+                        "name": "Robert"
+                      },
+                      "changedOn": "2021-09-14T17:21:35.233Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "heading": "Hogares de familia"
+                      },
+                      "changedBy": {
+                        "company": "Tec",
+                        "email": "robertdavidrd360567@gmail.com",
+                        "name": "Robert"
+                      },
+                      "changedOn": "2021-09-14T23:57:31.046Z"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "16",
+              "guid": "04246d83-96d7-445b-94e5-9c12099efb4d",
+              "heading": "Limitaciones",
+              "helpRef": "9.6.7",
+              "type": "SEC",
+              "history": [
+                {
+                  "attributesChanged": {
+                    "text": null
+                  },
+                  "changedBy": {
+                    "company": "Tec",
+                    "email": "robertdavidrd360567@gmail.com",
+                    "name": "Robert"
+                  },
+                  "changedOn": "2021-09-12T00:15:23.733Z"
+                },
+                {
+                  "attributesChanged": {
+                    "text": "<p>Memoria limitada&nbsp;</p><p><br></p>"
+                  },
+                  "changedBy": {
+                    "company": "Tec",
+                    "email": "robertdavidrd360567@gmail.com",
+                    "name": "Robert"
+                  },
+                  "changedOn": "2021-09-12T00:17:03.115Z"
+                },
+                {
+                  "attributesChanged": {
+                    "text": "<p>Memoria limitada&nbsp;</p><p>Tiempo operativo de la bateria&nbsp;</p><p>Tiempo de medicion&nbsp;</p><p><br></p>"
+                  },
+                  "changedBy": {
+                    "company": "Tec",
+                    "email": "robertdavidrd360567@gmail.com",
+                    "name": "Robert"
+                  },
+                  "changedOn": "2021-09-14T17:17:41.353Z"
+                },
+                {
+                  "attributesChanged": {
+                    "heading": "Limitations"
+                  },
+                  "changedBy": {
+                    "company": "Tec",
+                    "email": "robertdavidrd360567@gmail.com",
+                    "name": "Robert"
+                  },
+                  "changedOn": "2021-09-14T19:35:57.193Z"
+                }
+              ],
+              "children": [
+                {
+                  "id": "49",
+                  "guid": "ad46e9ae-2647-4d5e-a3ac-46a10eb2aef8",
+                  "heading": "Usuarios limitados",
+                  "text": "<p>El software debera tener un registro minimo de 5 usuarios con posibilidad de extension&nbsp;</p>",
+                  "history": [
+                    {
+                      "affectedNodeId": "16",
+                      "changedBy": {
+                        "company": "Tec",
+                        "email": "robertdavidrd360567@gmail.com",
+                        "name": "Robert"
+                      },
+                      "changedOn": "2021-09-14T17:13:25.056Z",
+                      "docId": "SRS",
+                      "structureAction": "Create"
+                    },
+                    {
+                      "attributesChanged": {
+                        "heading": null
+                      },
+                      "changedBy": {
+                        "company": "Tec",
+                        "email": "robertdavidrd360567@gmail.com",
+                        "name": "Robert"
+                      },
+                      "changedOn": "2021-09-14T17:13:45.544Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "heading": "Memoria limitada "
+                      },
+                      "changedBy": {
+                        "company": "Tec",
+                        "email": "robertdavidrd360567@gmail.com",
+                        "name": "Robert"
+                      },
+                      "changedOn": "2021-09-14T20:19:27.802Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": null
+                      },
+                      "changedBy": {
+                        "company": "Tec",
+                        "email": "robertdavidrd360567@gmail.com",
+                        "name": "Robert"
+                      },
+                      "changedOn": "2021-09-14T20:19:58.174Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": "<p>El software debera tener un registro maximo de 200 usuarios simultaneos</p>"
+                      },
+                      "changedBy": {
+                        "company": "Tec",
+                        "email": "robertdavidrd360567@gmail.com",
+                        "name": "Robert"
+                      },
+                      "changedOn": "2021-09-14T23:34:09.241Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": "<p>El software debera tener un registro maximo de 100 usuarios</p>"
+                      },
+                      "changedBy": {
+                        "company": "Tec",
+                        "email": "robertdavidrd360567@gmail.com",
+                        "name": "Robert"
+                      },
+                      "changedOn": "2021-09-14T23:34:18.986Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": "<p>El software debera tener un registro maximo de 100 usuarios con posibilidad de extension&nbsp;</p>"
+                      },
+                      "changedBy": {
+                        "company": "Tec",
+                        "email": "robertdavidrd360567@gmail.com",
+                        "name": "Robert"
+                      },
+                      "changedOn": "2021-09-14T23:58:50.352Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": "<p>El software debera tener un registro maximo de 5 usuarios con posibilidad de extension&nbsp;</p>"
+                      },
+                      "changedBy": {
+                        "company": "Tec",
+                        "email": "robertdavidrd360567@gmail.com",
+                        "name": "Robert"
+                      },
+                      "changedOn": "2021-09-14T23:59:28.821Z"
+                    }
+                  ]
+                },
+                {
+                  "id": "50",
+                  "guid": "c18e4439-351a-4bda-b27d-e55ad3c7d569",
+                  "heading": "Tiempo operativo de la bateria ",
+                  "text": "<p>El software debera tener un tiempo operativo mayor a 24 horas</p>",
+                  "history": [
+                    {
+                      "affectedNodeId": "16",
+                      "changedBy": {
+                        "company": "Tec",
+                        "email": "robertdavidrd360567@gmail.com",
+                        "name": "Robert"
+                      },
+                      "changedOn": "2021-09-14T17:13:52.148Z",
+                      "docId": "SRS",
+                      "structureAction": "Create"
+                    },
+                    {
+                      "attributesChanged": {
+                        "heading": null,
+                        "text": null
+                      },
+                      "changedBy": {
+                        "company": "Tec",
+                        "email": "robertdavidrd360567@gmail.com",
+                        "name": "Robert"
+                      },
+                      "changedOn": "2021-09-14T17:14:24.808Z"
+                    }
+                  ]
+                },
+                {
+                  "id": "76",
+                  "guid": "af735cfe-3d83-4e7a-bfbe-3be4da9881f3",
+                  "heading": "Mediciones diarias ",
+                  "text": "<p>El software debera tener como capacidad maxima la realizacion de 100 mediciones diarias</p>",
+                  "history": [
+                    {
+                      "affectedNodeId": "16",
+                      "changedBy": {
+                        "company": "Tec",
+                        "email": "robertdavidrd360567@gmail.com",
+                        "name": "Robert"
+                      },
+                      "changedOn": "2021-09-14T20:20:55.936Z",
+                      "docId": "SRS",
+                      "structureAction": "Create"
+                    },
+                    {
+                      "attributesChanged": {
+                        "heading": null,
+                        "text": null
+                      },
+                      "changedBy": {
+                        "company": "Tec",
+                        "email": "robertdavidrd360567@gmail.com",
+                        "name": "Robert"
+                      },
+                      "changedOn": "2021-09-14T20:21:35.298Z"
+                    }
+                  ]
+                },
+                {
+                  "id": "51",
+                  "guid": "f9eb6cce-6c3b-4c11-8060-39bfedc16b58",
+                  "heading": "Tiempo de medicion",
+                  "history": [
+                    {
+                      "affectedNodeId": "16",
+                      "changedBy": {
+                        "company": "Tec",
+                        "email": "robertdavidrd360567@gmail.com",
+                        "name": "Robert"
+                      },
+                      "changedOn": "2021-09-14T17:14:33.156Z",
+                      "docId": "SRS",
+                      "structureAction": "Create"
+                    },
+                    {
+                      "attributesChanged": {
+                        "heading": null
+                      },
+                      "changedBy": {
+                        "company": "Tec",
+                        "email": "robertdavidrd360567@gmail.com",
+                        "name": "Robert"
+                      },
+                      "changedOn": "2021-09-14T17:15:16.094Z"
+                    }
+                  ],
+                  "children": [
+                    {
+                      "id": "52",
+                      "guid": "4194bfe1-b848-40c0-8da1-7ac6837e9f44",
+                      "heading": "Tiempo medicion masa grasa/magra",
+                      "text": "<p>El software debera realizar la medicion de masa grasa/magra en un tiempo maximo de 2 min</p>",
+                      "history": [
+                        {
+                          "affectedNodeId": "51",
+                          "changedBy": {
+                            "company": "Tec",
+                            "email": "robertdavidrd360567@gmail.com",
+                            "name": "Robert"
+                          },
+                          "changedOn": "2021-09-14T17:15:19.223Z",
+                          "docId": "SRS",
+                          "structureAction": "Create"
+                        },
+                        {
+                          "attributesChanged": {
+                            "heading": null,
+                            "text": null
+                          },
+                          "changedBy": {
+                            "company": "Tec",
+                            "email": "robertdavidrd360567@gmail.com",
+                            "name": "Robert"
+                          },
+                          "changedOn": "2021-09-14T17:15:52.923Z"
+                        },
+                        {
+                          "attributesChanged": {
+                            "text": "<p>El software debera realizar la medicion de masa grasa/magra en un tiempo maximo de 2 min</p>"
+                          },
+                          "changedBy": {
+                            "company": "Tec",
+                            "email": "robertdavidrd360567@gmail.com",
+                            "name": "Robert"
+                          },
+                          "changedOn": "2021-09-15T00:01:10.997Z"
+                        },
+                        {
+                          "attributesChanged": {
+                            "text": "<p>El software debera realizar la medicion de masa grasa/magra en un tiempo maximo de 2&nbsp;</p>"
+                          },
+                          "changedBy": {
+                            "company": "Tec",
+                            "email": "robertdavidrd360567@gmail.com",
+                            "name": "Robert"
+                          },
+                          "changedOn": "2021-09-15T00:01:35.208Z"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "53",
+                      "guid": "b542ead9-4ddd-4f3b-bd97-c11c0e3928a0",
+                      "heading": "Tiempo medicion hidratacion",
+                      "text": "<p>El software deberarealizar la medicion de hidratacion en un tiempo maximo de 2 min</p>",
+                      "history": [
+                        {
+                          "affectedNodeId": "51",
+                          "changedBy": {
+                            "company": "Tec",
+                            "email": "robertdavidrd360567@gmail.com",
+                            "name": "Robert"
+                          },
+                          "changedOn": "2021-09-14T17:15:54.622Z",
+                          "docId": "SRS",
+                          "structureAction": "Create"
+                        },
+                        {
+                          "attributesChanged": {
+                            "heading": null,
+                            "text": null
+                          },
+                          "changedBy": {
+                            "company": "Tec",
+                            "email": "robertdavidrd360567@gmail.com",
+                            "name": "Robert"
+                          },
+                          "changedOn": "2021-09-14T17:16:25.820Z"
+                        },
+                        {
+                          "attributesChanged": {
+                            "text": "<p>El software deberarealizar la medicion de hidratacion en un tiempo maximo de 2 min</p>"
+                          },
+                          "changedBy": {
+                            "company": "Tec",
+                            "email": "robertdavidrd360567@gmail.com",
+                            "name": "Robert"
+                          },
+                          "changedOn": "2021-09-15T00:01:04.152Z"
+                        },
+                        {
+                          "attributesChanged": {
+                            "text": "<p>El software deberarealizar la medicion de hidratacion en un tiempo maximo de 2</p>"
+                          },
+                          "changedBy": {
+                            "company": "Tec",
+                            "email": "robertdavidrd360567@gmail.com",
+                            "name": "Robert"
+                          },
+                          "changedOn": "2021-09-15T00:01:31.031Z"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "54",
+                      "guid": "77c51e07-669a-4694-82fd-33526949af73",
+                      "heading": "Tiempo medicion masa grasa/magra e hidratacion",
+                      "text": "<p>El software debera realizar la medicion de masa grasa/magra e hidratacion en un tiempo maximo de 2 min</p>",
+                      "history": [
+                        {
+                          "affectedNodeId": "51",
+                          "changedBy": {
+                            "company": "Tec",
+                            "email": "robertdavidrd360567@gmail.com",
+                            "name": "Robert"
+                          },
+                          "changedOn": "2021-09-14T17:16:28.073Z",
+                          "docId": "SRS",
+                          "structureAction": "Create"
+                        },
+                        {
+                          "attributesChanged": {
+                            "heading": null,
+                            "text": null
+                          },
+                          "changedBy": {
+                            "company": "Tec",
+                            "email": "robertdavidrd360567@gmail.com",
+                            "name": "Robert"
+                          },
+                          "changedOn": "2021-09-14T17:17:19.801Z"
+                        },
+                        {
+                          "attributesChanged": {
+                            "text": "<p>El software debera realizar la medicion de masa grasa/magra e hidratacion en un tiempo maximo de 3 min</p>"
+                          },
+                          "changedBy": {
+                            "company": "Tec",
+                            "email": "robertdavidrd360567@gmail.com",
+                            "name": "Robert"
+                          },
+                          "changedOn": "2021-09-15T00:00:58.536Z"
+                        },
+                        {
+                          "attributesChanged": {
+                            "text": "<p>El software debera realizar la medicion de masa grasa/magra e hidratacion en un tiempo maximo de 2&nbsp;</p>"
+                          },
+                          "changedBy": {
+                            "company": "Tec",
+                            "email": "robertdavidrd360567@gmail.com",
+                            "name": "Robert"
+                          },
+                          "changedOn": "2021-09-15T00:01:26.261Z"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "77",
+                      "guid": "4ba96caa-0b9b-4ac9-b0e9-8f9b24c1cac0",
+                      "heading": "Maximo del historial",
+                      "text": "<p>El software debera mostrar las 5 ultimas mediciones realizadas en el historial</p>",
+                      "history": [
+                        {
+                          "affectedNodeId": "51",
+                          "changedBy": {
+                            "company": "Tec",
+                            "email": "robertdavidrd360567@gmail.com",
+                            "name": "Robert"
+                          },
+                          "changedOn": "2021-09-14T23:26:25.348Z",
+                          "docId": "SRS",
+                          "structureAction": "Create"
+                        },
+                        {
+                          "attributesChanged": {
+                            "heading": null
+                          },
+                          "changedBy": {
+                            "company": "Tec",
+                            "email": "robertdavidrd360567@gmail.com",
+                            "name": "Robert"
+                          },
+                          "changedOn": "2021-09-14T23:26:40.264Z"
+                        },
+                        {
+                          "attributesChanged": {
+                            "text": null
+                          },
+                          "changedBy": {
+                            "company": "Tec",
+                            "email": "robertdavidrd360567@gmail.com",
+                            "name": "Robert"
+                          },
+                          "changedOn": "2021-09-14T23:26:50.818Z"
+                        },
+                        {
+                          "attributesChanged": {
+                            "text": "<p>El software debera</p>"
+                          },
+                          "changedBy": {
+                            "company": "Tec",
+                            "email": "robertdavidrd360567@gmail.com",
+                            "name": "Robert"
+                          },
+                          "changedOn": "2021-09-14T23:28:01.863Z"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "17",
+              "guid": "be2d7986-7b8c-4b1c-8a17-9e7f67143f57",
+              "heading": "Suposiciones y dependencias",
+              "helpRef": "9.6.8",
+              "type": "SEC",
+              "history": [
+                {
+                  "attributesChanged": {
+                    "heading": "Assumptions and dependencies"
+                  },
+                  "changedBy": {
+                    "company": "Tec",
+                    "email": "robertdavidrd360567@gmail.com",
+                    "name": "Robert"
+                  },
+                  "changedOn": "2021-09-14T19:37:06.157Z"
+                }
+              ],
+              "children": [
+                {
+                  "id": "61",
+                  "guid": "e3e01773-e7ff-4398-b572-3cb0a73d3dfc",
+                  "heading": "Caracteristicas del usuario",
+                  "text": "<p>Las mediciones dependeran de la altura y del peso del usuario para encontrar los valores deseados mediante el BIA</p>",
+                  "history": [
+                    {
+                      "affectedNodeId": "17",
+                      "changedBy": {
+                        "company": "Tec",
+                        "email": "robertdavidrd360567@gmail.com",
+                        "name": "Robert"
+                      },
+                      "changedOn": "2021-09-14T19:34:30.981Z",
+                      "docId": "SRS",
+                      "structureAction": "Create"
+                    },
+                    {
+                      "attributesChanged": {
+                        "heading": null,
+                        "text": null
+                      },
+                      "changedBy": {
+                        "company": "Tec",
+                        "email": "robertdavidrd360567@gmail.com",
+                        "name": "Robert"
+                      },
+                      "changedOn": "2021-09-14T19:35:17.433Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": "<p>Las mediciones dependan de la altura y del peso&nbsp;</p>"
+                      },
+                      "changedBy": {
+                        "company": "Tec",
+                        "email": "robertdavidrd360567@gmail.com",
+                        "name": "Robert"
+                      },
+                      "changedOn": "2021-09-14T19:35:40.373Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": "<p>Las mediciones dependan de la altura y del peso del usuario para encontrar los valores deseados&nbsp;</p>"
+                      },
+                      "changedBy": {
+                        "company": "Tec",
+                        "email": "robertdavidrd360567@gmail.com",
+                        "name": "Robert"
+                      },
+                      "changedOn": "2021-09-14T19:48:42.840Z"
+                    }
+                  ]
+                },
+                {
+                  "id": "62",
+                  "guid": "3b7a2252-c04b-464e-a809-d3c845492724",
+                  "heading": "Seguridad de los datos",
+                  "text": "<p>La conexion con la nube debera asegurar los protocolos de seguridad necesarios para asegurar la integridad de los datos</p>",
+                  "history": [
+                    {
+                      "affectedNodeId": "17",
+                      "changedBy": {
+                        "company": "Tec",
+                        "email": "robertdavidrd360567@gmail.com",
+                        "name": "Robert"
+                      },
+                      "changedOn": "2021-09-14T19:35:45.263Z",
+                      "docId": "SRS",
+                      "structureAction": "Create"
+                    },
+                    {
+                      "attributesChanged": {
+                        "heading": null,
+                        "text": null
+                      },
+                      "changedBy": {
+                        "company": "Tec",
+                        "email": "robertdavidrd360567@gmail.com",
+                        "name": "Robert"
+                      },
+                      "changedOn": "2021-09-14T19:49:58.318Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": "<p>Los datos resguardados en la nube deberan poseer protocolos de seguridad para proteger la confia</p>"
+                      },
+                      "changedBy": {
+                        "company": "Tec",
+                        "email": "robertdavidrd360567@gmail.com",
+                        "name": "Robert"
+                      },
+                      "changedOn": "2021-09-14T19:50:22.402Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": "<ol><li>Los datos resguardados en la nube deberan poseer protocolos de seguridad&nbsp;</li></ol>"
+                      },
+                      "changedBy": {
+                        "company": "Tec",
+                        "email": "robertdavidrd360567@gmail.com",
+                        "name": "Robert"
+                      },
+                      "changedOn": "2021-09-14T19:50:31.811Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": "<p>Los datos resguardados en la nube deberan poseer protocolos de seguridad&nbsp;</p>"
+                      },
+                      "changedBy": {
+                        "company": "Tec",
+                        "email": "robertdavidrd360567@gmail.com",
+                        "name": "Robert"
+                      },
+                      "changedOn": "2021-09-15T00:16:42.248Z"
+                    }
+                  ]
+                },
+                {
+                  "id": "74",
+                  "guid": "3121ef4a-b0f4-40e7-aa7b-d75840af951f",
+                  "heading": "Autonomia energetica",
+                  "text": "<p>El software &nbsp;deberá tener una autonomía energética en estado operativo de al menos 24 horas.</p>",
+                  "history": [
+                    {
+                      "affectedNodeId": "17",
+                      "changedBy": {
+                        "company": "Tec",
+                        "email": "robertdavidrd360567@gmail.com",
+                        "name": "Robert"
+                      },
+                      "changedOn": "2021-09-14T20:11:51.437Z",
+                      "docId": "SRS",
+                      "structureAction": "Create"
+                    },
+                    {
+                      "attributesChanged": {
+                        "heading": null,
+                        "text": null
+                      },
+                      "changedBy": {
+                        "company": "Tec",
+                        "email": "robertdavidrd360567@gmail.com",
+                        "name": "Robert"
+                      },
+                      "changedOn": "2021-09-14T20:12:30.173Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "deleted": null
+                      },
+                      "changedBy": {
+                        "company": "Tec",
+                        "email": "robertdavidrd360567@gmail.com",
+                        "name": "Robert"
+                      },
+                      "changedOn": "2021-09-14T20:16:15.159Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "deleted": true
+                      },
+                      "changedBy": {
+                        "company": "Tec",
+                        "email": "robertdavidrd360567@gmail.com",
+                        "name": "Robert"
+                      },
+                      "changedOn": "2021-09-14T20:16:16.935Z"
+                    }
+                  ]
+                },
+                {
+                  "id": "75",
+                  "guid": "52a4231f-debc-4243-801c-d43ccb68e81a",
+                  "heading": "Sistema operativo",
+                  "text": "<p>El software deberá contara contar con un sistema operativo a la medida que le permita realizar todas las funciones necesarias basado en linux</p>",
+                  "history": [
+                    {
+                      "affectedNodeId": "17",
+                      "changedBy": {
+                        "company": "Tec",
+                        "email": "robertdavidrd360567@gmail.com",
+                        "name": "Robert"
+                      },
+                      "changedOn": "2021-09-14T20:16:20.167Z",
+                      "docId": "SRS",
+                      "structureAction": "Create"
+                    },
+                    {
+                      "attributesChanged": {
+                        "heading": null,
+                        "text": null
+                      },
+                      "changedBy": {
+                        "company": "Tec",
+                        "email": "robertdavidrd360567@gmail.com",
+                        "name": "Robert"
+                      },
+                      "changedOn": "2021-09-14T20:17:13.971Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": "<p>El software deberá contara contar con un sistema operativo a la medida que le permita realizar todas las funciones necesarias</p>"
+                      },
+                      "changedBy": {
+                        "company": "Tec",
+                        "email": "robertdavidrd360567@gmail.com",
+                        "name": "Robert"
+                      },
+                      "changedOn": "2021-09-14T23:30:05.390Z"
+                    }
+                  ]
+                },
+                {
+                  "id": "80",
+                  "guid": "68f4c53a-2a4d-4a0c-8fff-769eef350465",
+                  "heading": "Lenguaje de programacion",
+                  "text": "<p>El software deberá ser desarrollado en un lenguaje de programacion de alto nivel</p>",
+                  "history": [
+                    {
+                      "affectedNodeId": "17",
+                      "changedBy": {
+                        "company": "Tec",
+                        "email": "robertdavidrd360567@gmail.com",
+                        "name": "Robert"
+                      },
+                      "changedOn": "2021-09-15T00:08:59.828Z",
+                      "docId": "SRS",
+                      "structureAction": "Create"
+                    },
+                    {
+                      "attributesChanged": {
+                        "heading": null
+                      },
+                      "changedBy": {
+                        "company": "Tec",
+                        "email": "robertdavidrd360567@gmail.com",
+                        "name": "Robert"
+                      },
+                      "changedOn": "2021-09-15T00:09:25.794Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": null
+                      },
+                      "changedBy": {
+                        "company": "Tec",
+                        "email": "robertdavidrd360567@gmail.com",
+                        "name": "Robert"
+                      },
+                      "changedOn": "2021-09-15T00:10:38.221Z"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "18",
+              "guid": "a309fcfa-d4ee-42c7-863c-173e69308ecd",
+              "heading": "Definiciones",
+              "helpRef": "9.2.3",
+              "type": "SEC",
+              "history": [
+                {
+                  "attributesChanged": {
+                    "text": null
+                  },
+                  "changedBy": {
+                    "company": "Tec",
+                    "email": "robertdavidrd360567@gmail.com",
+                    "name": "Robert"
+                  },
+                  "changedOn": "2021-09-14T19:28:06.900Z"
+                },
+                {
+                  "attributesChanged": {
+                    "heading": "Definitions"
+                  },
+                  "changedBy": {
+                    "company": "Tec",
+                    "email": "robertdavidrd360567@gmail.com",
+                    "name": "Robert"
+                  },
+                  "changedOn": "2021-09-14T19:57:03.094Z"
+                },
+                {
+                  "attributesChanged": {
+                    "text": "<ul><li>Bioimpedancia: la característica del cuerpo humano de impedir el flujo de una corriente que pasa por el.</li><li>Ángulo de fase: el retraso que sufre una señal eléctrica al pasar por el cuerpo humano.</li><li>Electrodo: conductor eléctrico que hace contacto con la piel.</li></ul>"
+                  },
+                  "changedBy": {
+                    "company": "Tec",
+                    "email": "robertdavidrd360567@gmail.com",
+                    "name": "Robert"
+                  },
+                  "changedOn": "2021-09-15T00:11:29.733Z"
+                },
+                {
+                  "attributesChanged": {
+                    "text": "<ul><li><br></li><li>Ángulo de fase: el retraso que sufre una señal eléctrica al pasar por el cuerpo humano.</li><li>Electrodo: conductor eléctrico que hace contacto con la piel.</li></ul>"
+                  },
+                  "changedBy": {
+                    "company": "Tec",
+                    "email": "robertdavidrd360567@gmail.com",
+                    "name": "Robert"
+                  },
+                  "changedOn": "2021-09-15T00:12:05.303Z"
+                },
+                {
+                  "attributesChanged": {
+                    "text": "<ul><li><br></li><li><br></li><li>Electrodo: conductor eléctrico que hace contacto con la piel.</li></ul>"
+                  },
+                  "changedBy": {
+                    "company": "Tec",
+                    "email": "robertdavidrd360567@gmail.com",
+                    "name": "Robert"
+                  },
+                  "changedOn": "2021-09-15T00:12:45.921Z"
+                }
+              ],
+              "children": [
+                {
+                  "id": "81",
+                  "guid": "bea51924-b1ad-4898-8446-c3de08269642",
+                  "heading": "Bioimpedancia",
+                  "text": "<p>Es la característica del cuerpo humano de impedir el flujo de una corriente que pasa por el.</p>",
+                  "history": [
+                    {
+                      "affectedNodeId": "18",
+                      "changedBy": {
+                        "company": "Tec",
+                        "email": "robertdavidrd360567@gmail.com",
+                        "name": "Robert"
+                      },
+                      "changedOn": "2021-09-15T00:11:32.549Z",
+                      "docId": "SRS",
+                      "structureAction": "Create"
+                    },
+                    {
+                      "attributesChanged": {
+                        "heading": null,
+                        "text": null
+                      },
+                      "changedBy": {
+                        "company": "Tec",
+                        "email": "robertdavidrd360567@gmail.com",
+                        "name": "Robert"
+                      },
+                      "changedOn": "2021-09-15T00:11:54.135Z"
+                    }
+                  ]
+                },
+                {
+                  "id": "82",
+                  "guid": "37e9b107-3b12-425b-bbf8-6b611c462e34",
+                  "heading": "Ángulo de fase",
+                  "text": "<p>Es el retraso que sufre una señal eléctrica al pasar por el cuerpo humano.</p>",
+                  "history": [
+                    {
+                      "affectedNodeId": "18",
+                      "changedBy": {
+                        "company": "Tec",
+                        "email": "robertdavidrd360567@gmail.com",
+                        "name": "Robert"
+                      },
+                      "changedOn": "2021-09-15T00:12:08.065Z",
+                      "docId": "SRS",
+                      "structureAction": "Create"
+                    },
+                    {
+                      "attributesChanged": {
+                        "heading": null,
+                        "text": null
+                      },
+                      "changedBy": {
+                        "company": "Tec",
+                        "email": "robertdavidrd360567@gmail.com",
+                        "name": "Robert"
+                      },
+                      "changedOn": "2021-09-15T00:12:36.585Z"
+                    }
+                  ]
+                },
+                {
+                  "id": "83",
+                  "guid": "7c727d6b-b416-4c05-baca-903348154392",
+                  "heading": "Electrodos",
+                  "text": "<p>Son conductores eléctricos que hacen contacto con la piel.</p>",
+                  "history": [
+                    {
+                      "affectedNodeId": "18",
+                      "changedBy": {
+                        "company": "Tec",
+                        "email": "robertdavidrd360567@gmail.com",
+                        "name": "Robert"
+                      },
+                      "changedOn": "2021-09-15T00:12:51.036Z",
+                      "docId": "SRS",
+                      "structureAction": "Create"
+                    },
+                    {
+                      "attributesChanged": {
+                        "heading": null,
+                        "text": null
+                      },
+                      "changedBy": {
+                        "company": "Tec",
+                        "email": "robertdavidrd360567@gmail.com",
+                        "name": "Robert"
+                      },
+                      "changedOn": "2021-09-15T00:13:17.098Z"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "19",
+              "guid": "544c7bd9-05a4-4016-8188-62aec301625a",
+              "heading": "Acronyms and abbreviations",
+              "helpRef": "9.2.5",
+              "type": "SEC",
+              "history": [
+                {
+                  "attributesChanged": {
+                    "text": null
+                  },
+                  "changedBy": {
+                    "company": "ITCR",
+                    "email": "aisaac@estudiantec.cr",
+                    "name": "Angelo"
+                  },
+                  "changedOn": "2021-09-11T23:30:08.037Z"
+                },
+                {
+                  "attributesChanged": {
+                    "text": "<p>BIA: &nbsp;bioelectrical impedence analysis</p>"
+                  },
+                  "changedBy": {
+                    "company": "Tec",
+                    "email": "robertdavidrd360567@gmail.com",
+                    "name": "Robert"
+                  },
+                  "changedOn": "2021-09-14T19:30:21.762Z"
+                },
+                {
+                  "attributesChanged": {
+                    "text": "<p>BIA: &nbsp;bioelectrical impedence analysis</p><p>SO: Sistema operativo</p>"
+                  },
+                  "changedBy": {
+                    "company": "Tec",
+                    "email": "robertdavidrd360567@gmail.com",
+                    "name": "Robert"
+                  },
+                  "changedOn": "2021-09-14T19:44:22.978Z"
+                },
+                {
+                  "attributesChanged": {
+                    "text": "<p>BIA: &nbsp;bioelectrical impedence analysis</p><p>SO: Sistema operativo</p><p>App: aplicacion movil</p>"
+                  },
+                  "changedBy": {
+                    "company": "Tec",
+                    "email": "robertdavidrd360567@gmail.com",
+                    "name": "Robert"
+                  },
+                  "changedOn": "2021-09-15T00:13:58.177Z"
+                },
+                {
+                  "attributesChanged": {
+                    "text": "<p><br></p><p>SO: Sistema operativo</p><p>App: aplicacion movil</p>"
+                  },
+                  "changedBy": {
+                    "company": "Tec",
+                    "email": "robertdavidrd360567@gmail.com",
+                    "name": "Robert"
+                  },
+                  "changedOn": "2021-09-15T00:14:48.587Z"
+                }
+              ],
+              "children": [
+                {
+                  "id": "84",
+                  "guid": "12a99528-a7ae-4fee-8a15-0323c924b2a8",
+                  "heading": "BIA",
+                  "text": "<p>Bioelectrical impedence analysis</p>",
+                  "history": [
+                    {
+                      "affectedNodeId": "19",
+                      "changedBy": {
+                        "company": "Tec",
+                        "email": "robertdavidrd360567@gmail.com",
+                        "name": "Robert"
+                      },
+                      "changedOn": "2021-09-15T00:14:00.569Z",
+                      "docId": "SRS",
+                      "structureAction": "Create"
+                    },
+                    {
+                      "attributesChanged": {
+                        "heading": null,
+                        "text": null
+                      },
+                      "changedBy": {
+                        "company": "Tec",
+                        "email": "robertdavidrd360567@gmail.com",
+                        "name": "Robert"
+                      },
+                      "changedOn": "2021-09-15T00:14:13.659Z"
+                    }
+                  ]
+                },
+                {
+                  "id": "85",
+                  "guid": "fc4451f5-ddd1-4ab2-aeb7-01f0bb51d69c",
+                  "heading": "SO",
+                  "text": "<p>Sistema operativo</p>",
+                  "history": [
+                    {
+                      "affectedNodeId": "19",
+                      "changedBy": {
+                        "company": "Tec",
+                        "email": "robertdavidrd360567@gmail.com",
+                        "name": "Robert"
+                      },
+                      "changedOn": "2021-09-15T00:14:18.335Z",
+                      "docId": "SRS",
+                      "structureAction": "Create"
+                    },
+                    {
+                      "attributesChanged": {
+                        "heading": null,
+                        "text": null
+                      },
+                      "changedBy": {
+                        "company": "Tec",
+                        "email": "robertdavidrd360567@gmail.com",
+                        "name": "Robert"
+                      },
+                      "changedOn": "2021-09-15T00:14:33.176Z"
+                    }
+                  ]
+                },
+                {
+                  "id": "86",
+                  "guid": "a52a3b3e-64bb-4210-b05a-27764054e946",
+                  "heading": "App",
+                  "text": "<p>Aplicacion movil</p>",
+                  "history": [
+                    {
+                      "affectedNodeId": "19",
+                      "changedBy": {
+                        "company": "Tec",
+                        "email": "robertdavidrd360567@gmail.com",
+                        "name": "Robert"
+                      },
+                      "changedOn": "2021-09-15T00:14:36.652Z",
+                      "docId": "SRS",
+                      "structureAction": "Create"
+                    },
+                    {
+                      "attributesChanged": {
+                        "heading": null,
+                        "text": null
+                      },
+                      "changedBy": {
+                        "company": "Tec",
+                        "email": "robertdavidrd360567@gmail.com",
+                        "name": "Robert"
+                      },
+                      "changedOn": "2021-09-15T00:15:03.682Z"
+                    }
+                  ]
+                },
+                {
+                  "id": "87",
+                  "guid": "38c7a8ac-11b5-4e63-bef3-8e3017c63e58",
+                  "heading": "Min",
+                  "text": "<p>Minutos</p>",
+                  "history": [
+                    {
+                      "affectedNodeId": "19",
+                      "changedBy": {
+                        "company": "Tec",
+                        "email": "robertdavidrd360567@gmail.com",
+                        "name": "Robert"
+                      },
+                      "changedOn": "2021-09-15T00:15:06.194Z",
+                      "docId": "SRS",
+                      "structureAction": "Create"
+                    },
+                    {
+                      "attributesChanged": {
+                        "heading": null,
+                        "text": null
+                      },
+                      "changedBy": {
+                        "company": "Tec",
+                        "email": "robertdavidrd360567@gmail.com",
+                        "name": "Robert"
+                      },
+                      "changedOn": "2021-09-15T00:15:16.350Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": "<p>minutos</p>"
+                      },
+                      "changedBy": {
+                        "company": "Tec",
+                        "email": "robertdavidrd360567@gmail.com",
+                        "name": "Robert"
+                      },
+                      "changedOn": "2021-09-15T00:15:22.088Z"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "20",
+          "guid": "2f41d463-365d-44a2-bfb6-dbe1d75b03a8",
+          "heading": "Requirements",
+          "helpRef": "9.6.10",
+          "type": "SEC",
+          "children": [
+            {
+              "id": "21",
+              "guid": "b66da192-0ff6-413d-b71c-ddd3f596af95",
+              "heading": "External interfaces",
+              "helpRef": "9.6.11",
+              "type": "SEC"
+            },
+            {
+              "id": "22",
+              "guid": "8184e306-9cf9-4f5d-a1db-2acb3438b98c",
+              "heading": "Functions",
+              "helpRef": "9.6.12",
+              "type": "SEC"
+            },
+            {
+              "id": "23",
+              "guid": "13822a4e-6f87-477a-b97d-8bc9c97bdb57",
+              "heading": "Usability requirements",
+              "helpRef": "9.6.13",
+              "type": "SEC"
+            },
+            {
+              "id": "24",
+              "guid": "dd9fa770-ec27-4cd1-84c0-c5e3266d92a1",
+              "heading": "Performance requirements",
+              "helpRef": "9.6.14",
+              "type": "SEC"
+            },
+            {
+              "id": "25",
+              "guid": "30526f5a-841a-4cb9-8a64-3fe629218fca",
+              "heading": "Logical database requirements",
+              "helpRef": "9.6.15",
+              "type": "SEC"
+            },
+            {
+              "id": "26",
+              "guid": "99c80c60-d934-43c6-bfc9-7666200aafb0",
+              "heading": "Design constraints",
+              "helpRef": "9.6.16",
+              "type": "SEC"
+            },
+            {
+              "id": "27",
+              "guid": "65f080e5-594b-46f8-b6c1-48e6cfd0d079",
+              "heading": "Standards compliance",
+              "helpRef": "9.6.17",
+              "type": "SEC"
+            },
+            {
+              "id": "28",
+              "guid": "079f041c-19b3-49e8-9275-0a3defdcbdad",
+              "heading": "Software system attributes",
+              "helpRef": "9.6.18",
+              "type": "SEC"
+            }
+          ]
+        },
+        {
+          "id": "29",
+          "guid": "33cd5109-774b-4e1f-a2ff-a9e7c3b6b59a",
+          "heading": "Verification",
+          "helpRef": "9.6.19",
+          "type": "SEC"
+        },
+        {
+          "id": "30",
+          "guid": "35eef667-670e-4fc9-b66d-2a75d838c1d0",
+          "heading": "Supporting information",
+          "helpRef": "9.6.20",
+          "type": "SEC"
+        },
+        {
+          "id": "31",
+          "guid": "edd4c5d2-7f01-42c2-86a7-59d3d821edfd",
+          "heading": "References",
+          "helpRef": "9.2.4",
+          "type": "SEC"
+        }
+      ],
+      "attributes": {
+        "difficulty": {
+          "name": "Difficulty",
+          "type": "enum",
+          "values": [
+            {
+              "key": "E",
+              "label": "Easy"
+            },
+            {
+              "key": "N",
+              "label": "Nominal"
+            },
+            {
+              "key": "D",
+              "label": "Difficult"
+            }
+          ]
+        },
+        "owner": {
+          "name": "Owner",
+          "type": "string"
+        },
+        "priority": {
+          "name": "Priority",
+          "type": "enum",
+          "values": [
+            {
+              "key": "L",
+              "label": "Low"
+            },
+            {
+              "key": "M",
+              "label": "Medium"
+            },
+            {
+              "key": "H",
+              "label": "High"
+            }
+          ]
+        },
+        "rationale": {
+          "name": "Rationale",
+          "type": "xhtml"
+        },
+        "source": {
+          "name": "Source",
+          "type": "string"
+        },
+        "status": {
+          "name": "Status",
+          "type": "enum",
+          "values": [
+            {
+              "key": "Draft"
+            },
+            {
+              "key": "Ready"
+            },
+            {
+              "key": "Reviewed"
+            },
+            {
+              "key": "Approved"
+            },
+            {
+              "key": "Released"
+            }
+          ]
+        },
+        "type": {
+          "name": "Type",
+          "type": "enum",
+          "values": [
+            {
+              "key": "FR",
+              "label": "Functional Requirement"
+            },
+            {
+              "key": "INT",
+              "label": "Interface Requirement"
+            },
+            {
+              "key": "NFR",
+              "label": "Non-func. Requirement"
+            },
+            {
+              "key": "SEC",
+              "label": "Section"
+            },
+            {
+              "key": "INF",
+              "label": "Information"
+            }
+          ]
+        },
+        "verMethod": {
+          "name": "Ver. Method",
+          "type": "enum",
+          "values": [
+            {
+              "key": "T",
+              "label": "Test"
+            },
+            {
+              "key": "D",
+              "label": "Demonstration"
+            },
+            {
+              "key": "I",
+              "label": "Inspection"
+            },
+            {
+              "key": "A",
+              "label": "Analysis"
+            }
+          ]
+        }
+      },
+      "view": {
+        "columns": [
+          {
+            "columnId": "id",
+            "hidden": false,
+            "width": 77
+          },
+          {
+            "attribute": "type",
+            "columnId": "type",
+            "hidden": false,
+            "width": 97
+          },
+          {
+            "columnId": "description",
+            "hidden": false,
+            "width": 372
+          },
+          {
+            "columnId": "discussion",
+            "hidden": true,
+            "width": 190
+          },
+          {
+            "columnId": "links",
+            "hidden": true,
+            "width": 196
+          },
+          {
+            "attribute": "source",
+            "columnId": "source",
+            "hidden": false,
+            "width": 150
+          },
+          {
+            "attribute": "rationale",
+            "columnId": "rationale",
+            "hidden": false,
+            "width": 150
+          },
+          {
+            "attribute": "priority",
+            "columnId": "priority",
+            "hidden": false,
+            "width": 96
+          },
+          {
+            "attribute": "status",
+            "columnId": "status",
+            "hidden": false,
+            "width": 86
+          },
+          {
+            "attribute": "verMethod",
+            "columnId": "verMethod",
+            "hidden": false,
+            "width": 105
+          },
+          {
+            "attribute": "difficulty",
+            "columnId": "difficulty",
+            "hidden": true,
+            "width": 108
+          },
+          {
+            "attribute": "owner",
+            "columnId": "owner",
+            "hidden": true,
+            "width": 106
+          },
+          {
+            "columnId": "attributes",
+            "hidden": true,
+            "width": 300
+          }
+        ]
+      }
+    }
+  ],
+  "attachments": {
+  },
+  "traceability": {
+    "conflict": {
+      "name": "Conflict",
+      "source": "Is in conflict with"
+    },
+    "dependency": {
+      "name": "Dependency",
+      "source": "Depends on",
+      "target": "Blocks"
+    },
+    "reference": {
+      "name": "Reference",
+      "source": "References",
+      "target": "Is referenced by"
+    },
+    "satisfaction": {
+      "name": "Satisfaction",
+      "source": "Satisfies",
+      "target": "Is satisfied by"
+    },
+    "verification": {
+      "name": "Verification",
+      "source": "Verifies",
+      "target": "Is verified by"
+    }
+  },
+  "metadata": {
+    "format": "2.7",
+    "saveHistory": true
+  }
+}
