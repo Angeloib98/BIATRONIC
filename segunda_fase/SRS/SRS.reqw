@@ -12,7 +12,7 @@
         "email": "francinie23@estudiantec.cr",
         "company": "Instituto de Tecnológico de Costa Rica"
       },
-      "lastChangedOn": "2021-09-12T01:51:12.322Z",
+      "lastChangedOn": "2021-09-14T23:48:29.945Z",
       "lastChangedBy": {
         "name": "Angelo",
         "email": "aisaac@estudiantec.cr",
@@ -454,7 +454,7 @@
                   "id": "8",
                   "guid": "1bd17f4f-d159-4f8d-bcb6-c49c5ebce03e",
                   "heading": "Software interfaces",
-                  "text": "<p>El software deberá enviar información desde el dispositivo portable a una aplicación móvil, para una mejor visualización de resultados e interacciones con la información extras.</p>",
+                  "text": "<p>El software deberá enviar información desde el dispositivo portable a una aplicación móvil, para una mejor visualización de resultados e interacciones con la información extra brindada por el usuario.</p>",
                   "helpRef": "9.6.4.4",
                   "type": "SEC",
                   "history": [
@@ -468,6 +468,17 @@
                         "name": "Angelo"
                       },
                       "changedOn": "2021-09-11T23:58:32.075Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": "<p>El software deberá enviar información desde el dispositivo portable a una aplicación móvil, para una mejor visualización de resultados e interacciones con la información extras.</p>"
+                      },
+                      "changedBy": {
+                        "company": "ITCR",
+                        "email": "aisaac@estudiantec.cr",
+                        "name": "Angelo"
+                      },
+                      "changedOn": "2021-09-13T22:27:15.784Z"
                     }
                   ]
                 },
@@ -621,15 +632,87 @@
                   "id": "10",
                   "guid": "d7b18b99-74f8-4855-b7b6-89f0ed956453",
                   "heading": "Memory constraints",
+                  "text": "<p>El software deberá ser capaz de almacenar un mínimo de 100 usuarios con su respectivo historial de mediciones</p>",
                   "helpRef": "9.6.4.6",
-                  "type": "SEC"
+                  "type": "SEC",
+                  "history": [
+                    {
+                      "attributesChanged": {
+                        "text": null
+                      },
+                      "changedBy": {
+                        "company": "ITCR",
+                        "email": "aisaac@estudiantec.cr",
+                        "name": "Angelo"
+                      },
+                      "changedOn": "2021-09-13T22:08:12.353Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": "<p>El software deberá ser capaz de almacenar un mínimo de 15 usuarios con su respectivo historial de mediciones</p>"
+                      },
+                      "changedBy": {
+                        "company": "ITCR",
+                        "email": "aisaac@estudiantec.cr",
+                        "name": "Angelo"
+                      },
+                      "changedOn": "2021-09-14T22:32:46.475Z"
+                    }
+                  ]
                 },
                 {
                   "id": "11",
                   "guid": "b6ed7678-d355-4ac2-bb0c-d9c497a916ca",
                   "heading": "Operations",
+                  "text": "<p>Actualización del software</p><p>Ahorro de energia</p><p>Creacion de usuario</p><p>Backup de la información</p><p>Modo main</p><p>Modo seguridad</p><p>Modo activo</p><p>Modo transmision de información</p><p>Detección de anomalías (humedad,no estén conectados, temperatura, mala medición(en un rango))</p><p>Modo inicio de sesión</p><p>Generación de resultados</p><p>Iniciar mediciones</p><p>Calculo de mediciones obtenidas</p><p>Apagado</p><p>Encendido</p>",
                   "helpRef": "9.6.4.7",
-                  "type": "SEC"
+                  "type": "SEC",
+                  "history": [
+                    {
+                      "attributesChanged": {
+                        "text": null
+                      },
+                      "changedBy": {
+                        "company": "ITCR",
+                        "email": "aisaac@estudiantec.cr",
+                        "name": "Angelo"
+                      },
+                      "changedOn": "2021-09-13T22:33:31.914Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": "<p>Actualización del software</p><p>Ahorro de energia</p><p>Creacion de usuario</p><p>Modo emergencia de apagado</p><p>Backup dela información</p><p>Modo main</p><p>Modo seguridad</p><p>Modo activo</p><p>Modo transmision de infromación</p><p>Detección de anomalías</p><p>Modo inicio de sesión</p>"
+                      },
+                      "changedBy": {
+                        "company": "ITCR",
+                        "email": "aisaac@estudiantec.cr",
+                        "name": "Angelo"
+                      },
+                      "changedOn": "2021-09-13T22:51:38.092Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": "<p>Actualización del software</p><p>Ahorro de energia</p><p>Creacion de usuario</p><p>Modo emergencia de apagado</p><p>Backup dela información</p><p>Modo main</p><p>Modo seguridad</p><p>Modo activo</p><p>Modo transmision de infromación</p><p>Detección de anomalías</p><p>Modo inicio de sesión</p><p>Gerenación de resultados</p><p>Iniciar mediciones</p><p>Calculo de mediciones obtenidas</p><p>Apagado</p><p>Encendido</p>"
+                      },
+                      "changedBy": {
+                        "company": "ITCR",
+                        "email": "aisaac@estudiantec.cr",
+                        "name": "Angelo"
+                      },
+                      "changedOn": "2021-09-14T23:43:28.228Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": "<p>Actualización del software</p><p>Ahorro de energia</p><p>Creacion de usuario</p><p>Backup de la información</p><p>Modo main</p><p>Modo seguridad</p><p>Modo activo</p><p>Modo transmision de información</p><p>Detección de anomalías (humedad, mal conectados,no estén conectados, temperatura)</p><p>Modo inicio de sesión</p><p>Gerenación de resultados</p><p>Iniciar mediciones</p><p>Calculo de mediciones obtenidas</p><p>Apagado</p><p>Encendido</p>"
+                      },
+                      "changedBy": {
+                        "company": "ITCR",
+                        "email": "aisaac@estudiantec.cr",
+                        "name": "Angelo"
+                      },
+                      "changedOn": "2021-09-14T23:48:29.945Z"
+                    }
+                  ]
                 },
                 {
                   "id": "12",
