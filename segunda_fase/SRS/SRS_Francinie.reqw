@@ -5,18 +5,18 @@
       "id": "SRS",
       "guid": "254e2b3c-9932-458c-a99a-cec52dad5fde",
       "name": "Software Requirements Specification",
-      "lastId": 72,
+      "lastId": 74,
       "createdOn": "2021-09-08T01:58:52.746Z",
       "createdBy": {
         "name": "Francinie Rodríguez",
         "email": "francinie23@estudiantec.cr",
         "company": "Instituto de Tecnológico de Costa Rica"
       },
-      "lastChangedOn": "2021-09-15T00:27:29.912Z",
+      "lastChangedOn": "2021-09-15T17:33:12.422Z",
       "lastChangedBy": {
-        "name": "Francinie Rodríguez",
-        "email": "francinie23@estudiantec.cr",
-        "company": "Instituto de Tecnológico de Costa Rica"
+        "name": "Angelo",
+        "email": "aisaac@estudiantec.cr",
+        "company": "ITCR"
       },
       "helpRef": "ISO/IEC/IEEE 29148:2018",
       "data": [
@@ -132,7 +132,71 @@
               "guid": "04246d83-96d7-445b-94e5-9c12099efb4d",
               "heading": "Limitations",
               "helpRef": "9.6.7",
-              "type": "SEC"
+              "type": "SEC",
+              "children": [
+                {
+                  "id": "73",
+                  "guid": "54b2d209-9eb8-4b69-bc96-081e95d85b3d",
+                  "heading": "ss",
+                  "text": "<p>s</p>",
+                  "history": [
+                    {
+                      "affectedNodeId": "16",
+                      "changedBy": {
+                        "company": "ITCR",
+                        "email": "aisaac@estudiantec.cr",
+                        "name": "Angelo"
+                      },
+                      "changedOn": "2021-09-15T17:33:03.234Z",
+                      "docId": "SRS",
+                      "structureAction": "Create"
+                    },
+                    {
+                      "attributesChanged": {
+                        "heading": null,
+                        "text": null
+                      },
+                      "changedBy": {
+                        "company": "ITCR",
+                        "email": "aisaac@estudiantec.cr",
+                        "name": "Angelo"
+                      },
+                      "changedOn": "2021-09-15T17:33:05.371Z"
+                    }
+                  ]
+                },
+                {
+                  "id": "74",
+                  "guid": "15364028-3147-4a8c-ab6d-7d72ea3f300b",
+                  "heading": "ssss",
+                  "text": "<p>sss</p>",
+                  "history": [
+                    {
+                      "affectedNodeId": "16",
+                      "changedBy": {
+                        "company": "ITCR",
+                        "email": "aisaac@estudiantec.cr",
+                        "name": "Angelo"
+                      },
+                      "changedOn": "2021-09-15T17:33:08.966Z",
+                      "docId": "SRS",
+                      "structureAction": "Create"
+                    },
+                    {
+                      "attributesChanged": {
+                        "heading": null,
+                        "text": null
+                      },
+                      "changedBy": {
+                        "company": "ITCR",
+                        "email": "aisaac@estudiantec.cr",
+                        "name": "Angelo"
+                      },
+                      "changedOn": "2021-09-15T17:33:12.422Z"
+                    }
+                  ]
+                }
+              ]
             },
             {
               "id": "17",

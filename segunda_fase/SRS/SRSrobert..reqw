@@ -5,25 +5,25 @@
       "id": "SRS",
       "guid": "254e2b3c-9932-458c-a99a-cec52dad5fde",
       "name": "Software Requirements Specification",
-      "lastId": 99,
+      "lastId": 149,
       "createdOn": "2021-09-08T01:58:52.746Z",
       "createdBy": {
         "name": "Francinie Rodríguez",
         "email": "francinie23@estudiantec.cr",
         "company": "Instituto de Tecnológico de Costa Rica"
       },
-      "lastChangedOn": "2021-09-15T00:27:15.622Z",
+      "lastChangedOn": "2021-09-15T18:14:20.573Z",
       "lastChangedBy": {
-        "name": "Robert",
-        "email": "robertdavidrd360567@gmail.com",
-        "company": "Tec"
+        "name": "Angelo",
+        "email": "aisaac@estudiantec.cr",
+        "company": "ITCR"
       },
       "helpRef": "ISO/IEC/IEEE 29148:2018",
       "data": [
         {
           "id": "1",
           "guid": "8dde735d-2584-4791-bc29-0e720fd0d1eb",
-          "heading": "Introduction",
+          "heading": "Introducción",
           "helpRef": "8.5",
           "type": "SEC",
           "history": [
@@ -48,14 +48,25 @@
                 "name": "Angelo"
               },
               "changedOn": "2021-09-11T22:34:57.750Z"
+            },
+            {
+              "attributesChanged": {
+                "heading": "Introduction"
+              },
+              "changedBy": {
+                "company": "ITCR",
+                "email": "aisaac@estudiantec.cr",
+                "name": "Angelo"
+              },
+              "changedOn": "2021-09-15T17:28:37.982Z"
             }
           ],
           "children": [
             {
               "id": "2",
               "guid": "ba7851c4-6687-489c-bc43-0fa6abb561ec",
-              "heading": "Purpose",
-              "text": "<p>El software deberá ser el responsable de los diferentes algoritmos que permitiran el correcto procesamiento de las señales de entrada para su visualización adecuada acordé para los usuarios.</p>",
+              "heading": "Propósito",
+              "text": "<p>El software deberá ser el responsable de los diferentes algoritmos que permitirán el correcto procesamiento de las señales de entrada para su visualización adecuada acordé para los usuarios.</p>",
               "helpRef": "9.6.2",
               "type": "SEC",
               "history": [
@@ -102,13 +113,35 @@
                     "name": "Angelo"
                   },
                   "changedOn": "2021-09-11T22:24:26.462Z"
+                },
+                {
+                  "attributesChanged": {
+                    "heading": "Purpose"
+                  },
+                  "changedBy": {
+                    "company": "ITCR",
+                    "email": "aisaac@estudiantec.cr",
+                    "name": "Angelo"
+                  },
+                  "changedOn": "2021-09-15T17:28:55.515Z"
+                },
+                {
+                  "attributesChanged": {
+                    "text": "<p>El software deberá ser el responsable de los diferentes algoritmos que permitiran el correcto procesamiento de las señales de entrada para su visualización adecuada acordé para los usuarios.</p>"
+                  },
+                  "changedBy": {
+                    "company": "ITCR",
+                    "email": "aisaac@estudiantec.cr",
+                    "name": "Angelo"
+                  },
+                  "changedOn": "2021-09-15T17:29:02.063Z"
                 }
               ]
             },
             {
               "id": "3",
               "guid": "db8e8727-b8fd-4517-953b-60fb5314f8c6",
-              "heading": "Scope",
+              "heading": "Alcance",
               "text": "<p>El software deberá poder calcular la diferencia de los ángulos de fase entre los diferentes sensores mediante el análisis de la bioimpedancia eléctrica para poder obtener la composición corporal del usuario y generar una visualización de estos resultados de manera entendible para el usuario.</p><p><br></p>",
               "helpRef": "9.6.3",
               "type": "SEC",
@@ -145,6 +178,17 @@
                     "name": "Angelo"
                   },
                   "changedOn": "2021-09-11T22:34:29.754Z"
+                },
+                {
+                  "attributesChanged": {
+                    "heading": "Scope"
+                  },
+                  "changedBy": {
+                    "company": "ITCR",
+                    "email": "aisaac@estudiantec.cr",
+                    "name": "Angelo"
+                  },
+                  "changedOn": "2021-09-15T17:29:21.114Z"
                 }
               ],
               "children": [
@@ -273,58 +317,846 @@
             {
               "id": "4",
               "guid": "a3c8876f-e5b9-4f5b-8584-da76f9549551",
-              "heading": "Product perspective",
+              "heading": "Perspectiva del producto",
               "helpRef": "9.6.4",
               "type": "SEC",
+              "history": [
+                {
+                  "attributesChanged": {
+                    "heading": "Product perspective"
+                  },
+                  "changedBy": {
+                    "company": "ITCR",
+                    "email": "aisaac@estudiantec.cr",
+                    "name": "Angelo"
+                  },
+                  "changedOn": "2021-09-15T18:03:46.670Z"
+                }
+              ],
               "children": [
                 {
                   "id": "5",
                   "guid": "404a3007-8970-4312-860f-e0d6bc7c6b9a",
-                  "heading": "System interfaces",
+                  "heading": "Interfaces de sistema",
+                  "text": "<p>El software deberá correr en las últimas versiones de android, IOS y la versión de linux portable.</p>",
                   "helpRef": "9.6.4.1",
-                  "type": "SEC"
+                  "type": "SEC",
+                  "history": [
+                    {
+                      "attributesChanged": {
+                        "heading": "System interfaces"
+                      },
+                      "changedBy": {
+                        "company": "ITCR",
+                        "email": "aisaac@estudiantec.cr",
+                        "name": "Angelo"
+                      },
+                      "changedOn": "2021-09-15T18:04:07.581Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": null
+                      },
+                      "changedBy": {
+                        "company": "ITCR",
+                        "email": "aisaac@estudiantec.cr",
+                        "name": "Angelo"
+                      },
+                      "changedOn": "2021-09-15T18:04:21.558Z"
+                    }
+                  ]
                 },
                 {
                   "id": "6",
                   "guid": "8b326009-82eb-4d52-9620-7930a736db31",
-                  "heading": "User interfaces",
+                  "heading": "Interfaces de usuario",
+                  "text": "<p>El software deberá tener una pantalla gráfica con menus, botones y ajustes que permita un manejo táctil de fácil entendimiento.</p>",
                   "helpRef": "9.6.4.2",
-                  "type": "SEC"
+                  "type": "SEC",
+                  "history": [
+                    {
+                      "attributesChanged": {
+                        "heading": "User interfaces"
+                      },
+                      "changedBy": {
+                        "company": "ITCR",
+                        "email": "aisaac@estudiantec.cr",
+                        "name": "Angelo"
+                      },
+                      "changedOn": "2021-09-15T18:04:39.729Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": null
+                      },
+                      "changedBy": {
+                        "company": "ITCR",
+                        "email": "aisaac@estudiantec.cr",
+                        "name": "Angelo"
+                      },
+                      "changedOn": "2021-09-15T18:04:49.691Z"
+                    }
+                  ]
                 },
                 {
                   "id": "7",
                   "guid": "c1c3aee0-dbe5-4e3f-aa84-6beafbcd072b",
-                  "heading": "Hardware interfaces",
+                  "heading": "Interfaces de hardware",
                   "helpRef": "9.6.4.3",
-                  "type": "SEC"
+                  "type": "SEC",
+                  "history": [
+                    {
+                      "attributesChanged": {
+                        "heading": "Hardware interfaces"
+                      },
+                      "changedBy": {
+                        "company": "ITCR",
+                        "email": "aisaac@estudiantec.cr",
+                        "name": "Angelo"
+                      },
+                      "changedOn": "2021-09-15T18:05:03.343Z"
+                    }
+                  ],
+                  "children": [
+                    {
+                      "id": "130",
+                      "guid": "63e89140-191e-4f66-8f0a-d80e495164cc",
+                      "heading": "Sensores",
+                      "text": "<p>El software deberá recibir señales de los sensores para procesar la información.</p>",
+                      "history": [
+                        {
+                          "affectedNodeId": "7",
+                          "changedBy": {
+                            "company": "ITCR",
+                            "email": "aisaac@estudiantec.cr",
+                            "name": "Angelo"
+                          },
+                          "changedOn": "2021-09-15T18:05:07.622Z",
+                          "docId": "SRS",
+                          "structureAction": "Create"
+                        },
+                        {
+                          "attributesChanged": {
+                            "heading": null
+                          },
+                          "changedBy": {
+                            "company": "ITCR",
+                            "email": "aisaac@estudiantec.cr",
+                            "name": "Angelo"
+                          },
+                          "changedOn": "2021-09-15T18:05:19.297Z"
+                        },
+                        {
+                          "attributesChanged": {
+                            "text": null
+                          },
+                          "changedBy": {
+                            "company": "ITCR",
+                            "email": "aisaac@estudiantec.cr",
+                            "name": "Angelo"
+                          },
+                          "changedOn": "2021-09-15T18:05:33.160Z"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "131",
+                      "guid": "521e9b1d-d26d-41b4-b227-f8506f1e90dc",
+                      "heading": "Pantalla táctil",
+                      "text": "<p>El software deberá recibir señales de actuación de la pantalla táctil.</p>",
+                      "history": [
+                        {
+                          "affectedNodeId": "7",
+                          "changedBy": {
+                            "company": "ITCR",
+                            "email": "aisaac@estudiantec.cr",
+                            "name": "Angelo"
+                          },
+                          "changedOn": "2021-09-15T18:05:34.966Z",
+                          "docId": "SRS",
+                          "structureAction": "Create"
+                        },
+                        {
+                          "attributesChanged": {
+                            "heading": null
+                          },
+                          "changedBy": {
+                            "company": "ITCR",
+                            "email": "aisaac@estudiantec.cr",
+                            "name": "Angelo"
+                          },
+                          "changedOn": "2021-09-15T18:05:42.896Z"
+                        },
+                        {
+                          "attributesChanged": {
+                            "text": null
+                          },
+                          "changedBy": {
+                            "company": "ITCR",
+                            "email": "aisaac@estudiantec.cr",
+                            "name": "Angelo"
+                          },
+                          "changedOn": "2021-09-15T18:05:50.673Z"
+                        }
+                      ]
+                    }
+                  ]
                 },
                 {
                   "id": "8",
                   "guid": "1bd17f4f-d159-4f8d-bcb6-c49c5ebce03e",
-                  "heading": "Software interfaces",
+                  "heading": "Interfaces de software",
+                  "text": "<p>El software deberá enviar información desde el dispositivo portable a una aplicación móvil, para una mejor visualización de resultados e interacciones con la información extra brindada por el usuario.</p>",
                   "helpRef": "9.6.4.4",
-                  "type": "SEC"
+                  "type": "SEC",
+                  "history": [
+                    {
+                      "attributesChanged": {
+                        "heading": "Software interfaces"
+                      },
+                      "changedBy": {
+                        "company": "ITCR",
+                        "email": "aisaac@estudiantec.cr",
+                        "name": "Angelo"
+                      },
+                      "changedOn": "2021-09-15T18:06:03.600Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": null
+                      },
+                      "changedBy": {
+                        "company": "ITCR",
+                        "email": "aisaac@estudiantec.cr",
+                        "name": "Angelo"
+                      },
+                      "changedOn": "2021-09-15T18:06:12.836Z"
+                    }
+                  ]
                 },
                 {
                   "id": "9",
                   "guid": "44b75d00-eb04-4f4b-9e07-bd84712ee0f6",
-                  "heading": "Communications interfaces",
+                  "heading": "Interfaces de comunicación",
                   "helpRef": "9.6.4.5",
-                  "type": "SEC"
+                  "type": "SEC",
+                  "history": [
+                    {
+                      "attributesChanged": {
+                        "heading": "Communications interfaces"
+                      },
+                      "changedBy": {
+                        "company": "ITCR",
+                        "email": "aisaac@estudiantec.cr",
+                        "name": "Angelo"
+                      },
+                      "changedOn": "2021-09-15T18:06:26.850Z"
+                    }
+                  ],
+                  "children": [
+                    {
+                      "id": "132",
+                      "guid": "a5ba48df-0392-4502-9d82-49929cb81ede",
+                      "heading": "Protocolo de transmisión de datos",
+                      "text": "<p>El software deberá conectarse al servicio de la nube mediante el protocolo de wifi.</p>",
+                      "history": [
+                        {
+                          "affectedNodeId": "9",
+                          "changedBy": {
+                            "company": "ITCR",
+                            "email": "aisaac@estudiantec.cr",
+                            "name": "Angelo"
+                          },
+                          "changedOn": "2021-09-15T18:06:31.494Z",
+                          "docId": "SRS",
+                          "structureAction": "Create"
+                        },
+                        {
+                          "attributesChanged": {
+                            "heading": null
+                          },
+                          "changedBy": {
+                            "company": "ITCR",
+                            "email": "aisaac@estudiantec.cr",
+                            "name": "Angelo"
+                          },
+                          "changedOn": "2021-09-15T18:06:51.442Z"
+                        },
+                        {
+                          "attributesChanged": {
+                            "text": null
+                          },
+                          "changedBy": {
+                            "company": "ITCR",
+                            "email": "aisaac@estudiantec.cr",
+                            "name": "Angelo"
+                          },
+                          "changedOn": "2021-09-15T18:06:59.729Z"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "133",
+                      "guid": "3aa86e51-8294-4bce-a4e4-e3ad49bbe6c7",
+                      "heading": "Protocolo de comunicación con sensores",
+                      "text": "<p>El software deberá contar con un protocolo de recolección de datos provenientes de los sensores.</p>",
+                      "history": [
+                        {
+                          "affectedNodeId": "9",
+                          "changedBy": {
+                            "company": "ITCR",
+                            "email": "aisaac@estudiantec.cr",
+                            "name": "Angelo"
+                          },
+                          "changedOn": "2021-09-15T18:07:01.578Z",
+                          "docId": "SRS",
+                          "structureAction": "Create"
+                        },
+                        {
+                          "attributesChanged": {
+                            "heading": null
+                          },
+                          "changedBy": {
+                            "company": "ITCR",
+                            "email": "aisaac@estudiantec.cr",
+                            "name": "Angelo"
+                          },
+                          "changedOn": "2021-09-15T18:07:22.173Z"
+                        },
+                        {
+                          "attributesChanged": {
+                            "text": null
+                          },
+                          "changedBy": {
+                            "company": "ITCR",
+                            "email": "aisaac@estudiantec.cr",
+                            "name": "Angelo"
+                          },
+                          "changedOn": "2021-09-15T18:07:32.546Z"
+                        }
+                      ]
+                    }
+                  ]
                 },
                 {
                   "id": "10",
                   "guid": "d7b18b99-74f8-4855-b7b6-89f0ed956453",
-                  "heading": "Memory constraints",
+                  "heading": "Limitaciones de memoria",
+                  "text": "<p>El software deberá ser capaz de almacenar un mínimo de 100 usuarios con su respectivo historial de mediciones</p>",
                   "helpRef": "9.6.4.6",
-                  "type": "SEC"
+                  "type": "SEC",
+                  "history": [
+                    {
+                      "attributesChanged": {
+                        "heading": "Memory constraints"
+                      },
+                      "changedBy": {
+                        "company": "ITCR",
+                        "email": "aisaac@estudiantec.cr",
+                        "name": "Angelo"
+                      },
+                      "changedOn": "2021-09-15T18:07:49.175Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": null
+                      },
+                      "changedBy": {
+                        "company": "ITCR",
+                        "email": "aisaac@estudiantec.cr",
+                        "name": "Angelo"
+                      },
+                      "changedOn": "2021-09-15T18:07:56.480Z"
+                    }
+                  ]
                 },
                 {
                   "id": "11",
                   "guid": "b6ed7678-d355-4ac2-bb0c-d9c497a916ca",
-                  "heading": "Operations",
+                  "heading": "Operaciones",
                   "helpRef": "9.6.4.7",
-                  "type": "SEC"
+                  "type": "SEC",
+                  "history": [
+                    {
+                      "attributesChanged": {
+                        "heading": "Operations"
+                      },
+                      "changedBy": {
+                        "company": "ITCR",
+                        "email": "aisaac@estudiantec.cr",
+                        "name": "Angelo"
+                      },
+                      "changedOn": "2021-09-15T18:08:09.064Z"
+                    }
+                  ],
+                  "children": [
+                    {
+                      "id": "134",
+                      "guid": "cd17c38c-7621-42f0-85ba-a73e2be084db",
+                      "heading": "Modo main",
+                      "history": [
+                        {
+                          "affectedNodeId": "11",
+                          "changedBy": {
+                            "company": "ITCR",
+                            "email": "aisaac@estudiantec.cr",
+                            "name": "Angelo"
+                          },
+                          "changedOn": "2021-09-15T18:08:21.391Z",
+                          "docId": "SRS",
+                          "structureAction": "Create"
+                        },
+                        {
+                          "attributesChanged": {
+                            "heading": null
+                          },
+                          "changedBy": {
+                            "company": "ITCR",
+                            "email": "aisaac@estudiantec.cr",
+                            "name": "Angelo"
+                          },
+                          "changedOn": "2021-09-15T18:08:28.458Z"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "135",
+                      "guid": "94d8e8af-21dd-48e5-832b-dda87ea8a272",
+                      "heading": "Modo seguridad",
+                      "history": [
+                        {
+                          "affectedNodeId": "11",
+                          "changedBy": {
+                            "company": "ITCR",
+                            "email": "aisaac@estudiantec.cr",
+                            "name": "Angelo"
+                          },
+                          "changedOn": "2021-09-15T18:08:31.333Z",
+                          "docId": "SRS",
+                          "structureAction": "Create"
+                        },
+                        {
+                          "attributesChanged": {
+                            "heading": null
+                          },
+                          "changedBy": {
+                            "company": "ITCR",
+                            "email": "aisaac@estudiantec.cr",
+                            "name": "Angelo"
+                          },
+                          "changedOn": "2021-09-15T18:08:40.232Z"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "136",
+                      "guid": "85ae6e99-8350-44a9-86d8-8773bec44885",
+                      "heading": "Modo activo",
+                      "history": [
+                        {
+                          "affectedNodeId": "11",
+                          "changedBy": {
+                            "company": "ITCR",
+                            "email": "aisaac@estudiantec.cr",
+                            "name": "Angelo"
+                          },
+                          "changedOn": "2021-09-15T18:08:42.272Z",
+                          "docId": "SRS",
+                          "structureAction": "Create"
+                        },
+                        {
+                          "attributesChanged": {
+                            "heading": null
+                          },
+                          "changedBy": {
+                            "company": "ITCR",
+                            "email": "aisaac@estudiantec.cr",
+                            "name": "Angelo"
+                          },
+                          "changedOn": "2021-09-15T18:08:46.208Z"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "137",
+                      "guid": "383f9c6a-c2ef-4c0e-8c74-09226d9b0b9a",
+                      "heading": "Modo transmisión de información",
+                      "history": [
+                        {
+                          "affectedNodeId": "11",
+                          "changedBy": {
+                            "company": "ITCR",
+                            "email": "aisaac@estudiantec.cr",
+                            "name": "Angelo"
+                          },
+                          "changedOn": "2021-09-15T18:08:49.890Z",
+                          "docId": "SRS",
+                          "structureAction": "Create"
+                        },
+                        {
+                          "attributesChanged": {
+                            "heading": null
+                          },
+                          "changedBy": {
+                            "company": "ITCR",
+                            "email": "aisaac@estudiantec.cr",
+                            "name": "Angelo"
+                          },
+                          "changedOn": "2021-09-15T18:09:01.204Z"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "138",
+                      "guid": "02f15f39-bc23-457d-8cf7-01e2a2f215ce",
+                      "heading": "Encendido",
+                      "history": [
+                        {
+                          "affectedNodeId": "11",
+                          "changedBy": {
+                            "company": "ITCR",
+                            "email": "aisaac@estudiantec.cr",
+                            "name": "Angelo"
+                          },
+                          "changedOn": "2021-09-15T18:09:02.995Z",
+                          "docId": "SRS",
+                          "structureAction": "Create"
+                        },
+                        {
+                          "attributesChanged": {
+                            "heading": null
+                          },
+                          "changedBy": {
+                            "company": "ITCR",
+                            "email": "aisaac@estudiantec.cr",
+                            "name": "Angelo"
+                          },
+                          "changedOn": "2021-09-15T18:09:18.164Z"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "139",
+                      "guid": "6c36551a-6d7e-4de3-9201-7d10ca496816",
+                      "heading": "Apagado",
+                      "history": [
+                        {
+                          "affectedNodeId": "11",
+                          "changedBy": {
+                            "company": "ITCR",
+                            "email": "aisaac@estudiantec.cr",
+                            "name": "Angelo"
+                          },
+                          "changedOn": "2021-09-15T18:09:19.947Z",
+                          "docId": "SRS",
+                          "structureAction": "Create"
+                        },
+                        {
+                          "attributesChanged": {
+                            "heading": null
+                          },
+                          "changedBy": {
+                            "company": "ITCR",
+                            "email": "aisaac@estudiantec.cr",
+                            "name": "Angelo"
+                          },
+                          "changedOn": "2021-09-15T18:09:23.177Z"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "140",
+                      "guid": "70bdd2be-9c7c-43e6-b80b-cbe4544f09a8",
+                      "heading": "Actualización de software",
+                      "history": [
+                        {
+                          "affectedNodeId": "11",
+                          "changedBy": {
+                            "company": "ITCR",
+                            "email": "aisaac@estudiantec.cr",
+                            "name": "Angelo"
+                          },
+                          "changedOn": "2021-09-15T18:09:25.772Z",
+                          "docId": "SRS",
+                          "structureAction": "Create"
+                        },
+                        {
+                          "attributesChanged": {
+                            "heading": null
+                          },
+                          "changedBy": {
+                            "company": "ITCR",
+                            "email": "aisaac@estudiantec.cr",
+                            "name": "Angelo"
+                          },
+                          "changedOn": "2021-09-15T18:09:43.289Z"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "141",
+                      "guid": "04cd1ace-df64-4709-9e1d-9c28ed0d53d6",
+                      "heading": "Back up  de la información",
+                      "history": [
+                        {
+                          "affectedNodeId": "11",
+                          "changedBy": {
+                            "company": "ITCR",
+                            "email": "aisaac@estudiantec.cr",
+                            "name": "Angelo"
+                          },
+                          "changedOn": "2021-09-15T18:09:44.977Z",
+                          "docId": "SRS",
+                          "structureAction": "Create"
+                        },
+                        {
+                          "attributesChanged": {
+                            "heading": null
+                          },
+                          "changedBy": {
+                            "company": "ITCR",
+                            "email": "aisaac@estudiantec.cr",
+                            "name": "Angelo"
+                          },
+                          "changedOn": "2021-09-15T18:10:01.053Z"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "142",
+                      "guid": "d2a54717-5b7e-46ef-8f3d-de7fcd24f0f7",
+                      "heading": "Modo ahorro de energía",
+                      "history": [
+                        {
+                          "affectedNodeId": "11",
+                          "changedBy": {
+                            "company": "ITCR",
+                            "email": "aisaac@estudiantec.cr",
+                            "name": "Angelo"
+                          },
+                          "changedOn": "2021-09-15T18:10:07.652Z",
+                          "docId": "SRS",
+                          "structureAction": "Create"
+                        },
+                        {
+                          "attributesChanged": {
+                            "heading": null
+                          },
+                          "changedBy": {
+                            "company": "ITCR",
+                            "email": "aisaac@estudiantec.cr",
+                            "name": "Angelo"
+                          },
+                          "changedOn": "2021-09-15T18:10:16.201Z"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "143",
+                      "guid": "e79617fc-655b-4eb9-8b8a-c740d2319210",
+                      "heading": "Cálculo de mediciones",
+                      "history": [
+                        {
+                          "affectedNodeId": "11",
+                          "changedBy": {
+                            "company": "ITCR",
+                            "email": "aisaac@estudiantec.cr",
+                            "name": "Angelo"
+                          },
+                          "changedOn": "2021-09-15T18:10:21.956Z",
+                          "docId": "SRS",
+                          "structureAction": "Create"
+                        },
+                        {
+                          "attributesChanged": {
+                            "heading": null
+                          },
+                          "changedBy": {
+                            "company": "ITCR",
+                            "email": "aisaac@estudiantec.cr",
+                            "name": "Angelo"
+                          },
+                          "changedOn": "2021-09-15T18:11:22.712Z"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "144",
+                      "guid": "57d106fc-e52d-421e-a413-2c30b0d40076",
+                      "heading": "Detección de anomalías",
+                      "history": [
+                        {
+                          "affectedNodeId": "11",
+                          "changedBy": {
+                            "company": "ITCR",
+                            "email": "aisaac@estudiantec.cr",
+                            "name": "Angelo"
+                          },
+                          "changedOn": "2021-09-15T18:11:23.987Z",
+                          "docId": "SRS",
+                          "structureAction": "Create"
+                        },
+                        {
+                          "attributesChanged": {
+                            "heading": null
+                          },
+                          "changedBy": {
+                            "company": "ITCR",
+                            "email": "aisaac@estudiantec.cr",
+                            "name": "Angelo"
+                          },
+                          "changedOn": "2021-09-15T18:11:44.430Z"
+                        }
+                      ],
+                      "children": [
+                        {
+                          "id": "145",
+                          "guid": "809a7806-7b25-4ace-9943-fa44c62f3c69",
+                          "heading": "Detección de anomalías: Humedad",
+                          "history": [
+                            {
+                              "affectedNodeId": "144",
+                              "changedBy": {
+                                "company": "ITCR",
+                                "email": "aisaac@estudiantec.cr",
+                                "name": "Angelo"
+                              },
+                              "changedOn": "2021-09-15T18:11:46.096Z",
+                              "docId": "SRS",
+                              "structureAction": "Create"
+                            },
+                            {
+                              "attributesChanged": {
+                                "heading": null
+                              },
+                              "changedBy": {
+                                "company": "ITCR",
+                                "email": "aisaac@estudiantec.cr",
+                                "name": "Angelo"
+                              },
+                              "changedOn": "2021-09-15T18:12:04.854Z"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "146",
+                          "guid": "05223c2f-0d0c-4b40-b4f4-dd55c934b171",
+                          "heading": "Detección de anomalías: Temperatura",
+                          "history": [
+                            {
+                              "affectedNodeId": "144",
+                              "changedBy": {
+                                "company": "ITCR",
+                                "email": "aisaac@estudiantec.cr",
+                                "name": "Angelo"
+                              },
+                              "changedOn": "2021-09-15T18:12:06.411Z",
+                              "docId": "SRS",
+                              "structureAction": "Create"
+                            },
+                            {
+                              "attributesChanged": {
+                                "heading": null
+                              },
+                              "changedBy": {
+                                "company": "ITCR",
+                                "email": "aisaac@estudiantec.cr",
+                                "name": "Angelo"
+                              },
+                              "changedOn": "2021-09-15T18:12:20.920Z"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "147",
+                          "guid": "1a4273e3-c8d9-4dad-86c5-6aaddc7efd6e",
+                          "heading": "Detección de anomalías: Conexión sensores",
+                          "history": [
+                            {
+                              "affectedNodeId": "144",
+                              "changedBy": {
+                                "company": "ITCR",
+                                "email": "aisaac@estudiantec.cr",
+                                "name": "Angelo"
+                              },
+                              "changedOn": "2021-09-15T18:12:22.480Z",
+                              "docId": "SRS",
+                              "structureAction": "Create"
+                            },
+                            {
+                              "attributesChanged": {
+                                "heading": null
+                              },
+                              "changedBy": {
+                                "company": "ITCR",
+                                "email": "aisaac@estudiantec.cr",
+                                "name": "Angelo"
+                              },
+                              "changedOn": "2021-09-15T18:12:48.544Z"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "148",
+                          "guid": "075cc3c7-26a7-473a-b758-d9e135895341",
+                          "heading": "Detección de anomalías: Mala medición",
+                          "history": [
+                            {
+                              "affectedNodeId": "144",
+                              "changedBy": {
+                                "company": "ITCR",
+                                "email": "aisaac@estudiantec.cr",
+                                "name": "Angelo"
+                              },
+                              "changedOn": "2021-09-15T18:12:50.262Z",
+                              "docId": "SRS",
+                              "structureAction": "Create"
+                            },
+                            {
+                              "attributesChanged": {
+                                "heading": null
+                              },
+                              "changedBy": {
+                                "company": "ITCR",
+                                "email": "aisaac@estudiantec.cr",
+                                "name": "Angelo"
+                              },
+                              "changedOn": "2021-09-15T18:13:06.636Z"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": "149",
+                      "guid": "74202e9a-08cc-4edf-aad4-9d50ddd41ae0",
+                      "heading": "Generación de resultados",
+                      "history": [
+                        {
+                          "affectedNodeId": "11",
+                          "changedBy": {
+                            "company": "ITCR",
+                            "email": "aisaac@estudiantec.cr",
+                            "name": "Angelo"
+                          },
+                          "changedOn": "2021-09-15T18:13:17.452Z",
+                          "docId": "SRS",
+                          "structureAction": "Create"
+                        },
+                        {
+                          "attributesChanged": {
+                            "heading": null
+                          },
+                          "changedBy": {
+                            "company": "ITCR",
+                            "email": "aisaac@estudiantec.cr",
+                            "name": "Angelo"
+                          },
+                          "changedOn": "2021-09-15T18:13:33.861Z"
+                        }
+                      ]
+                    }
+                  ]
                 },
                 {
                   "id": "12",
@@ -336,9 +1168,34 @@
                 {
                   "id": "13",
                   "guid": "f47d6f9b-99bc-433a-8d4c-bde6b9023781",
-                  "heading": "Interfaces with  services",
+                  "heading": "Interfaces con servicios",
+                  "text": "<p>El software deberá contar con el servicio de la nube para almacenar los datos obtenidos del monitor portable, con posibilidad de acceso desde una aplicación móvil.</p>",
                   "helpRef": "9.6.4.9",
-                  "type": "SEC"
+                  "type": "SEC",
+                  "history": [
+                    {
+                      "attributesChanged": {
+                        "heading": "Interfaces with  services"
+                      },
+                      "changedBy": {
+                        "company": "ITCR",
+                        "email": "aisaac@estudiantec.cr",
+                        "name": "Angelo"
+                      },
+                      "changedOn": "2021-09-15T18:14:06.790Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": null
+                      },
+                      "changedBy": {
+                        "company": "ITCR",
+                        "email": "aisaac@estudiantec.cr",
+                        "name": "Angelo"
+                      },
+                      "changedOn": "2021-09-15T18:14:20.573Z"
+                    }
+                  ]
                 }
               ]
             },
@@ -2947,65 +3804,1169 @@
         {
           "id": "20",
           "guid": "2f41d463-365d-44a2-bfb6-dbe1d75b03a8",
-          "heading": "Requirements",
+          "heading": "Requisitos",
           "helpRef": "9.6.10",
           "type": "SEC",
+          "history": [
+            {
+              "attributesChanged": {
+                "heading": "Requirements"
+              },
+              "changedBy": {
+                "company": "ITCR",
+                "email": "aisaac@estudiantec.cr",
+                "name": "Angelo"
+              },
+              "changedOn": "2021-09-15T17:31:19.581Z"
+            }
+          ],
           "children": [
             {
               "id": "21",
               "guid": "b66da192-0ff6-413d-b71c-ddd3f596af95",
-              "heading": "External interfaces",
+              "heading": "Interfaces externas",
               "helpRef": "9.6.11",
-              "type": "SEC"
+              "type": "SEC",
+              "history": [
+                {
+                  "attributesChanged": {
+                    "heading": "External interfaces"
+                  },
+                  "changedBy": {
+                    "company": "ITCR",
+                    "email": "aisaac@estudiantec.cr",
+                    "name": "Angelo"
+                  },
+                  "changedOn": "2021-09-15T17:31:39.254Z"
+                }
+              ],
+              "children": [
+                {
+                  "id": "100",
+                  "guid": "7492927d-7422-44d4-b523-6813848b5005",
+                  "heading": "Entradas externas",
+                  "history": [
+                    {
+                      "affectedNodeId": "21",
+                      "changedBy": {
+                        "company": "ITCR",
+                        "email": "aisaac@estudiantec.cr",
+                        "name": "Angelo"
+                      },
+                      "changedOn": "2021-09-15T17:31:42.496Z",
+                      "docId": "SRS",
+                      "structureAction": "Create"
+                    },
+                    {
+                      "attributesChanged": {
+                        "heading": null
+                      },
+                      "changedBy": {
+                        "company": "ITCR",
+                        "email": "aisaac@estudiantec.cr",
+                        "name": "Angelo"
+                      },
+                      "changedOn": "2021-09-15T17:31:58.504Z"
+                    }
+                  ],
+                  "children": [
+                    {
+                      "id": "101",
+                      "guid": "00a77596-fab0-41ee-9f6c-7d771a20ef94",
+                      "heading": "Mediciones",
+                      "text": "<p>El sistema deberá ser capaz de realizar las mediciones por medio de los electrodos.</p>",
+                      "history": [
+                        {
+                          "affectedNodeId": "100",
+                          "changedBy": {
+                            "company": "ITCR",
+                            "email": "aisaac@estudiantec.cr",
+                            "name": "Angelo"
+                          },
+                          "changedOn": "2021-09-15T17:32:04.568Z",
+                          "docId": "SRS",
+                          "structureAction": "Create"
+                        },
+                        {
+                          "attributesChanged": {
+                            "heading": null,
+                            "text": null
+                          },
+                          "changedBy": {
+                            "company": "ITCR",
+                            "email": "aisaac@estudiantec.cr",
+                            "name": "Angelo"
+                          },
+                          "changedOn": "2021-09-15T17:32:56.778Z"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "102",
+                      "guid": "15949de8-b922-4620-bbbd-ef5548dddfd1",
+                      "heading": "Datos usuario",
+                      "text": "<p>El sistema deberá ser capaz de solicitar los datos al usuario</p>",
+                      "history": [
+                        {
+                          "affectedNodeId": "100",
+                          "changedBy": {
+                            "company": "ITCR",
+                            "email": "aisaac@estudiantec.cr",
+                            "name": "Angelo"
+                          },
+                          "changedOn": "2021-09-15T17:33:19.708Z",
+                          "docId": "SRS",
+                          "structureAction": "Create"
+                        },
+                        {
+                          "attributesChanged": {
+                            "heading": null,
+                            "text": null
+                          },
+                          "changedBy": {
+                            "company": "ITCR",
+                            "email": "aisaac@estudiantec.cr",
+                            "name": "Angelo"
+                          },
+                          "changedOn": "2021-09-15T17:33:56.372Z"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "103",
+                  "guid": "b459005e-e74a-4efb-bb55-877bb17d3159",
+                  "heading": "Salidas externas",
+                  "history": [
+                    {
+                      "affectedNodeId": "21",
+                      "changedBy": {
+                        "company": "ITCR",
+                        "email": "aisaac@estudiantec.cr",
+                        "name": "Angelo"
+                      },
+                      "changedOn": "2021-09-15T17:34:21.837Z",
+                      "docId": "SRS",
+                      "structureAction": "Create"
+                    },
+                    {
+                      "attributesChanged": {
+                        "heading": null
+                      },
+                      "changedBy": {
+                        "company": "ITCR",
+                        "email": "aisaac@estudiantec.cr",
+                        "name": "Angelo"
+                      },
+                      "changedOn": "2021-09-15T17:34:33.949Z"
+                    }
+                  ],
+                  "children": [
+                    {
+                      "id": "104",
+                      "guid": "dbf0a44c-1f5f-4285-a206-93d8f5e9e7a7",
+                      "heading": "Reportes mediciones",
+                      "text": "<p>El sistema deberá ser capaz de mostrar resultados de las mediciones</p>",
+                      "history": [
+                        {
+                          "affectedNodeId": "103",
+                          "changedBy": {
+                            "company": "ITCR",
+                            "email": "aisaac@estudiantec.cr",
+                            "name": "Angelo"
+                          },
+                          "changedOn": "2021-09-15T17:34:36.489Z",
+                          "docId": "SRS",
+                          "structureAction": "Create"
+                        },
+                        {
+                          "attributesChanged": {
+                            "heading": null,
+                            "text": null
+                          },
+                          "changedBy": {
+                            "company": "ITCR",
+                            "email": "aisaac@estudiantec.cr",
+                            "name": "Angelo"
+                          },
+                          "changedOn": "2021-09-15T17:35:08.645Z"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "105",
+                      "guid": "1a2fc7f2-2378-4647-aa1c-af807b09437a",
+                      "heading": "Recomendaciones",
+                      "text": "<p>El software deberá capaz de dar recomendaciones al usuario en base a resultados de mediciones</p>",
+                      "history": [
+                        {
+                          "affectedNodeId": "103",
+                          "changedBy": {
+                            "company": "ITCR",
+                            "email": "aisaac@estudiantec.cr",
+                            "name": "Angelo"
+                          },
+                          "changedOn": "2021-09-15T17:35:11.789Z",
+                          "docId": "SRS",
+                          "structureAction": "Create"
+                        },
+                        {
+                          "attributesChanged": {
+                            "heading": null,
+                            "text": null
+                          },
+                          "changedBy": {
+                            "company": "ITCR",
+                            "email": "aisaac@estudiantec.cr",
+                            "name": "Angelo"
+                          },
+                          "changedOn": "2021-09-15T17:36:19.454Z"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "106",
+                      "guid": "580881d6-7d45-4412-b1c1-195c723ef077",
+                      "heading": "Historial",
+                      "text": "<p>El software deberá ser capaz de mostrar el historial de mediciones al usuario</p>",
+                      "history": [
+                        {
+                          "affectedNodeId": "103",
+                          "changedBy": {
+                            "company": "ITCR",
+                            "email": "aisaac@estudiantec.cr",
+                            "name": "Angelo"
+                          },
+                          "changedOn": "2021-09-15T17:36:23.226Z",
+                          "docId": "SRS",
+                          "structureAction": "Create"
+                        },
+                        {
+                          "attributesChanged": {
+                            "heading": null,
+                            "text": null
+                          },
+                          "changedBy": {
+                            "company": "ITCR",
+                            "email": "aisaac@estudiantec.cr",
+                            "name": "Angelo"
+                          },
+                          "changedOn": "2021-09-15T17:36:49.045Z"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
             },
             {
               "id": "22",
               "guid": "8184e306-9cf9-4f5d-a1db-2acb3438b98c",
-              "heading": "Functions",
+              "heading": "Funciones",
               "helpRef": "9.6.12",
-              "type": "SEC"
+              "type": "SEC",
+              "history": [
+                {
+                  "attributesChanged": {
+                    "heading": "Functions"
+                  },
+                  "changedBy": {
+                    "company": "ITCR",
+                    "email": "aisaac@estudiantec.cr",
+                    "name": "Angelo"
+                  },
+                  "changedOn": "2021-09-15T17:37:15.058Z"
+                }
+              ],
+              "children": [
+                {
+                  "id": "107",
+                  "guid": "eb74565e-a084-4e79-9a53-02caa147c762",
+                  "heading": "Errores",
+                  "text": "<p>El software deberá ser capaz de detectar errores y mostrar un mensaje con dicho error.</p>",
+                  "history": [
+                    {
+                      "affectedNodeId": "22",
+                      "changedBy": {
+                        "company": "ITCR",
+                        "email": "aisaac@estudiantec.cr",
+                        "name": "Angelo"
+                      },
+                      "changedOn": "2021-09-15T17:37:19.353Z",
+                      "docId": "SRS",
+                      "structureAction": "Create"
+                    },
+                    {
+                      "attributesChanged": {
+                        "heading": null
+                      },
+                      "changedBy": {
+                        "company": "ITCR",
+                        "email": "aisaac@estudiantec.cr",
+                        "name": "Angelo"
+                      },
+                      "changedOn": "2021-09-15T17:37:27.194Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": null
+                      },
+                      "changedBy": {
+                        "company": "ITCR",
+                        "email": "aisaac@estudiantec.cr",
+                        "name": "Angelo"
+                      },
+                      "changedOn": "2021-09-15T17:38:19.483Z"
+                    }
+                  ]
+                },
+                {
+                  "id": "108",
+                  "guid": "7451df12-2a6b-42e5-90f6-3bff8956e65e",
+                  "heading": "Tipos de mediciones",
+                  "history": [
+                    {
+                      "affectedNodeId": "22",
+                      "changedBy": {
+                        "company": "ITCR",
+                        "email": "aisaac@estudiantec.cr",
+                        "name": "Angelo"
+                      },
+                      "changedOn": "2021-09-15T17:38:22.305Z",
+                      "docId": "SRS",
+                      "structureAction": "Create"
+                    },
+                    {
+                      "attributesChanged": {
+                        "heading": null
+                      },
+                      "changedBy": {
+                        "company": "ITCR",
+                        "email": "aisaac@estudiantec.cr",
+                        "name": "Angelo"
+                      },
+                      "changedOn": "2021-09-15T17:38:45.540Z"
+                    }
+                  ],
+                  "children": [
+                    {
+                      "id": "109",
+                      "guid": "f5d3615b-a5b2-4657-bb3c-af1182113b87",
+                      "heading": "Tipos de mediciones: Masa",
+                      "text": "<p>El software deberá ser capaz de mostrar en pantalla la cantidad de masa magra del usuario</p>",
+                      "history": [
+                        {
+                          "affectedNodeId": "108",
+                          "changedBy": {
+                            "company": "ITCR",
+                            "email": "aisaac@estudiantec.cr",
+                            "name": "Angelo"
+                          },
+                          "changedOn": "2021-09-15T17:38:50.713Z",
+                          "docId": "SRS",
+                          "structureAction": "Create"
+                        },
+                        {
+                          "attributesChanged": {
+                            "heading": null,
+                            "text": null
+                          },
+                          "changedBy": {
+                            "company": "ITCR",
+                            "email": "aisaac@estudiantec.cr",
+                            "name": "Angelo"
+                          },
+                          "changedOn": "2021-09-15T17:40:11.094Z"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "110",
+                      "guid": "3157770e-8060-45c9-9dff-4f290a5f3365",
+                      "heading": "Tipos de mediciones: Hidratación",
+                      "text": "<p>El software deberá ser capaz de mostrar en pantalla los niveles de hidratación del usuario.</p>",
+                      "history": [
+                        {
+                          "affectedNodeId": "108",
+                          "changedBy": {
+                            "company": "ITCR",
+                            "email": "aisaac@estudiantec.cr",
+                            "name": "Angelo"
+                          },
+                          "changedOn": "2021-09-15T17:40:13.493Z",
+                          "docId": "SRS",
+                          "structureAction": "Create"
+                        },
+                        {
+                          "attributesChanged": {
+                            "heading": null,
+                            "text": null
+                          },
+                          "changedBy": {
+                            "company": "ITCR",
+                            "email": "aisaac@estudiantec.cr",
+                            "name": "Angelo"
+                          },
+                          "changedOn": "2021-09-15T17:40:57.255Z"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "111",
+                      "guid": "ef4a8e3b-d522-4f34-9a28-cb02704a980e",
+                      "heading": "Tipos de mediciones: Completa",
+                      "text": "<p>El software deberá ser capaz de mostrar en pantalla los niveles de hidratación y la masa magra del usuario.</p>",
+                      "history": [
+                        {
+                          "affectedNodeId": "108",
+                          "changedBy": {
+                            "company": "ITCR",
+                            "email": "aisaac@estudiantec.cr",
+                            "name": "Angelo"
+                          },
+                          "changedOn": "2021-09-15T17:41:01.426Z",
+                          "docId": "SRS",
+                          "structureAction": "Create"
+                        },
+                        {
+                          "attributesChanged": {
+                            "heading": null,
+                            "text": null
+                          },
+                          "changedBy": {
+                            "company": "ITCR",
+                            "email": "aisaac@estudiantec.cr",
+                            "name": "Angelo"
+                          },
+                          "changedOn": "2021-09-15T17:41:42.545Z"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "112",
+                  "guid": "30213c94-6271-4b2b-b6d9-a404ae0fd5f8",
+                  "heading": "Recordatorios",
+                  "text": "<p>El software deberá recordarle al usuario de tomar las mediciones cuando sean necesarias.</p>",
+                  "history": [
+                    {
+                      "affectedNodeId": "22",
+                      "changedBy": {
+                        "company": "ITCR",
+                        "email": "aisaac@estudiantec.cr",
+                        "name": "Angelo"
+                      },
+                      "changedOn": "2021-09-15T17:41:49.617Z",
+                      "docId": "SRS",
+                      "structureAction": "Create"
+                    },
+                    {
+                      "attributesChanged": {
+                        "heading": null,
+                        "text": null
+                      },
+                      "changedBy": {
+                        "company": "ITCR",
+                        "email": "aisaac@estudiantec.cr",
+                        "name": "Angelo"
+                      },
+                      "changedOn": "2021-09-15T17:42:47.051Z"
+                    }
+                  ]
+                },
+                {
+                  "id": "113",
+                  "guid": "3d1867e3-b765-4bc7-ba32-e9398ccd2f38",
+                  "heading": "Almacenamiento de datos",
+                  "text": "<p>El software deberá ser capaz de guardar los datos en la cuenta del usario en su medición en la nube</p>",
+                  "history": [
+                    {
+                      "affectedNodeId": "22",
+                      "changedBy": {
+                        "company": "ITCR",
+                        "email": "aisaac@estudiantec.cr",
+                        "name": "Angelo"
+                      },
+                      "changedOn": "2021-09-15T17:42:51.125Z",
+                      "docId": "SRS",
+                      "structureAction": "Create"
+                    },
+                    {
+                      "attributesChanged": {
+                        "heading": null,
+                        "text": null
+                      },
+                      "changedBy": {
+                        "company": "ITCR",
+                        "email": "aisaac@estudiantec.cr",
+                        "name": "Angelo"
+                      },
+                      "changedOn": "2021-09-15T17:43:40.494Z"
+                    }
+                  ]
+                },
+                {
+                  "id": "114",
+                  "guid": "d9e82e6d-c793-44b6-8e78-959cbcf4e274",
+                  "heading": "Generación de cuentas",
+                  "text": "<p>El software deberá permitir la opción de crear una cuenta nueva o de seleccionar una preexistente.</p>",
+                  "history": [
+                    {
+                      "affectedNodeId": "22",
+                      "changedBy": {
+                        "company": "ITCR",
+                        "email": "aisaac@estudiantec.cr",
+                        "name": "Angelo"
+                      },
+                      "changedOn": "2021-09-15T17:43:44.343Z",
+                      "docId": "SRS",
+                      "structureAction": "Create"
+                    },
+                    {
+                      "attributesChanged": {
+                        "heading": null,
+                        "text": null
+                      },
+                      "changedBy": {
+                        "company": "ITCR",
+                        "email": "aisaac@estudiantec.cr",
+                        "name": "Angelo"
+                      },
+                      "changedOn": "2021-09-15T17:45:44.033Z"
+                    }
+                  ]
+                },
+                {
+                  "id": "115",
+                  "guid": "6f3a681c-6485-4cdf-a831-5c37c030a788",
+                  "heading": "Actualización de software",
+                  "text": "<p>El software deberá ser capaz de buscar actualizaciones y actualizarse solo.</p>",
+                  "history": [
+                    {
+                      "affectedNodeId": "22",
+                      "changedBy": {
+                        "company": "ITCR",
+                        "email": "aisaac@estudiantec.cr",
+                        "name": "Angelo"
+                      },
+                      "changedOn": "2021-09-15T17:45:45.349Z",
+                      "docId": "SRS",
+                      "structureAction": "Create"
+                    },
+                    {
+                      "attributesChanged": {
+                        "heading": null,
+                        "text": null
+                      },
+                      "changedBy": {
+                        "company": "ITCR",
+                        "email": "aisaac@estudiantec.cr",
+                        "name": "Angelo"
+                      },
+                      "changedOn": "2021-09-15T17:46:27.099Z"
+                    }
+                  ]
+                }
+              ]
             },
             {
               "id": "23",
               "guid": "13822a4e-6f87-477a-b97d-8bc9c97bdb57",
-              "heading": "Usability requirements",
+              "heading": "Requisitos de usabilidad",
               "helpRef": "9.6.13",
-              "type": "SEC"
+              "type": "SEC",
+              "history": [
+                {
+                  "attributesChanged": {
+                    "heading": "Usability requirements"
+                  },
+                  "changedBy": {
+                    "company": "ITCR",
+                    "email": "aisaac@estudiantec.cr",
+                    "name": "Angelo"
+                  },
+                  "changedOn": "2021-09-15T17:46:42.729Z"
+                }
+              ],
+              "children": [
+                {
+                  "id": "116",
+                  "guid": "785a7683-fe8c-4774-af65-7140664c9407",
+                  "heading": "Detección de errores de uso",
+                  "text": "<p>El software deberá detectar si los electrodos se encuentran conectados antes de realizar la medición.</p>",
+                  "history": [
+                    {
+                      "affectedNodeId": "23",
+                      "changedBy": {
+                        "company": "ITCR",
+                        "email": "aisaac@estudiantec.cr",
+                        "name": "Angelo"
+                      },
+                      "changedOn": "2021-09-15T17:46:45.079Z",
+                      "docId": "SRS",
+                      "structureAction": "Create"
+                    },
+                    {
+                      "attributesChanged": {
+                        "heading": null,
+                        "text": null
+                      },
+                      "changedBy": {
+                        "company": "ITCR",
+                        "email": "aisaac@estudiantec.cr",
+                        "name": "Angelo"
+                      },
+                      "changedOn": "2021-09-15T17:47:50.842Z"
+                    }
+                  ]
+                },
+                {
+                  "id": "117",
+                  "guid": "4ecadd60-e316-4616-b1ef-d78e9d6d3357",
+                  "heading": "Almacenamiento en la  nube",
+                  "text": "<p>El software deberá almacenar los datos en la nube</p>",
+                  "history": [
+                    {
+                      "affectedNodeId": "23",
+                      "changedBy": {
+                        "company": "ITCR",
+                        "email": "aisaac@estudiantec.cr",
+                        "name": "Angelo"
+                      },
+                      "changedOn": "2021-09-15T17:47:52.411Z",
+                      "docId": "SRS",
+                      "structureAction": "Create"
+                    },
+                    {
+                      "attributesChanged": {
+                        "heading": null,
+                        "text": null
+                      },
+                      "changedBy": {
+                        "company": "ITCR",
+                        "email": "aisaac@estudiantec.cr",
+                        "name": "Angelo"
+                      },
+                      "changedOn": "2021-09-15T17:48:17.567Z"
+                    }
+                  ]
+                },
+                {
+                  "id": "118",
+                  "guid": "d1f17831-1eef-4be9-9379-1d5149302f9c",
+                  "heading": "Almacenamiento local",
+                  "text": "<p>El sistema deberá ser almacenar los datos localmente</p>",
+                  "history": [
+                    {
+                      "affectedNodeId": "23",
+                      "changedBy": {
+                        "company": "ITCR",
+                        "email": "aisaac@estudiantec.cr",
+                        "name": "Angelo"
+                      },
+                      "changedOn": "2021-09-15T17:48:20.837Z",
+                      "docId": "SRS",
+                      "structureAction": "Create"
+                    },
+                    {
+                      "attributesChanged": {
+                        "heading": null,
+                        "text": null
+                      },
+                      "changedBy": {
+                        "company": "ITCR",
+                        "email": "aisaac@estudiantec.cr",
+                        "name": "Angelo"
+                      },
+                      "changedOn": "2021-09-15T17:48:53.860Z"
+                    }
+                  ]
+                }
+              ]
             },
             {
               "id": "24",
               "guid": "dd9fa770-ec27-4cd1-84c0-c5e3266d92a1",
-              "heading": "Performance requirements",
+              "heading": "Requisitos de desempeño",
               "helpRef": "9.6.14",
-              "type": "SEC"
+              "type": "SEC",
+              "history": [
+                {
+                  "attributesChanged": {
+                    "heading": "Performance requirements"
+                  },
+                  "changedBy": {
+                    "company": "ITCR",
+                    "email": "aisaac@estudiantec.cr",
+                    "name": "Angelo"
+                  },
+                  "changedOn": "2021-09-15T17:49:10.797Z"
+                }
+              ],
+              "children": [
+                {
+                  "id": "119",
+                  "guid": "45418e6f-8ea5-4834-8b19-ebfd62036378",
+                  "heading": "Electrodos",
+                  "text": "<p>El software deberá detectar la cantidad de electrodos necesarios para realizar la medición</p>",
+                  "history": [
+                    {
+                      "affectedNodeId": "24",
+                      "changedBy": {
+                        "company": "ITCR",
+                        "email": "aisaac@estudiantec.cr",
+                        "name": "Angelo"
+                      },
+                      "changedOn": "2021-09-15T17:49:12.539Z",
+                      "docId": "SRS",
+                      "structureAction": "Create"
+                    },
+                    {
+                      "attributesChanged": {
+                        "heading": null,
+                        "text": null
+                      },
+                      "changedBy": {
+                        "company": "ITCR",
+                        "email": "aisaac@estudiantec.cr",
+                        "name": "Angelo"
+                      },
+                      "changedOn": "2021-09-15T17:50:20.212Z"
+                    }
+                  ]
+                },
+                {
+                  "id": "120",
+                  "guid": "c30eeee7-f918-42e2-a4fb-6f9713dcb07f",
+                  "heading": "Tiempo de medición",
+                  "text": "<p>El software deberá realizar la medición en un tiempo menor a 1 min.</p>",
+                  "history": [
+                    {
+                      "affectedNodeId": "24",
+                      "changedBy": {
+                        "company": "ITCR",
+                        "email": "aisaac@estudiantec.cr",
+                        "name": "Angelo"
+                      },
+                      "changedOn": "2021-09-15T17:50:22.401Z",
+                      "docId": "SRS",
+                      "structureAction": "Create"
+                    },
+                    {
+                      "attributesChanged": {
+                        "heading": null,
+                        "text": null
+                      },
+                      "changedBy": {
+                        "company": "ITCR",
+                        "email": "aisaac@estudiantec.cr",
+                        "name": "Angelo"
+                      },
+                      "changedOn": "2021-09-15T17:51:08.514Z"
+                    }
+                  ]
+                },
+                {
+                  "id": "121",
+                  "guid": "703275d0-1e97-4020-a481-4662e7c3f7b6",
+                  "heading": "Comunicación a Internet",
+                  "text": "<p>El software deberá conectarse a un servidor de forma inalámbrica.</p>",
+                  "history": [
+                    {
+                      "affectedNodeId": "24",
+                      "changedBy": {
+                        "company": "ITCR",
+                        "email": "aisaac@estudiantec.cr",
+                        "name": "Angelo"
+                      },
+                      "changedOn": "2021-09-15T17:51:10.616Z",
+                      "docId": "SRS",
+                      "structureAction": "Create"
+                    },
+                    {
+                      "attributesChanged": {
+                        "heading": null,
+                        "text": null
+                      },
+                      "changedBy": {
+                        "company": "ITCR",
+                        "email": "aisaac@estudiantec.cr",
+                        "name": "Angelo"
+                      },
+                      "changedOn": "2021-09-15T17:52:13.405Z"
+                    }
+                  ]
+                }
+              ]
             },
             {
               "id": "25",
               "guid": "30526f5a-841a-4cb9-8a64-3fe629218fca",
-              "heading": "Logical database requirements",
+              "heading": "Requisitos de la base de datos lógica",
               "helpRef": "9.6.15",
-              "type": "SEC"
+              "type": "SEC",
+              "history": [
+                {
+                  "attributesChanged": {
+                    "heading": "Logical database requirements"
+                  },
+                  "changedBy": {
+                    "company": "ITCR",
+                    "email": "aisaac@estudiantec.cr",
+                    "name": "Angelo"
+                  },
+                  "changedOn": "2021-09-15T17:52:28.869Z"
+                }
+              ],
+              "children": [
+                {
+                  "id": "122",
+                  "guid": "5d16b7fb-9391-4784-a64d-b0eccdd5f68e",
+                  "heading": "Frecuencia de uso",
+                  "text": "<p>El software deberá soportar un mínimo de 100 mediciones seguidas sin presentar problemas en el rendimiento.</p>",
+                  "history": [
+                    {
+                      "affectedNodeId": "25",
+                      "changedBy": {
+                        "company": "ITCR",
+                        "email": "aisaac@estudiantec.cr",
+                        "name": "Angelo"
+                      },
+                      "changedOn": "2021-09-15T17:52:32.346Z",
+                      "docId": "SRS",
+                      "structureAction": "Create"
+                    },
+                    {
+                      "attributesChanged": {
+                        "heading": null,
+                        "text": null
+                      },
+                      "changedBy": {
+                        "company": "ITCR",
+                        "email": "aisaac@estudiantec.cr",
+                        "name": "Angelo"
+                      },
+                      "changedOn": "2021-09-15T17:54:43.269Z"
+                    }
+                  ]
+                },
+                {
+                  "id": "123",
+                  "guid": "c201d483-39e8-4e11-aadf-3147a3d1aa84",
+                  "heading": "Actualizaciones recurrentes de software",
+                  "text": "<p>El software deberá realizar mejoras en su sistema con las actualizaciones.</p>",
+                  "history": [
+                    {
+                      "affectedNodeId": "25",
+                      "changedBy": {
+                        "company": "ITCR",
+                        "email": "aisaac@estudiantec.cr",
+                        "name": "Angelo"
+                      },
+                      "changedOn": "2021-09-15T17:54:45.104Z",
+                      "docId": "SRS",
+                      "structureAction": "Create"
+                    },
+                    {
+                      "attributesChanged": {
+                        "heading": null,
+                        "text": null
+                      },
+                      "changedBy": {
+                        "company": "ITCR",
+                        "email": "aisaac@estudiantec.cr",
+                        "name": "Angelo"
+                      },
+                      "changedOn": "2021-09-15T17:55:47.917Z"
+                    }
+                  ]
+                }
+              ]
             },
             {
               "id": "26",
               "guid": "99c80c60-d934-43c6-bfc9-7666200aafb0",
-              "heading": "Design constraints",
+              "heading": "Restricciones de diseño",
               "helpRef": "9.6.16",
-              "type": "SEC"
+              "type": "SEC",
+              "history": [
+                {
+                  "attributesChanged": {
+                    "heading": "Design constraints"
+                  },
+                  "changedBy": {
+                    "company": "ITCR",
+                    "email": "aisaac@estudiantec.cr",
+                    "name": "Angelo"
+                  },
+                  "changedOn": "2021-09-15T17:56:16.136Z"
+                }
+              ],
+              "children": [
+                {
+                  "id": "124",
+                  "guid": "4e7ff264-093b-4364-848f-0ce2b2646edf",
+                  "heading": "Almacenamiento",
+                  "text": "<p>El software deberá tener un almacenamiento local mínimo de 8 Gb</p>",
+                  "history": [
+                    {
+                      "affectedNodeId": "26",
+                      "changedBy": {
+                        "company": "ITCR",
+                        "email": "aisaac@estudiantec.cr",
+                        "name": "Angelo"
+                      },
+                      "changedOn": "2021-09-15T17:56:17.687Z",
+                      "docId": "SRS",
+                      "structureAction": "Create"
+                    },
+                    {
+                      "attributesChanged": {
+                        "heading": null
+                      },
+                      "changedBy": {
+                        "company": "ITCR",
+                        "email": "aisaac@estudiantec.cr",
+                        "name": "Angelo"
+                      },
+                      "changedOn": "2021-09-15T17:56:27.902Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "heading": "Alamcenamiento",
+                        "text": null
+                      },
+                      "changedBy": {
+                        "company": "ITCR",
+                        "email": "aisaac@estudiantec.cr",
+                        "name": "Angelo"
+                      },
+                      "changedOn": "2021-09-15T17:57:37.694Z"
+                    }
+                  ]
+                },
+                {
+                  "id": "125",
+                  "guid": "a19d5dec-8304-4872-b2c3-c22750dfdafd",
+                  "heading": "Cuentas",
+                  "text": "<p>El software deberá hacer mediciones solamente conectada a una cuenta.</p>",
+                  "history": [
+                    {
+                      "affectedNodeId": "26",
+                      "changedBy": {
+                        "company": "ITCR",
+                        "email": "aisaac@estudiantec.cr",
+                        "name": "Angelo"
+                      },
+                      "changedOn": "2021-09-15T17:57:40.314Z",
+                      "docId": "SRS",
+                      "structureAction": "Create"
+                    },
+                    {
+                      "attributesChanged": {
+                        "heading": null
+                      },
+                      "changedBy": {
+                        "company": "ITCR",
+                        "email": "aisaac@estudiantec.cr",
+                        "name": "Angelo"
+                      },
+                      "changedOn": "2021-09-15T17:57:45.902Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": null
+                      },
+                      "changedBy": {
+                        "company": "ITCR",
+                        "email": "aisaac@estudiantec.cr",
+                        "name": "Angelo"
+                      },
+                      "changedOn": "2021-09-15T17:58:29.695Z"
+                    }
+                  ]
+                }
+              ]
             },
             {
               "id": "27",
               "guid": "65f080e5-594b-46f8-b6c1-48e6cfd0d079",
-              "heading": "Standards compliance",
+              "heading": "Cumplimiento de normas",
               "helpRef": "9.6.17",
-              "type": "SEC"
+              "type": "SEC",
+              "history": [
+                {
+                  "attributesChanged": {
+                    "heading": "Standards compliance"
+                  },
+                  "changedBy": {
+                    "company": "ITCR",
+                    "email": "aisaac@estudiantec.cr",
+                    "name": "Angelo"
+                  },
+                  "changedOn": "2021-09-15T17:58:53.155Z"
+                }
+              ],
+              "children": [
+                {
+                  "id": "126",
+                  "guid": "c2898c3b-ac03-4a10-a631-18b830990230",
+                  "heading": "Formato informe",
+                  "text": "<p>El software deberá crear un informe digital con los datos de medición de los usuarios.</p>",
+                  "history": [
+                    {
+                      "affectedNodeId": "27",
+                      "changedBy": {
+                        "company": "ITCR",
+                        "email": "aisaac@estudiantec.cr",
+                        "name": "Angelo"
+                      },
+                      "changedOn": "2021-09-15T17:58:57.237Z",
+                      "docId": "SRS",
+                      "structureAction": "Create"
+                    },
+                    {
+                      "attributesChanged": {
+                        "heading": null,
+                        "text": null
+                      },
+                      "changedBy": {
+                        "company": "ITCR",
+                        "email": "aisaac@estudiantec.cr",
+                        "name": "Angelo"
+                      },
+                      "changedOn": "2021-09-15T17:59:51.113Z"
+                    }
+                  ]
+                },
+                {
+                  "id": "127",
+                  "guid": "b82b8454-444a-4a46-bc9a-e32cc6236789",
+                  "heading": "Visualización de datos",
+                  "text": "<p>El software deberá mostrar los resultados mediante gráficas y porcentajes.</p>",
+                  "history": [
+                    {
+                      "affectedNodeId": "27",
+                      "changedBy": {
+                        "company": "ITCR",
+                        "email": "aisaac@estudiantec.cr",
+                        "name": "Angelo"
+                      },
+                      "changedOn": "2021-09-15T17:59:59.510Z",
+                      "docId": "SRS",
+                      "structureAction": "Create"
+                    },
+                    {
+                      "attributesChanged": {
+                        "heading": null
+                      },
+                      "changedBy": {
+                        "company": "ITCR",
+                        "email": "aisaac@estudiantec.cr",
+                        "name": "Angelo"
+                      },
+                      "changedOn": "2021-09-15T18:00:06.486Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": null
+                      },
+                      "changedBy": {
+                        "company": "ITCR",
+                        "email": "aisaac@estudiantec.cr",
+                        "name": "Angelo"
+                      },
+                      "changedOn": "2021-09-15T18:00:45.948Z"
+                    }
+                  ]
+                }
+              ]
             },
             {
               "id": "28",
               "guid": "079f041c-19b3-49e8-9275-0a3defdcbdad",
-              "heading": "Software system attributes",
+              "heading": "Atributos del sistema de software",
               "helpRef": "9.6.18",
-              "type": "SEC"
+              "type": "SEC",
+              "history": [
+                {
+                  "attributesChanged": {
+                    "heading": "Software system attributes"
+                  },
+                  "changedBy": {
+                    "company": "ITCR",
+                    "email": "aisaac@estudiantec.cr",
+                    "name": "Angelo"
+                  },
+                  "changedOn": "2021-09-15T18:01:04.946Z"
+                }
+              ],
+              "children": [
+                {
+                  "id": "128",
+                  "guid": "8eed0f62-35ff-4671-89d8-bd16f947129a",
+                  "heading": "Seguridad de datos",
+                  "text": "<p>El software deberá enviar de forma segura la información del usario a la nube.</p>",
+                  "history": [
+                    {
+                      "affectedNodeId": "28",
+                      "changedBy": {
+                        "company": "ITCR",
+                        "email": "aisaac@estudiantec.cr",
+                        "name": "Angelo"
+                      },
+                      "changedOn": "2021-09-15T18:01:10.342Z",
+                      "docId": "SRS",
+                      "structureAction": "Create"
+                    },
+                    {
+                      "attributesChanged": {
+                        "heading": null,
+                        "text": null
+                      },
+                      "changedBy": {
+                        "company": "ITCR",
+                        "email": "aisaac@estudiantec.cr",
+                        "name": "Angelo"
+                      },
+                      "changedOn": "2021-09-15T18:01:51.018Z"
+                    }
+                  ]
+                },
+                {
+                  "id": "129",
+                  "guid": "1fa13b03-c8a9-477d-8b5c-675b19dc072a",
+                  "heading": "Accesibilidad",
+                  "text": "<p>El software deberá tener un diseño de fácil entendimiento para el usuario.</p>",
+                  "history": [
+                    {
+                      "affectedNodeId": "28",
+                      "changedBy": {
+                        "company": "ITCR",
+                        "email": "aisaac@estudiantec.cr",
+                        "name": "Angelo"
+                      },
+                      "changedOn": "2021-09-15T18:01:52.460Z",
+                      "docId": "SRS",
+                      "structureAction": "Create"
+                    },
+                    {
+                      "attributesChanged": {
+                        "heading": null,
+                        "text": null
+                      },
+                      "changedBy": {
+                        "company": "ITCR",
+                        "email": "aisaac@estudiantec.cr",
+                        "name": "Angelo"
+                      },
+                      "changedOn": "2021-09-15T18:02:57.287Z"
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
