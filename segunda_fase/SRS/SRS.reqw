@@ -12,7 +12,7 @@
         "email": "francinie23@estudiantec.cr",
         "company": "Instituto de Tecnológico de Costa Rica"
       },
-      "lastChangedOn": "2021-09-16T01:09:06.290Z",
+      "lastChangedOn": "2021-09-16T01:49:01.479Z",
       "lastChangedBy": {
         "name": "Angelo",
         "email": "aisaac@estudiantec.cr",
@@ -952,7 +952,7 @@
                   "id": "129",
                   "guid": "1fa13b03-c8a9-477d-8b5c-675b19dc072a",
                   "heading": "Accesibilidad",
-                  "text": "<p>El software deberá tener un diseño de fácil entendimiento para el usuario.</p>"
+                  "text": "<p>El software deberá tener un diseño de fácil entendimiento y accesible para cualquier tipo usuario.</p>"
                 }
               ]
             }
