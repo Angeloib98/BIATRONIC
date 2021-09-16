@@ -5,14 +5,14 @@
       "id": "SRS",
       "guid": "254e2b3c-9932-458c-a99a-cec52dad5fde",
       "name": "Software Requirements Specification",
-      "lastId": 149,
+      "lastId": 165,
       "createdOn": "2021-09-08T01:58:52.746Z",
       "createdBy": {
         "name": "Francinie Rodríguez",
         "email": "francinie23@estudiantec.cr",
         "company": "Instituto de Tecnológico de Costa Rica"
       },
-      "lastChangedOn": "2021-09-15T18:14:20.573Z",
+      "lastChangedOn": "2021-09-16T01:09:06.290Z",
       "lastChangedBy": {
         "name": "Angelo",
         "email": "aisaac@estudiantec.cr",
@@ -150,52 +150,68 @@
                     {
                       "id": "134",
                       "guid": "cd17c38c-7621-42f0-85ba-a73e2be084db",
-                      "heading": "Modo main"
+                      "heading": "Modo main",
+                      "text": "<p>El software deberá estar en un modo estático en el menú esperando acciones del usuario.</p>"
                     },
                     {
                       "id": "135",
                       "guid": "94d8e8af-21dd-48e5-832b-dda87ea8a272",
-                      "heading": "Modo seguridad"
+                      "heading": "Modo seguridad",
+                      "text": "<p>El software deberá enviar una señal para supervisar que el dispositivo está funcionando adecuadamente.</p>"
                     },
                     {
                       "id": "136",
                       "guid": "85ae6e99-8350-44a9-86d8-8773bec44885",
-                      "heading": "Modo activo"
+                      "heading": "Modo activo",
+                      "text": "<p>El software deberá enviar la señal de inicio de mediciones para tomar los resultados y calcular la composición corporal.</p>"
                     },
                     {
                       "id": "137",
                       "guid": "383f9c6a-c2ef-4c0e-8c74-09226d9b0b9a",
-                      "heading": "Modo transmisión de información"
+                      "heading": "Modo transmisión de información",
+                      "text": "<p>El software deberá enviar la información encriptada a la nube y almacenarla de manera local.</p>"
                     },
                     {
                       "id": "138",
                       "guid": "02f15f39-bc23-457d-8cf7-01e2a2f215ce",
-                      "heading": "Encendido"
+                      "heading": "Encendido",
+                      "text": "<p>El software deberá reconocer la secuencia de señales para iniciarse</p>"
                     },
                     {
                       "id": "139",
                       "guid": "6c36551a-6d7e-4de3-9201-7d10ca496816",
-                      "heading": "Apagado"
+                      "heading": "Apagado",
+                      "text": "<p>El software deberá reconocer la secuencia de señales para apagarse.</p>"
                     },
                     {
                       "id": "140",
                       "guid": "70bdd2be-9c7c-43e6-b80b-cbe4544f09a8",
-                      "heading": "Actualización de software"
+                      "heading": "Actualización de software",
+                      "text": "<p>El software deberá entrar en un modo de no uso para actualizar su sistema.</p>"
                     },
                     {
                       "id": "141",
                       "guid": "04cd1ace-df64-4709-9e1d-9c28ed0d53d6",
-                      "heading": "Back up  de la información"
+                      "heading": "Back up  de la información",
+                      "text": "<p>El software deberá mantener toda la información recopilada de manera local como medida de respaldo.</p>"
                     },
                     {
                       "id": "142",
                       "guid": "d2a54717-5b7e-46ef-8f3d-de7fcd24f0f7",
-                      "heading": "Modo ahorro de energía"
+                      "heading": "Modo ahorro de energía",
+                      "text": "<p>El software deberá reconocer cuando la batería esté baja y bloquear funcionalidades de alto consumo energético.</p>"
                     },
                     {
                       "id": "143",
                       "guid": "e79617fc-655b-4eb9-8b8a-c740d2319210",
-                      "heading": "Cálculo de mediciones"
+                      "heading": "Cálculo de mediciones",
+                      "text": "<p>El software deberá calcular las señales recibidas de los sensores para procesar y obtener la composición corporal.</p>"
+                    },
+                    {
+                      "id": "163",
+                      "guid": "7c690999-dc53-41be-8191-fba7474e3d3a",
+                      "heading": "Cargando",
+                      "text": "<p>El software deberá bloquear la opción de mediciones cuando se esté cargando.</p>"
                     },
                     {
                       "id": "144",
@@ -205,38 +221,42 @@
                         {
                           "id": "145",
                           "guid": "809a7806-7b25-4ace-9943-fa44c62f3c69",
-                          "heading": "Detección de anomalías: Humedad"
+                          "heading": "Detección de anomalías: Humedad",
+                          "text": "<p>El software deberá mostrar en pantalla cuando la humedad del dispositivo superé los niveles normales.</p>"
                         },
                         {
                           "id": "146",
                           "guid": "05223c2f-0d0c-4b40-b4f4-dd55c934b171",
-                          "heading": "Detección de anomalías: Temperatura"
+                          "heading": "Detección de anomalías: Temperatura",
+                          "text": "<p>El software deberá mostrar en pantalla cuando la temperatura del dispositivo superé los 80° C.</p>"
                         },
                         {
                           "id": "147",
                           "guid": "1a4273e3-c8d9-4dad-86c5-6aaddc7efd6e",
-                          "heading": "Detección de anomalías: Conexión sensores"
+                          "heading": "Detección de anomalías: Conexión sensores",
+                          "text": "<p>El software deberá mostrar en pantalla cuando los electrodos del dispositivo no se encuentren conectados.</p>"
                         },
                         {
                           "id": "148",
                           "guid": "075cc3c7-26a7-473a-b758-d9e135895341",
-                          "heading": "Detección de anomalías: Mala medición"
+                          "heading": "Detección de anomalías: Mala medición",
+                          "text": "<p>El software deberá mostrar en pantalla cuando las mediciones del dispositivo se separe en un 25% de los niveles normales.</p>"
                         }
                       ]
                     },
                     {
                       "id": "149",
                       "guid": "74202e9a-08cc-4edf-aad4-9d50ddd41ae0",
-                      "heading": "Generación de resultados"
+                      "heading": "Generación de resultados",
+                      "text": "<p>El software deberá mostrar los resultados obtenidos en pantalla</p>"
+                    },
+                    {
+                      "id": "162",
+                      "guid": "b969ff63-a20b-46df-8d0e-91fbb9f4b679",
+                      "heading": "Sincronización",
+                      "text": "<p>El software del dispositivo portátil deberá mantenerse en sincronización con la aplicación móvil revisando la hora y la fecha, así también si es necesaria una actualización.</p>"
                     }
                   ]
-                },
-                {
-                  "id": "12",
-                  "guid": "1e619681-4e08-416c-827e-c78c1a9838ed",
-                  "heading": "Site adaptation requirements",
-                  "helpRef": "9.6.4.8",
-                  "type": "SEC"
                 },
                 {
                   "id": "13",
@@ -259,103 +279,103 @@
                   "id": "37",
                   "guid": "c87e4491-4528-4626-93c4-21fd1b0daa56",
                   "heading": "Creacion de usuarios",
-                  "text": "<p>El software debera permitir la creación de nuevas cuentas de usuario</p>"
+                  "text": "<p>El software deberá permitir la creación de nuevas cuentas de usuario.</p>"
                 },
                 {
                   "id": "79",
                   "guid": "4d60f6de-8172-43b0-86cf-82ad7d757aa3",
                   "heading": "Encendido ",
-                  "text": "<p>El sofware debera contar con la opcion de encenderse&nbsp;</p>"
+                  "text": "<p>El sofware deberá contar con la opción de encenderse.</p>"
                 },
                 {
                   "id": "96",
                   "guid": "f5024e8b-21a0-4c2f-ab68-dcb18aef3c5b",
                   "heading": "Apagado",
-                  "text": "<p>El sofware debera contar con la opcion de apagarse&nbsp;</p>"
+                  "text": "<p>El sofware deberá contar con la opción de apagarse.&nbsp;</p>"
                 },
                 {
                   "id": "39",
                   "guid": "8a842a49-8f8a-4ac8-924b-c92835c27efb",
-                  "heading": "Seleccion de usuario",
-                  "text": "<p>El software debera permitir &nbsp;seleccionar el usuario</p>"
+                  "heading": "Selección de usuario",
+                  "text": "<p>El software deberá permitir &nbsp;seleccionar el usuario.</p>"
                 },
                 {
                   "id": "41",
                   "guid": "e3b5a4fb-23d1-47c2-8e97-ccde2965e988",
-                  "heading": "Eliminacion de usuario",
-                  "text": "<p>El software debera permitir la eliminacion de un usuario</p>"
+                  "heading": "Eliminación de usuario",
+                  "text": "<p>El software deberá permitir la eliminación de un usuario.</p>"
                 },
                 {
                   "id": "42",
                   "guid": "9e425119-d42a-47fb-a0b1-2c52a77dc47a",
-                  "heading": "Medicion de masa grasa/magra",
-                  "text": "<p>El software debera permitir la seleccion de la opcion para medir grasa magra y grasa del usuario</p>"
+                  "heading": "Medición de masa grasa/magra",
+                  "text": "<p>El software deberá permitir la selección de la opción para medir grasa magra y grasa del usuario.</p>"
                 },
                 {
                   "id": "43",
                   "guid": "c8e66a4c-a31a-4d64-9eea-f307e4b11491",
-                  "heading": "Medicion de hidratacion",
-                  "text": "<p>El software debera permitir la seleccion de la opcion para medir la hidratacion del usuario<br><br></p>"
+                  "heading": "Medición de hidratación",
+                  "text": "<p>El software deberá permitir la selección de la opción para medir la hidratación del usuario.<br><br></p>"
                 },
                 {
                   "id": "44",
                   "guid": "638fe824-4207-4014-a16d-75e193ef753c",
-                  "heading": "Medicion de masa/hidratacion",
-                  "text": "<p>El software debera permitir la seleccion de la opcion para medir tanto masa grasa/magra como hidratacion<br><br></p>"
+                  "heading": "Medición de masa/hidratación",
+                  "text": "<p>El software deberá permitir la selección de la opción para medir tanto masa grasa/magra como hidratación.<br><br></p>"
                 },
                 {
                   "id": "70",
                   "guid": "d7d06633-6eda-478e-bc65-7b03a89bce59",
-                  "heading": "Notificacion de error",
-                  "text": "<p>El software debera permitir la notificacion de un error durante la medicion permitiendo abortar la medicion o comenzar de nuevo en el caso que los electrodos no esten conectados</p>"
+                  "heading": "Notificación de error",
+                  "text": "<p>El software deberá permitir la notificación de un error durante la medición permitiendo abortar la medición o comenzar de nuevo en el caso que los electrodos no estén conectados.</p>"
                 },
                 {
                   "id": "45",
                   "guid": "dbbc4db3-6773-473c-a0cb-e65f7ba2d15e",
                   "heading": "Visualizacion de resultados",
-                  "text": "<p>El software debera visualizar los resultados una vez realizada la medicion&nbsp;</p>"
+                  "text": "<p>El software deberá visualizar los resultados una vez realizada la medición en forma de porcentajes.</p>"
                 },
                 {
                   "id": "73",
                   "guid": "89636bf9-ce27-4731-9e3d-3e27c5c17ff5",
                   "heading": "Ajustes de usuario",
-                  "text": "<p>El sofware debera contar con la opcion de ingresar los datos usuarios que permita una correcta medicion</p>",
+                  "text": "<p>El software deberá contar con la opción de ingresar los datos usuarios que permita una correcta medición.</p>",
                   "children": [
                     {
                       "id": "89",
                       "guid": "dc317dfe-3eb4-49e2-aef9-e08b31637cf0",
                       "heading": "Nacionalidad",
-                      "text": "<p>El sofware debera contar con la opcion de ingresar la nacionalidad del usuario</p>"
+                      "text": "<p>El software deberá contar con la opción de ingresar la nacionalidad del usuario.</p>"
                     },
                     {
                       "id": "90",
                       "guid": "2078c66b-fbe9-4b66-998f-8ce0e4894174",
                       "heading": "Edad",
-                      "text": "<p>El sofware debera contar con la opcion de ingresar la edad del usuario</p>"
+                      "text": "<p>El software deberá contar con la opción de ingresar la edad del usuario.</p>"
                     },
                     {
                       "id": "91",
                       "guid": "16186c9f-544f-4341-bbbb-0b20e95e9015",
                       "heading": "Sexo",
-                      "text": "<p>El sofware debera contar con la opcion de ingresar el sexo del usuario</p>"
+                      "text": "<p>El software deberá contar con la opción de ingresar el sexo del usuario.</p>"
                     },
                     {
                       "id": "92",
                       "guid": "26e2ce39-d684-47ea-a757-89607519cb30",
                       "heading": "Peso",
-                      "text": "<p>El sofware debera contar con la opcion de ingresar el peso del usuario</p>"
+                      "text": "<p>El software deberá contar con la opción de ingresar el peso del usuario.</p>"
                     },
                     {
                       "id": "93",
                       "guid": "005de5d0-e97e-4695-90fc-bf0dfd832966",
                       "heading": "Altura",
-                      "text": "<p>El sofware debera contar con la opcion de ingresar la altura del usuario</p>"
+                      "text": "<p>El software deberá contar con la opción de ingresar la altura del usuario.</p>"
                     },
                     {
                       "id": "94",
                       "guid": "7a25e7d6-268d-4423-aa60-8be0214b3c52",
-                      "heading": "Falta de alguna extremidad ",
-                      "text": "<p>El sofware debera contar con la opcion de indicar cual extremidad le falta al usuario en el caso de que falte alguna.</p>"
+                      "heading": "Accesibilidad carencia de alguna extremidad ",
+                      "text": "<p>El software deberá contar con la opción de indicar cual extremidad le falta al usuario en el caso de que falte alguna.</p>"
                     }
                   ]
                 },
@@ -363,72 +383,96 @@
                   "id": "47",
                   "guid": "2d0e040c-588e-4a08-bbc9-1fbaf795ff49",
                   "heading": "Retorno al menu de cuentas",
-                  "text": "<p>El software debera contar con la opcion de volver al menu principal desde el menu de usuario</p>"
+                  "text": "<p>El software deberá contar con la opción de volver al menu principal desde el menu de usuario.</p>"
                 },
                 {
                   "id": "48",
                   "guid": "498df556-020e-481e-a495-109acf0ddf63",
                   "heading": "Retorno al menu principal",
-                  "text": "<p>El software debera permitir volver al menu de usuario una vez realizada una medicion o revisado el historial</p>"
+                  "text": "<p>El software deberá permitir volver al menu de usuario una vez realizada una medición o revisado el historial.</p>"
                 },
                 {
                   "id": "59",
                   "guid": "09b2d91a-2bf4-42c3-aa38-1ecc4812142b",
                   "heading": "Historial de mediciones",
-                  "text": "<p>El software debera permitir la visualizacion del historial del usuario seleccionado</p>"
+                  "text": "<p>El software deberá permitir la visualización del historial del usuario seleccionado.</p>"
                 },
                 {
                   "id": "60",
                   "guid": "972b1f2b-f1c0-4a79-9888-5f1ef00e411f",
                   "heading": "Respaldo en la nube ",
-                  "text": "<p>El software debera permitir almacenar la informacion obtenida en la nube&nbsp;</p>"
+                  "text": "<p>El software deberá permitir almacenar la información obtenida en la nube de manera encriptada para protegerla.</p>"
                 },
                 {
                   "id": "88",
                   "guid": "857f4faa-5898-4dde-8ea6-9c139ca57d03",
                   "heading": "Respaldo local",
-                  "text": "<p>El software debera permitir almacenar la informacion localmente en el dispositivo</p>"
+                  "text": "<p>El software deberá permitir almacenar la información localmente en el dispositivo de manera de respaldo para que sea accesible al usuario.</p>"
                 },
                 {
                   "id": "68",
                   "guid": "b5ace621-aa08-42d8-8d53-1f7e261d4e35",
                   "heading": "Reinicio del sistema",
-                  "text": "<p>El software debera permitir el reinicio del sistema ante posibles errores</p>"
+                  "text": "<p>El software deberá permitir el reinicio del sistema ante posibles errores.</p>"
+                },
+                {
+                  "id": "153",
+                  "guid": "159492ad-8fea-46ec-bb16-f73cfb9830ae",
+                  "heading": "Accesibilidad no videntes",
+                  "text": "<p>El software deberá leer las opciones marcadas en pantalla mediante un altavoz.</p>"
+                },
+                {
+                  "id": "158",
+                  "guid": "a65bfa67-a5eb-401a-8ed9-06fa8aa2a8a5",
+                  "heading": "Batería",
+                  "text": "<p>El software deberá mostrar la batería restante del dispositivo.</p>"
+                },
+                {
+                  "id": "159",
+                  "guid": "78e973e3-7361-4efc-8fce-501860427ed4",
+                  "heading": "Reloj",
+                  "text": "<p>El software deberá mostrar la hora en la pantalla del dispositivo</p>"
+                },
+                {
+                  "id": "160",
+                  "guid": "ac67011a-9d41-4700-ac17-2bac7df8a093",
+                  "heading": "Fecha",
+                  "text": "<p>El software deberá mostrar la fecha en la pantalla del dispositivo</p>"
                 },
                 {
                   "id": "64",
                   "guid": "cf0d25e2-1b58-41e8-a0f3-27dadb1d94dc",
-                  "heading": "Aplicacion movil",
+                  "heading": "Aplicación móvil",
                   "children": [
                     {
                       "id": "67",
                       "guid": "fa792cbc-8857-4abd-ad15-9ed78c61afac",
-                      "heading": "Inicio de sesion ",
-                      "text": "<p>El software debera permitir el inicio de sesion en la app para el usuario</p>"
+                      "heading": "Inicio de sesión ",
+                      "text": "<p>El software deberá permitir el inicio de sesión en la app para el usuario.</p>"
                     },
                     {
                       "id": "65",
                       "guid": "45a66f24-3dac-47e7-96df-2a4804178d2d",
-                      "heading": "Visualizacion de tips",
-                      "text": "<p>El software debera permitir visualizar consejos basados en los datos obtenidos para obtener mejores resultados en la app</p>"
+                      "heading": "Visualización de consejos",
+                      "text": "<p>El software deberá permitir visualizar consejos basados en los datos obtenidos para obtener mejores resultados en la app.</p>"
                     },
                     {
                       "id": "97",
                       "guid": "afaeacb2-4623-4c4a-aacc-20cd0962c582",
-                      "heading": "Visualizacion del historial",
-                      "text": "<p>El software debera permitir visualizar el historial del usuario en uso en la app</p>"
+                      "heading": "Visualización del historial",
+                      "text": "<p>El software deberá permitir visualizar el historial del usuario en uso en la app.</p>"
                     },
                     {
                       "id": "98",
                       "guid": "063a604c-6c16-4cf8-9f70-38e4a9f4cb48",
                       "heading": "Recordatorios",
-                      "text": "<p>El software debera permitir la notificacion de recordarios mediante la app para la realizacion de mediciones</p>"
+                      "text": "<p>El software deberá permitir la notificación de recordatorios mediante la app para la realización de mediciones.</p>"
                     },
                     {
                       "id": "99",
                       "guid": "d06e7ec4-f8b5-4070-ad98-52a23c4aedcc",
                       "heading": "Chat bot",
-                      "text": "<p>El software debera poseer un bot de preguntas frecuentes</p>"
+                      "text": "<p>El software deberá poseer un bot de preguntas frecuentes.</p>"
                     }
                   ]
                 }
@@ -445,13 +489,13 @@
                   "id": "56",
                   "guid": "42a06102-dea1-4311-9c67-82bd5ea64683",
                   "heading": "Trabajadores de empresas",
-                  "text": "<p>Trabajadores de empresas expuesto a trabajos intensos que necesiten un control de la hidratacion por salud laboral</p>"
+                  "text": "<p>Trabajadores de empresas expuesto a trabajos intensos que necesiten un control de la hidratación por salud laboral.</p>"
                 },
                 {
                   "id": "57",
                   "guid": "6f43ef86-9352-484c-81f4-efeb0b3afba1",
                   "heading": "Consumidores",
-                  "text": "<p>Hogares de familia que quieran impulsar la salud preventiva mediante el analisis de grasas e hidratacion.</p>"
+                  "text": "<p>Hogares de familia que quieran impulsar la salud preventiva mediante el análisis de grasas e hidratación.</p>"
                 }
               ]
             },
@@ -466,19 +510,19 @@
                   "id": "49",
                   "guid": "ad46e9ae-2647-4d5e-a3ac-46a10eb2aef8",
                   "heading": "Usuarios limitados",
-                  "text": "<p>El software debera tener un registro minimo de 5 usuarios con posibilidad de extension&nbsp;</p>"
+                  "text": "<p>El software deberá tener un registro mínimo de 5 usuarios con posibilidad de extension.</p>"
                 },
                 {
                   "id": "50",
                   "guid": "c18e4439-351a-4bda-b27d-e55ad3c7d569",
                   "heading": "Tiempo operativo de la bateria ",
-                  "text": "<p>El software debera tener un tiempo operativo mayor a 24 horas</p>"
+                  "text": "<p>El software deberá tener un tiempo operativo mayor a 24 horas.</p>"
                 },
                 {
                   "id": "76",
                   "guid": "af735cfe-3d83-4e7a-bfbe-3be4da9881f3",
                   "heading": "Mediciones diarias ",
-                  "text": "<p>El software debera tener como capacidad maxima la realizacion de 100 mediciones diarias</p>"
+                  "text": "<p>El software deberá tener como capacidad maxima la realización de 100 mediciones diarias.</p>"
                 },
                 {
                   "id": "51",
@@ -489,25 +533,25 @@
                       "id": "52",
                       "guid": "4194bfe1-b848-40c0-8da1-7ac6837e9f44",
                       "heading": "Tiempo medicion masa grasa/magra",
-                      "text": "<p>El software debera realizar la medicion de masa grasa/magra en un tiempo maximo de 2 min</p>"
+                      "text": "<p>El software deberá realizar la medición de masa grasa/magra en un tiempo máximo de 2 min.</p>"
                     },
                     {
                       "id": "53",
                       "guid": "b542ead9-4ddd-4f3b-bd97-c11c0e3928a0",
                       "heading": "Tiempo medicion hidratacion",
-                      "text": "<p>El software deberarealizar la medicion de hidratacion en un tiempo maximo de 2 min</p>"
+                      "text": "<p>El software deberá realizar la medición de hidratación en un tiempo máximo de 2 min.</p>"
                     },
                     {
                       "id": "54",
                       "guid": "77c51e07-669a-4694-82fd-33526949af73",
                       "heading": "Tiempo medicion masa grasa/magra e hidratacion",
-                      "text": "<p>El software debera realizar la medicion de masa grasa/magra e hidratacion en un tiempo maximo de 2 min</p>"
+                      "text": "<p>El software deberá realizar la medición de masa grasa/magra e hidratación en un tiempo máximo de 2 min.</p>"
                     },
                     {
                       "id": "77",
                       "guid": "4ba96caa-0b9b-4ac9-b0e9-8f9b24c1cac0",
                       "heading": "Maximo del historial",
-                      "text": "<p>El software debera mostrar las 5 ultimas mediciones realizadas en el historial</p>"
+                      "text": "<p>El software deberá mostrar las 5 ultimas mediciones realizadas en el historial.</p>"
                     }
                   ]
                 }
@@ -524,13 +568,13 @@
                   "id": "61",
                   "guid": "e3e01773-e7ff-4398-b572-3cb0a73d3dfc",
                   "heading": "Caracteristicas del usuario",
-                  "text": "<p>Las mediciones dependeran de la altura y del peso del usuario para encontrar los valores deseados mediante el BIA</p>"
+                  "text": "<p>Las mediciones dependerán de la altura, peso y sexo del usuario para encontrar los valores deseados mediante el BIA.</p>"
                 },
                 {
                   "id": "62",
                   "guid": "3b7a2252-c04b-464e-a809-d3c845492724",
                   "heading": "Seguridad de los datos",
-                  "text": "<p>La conexion con la nube debera asegurar los protocolos de seguridad necesarios para asegurar la integridad de los datos</p>"
+                  "text": "<p>La conexión con la nube deberá asegurar los protocolos de seguridad necesarios para asegurar la integridad de los datos.</p>"
                 },
                 {
                   "id": "74",
@@ -542,13 +586,13 @@
                   "id": "75",
                   "guid": "52a4231f-debc-4243-801c-d43ccb68e81a",
                   "heading": "Sistema operativo",
-                  "text": "<p>El software deberá contara contar con un sistema operativo a la medida que le permita realizar todas las funciones necesarias basado en linux</p>"
+                  "text": "<p>El software deberá contara contar con un sistema operativo a la medida que le permita realizar todas las funciones necesarias basado en linux.</p>"
                 },
                 {
                   "id": "80",
                   "guid": "68f4c53a-2a4d-4a0c-8fff-769eef350465",
                   "heading": "Lenguaje de programacion",
-                  "text": "<p>El software deberá ser desarrollado en un lenguaje de programacion de alto nivel</p>"
+                  "text": "<p>El software deberá ser desarrollado en un lenguaje de programación de alto nivel.</p>"
                 }
               ]
             },
@@ -643,7 +687,7 @@
                       "id": "102",
                       "guid": "15949de8-b922-4620-bbbd-ef5548dddfd1",
                       "heading": "Datos usuario",
-                      "text": "<p>El sistema deberá ser capaz de solicitar los datos al usuario</p>"
+                      "text": "<p>El sistema deberá ser capaz de solicitar los datos al usuario.</p>"
                     }
                   ]
                 },
@@ -655,20 +699,20 @@
                     {
                       "id": "104",
                       "guid": "dbf0a44c-1f5f-4285-a206-93d8f5e9e7a7",
-                      "heading": "Reportes mediciones",
-                      "text": "<p>El sistema deberá ser capaz de mostrar resultados de las mediciones</p>"
+                      "heading": "Reporte mediciones",
+                      "text": "<p>El sistema deberá ser capaz de mostrar resultados de las mediciones.</p>"
                     },
                     {
                       "id": "105",
                       "guid": "1a2fc7f2-2378-4647-aa1c-af807b09437a",
                       "heading": "Recomendaciones",
-                      "text": "<p>El software deberá capaz de dar recomendaciones al usuario en base a resultados de mediciones</p>"
+                      "text": "<p>El software deberá capaz de dar recomendaciones al usuario en base a resultados de mediciones.</p>"
                     },
                     {
                       "id": "106",
                       "guid": "580881d6-7d45-4412-b1c1-195c723ef077",
                       "heading": "Historial",
-                      "text": "<p>El software deberá ser capaz de mostrar el historial de mediciones al usuario</p>"
+                      "text": "<p>El software deberá ser capaz de mostrar el historial de mediciones al usuario.</p>"
                     }
                   ]
                 }
@@ -696,7 +740,7 @@
                       "id": "109",
                       "guid": "f5d3615b-a5b2-4657-bb3c-af1182113b87",
                       "heading": "Tipos de mediciones: Masa",
-                      "text": "<p>El software deberá ser capaz de mostrar en pantalla la cantidad de masa magra del usuario</p>"
+                      "text": "<p>El software deberá ser capaz de mostrar en pantalla la cantidad de masa magra del usuario.</p>"
                     },
                     {
                       "id": "110",
@@ -722,7 +766,7 @@
                   "id": "113",
                   "guid": "3d1867e3-b765-4bc7-ba32-e9398ccd2f38",
                   "heading": "Almacenamiento de datos",
-                  "text": "<p>El software deberá ser capaz de guardar los datos en la cuenta del usario en su medición en la nube</p>"
+                  "text": "<p>El software deberá ser capaz de guardar los datos en la cuenta del usuario en su medición en la nube.</p>"
                 },
                 {
                   "id": "114",
@@ -735,6 +779,36 @@
                   "guid": "6f3a681c-6485-4cdf-a831-5c37c030a788",
                   "heading": "Actualización de software",
                   "text": "<p>El software deberá ser capaz de buscar actualizaciones y actualizarse solo.</p>"
+                },
+                {
+                  "id": "152",
+                  "guid": "a19a6754-62b7-4d0e-aa39-adaf51170509",
+                  "heading": "Lectura de pantalla",
+                  "text": "<p>El software deberá tener la opción de un altavoz que lea la opción de menú marcada.</p>"
+                },
+                {
+                  "id": "156",
+                  "guid": "5fe051d6-bca2-4ac4-9790-7d7e5a7f0317",
+                  "heading": "Batería",
+                  "text": "<p>El software deberá monitorizar la batería para mostrar cuanta carga le queda al dispositivo.</p>"
+                },
+                {
+                  "id": "157",
+                  "guid": "d271e480-0067-4917-9963-ce1b46df0caf",
+                  "heading": "Reloj",
+                  "text": "<p>El software deberá sincronizarse con la aplicación para tener la hora adecuada.</p>"
+                },
+                {
+                  "id": "161",
+                  "guid": "845736fd-23ee-457f-a1f6-74d38281866d",
+                  "heading": "Fecha",
+                  "text": "<p>El software deberá sincronizarse con la aplicación para tener la fecha adecuada.</p>"
+                },
+                {
+                  "id": "165",
+                  "guid": "ce862a55-90ee-4824-b3ff-f1b7f6cff87c",
+                  "heading": "Cargando",
+                  "text": "<p>El software deberá entrar en un modo que no haga mediciones cuando esté cargando.</p>"
                 }
               ]
             },
@@ -755,13 +829,13 @@
                   "id": "117",
                   "guid": "4ecadd60-e316-4616-b1ef-d78e9d6d3357",
                   "heading": "Almacenamiento en la  nube",
-                  "text": "<p>El software deberá almacenar los datos en la nube</p>"
+                  "text": "<p>El software deberá almacenar los datos en la nube.</p>"
                 },
                 {
                   "id": "118",
                   "guid": "d1f17831-1eef-4be9-9379-1d5149302f9c",
                   "heading": "Almacenamiento local",
-                  "text": "<p>El sistema deberá ser almacenar los datos localmente</p>"
+                  "text": "<p>El sistema deberá ser almacenar los datos localmente.</p>"
                 }
               ]
             },
@@ -776,7 +850,7 @@
                   "id": "119",
                   "guid": "45418e6f-8ea5-4834-8b19-ebfd62036378",
                   "heading": "Electrodos",
-                  "text": "<p>El software deberá detectar la cantidad de electrodos necesarios para realizar la medición</p>"
+                  "text": "<p>El software deberá detectar la cantidad de electrodos necesarios para realizar la medición.</p>"
                 },
                 {
                   "id": "120",
@@ -823,14 +897,20 @@
                 {
                   "id": "124",
                   "guid": "4e7ff264-093b-4364-848f-0ce2b2646edf",
-                  "heading": "Almacenamiento",
-                  "text": "<p>El software deberá tener un almacenamiento local mínimo de 8 Gb</p>"
+                  "heading": "Almacenamiento local",
+                  "text": "<p>El software deberá tener un almacenamiento local mínimo de 8 Gb para almacenar el registro de los usarios.</p>"
+                },
+                {
+                  "id": "155",
+                  "guid": "ab72f4d2-bcb9-4d90-9063-7daaebe6354c",
+                  "heading": "Almacenamiento en la nube",
+                  "text": "<p>El software deberá enviar toda la información obtenida a la nube.</p>"
                 },
                 {
                   "id": "125",
                   "guid": "a19d5dec-8304-4872-b2c3-c22750dfdafd",
                   "heading": "Cuentas",
-                  "text": "<p>El software deberá hacer mediciones solamente conectada a una cuenta.</p>"
+                  "text": "<p>El software deberá hacer mediciones solamente cuando esté asociado a una cuenta.</p>"
                 }
               ]
             },
