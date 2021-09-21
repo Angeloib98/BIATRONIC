@@ -381,7 +381,7 @@
         "email": "ocramsalazar@gmail.com",
         "company": ""
       },
-      "lastChangedOn": "2021-09-13T02:19:09.387Z",
+      "lastChangedOn": "2021-09-14T16:09:36.537Z",
       "lastChangedBy": {
         "name": "Marco Zolla",
         "email": "ocramsalazar@gmail.com",
@@ -2152,7 +2152,7 @@
                   "id": "57",
                   "guid": "dae804d3-f2d0-4e9d-b4f6-597477fd2d52",
                   "heading": "Comunicación con la nube",
-                  "text": "<p>El dispositivo deberá ser capaz de comunicar con un servidor remoto por medio de un protocolo encriptado SSH.</p>",
+                  "text": "<p>El dispositivo deberá ser capaz de comunicar con un servidor remoto por medio de un protocolo encriptado.</p>",
                   "verMethod": "D",
                   "history": [
                     {
@@ -2199,6 +2199,17 @@
                         "name": "Marco Zolla"
                       },
                       "changedOn": "2021-09-11T22:20:04.172Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": "<p>El dispositivo deberá ser capaz de comunicar con un servidor remoto por medio de un protocolo encriptado SSH.</p>"
+                      },
+                      "changedBy": {
+                        "company": "",
+                        "email": "ocramsalazar@gmail.com",
+                        "name": "Marco Zolla"
+                      },
+                      "changedOn": "2021-09-14T16:09:36.537Z"
                     }
                   ]
                 },
