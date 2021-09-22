@@ -381,7 +381,7 @@
         "email": "ocramsalazar@gmail.com",
         "company": ""
       },
-      "lastChangedOn": "2021-09-22T04:08:08.993Z",
+      "lastChangedOn": "2021-09-22T18:09:52.759Z",
       "lastChangedBy": {
         "name": "Marco Zolla",
         "email": "ocramsalazar@gmail.com",
@@ -1515,7 +1515,7 @@
                   "id": "107",
                   "guid": "7611f86c-8386-47c9-bc59-d97b34e7ef28",
                   "heading": "Encendido",
-                  "text": "<p>El sistema deberá tener un mecanismo intuitivo para que el usuario pueda encender el dispositivo.</p>",
+                  "text": "<p>El sistema deberá contar con un mecanismo de encendido accesible al usuario.</p>",
                   "history": [
                     {
                       "affectedNodeId": "12",
@@ -1573,6 +1573,17 @@
                         "name": "Marco Zolla"
                       },
                       "changedOn": "2021-09-22T04:07:46.825Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": "<p>El sistema deberá tener un mecanismo intuitivo para que el usuario pueda encender el dispositivo.</p>"
+                      },
+                      "changedBy": {
+                        "company": "",
+                        "email": "ocramsalazar@gmail.com",
+                        "name": "Marco Zolla"
+                      },
+                      "changedOn": "2021-09-22T17:44:06.339Z"
                     }
                   ]
                 },
@@ -1580,7 +1591,7 @@
                   "id": "108",
                   "guid": "56500b78-a390-4b01-a4d9-5f8ba28ce1db",
                   "heading": "Apagado",
-                  "text": "<p>El sistema deberá tener un mecanismo intuitivo para que el usuario pueda apagar el dispositivo.</p>",
+                  "text": "<p>El sistema deberá contar con un mecanismo de apagado accesible al usuario.</p>",
                   "history": [
                     {
                       "affectedNodeId": "12",
@@ -1614,6 +1625,17 @@
                         "name": "Marco Zolla"
                       },
                       "changedOn": "2021-09-22T04:08:08.993Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": "<p>El sistema deberá tener un mecanismo intuitivo para que el usuario pueda apagar el dispositivo.</p>"
+                      },
+                      "changedBy": {
+                        "company": "",
+                        "email": "ocramsalazar@gmail.com",
+                        "name": "Marco Zolla"
+                      },
+                      "changedOn": "2021-09-22T18:09:52.759Z"
                     }
                   ]
                 }
@@ -2226,8 +2248,8 @@
                 {
                   "id": "60",
                   "guid": "8e4841d7-9edf-4536-b30a-06db52b7e144",
-                  "heading": "Comunicación con microSD",
-                  "text": "<p>El sistema deberá tener poder comunicar con la tarjeta microSD por medio del protocolo SPI.</p>",
+                  "heading": "Almacenamiento local",
+                  "text": "<p>El sistema deberá poder almacenar los datos de las mediciones y las cuentas localmente.</p>",
                   "history": [
                     {
                       "affectedNodeId": "15",
@@ -2251,6 +2273,18 @@
                         "name": "Marco Zolla"
                       },
                       "changedOn": "2021-09-12T01:30:52.598Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "heading": "Comunicación con microSD",
+                        "text": "<p>El sistema deberá tener poder comunicar con la tarjeta microSD por medio del protocolo SPI.</p>"
+                      },
+                      "changedBy": {
+                        "company": "",
+                        "email": "ocramsalazar@gmail.com",
+                        "name": "Marco Zolla"
+                      },
+                      "changedOn": "2021-09-22T05:23:58.084Z"
                     }
                   ]
                 },
