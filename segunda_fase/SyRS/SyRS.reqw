@@ -374,14 +374,14 @@
       "id": "SyRS",
       "guid": "91e7aa24-8588-4589-9514-cc8734e38f94",
       "name": "System Requirements Specification",
-      "lastId": 106,
+      "lastId": 108,
       "createdOn": "2021-09-08T15:28:22.602Z",
       "createdBy": {
         "name": "Marco Zolla",
         "email": "ocramsalazar@gmail.com",
         "company": ""
       },
-      "lastChangedOn": "2021-09-14T16:09:36.537Z",
+      "lastChangedOn": "2021-09-22T04:08:08.993Z",
       "lastChangedBy": {
         "name": "Marco Zolla",
         "email": "ocramsalazar@gmail.com",
@@ -1508,6 +1508,112 @@
                         "name": "Marco Zolla"
                       },
                       "changedOn": "2021-09-11T22:18:47.237Z"
+                    }
+                  ]
+                },
+                {
+                  "id": "107",
+                  "guid": "7611f86c-8386-47c9-bc59-d97b34e7ef28",
+                  "heading": "Encendido",
+                  "text": "<p>El sistema deberá tener un mecanismo intuitivo para que el usuario pueda encender el dispositivo.</p>",
+                  "history": [
+                    {
+                      "affectedNodeId": "12",
+                      "changedBy": {
+                        "company": "",
+                        "email": "ocramsalazar@gmail.com",
+                        "name": "Marco Zolla"
+                      },
+                      "changedOn": "2021-09-22T04:01:08.769Z",
+                      "docId": "SyRS",
+                      "structureAction": "Create"
+                    },
+                    {
+                      "attributesChanged": {
+                        "heading": null,
+                        "text": null
+                      },
+                      "changedBy": {
+                        "company": "",
+                        "email": "ocramsalazar@gmail.com",
+                        "name": "Marco Zolla"
+                      },
+                      "changedOn": "2021-09-22T04:02:10.294Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "heading": "Encender el dispositivo",
+                        "text": "<p>El sistema deberá tener&nbsp;</p>"
+                      },
+                      "changedBy": {
+                        "company": "",
+                        "email": "ocramsalazar@gmail.com",
+                        "name": "Marco Zolla"
+                      },
+                      "changedOn": "2021-09-22T04:05:21.785Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "heading": "Encender/apagar el dispositivo"
+                      },
+                      "changedBy": {
+                        "company": "",
+                        "email": "ocramsalazar@gmail.com",
+                        "name": "Marco Zolla"
+                      },
+                      "changedOn": "2021-09-22T04:07:38.786Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": "<p>El sistema deberá tener un mecanismo intuitivo para que el usuario pueda encender y apagar el dispositivo.</p>"
+                      },
+                      "changedBy": {
+                        "company": "",
+                        "email": "ocramsalazar@gmail.com",
+                        "name": "Marco Zolla"
+                      },
+                      "changedOn": "2021-09-22T04:07:46.825Z"
+                    }
+                  ]
+                },
+                {
+                  "id": "108",
+                  "guid": "56500b78-a390-4b01-a4d9-5f8ba28ce1db",
+                  "heading": "Apagado",
+                  "text": "<p>El sistema deberá tener un mecanismo intuitivo para que el usuario pueda apagar el dispositivo.</p>",
+                  "history": [
+                    {
+                      "affectedNodeId": "12",
+                      "changedBy": {
+                        "company": "",
+                        "email": "ocramsalazar@gmail.com",
+                        "name": "Marco Zolla"
+                      },
+                      "changedOn": "2021-09-22T04:07:48.210Z",
+                      "docId": "SyRS",
+                      "structureAction": "Create"
+                    },
+                    {
+                      "attributesChanged": {
+                        "heading": null
+                      },
+                      "changedBy": {
+                        "company": "",
+                        "email": "ocramsalazar@gmail.com",
+                        "name": "Marco Zolla"
+                      },
+                      "changedOn": "2021-09-22T04:07:52.443Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": null
+                      },
+                      "changedBy": {
+                        "company": "",
+                        "email": "ocramsalazar@gmail.com",
+                        "name": "Marco Zolla"
+                      },
+                      "changedOn": "2021-09-22T04:08:08.993Z"
                     }
                   ]
                 }
