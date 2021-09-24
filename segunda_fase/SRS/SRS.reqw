@@ -12,11 +12,11 @@
         "email": "francinie23@estudiantec.cr",
         "company": "Instituto de Tecnológico de Costa Rica"
       },
-      "lastChangedOn": "2021-09-16T01:49:01.479Z",
+      "lastChangedOn": "2021-09-24T15:46:35.521Z",
       "lastChangedBy": {
-        "name": "Angelo",
-        "email": "aisaac@estudiantec.cr",
-        "company": "ITCR"
+        "name": "Marco Zolla",
+        "email": "ocramsalazar@gmail.com",
+        "company": ""
       },
       "helpRef": "ISO/IEC/IEEE 29148:2018",
       "data": [
@@ -70,7 +70,7 @@
                   "id": "5",
                   "guid": "404a3007-8970-4312-860f-e0d6bc7c6b9a",
                   "heading": "Interfaces de sistema",
-                  "text": "<p>El software deberá correr en las últimas versiones de android, IOS y la versión de linux portable.</p>",
+                  "text": "<p>El software deberá correr en las últimas versiones de android, IOS y en el dispositivo portable.</p>",
                   "helpRef": "9.6.4.1",
                   "type": "SEC"
                 },
@@ -78,7 +78,7 @@
                   "id": "6",
                   "guid": "8b326009-82eb-4d52-9620-7930a736db31",
                   "heading": "Interfaces de usuario",
-                  "text": "<p>El software deberá tener una pantalla gráfica con menus, botones y ajustes que permita un manejo táctil de fácil entendimiento.</p>",
+                  "text": "<p>El software deberá tener una pantalla gráfica con menus, que permita un manejo táctil de fácil entendimiento.</p>",
                   "helpRef": "9.6.4.2",
                   "type": "SEC"
                 },
@@ -98,8 +98,8 @@
                     {
                       "id": "131",
                       "guid": "521e9b1d-d26d-41b4-b227-f8506f1e90dc",
-                      "heading": "Pantalla táctil",
-                      "text": "<p>El software deberá recibir señales de actuación de la pantalla táctil.</p>"
+                      "heading": "Recepción de comandos",
+                      "text": "<p>El software deberá recibir señales de actuación de la interfaz de input de hardware.</p>"
                     }
                   ]
                 },
