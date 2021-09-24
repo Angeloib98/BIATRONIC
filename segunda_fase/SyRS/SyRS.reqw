@@ -374,14 +374,14 @@
       "id": "SyRS",
       "guid": "91e7aa24-8588-4589-9514-cc8734e38f94",
       "name": "System Requirements Specification",
-      "lastId": 108,
+      "lastId": 130,
       "createdOn": "2021-09-08T15:28:22.602Z",
       "createdBy": {
         "name": "Marco Zolla",
         "email": "ocramsalazar@gmail.com",
         "company": ""
       },
-      "lastChangedOn": "2021-09-22T18:09:52.759Z",
+      "lastChangedOn": "2021-09-24T16:46:15.058Z",
       "lastChangedBy": {
         "name": "Marco Zolla",
         "email": "ocramsalazar@gmail.com",
@@ -1021,8 +1021,7 @@
             {
               "id": "9",
               "guid": "6d89e456-1f4d-4709-8eb1-2af8d7e9d61a",
-              "heading": "Definitions",
-              "text": "<ul><li>Bioimpedancia: la característica del cuerpo humano de impedir el flujo de una corriente que pasa por el.</li><li>Ángulo de fase: el retraso que sufre una señal eléctrica al pasar por el cuerpo humano.</li><li>Electrodo: conductor eléctrico que hace contacto con la piel.</li></ul>",
+              "heading": "Definiciones",
               "helpRef": "9.2.3",
               "type": "SEC",
               "history": [
@@ -1058,6 +1057,186 @@
                     "name": "Marco Zolla"
                   },
                   "changedOn": "2021-09-08T17:17:00.637Z"
+                },
+                {
+                  "attributesChanged": {
+                    "heading": "Definitions"
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "ocramsalazar@gmail.com",
+                    "name": "Marco Zolla"
+                  },
+                  "changedOn": "2021-09-24T15:47:45.202Z"
+                },
+                {
+                  "attributesChanged": {
+                    "text": "<ul><li>Bioimpedancia: la característica del cuerpo humano de impedir el flujo de una corriente que pasa por el.</li><li>Ángulo de fase: el retraso que sufre una señal eléctrica al pasar por el cuerpo humano.</li><li>Electrodo: conductor eléctrico que hace contacto con la piel.</li></ul>"
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "ocramsalazar@gmail.com",
+                    "name": "Marco Zolla"
+                  },
+                  "changedOn": "2021-09-24T16:45:40.149Z"
+                },
+                {
+                  "attributesChanged": {
+                    "text": "<ul><li>Bioimpedancia:&nbsp;</li><li>Ángulo de fase: el retraso que sufre una señal eléctrica al pasar por el cuerpo humano.</li><li>Electrodo: conductor eléctrico que hace contacto con la piel.</li></ul>"
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "ocramsalazar@gmail.com",
+                    "name": "Marco Zolla"
+                  },
+                  "changedOn": "2021-09-24T16:45:54.138Z"
+                },
+                {
+                  "attributesChanged": {
+                    "text": "<ul><li>Bioimpedancia:&nbsp;</li><li>Ángulo de fase:&nbsp;</li><li>Electrodo: conductor eléctrico que hace contacto con la piel.</li></ul>"
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "ocramsalazar@gmail.com",
+                    "name": "Marco Zolla"
+                  },
+                  "changedOn": "2021-09-24T16:46:05.064Z"
+                },
+                {
+                  "attributesChanged": {
+                    "text": "<ul><li>Bioimpedancia:&nbsp;</li><li>Ángulo de fase:&nbsp;</li><li>Electrodo:&nbsp;</li></ul>"
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "ocramsalazar@gmail.com",
+                    "name": "Marco Zolla"
+                  },
+                  "changedOn": "2021-09-24T16:46:15.058Z"
+                }
+              ],
+              "children": [
+                {
+                  "id": "128",
+                  "guid": "62e5d858-f3ca-4d44-bf92-687ca7c4f26c",
+                  "heading": "Bioimpedancia",
+                  "text": "<p>La característica del cuerpo humano de impedir el flujo de una corriente que pasa por el.</p>",
+                  "history": [
+                    {
+                      "affectedNodeId": "9",
+                      "changedBy": {
+                        "company": "",
+                        "email": "ocramsalazar@gmail.com",
+                        "name": "Marco Zolla"
+                      },
+                      "changedOn": "2021-09-24T16:45:07.881Z",
+                      "docId": "SyRS",
+                      "structureAction": "Create"
+                    },
+                    {
+                      "attributesChanged": {
+                        "heading": null
+                      },
+                      "changedBy": {
+                        "company": "",
+                        "email": "ocramsalazar@gmail.com",
+                        "name": "Marco Zolla"
+                      },
+                      "changedOn": "2021-09-24T16:45:14.975Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": null
+                      },
+                      "changedBy": {
+                        "company": "",
+                        "email": "ocramsalazar@gmail.com",
+                        "name": "Marco Zolla"
+                      },
+                      "changedOn": "2021-09-24T16:45:46.776Z"
+                    }
+                  ]
+                },
+                {
+                  "id": "129",
+                  "guid": "a53a8243-3de3-47b0-96e5-4438f93a2ff5",
+                  "heading": "Ángulo de fase",
+                  "text": "<p>El retraso que sufre una señal eléctrica al pasar por el cuerpo humano.</p>",
+                  "history": [
+                    {
+                      "affectedNodeId": "9",
+                      "changedBy": {
+                        "company": "",
+                        "email": "ocramsalazar@gmail.com",
+                        "name": "Marco Zolla"
+                      },
+                      "changedOn": "2021-09-24T16:45:17.566Z",
+                      "docId": "SyRS",
+                      "structureAction": "Create"
+                    },
+                    {
+                      "attributesChanged": {
+                        "heading": null
+                      },
+                      "changedBy": {
+                        "company": "",
+                        "email": "ocramsalazar@gmail.com",
+                        "name": "Marco Zolla"
+                      },
+                      "changedOn": "2021-09-24T16:45:25.945Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": null
+                      },
+                      "changedBy": {
+                        "company": "",
+                        "email": "ocramsalazar@gmail.com",
+                        "name": "Marco Zolla"
+                      },
+                      "changedOn": "2021-09-24T16:45:58.702Z"
+                    }
+                  ]
+                },
+                {
+                  "id": "130",
+                  "guid": "549a1ce7-8082-4652-aec3-2842d02bf7f8",
+                  "heading": "Electrodo",
+                  "text": "<p>Conductor eléctrico que hace contacto con la piel.</p>",
+                  "history": [
+                    {
+                      "affectedNodeId": "9",
+                      "changedBy": {
+                        "company": "",
+                        "email": "ocramsalazar@gmail.com",
+                        "name": "Marco Zolla"
+                      },
+                      "changedOn": "2021-09-24T16:45:28.006Z",
+                      "docId": "SyRS",
+                      "structureAction": "Create"
+                    },
+                    {
+                      "attributesChanged": {
+                        "heading": null
+                      },
+                      "changedBy": {
+                        "company": "",
+                        "email": "ocramsalazar@gmail.com",
+                        "name": "Marco Zolla"
+                      },
+                      "changedOn": "2021-09-24T16:45:33.049Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": null
+                      },
+                      "changedBy": {
+                        "company": "",
+                        "email": "ocramsalazar@gmail.com",
+                        "name": "Marco Zolla"
+                      },
+                      "changedOn": "2021-09-24T16:46:09.928Z"
+                    }
+                  ]
                 }
               ]
             },
@@ -1065,7 +1244,6 @@
               "id": "10",
               "guid": "097b3066-3db1-4ee3-aa2f-b150d9d5705e",
               "heading": "Acrónimos y abreviaciones",
-              "text": "<ul><li>BIA: Bioimpedancia</li></ul>",
               "helpRef": "9.2.5",
               "type": "SEC",
               "history": [
@@ -1091,6 +1269,50 @@
                     "name": "Marco Zolla"
                   },
                   "changedOn": "2021-09-08T17:18:41.474Z"
+                },
+                {
+                  "attributesChanged": {
+                    "text": "<ul><li>BIA: Bioimpedancia</li></ul>"
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "ocramsalazar@gmail.com",
+                    "name": "Marco Zolla"
+                  },
+                  "changedOn": "2021-09-24T16:42:54.665Z"
+                }
+              ],
+              "children": [
+                {
+                  "id": "127",
+                  "guid": "ec2adcd8-eb70-4553-8e42-718c74c5eb65",
+                  "heading": "BIA",
+                  "text": "<p>Acrónimo para Bioimpedancia</p>",
+                  "history": [
+                    {
+                      "affectedNodeId": "10",
+                      "changedBy": {
+                        "company": "",
+                        "email": "ocramsalazar@gmail.com",
+                        "name": "Marco Zolla"
+                      },
+                      "changedOn": "2021-09-24T16:42:43.811Z",
+                      "docId": "SyRS",
+                      "structureAction": "Create"
+                    },
+                    {
+                      "attributesChanged": {
+                        "heading": null,
+                        "text": null
+                      },
+                      "changedBy": {
+                        "company": "",
+                        "email": "ocramsalazar@gmail.com",
+                        "name": "Marco Zolla"
+                      },
+                      "changedOn": "2021-09-24T16:43:10.146Z"
+                    }
+                  ]
                 }
               ]
             }
@@ -2469,39 +2691,114 @@
                       },
                       "changedOn": "2021-09-11T22:20:17.075Z"
                     }
+                  ]
+                },
+                {
+                  "id": "56",
+                  "guid": "f796b65a-8626-49cb-afd6-ae89eae41137",
+                  "heading": "Menú de ajustes",
+                  "text": "<p>El dispositivo deberá contar con un menú por medio del cual el usuario podrá cambiar los ajustes.</p>",
+                  "verMethod": "D",
+                  "history": [
+                    {
+                      "affectedNodeId": "54",
+                      "changedBy": {
+                        "company": "",
+                        "email": "ocramsalazar@gmail.com",
+                        "name": "Marco Zolla"
+                      },
+                      "changedOn": "2021-09-11T07:15:54.319Z",
+                      "docId": "SyRS",
+                      "structureAction": "Create"
+                    },
+                    {
+                      "attributesChanged": {
+                        "heading": null
+                      },
+                      "changedBy": {
+                        "company": "",
+                        "email": "ocramsalazar@gmail.com",
+                        "name": "Marco Zolla"
+                      },
+                      "changedOn": "2021-09-11T07:16:39.073Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": null
+                      },
+                      "changedBy": {
+                        "company": "",
+                        "email": "ocramsalazar@gmail.com",
+                        "name": "Marco Zolla"
+                      },
+                      "changedOn": "2021-09-11T07:18:48.359Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": "<p>El dispositivo deberá contar con un menú&nbsp;</p>"
+                      },
+                      "changedBy": {
+                        "company": "",
+                        "email": "ocramsalazar@gmail.com",
+                        "name": "Marco Zolla"
+                      },
+                      "changedOn": "2021-09-11T07:21:36.851Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "verMethod": null
+                      },
+                      "changedBy": {
+                        "company": "",
+                        "email": "ocramsalazar@gmail.com",
+                        "name": "Marco Zolla"
+                      },
+                      "changedOn": "2021-09-11T22:20:17.075Z"
+                    },
+                    {
+                      "affectedNodeId": "54",
+                      "changedBy": {
+                        "company": "",
+                        "email": "ocramsalazar@gmail.com",
+                        "name": "Marco Zolla"
+                      },
+                      "changedOn": "2021-09-24T16:37:39.662Z",
+                      "docId": "SyRS",
+                      "structureAction": "Promote"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": "<p>El dispositivo deberá contar con un menú por medio del cual el usuario podrá cambiar los siguientes ajustes:</p><ul><li>Su nacionalidad</li><li>Su edad</li><li>Su peso</li><li>Su altura</li><li>Si el usuario carece de una extremidad</li><li>El horario de los recordatorios</li></ul>"
+                      },
+                      "changedBy": {
+                        "company": "",
+                        "email": "ocramsalazar@gmail.com",
+                        "name": "Marco Zolla"
+                      },
+                      "changedOn": "2021-09-24T16:41:49.069Z"
+                    }
                   ],
                   "children": [
                     {
-                      "id": "55",
-                      "guid": "15074211-d224-4f47-891b-65f3cc4019d2",
-                      "heading": "Menú de mediciones",
-                      "text": "<p>El dispositivo deberá contar con un menú en donde se pueda elegir si realizar una medición del porcentaje de masa magra/grasa, la hidratación o un reporte completo.</p>",
-                      "verMethod": "D",
+                      "id": "122",
+                      "guid": "11be87c9-ae59-4b85-a15d-05fd1832c374",
+                      "heading": "Ajuste de nacionalidad",
+                      "text": "<p>El sistema deberá ser capaz de modificar la nacionalidad del usuario a su orden.</p>",
                       "history": [
                         {
-                          "affectedNodeId": "54",
+                          "affectedNodeId": "56",
                           "changedBy": {
                             "company": "",
                             "email": "ocramsalazar@gmail.com",
                             "name": "Marco Zolla"
                           },
-                          "changedOn": "2021-09-11T07:13:55.817Z",
+                          "changedOn": "2021-09-24T16:35:23.927Z",
                           "docId": "SyRS",
                           "structureAction": "Create"
                         },
                         {
                           "attributesChanged": {
-                            "heading": null
-                          },
-                          "changedBy": {
-                            "company": "",
-                            "email": "ocramsalazar@gmail.com",
-                            "name": "Marco Zolla"
-                          },
-                          "changedOn": "2021-09-11T07:14:07.483Z"
-                        },
-                        {
-                          "attributesChanged": {
+                            "heading": null,
                             "text": null
                           },
                           "changedBy": {
@@ -2509,36 +2806,35 @@
                             "email": "ocramsalazar@gmail.com",
                             "name": "Marco Zolla"
                           },
-                          "changedOn": "2021-09-11T07:15:52.630Z"
+                          "changedOn": "2021-09-24T16:36:07.965Z"
                         },
                         {
                           "attributesChanged": {
-                            "verMethod": null
+                            "text": "<p>El sistema deberá ser capaz de modificar la nacionalidad del usuario a su&nbsp;</p>"
                           },
                           "changedBy": {
                             "company": "",
                             "email": "ocramsalazar@gmail.com",
                             "name": "Marco Zolla"
                           },
-                          "changedOn": "2021-09-11T22:20:17.075Z"
+                          "changedOn": "2021-09-24T16:36:37.490Z"
                         }
                       ]
                     },
                     {
-                      "id": "56",
-                      "guid": "f796b65a-8626-49cb-afd6-ae89eae41137",
-                      "heading": "Menú de ajustes",
-                      "text": "<p>El dispositivo deberá contar con un menú por medio del cual el usuario podrá cambiar los siguientes ajustes:</p><ul><li>Su nacionalidad</li><li>Su edad</li><li>Su peso</li><li>Su altura</li><li>Si el usuario carece de una extremidad</li><li>El horario de los recordatorios</li></ul>",
-                      "verMethod": "D",
+                      "id": "123",
+                      "guid": "b8fa27d5-36e5-413a-b9e4-ebf2cb61262e",
+                      "heading": "Ajuste de edad",
+                      "text": "<p>El sistema deberá ser capaz de modificar la edad del usuario a su orden.</p>",
                       "history": [
                         {
-                          "affectedNodeId": "54",
+                          "affectedNodeId": "56",
                           "changedBy": {
                             "company": "",
                             "email": "ocramsalazar@gmail.com",
                             "name": "Marco Zolla"
                           },
-                          "changedOn": "2021-09-11T07:15:54.319Z",
+                          "changedOn": "2021-09-24T16:36:47.805Z",
                           "docId": "SyRS",
                           "structureAction": "Create"
                         },
@@ -2551,7 +2847,7 @@
                             "email": "ocramsalazar@gmail.com",
                             "name": "Marco Zolla"
                           },
-                          "changedOn": "2021-09-11T07:16:39.073Z"
+                          "changedOn": "2021-09-24T16:37:02.386Z"
                         },
                         {
                           "attributesChanged": {
@@ -2562,31 +2858,177 @@
                             "email": "ocramsalazar@gmail.com",
                             "name": "Marco Zolla"
                           },
-                          "changedOn": "2021-09-11T07:18:48.359Z"
+                          "changedOn": "2021-09-24T16:37:24.871Z"
                         },
                         {
                           "attributesChanged": {
-                            "text": "<p>El dispositivo deberá contar con un menú&nbsp;</p>"
+                            "text": "<p>El sistema deberá ser capaz de modificar la nacionalidad del usuario a su orden.</p>"
                           },
                           "changedBy": {
                             "company": "",
                             "email": "ocramsalazar@gmail.com",
                             "name": "Marco Zolla"
                           },
-                          "changedOn": "2021-09-11T07:21:36.851Z"
-                        },
-                        {
-                          "attributesChanged": {
-                            "verMethod": null
-                          },
-                          "changedBy": {
-                            "company": "",
-                            "email": "ocramsalazar@gmail.com",
-                            "name": "Marco Zolla"
-                          },
-                          "changedOn": "2021-09-11T22:20:17.075Z"
+                          "changedOn": "2021-09-24T16:37:55.978Z"
                         }
                       ]
+                    },
+                    {
+                      "id": "124",
+                      "guid": "3e3d6ba9-6710-4f4e-8b06-49812717c45c",
+                      "heading": "Ajuste de peso",
+                      "text": "<p>El sistema deberá ser capaz de modificar el peso del usuario a su orden.</p>",
+                      "history": [
+                        {
+                          "affectedNodeId": "56",
+                          "changedBy": {
+                            "company": "",
+                            "email": "ocramsalazar@gmail.com",
+                            "name": "Marco Zolla"
+                          },
+                          "changedOn": "2021-09-24T16:38:05.284Z",
+                          "docId": "SyRS",
+                          "structureAction": "Create"
+                        },
+                        {
+                          "attributesChanged": {
+                            "heading": null,
+                            "text": null
+                          },
+                          "changedBy": {
+                            "company": "",
+                            "email": "ocramsalazar@gmail.com",
+                            "name": "Marco Zolla"
+                          },
+                          "changedOn": "2021-09-24T16:38:19.311Z"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "125",
+                      "guid": "50cdc975-2558-4f3b-afef-68b65a619020",
+                      "heading": "Ajustes de inclusividad",
+                      "text": "<p>El sistema deberá ser capaz de recibir información sobre la integridad corporal del usuario y ajustar sus algoritmos de manera correspondiente.</p>",
+                      "history": [
+                        {
+                          "affectedNodeId": "56",
+                          "changedBy": {
+                            "company": "",
+                            "email": "ocramsalazar@gmail.com",
+                            "name": "Marco Zolla"
+                          },
+                          "changedOn": "2021-09-24T16:39:04.415Z",
+                          "docId": "SyRS",
+                          "structureAction": "Create"
+                        },
+                        {
+                          "attributesChanged": {
+                            "heading": null,
+                            "text": null
+                          },
+                          "changedBy": {
+                            "company": "",
+                            "email": "ocramsalazar@gmail.com",
+                            "name": "Marco Zolla"
+                          },
+                          "changedOn": "2021-09-24T16:41:13.237Z"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "126",
+                      "guid": "b0337e4e-14e6-4f64-b2fe-be53943dc1fd",
+                      "heading": "Ajustes de recordatorios",
+                      "text": "<p>El sistema deberá ser capaz de modificar la hora para los recordatorios del usuario a su orden.</p>",
+                      "history": [
+                        {
+                          "affectedNodeId": "56",
+                          "changedBy": {
+                            "company": "",
+                            "email": "ocramsalazar@gmail.com",
+                            "name": "Marco Zolla"
+                          },
+                          "changedOn": "2021-09-24T16:41:16.757Z",
+                          "docId": "SyRS",
+                          "structureAction": "Create"
+                        },
+                        {
+                          "attributesChanged": {
+                            "heading": null,
+                            "text": null
+                          },
+                          "changedBy": {
+                            "company": "",
+                            "email": "ocramsalazar@gmail.com",
+                            "name": "Marco Zolla"
+                          },
+                          "changedOn": "2021-09-24T16:41:37.046Z"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "55",
+                  "guid": "15074211-d224-4f47-891b-65f3cc4019d2",
+                  "heading": "Menú de mediciones",
+                  "text": "<p>El dispositivo deberá contar con un menú en donde se pueda elegir si realizar una medición del porcentaje de masa magra/grasa, la hidratación o un reporte completo.</p>",
+                  "verMethod": "D",
+                  "history": [
+                    {
+                      "affectedNodeId": "54",
+                      "changedBy": {
+                        "company": "",
+                        "email": "ocramsalazar@gmail.com",
+                        "name": "Marco Zolla"
+                      },
+                      "changedOn": "2021-09-11T07:13:55.817Z",
+                      "docId": "SyRS",
+                      "structureAction": "Create"
+                    },
+                    {
+                      "attributesChanged": {
+                        "heading": null
+                      },
+                      "changedBy": {
+                        "company": "",
+                        "email": "ocramsalazar@gmail.com",
+                        "name": "Marco Zolla"
+                      },
+                      "changedOn": "2021-09-11T07:14:07.483Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": null
+                      },
+                      "changedBy": {
+                        "company": "",
+                        "email": "ocramsalazar@gmail.com",
+                        "name": "Marco Zolla"
+                      },
+                      "changedOn": "2021-09-11T07:15:52.630Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "verMethod": null
+                      },
+                      "changedBy": {
+                        "company": "",
+                        "email": "ocramsalazar@gmail.com",
+                        "name": "Marco Zolla"
+                      },
+                      "changedOn": "2021-09-11T22:20:17.075Z"
+                    },
+                    {
+                      "affectedNodeId": "54",
+                      "changedBy": {
+                        "company": "",
+                        "email": "ocramsalazar@gmail.com",
+                        "name": "Marco Zolla"
+                      },
+                      "changedOn": "2021-09-24T16:37:30.885Z",
+                      "docId": "SyRS",
+                      "structureAction": "Promote"
                     }
                   ]
                 }
@@ -4154,8 +4596,8 @@
                 {
                   "id": "92",
                   "guid": "4e5265a0-aa46-4d8c-9a4e-2861e1a41b9c",
-                  "heading": "Seguridad",
-                  "text": "<ul><li>La aplicación funcionará con un ID y contraseña relacionados a cada usuario.</li><li>El historial se deberá poder accesar por el usuario con su ID, y en el caso de que lo esté usando un médico de empresa, cada empleado tendrá su usuario y contraseña ligado a su correo empresarial.</li></ul>",
+                  "heading": "Acceso a cuentas",
+                  "text": "<p>La aplicación funcionará con un ID y contraseña relacionados a cada usuario.</p>",
                   "history": [
                     {
                       "affectedNodeId": "26",
@@ -4179,6 +4621,80 @@
                         "name": "Marco Zolla"
                       },
                       "changedOn": "2021-09-13T01:54:23.997Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "heading": "Seguridad"
+                      },
+                      "changedBy": {
+                        "company": "",
+                        "email": "ocramsalazar@gmail.com",
+                        "name": "Marco Zolla"
+                      },
+                      "changedOn": "2021-09-24T16:31:21.630Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": "<ul><li>La aplicación funcionará con un ID y contraseña relacionados a cada usuario.</li><li>El historial se deberá poder accesar por el usuario con su ID, y en el caso de que lo esté usando un médico de empresa, cada empleado tendrá su usuario y contraseña ligado a su correo empresarial.</li></ul>"
+                      },
+                      "changedBy": {
+                        "company": "",
+                        "email": "ocramsalazar@gmail.com",
+                        "name": "Marco Zolla"
+                      },
+                      "changedOn": "2021-09-24T16:32:02.964Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": "<ul><li>La aplicación funcionará con un ID y contraseña relacionados a cada usuario.</li><li><br></li></ul>"
+                      },
+                      "changedBy": {
+                        "company": "",
+                        "email": "ocramsalazar@gmail.com",
+                        "name": "Marco Zolla"
+                      },
+                      "changedOn": "2021-09-24T16:32:12.891Z"
+                    }
+                  ]
+                },
+                {
+                  "id": "121",
+                  "guid": "fd8f7450-06fb-4ad0-b64f-665b1f10c99b",
+                  "heading": "Acceso al historial",
+                  "text": "<p>El historial se deberá poder accesar por el usuario con su ID, y en el caso de que lo esté usando un médico de empresa, cada empleado tendrá su usuario y contraseña ligado a su correo empresarial.</p>",
+                  "history": [
+                    {
+                      "affectedNodeId": "26",
+                      "changedBy": {
+                        "company": "",
+                        "email": "ocramsalazar@gmail.com",
+                        "name": "Marco Zolla"
+                      },
+                      "changedOn": "2021-09-24T16:31:07.307Z",
+                      "docId": "SyRS",
+                      "structureAction": "Create"
+                    },
+                    {
+                      "attributesChanged": {
+                        "heading": null
+                      },
+                      "changedBy": {
+                        "company": "",
+                        "email": "ocramsalazar@gmail.com",
+                        "name": "Marco Zolla"
+                      },
+                      "changedOn": "2021-09-24T16:31:59.389Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": null
+                      },
+                      "changedBy": {
+                        "company": "",
+                        "email": "ocramsalazar@gmail.com",
+                        "name": "Marco Zolla"
+                      },
+                      "changedOn": "2021-09-24T16:32:07.489Z"
                     }
                   ]
                 }
@@ -4207,8 +4723,8 @@
                 {
                   "id": "93",
                   "guid": "0407d993-ffe1-4c7e-9a03-98608a48065b",
-                  "heading": "Información recibida",
-                  "text": "<ul><li>El sistema deberá ser capaz de crear y almacenar perfiles, según la cantidad de usuarios que utilizarán el dispositivo.</li><li>Los perfiles que se almacenan en el dispositivo deberán incluir información personal como lo son el nombre, peso y estatura de cada persona</li></ul>",
+                  "heading": "Gestión de cuentas",
+                  "text": "<p>El sistema deberá ser capaz de crear y almacenar cuentas, según la cantidad de usuarios que utilizarán el dispositivo.</p>",
                   "history": [
                     {
                       "affectedNodeId": "27",
@@ -4276,14 +4792,90 @@
                         "name": "Marco Zolla"
                       },
                       "changedOn": "2021-09-13T01:57:48.781Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": "<ul><li>El sistema deberá ser capaz de crear y almacenar perfiles, según la cantidad de usuarios que utilizarán el dispositivo.</li><li>Los perfiles que se almacenan en el dispositivo deberán incluir información personal como lo son el nombre, peso y estatura de cada persona</li></ul>"
+                      },
+                      "changedBy": {
+                        "company": "",
+                        "email": "ocramsalazar@gmail.com",
+                        "name": "Marco Zolla"
+                      },
+                      "changedOn": "2021-09-24T15:55:58.531Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "heading": "Información recibida",
+                        "text": "<ul><li>El sistema deberá ser capaz de crear y almacenar perfiles, según la cantidad de usuarios que utilizarán el dispositivo.</li><li><br></li></ul>"
+                      },
+                      "changedBy": {
+                        "company": "",
+                        "email": "ocramsalazar@gmail.com",
+                        "name": "Marco Zolla"
+                      },
+                      "changedOn": "2021-09-24T15:56:25.751Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": "<p>El sistema deberá ser capaz de crear y almacenar perfiles, según la cantidad de usuarios que utilizarán el dispositivo.</p>"
+                      },
+                      "changedBy": {
+                        "company": "",
+                        "email": "ocramsalazar@gmail.com",
+                        "name": "Marco Zolla"
+                      },
+                      "changedOn": "2021-09-24T15:56:40.299Z"
+                    }
+                  ]
+                },
+                {
+                  "id": "116",
+                  "guid": "b53cb368-ab87-4d2b-a0e2-55734388177a",
+                  "heading": "Información de cuentas",
+                  "text": "<p>Las cuentas que se almacenan en el dispositivo deberán incluir información personal como lo son el nombre, peso y estatura de cada persona</p>",
+                  "history": [
+                    {
+                      "affectedNodeId": "27",
+                      "changedBy": {
+                        "company": "",
+                        "email": "ocramsalazar@gmail.com",
+                        "name": "Marco Zolla"
+                      },
+                      "changedOn": "2021-09-24T15:55:53.098Z",
+                      "docId": "SyRS",
+                      "structureAction": "Create"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": null
+                      },
+                      "changedBy": {
+                        "company": "",
+                        "email": "ocramsalazar@gmail.com",
+                        "name": "Marco Zolla"
+                      },
+                      "changedOn": "2021-09-24T15:56:03.950Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "heading": null,
+                        "text": "<p>Los perfiles que se almacenan en el dispositivo deberán incluir información personal como lo son el nombre, peso y estatura de cada persona</p>"
+                      },
+                      "changedBy": {
+                        "company": "",
+                        "email": "ocramsalazar@gmail.com",
+                        "name": "Marco Zolla"
+                      },
+                      "changedOn": "2021-09-24T15:57:04.272Z"
                     }
                   ]
                 },
                 {
                   "id": "94",
                   "guid": "647bc889-9c34-429c-bdd8-942b78c13f0b",
-                  "heading": "Información generada",
-                  "text": "<ul><li>El dispositivo deberá mostrar mediciones de bioimpedancia y ángulo de fase, en donde tienen importancia medidas como la hidratación y cantidad de grasas.</li><li>El sistema deberá mostrar las mediciones actuales y anteriores para llevar a cabo comparaciones entre ellas.</li><li>El sistema deberá informar si hay algún tipo de error.</li></ul>",
+                  "heading": "Despliegue de medición",
+                  "text": "<p>El dispositivo deberá mostrar mediciones de bioimpedancia y ángulo de fase, en donde tienen importancia medidas como la hidratación y cantidad de grasas.</p>",
                   "history": [
                     {
                       "affectedNodeId": "27",
@@ -4350,14 +4942,173 @@
                         "name": "Marco Zolla"
                       },
                       "changedOn": "2021-09-13T01:58:56.796Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": "<ul><li>El dispositivo deberá mostrar mediciones de bioimpedancia y ángulo de fase, en donde tienen importancia medidas como la hidratación y cantidad de grasas.</li><li>El sistema deberá mostrar las mediciones actuales y anteriores para llevar a cabo comparaciones entre ellas.</li><li>El sistema deberá informar si hay algún tipo de error.</li></ul>"
+                      },
+                      "changedBy": {
+                        "company": "",
+                        "email": "ocramsalazar@gmail.com",
+                        "name": "Marco Zolla"
+                      },
+                      "changedOn": "2021-09-24T16:00:16.916Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": "<ul><li>El dispositivo deberá mostrar mediciones de bioimpedancia y ángulo de fase, en donde tienen importancia medidas como la hidratación y cantidad de grasas.</li><li>El sistema deberá mostrar las mediciones actuales y anteriores para llevar a cabo comparaciones entre ellas.</li><li><br></li></ul>"
+                      },
+                      "changedBy": {
+                        "company": "",
+                        "email": "ocramsalazar@gmail.com",
+                        "name": "Marco Zolla"
+                      },
+                      "changedOn": "2021-09-24T16:00:26.843Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": "<ul><li>El dispositivo deberá mostrar mediciones de bioimpedancia y ángulo de fase, en donde tienen importancia medidas como la hidratación y cantidad de grasas.</li><li>&nbsp;comparaciones entre ellas.</li><li><br></li></ul>"
+                      },
+                      "changedBy": {
+                        "company": "",
+                        "email": "ocramsalazar@gmail.com",
+                        "name": "Marco Zolla"
+                      },
+                      "changedOn": "2021-09-24T16:00:48.493Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": "<ul><li>El dispositivo deberá mostrar mediciones de bioimpedancia y ángulo de fase, en donde tienen importancia medidas como la hidratación y cantidad de grasas.</li><li>&nbsp;</li><li><br></li></ul>"
+                      },
+                      "changedBy": {
+                        "company": "",
+                        "email": "ocramsalazar@gmail.com",
+                        "name": "Marco Zolla"
+                      },
+                      "changedOn": "2021-09-24T16:01:08.106Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "heading": "Información generada"
+                      },
+                      "changedBy": {
+                        "company": "",
+                        "email": "ocramsalazar@gmail.com",
+                        "name": "Marco Zolla"
+                      },
+                      "changedOn": "2021-09-24T16:03:00.487Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "heading": "Despliegue de información"
+                      },
+                      "changedBy": {
+                        "company": "",
+                        "email": "ocramsalazar@gmail.com",
+                        "name": "Marco Zolla"
+                      },
+                      "changedOn": "2021-09-24T16:03:35.188Z"
+                    }
+                  ]
+                },
+                {
+                  "id": "117",
+                  "guid": "3b00af14-b179-43b7-a5a7-e771beca8799",
+                  "heading": "Despliegue de historial",
+                  "text": "<p>El sistema deberá mostrar las mediciones actuales y anteriores para llevar a cabo comparaciones entre ellas.</p>",
+                  "history": [
+                    {
+                      "affectedNodeId": "27",
+                      "changedBy": {
+                        "company": "",
+                        "email": "ocramsalazar@gmail.com",
+                        "name": "Marco Zolla"
+                      },
+                      "changedOn": "2021-09-24T15:57:48.793Z",
+                      "docId": "SyRS",
+                      "structureAction": "Create"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": null
+                      },
+                      "changedBy": {
+                        "company": "",
+                        "email": "ocramsalazar@gmail.com",
+                        "name": "Marco Zolla"
+                      },
+                      "changedOn": "2021-09-24T16:00:34.595Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": "<p>El sistema deberá mostrar las mediciones actuales y anteriores para llevar a cabo</p>"
+                      },
+                      "changedBy": {
+                        "company": "",
+                        "email": "ocramsalazar@gmail.com",
+                        "name": "Marco Zolla"
+                      },
+                      "changedOn": "2021-09-24T16:00:57.278Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "heading": null
+                      },
+                      "changedBy": {
+                        "company": "",
+                        "email": "ocramsalazar@gmail.com",
+                        "name": "Marco Zolla"
+                      },
+                      "changedOn": "2021-09-24T16:03:51.991Z"
+                    }
+                  ]
+                },
+                {
+                  "id": "118",
+                  "guid": "455bd54a-bff6-4e8c-92a7-340f70991e3b",
+                  "heading": "Despliegue de mensajes de error",
+                  "text": "<p>El sistema deberá informar si hay algún tipo de error.</p>",
+                  "history": [
+                    {
+                      "affectedNodeId": "27",
+                      "changedBy": {
+                        "company": "",
+                        "email": "ocramsalazar@gmail.com",
+                        "name": "Marco Zolla"
+                      },
+                      "changedOn": "2021-09-24T15:57:52.333Z",
+                      "docId": "SyRS",
+                      "structureAction": "Create"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": null
+                      },
+                      "changedBy": {
+                        "company": "",
+                        "email": "ocramsalazar@gmail.com",
+                        "name": "Marco Zolla"
+                      },
+                      "changedOn": "2021-09-24T16:00:22.698Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "heading": null
+                      },
+                      "changedBy": {
+                        "company": "",
+                        "email": "ocramsalazar@gmail.com",
+                        "name": "Marco Zolla"
+                      },
+                      "changedOn": "2021-09-24T16:04:02.824Z"
                     }
                   ]
                 },
                 {
                   "id": "95",
                   "guid": "cb8e7c45-1de8-4341-8e28-5423ad2cb634",
-                  "heading": "Información exportada",
-                  "text": "<ul><li>El sistema deberá conectarse a la nube para un correcto almacenamiento de datos.</li><li>El sistema deberá comunicarse por medio del estándar WIFI 802.11ac wlan.</li><li>El sistema deberá proteger la información de los clientes cuyos datos almacena en la nube.</li></ul>",
+                  "heading": "Exportación de datos",
+                  "text": "<p>El sistema deberá conectarse a la nube para un correcto almacenamiento de datos.</p>",
                   "history": [
                     {
                       "affectedNodeId": "27",
@@ -4391,6 +5142,156 @@
                         "name": "Marco Zolla"
                       },
                       "changedOn": "2021-09-13T01:59:39.615Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": "<ul><li>El sistema deberá conectarse a la nube para un correcto almacenamiento de datos.</li><li>El sistema deberá comunicarse por medio del estándar WIFI 802.11ac wlan.</li><li>El sistema deberá proteger la información de los clientes cuyos datos almacena en la nube.</li></ul>"
+                      },
+                      "changedBy": {
+                        "company": "",
+                        "email": "ocramsalazar@gmail.com",
+                        "name": "Marco Zolla"
+                      },
+                      "changedOn": "2021-09-24T16:08:00.041Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": "<ul><li>El sistema deberá conectarse a la nube para un correcto almacenamiento de datos.</li><li>El sistema deberá comunicarse por medio del estándar WIFI 802.11ac wlan.</li><li><br></li></ul>"
+                      },
+                      "changedBy": {
+                        "company": "",
+                        "email": "ocramsalazar@gmail.com",
+                        "name": "Marco Zolla"
+                      },
+                      "changedOn": "2021-09-24T16:08:09.310Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "heading": "Información exportada",
+                        "text": "<ul><li>El sistema deberá conectarse a la nube para un correcto almacenamiento de datos.</li><li><br></li><li><br></li></ul>"
+                      },
+                      "changedBy": {
+                        "company": "",
+                        "email": "ocramsalazar@gmail.com",
+                        "name": "Marco Zolla"
+                      },
+                      "changedOn": "2021-09-24T16:08:34.006Z"
+                    }
+                  ]
+                },
+                {
+                  "id": "119",
+                  "guid": "22e97da5-fe94-43e1-aaff-0fb1d7fabe3b",
+                  "heading": "Hardware ",
+                  "text": "<p>El sistema deberá contar con el hardware necesario para implementar el protocolo de comunicación inalámbrico.</p>",
+                  "history": [
+                    {
+                      "affectedNodeId": "27",
+                      "changedBy": {
+                        "company": "",
+                        "email": "ocramsalazar@gmail.com",
+                        "name": "Marco Zolla"
+                      },
+                      "changedOn": "2021-09-24T16:07:47.768Z",
+                      "docId": "SyRS",
+                      "structureAction": "Create"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": null
+                      },
+                      "changedBy": {
+                        "company": "",
+                        "email": "ocramsalazar@gmail.com",
+                        "name": "Marco Zolla"
+                      },
+                      "changedOn": "2021-09-24T16:08:15.605Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "heading": null,
+                        "text": "<p>El sistema deberá comunicarse por medio del estándar WIFI 802.11ac wlan.</p>"
+                      },
+                      "changedBy": {
+                        "company": "",
+                        "email": "ocramsalazar@gmail.com",
+                        "name": "Marco Zolla"
+                      },
+                      "changedOn": "2021-09-24T16:20:24.648Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": "<p>El sistema deberá contar con el hardware necesario para implementar el protocolo de comunicación&nbsp;</p>"
+                      },
+                      "changedBy": {
+                        "company": "",
+                        "email": "ocramsalazar@gmail.com",
+                        "name": "Marco Zolla"
+                      },
+                      "changedOn": "2021-09-24T16:21:04.784Z"
+                    }
+                  ]
+                },
+                {
+                  "id": "120",
+                  "guid": "1b1c6787-e8de-4cc8-864d-41accf9a2b03",
+                  "heading": "Acceso de datos",
+                  "text": "<p>El sistema deberá dar la opción de requerir autentificación tanto en el dispositivo cuanto en la app para accesar la información de la cuenta.</p>",
+                  "history": [
+                    {
+                      "affectedNodeId": "27",
+                      "changedBy": {
+                        "company": "",
+                        "email": "ocramsalazar@gmail.com",
+                        "name": "Marco Zolla"
+                      },
+                      "changedOn": "2021-09-24T16:07:52.227Z",
+                      "docId": "SyRS",
+                      "structureAction": "Create"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": null
+                      },
+                      "changedBy": {
+                        "company": "",
+                        "email": "ocramsalazar@gmail.com",
+                        "name": "Marco Zolla"
+                      },
+                      "changedOn": "2021-09-24T16:08:05.552Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "heading": null
+                      },
+                      "changedBy": {
+                        "company": "",
+                        "email": "ocramsalazar@gmail.com",
+                        "name": "Marco Zolla"
+                      },
+                      "changedOn": "2021-09-24T16:26:04.499Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": "<p>El sistema deberá proteger la información de los clientes cuyos datos almacena en la nube.</p>"
+                      },
+                      "changedBy": {
+                        "company": "",
+                        "email": "ocramsalazar@gmail.com",
+                        "name": "Marco Zolla"
+                      },
+                      "changedOn": "2021-09-24T16:27:27.453Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": "<p>El sistema deberá dar la opción de requerir&nbsp;</p>"
+                      },
+                      "changedBy": {
+                        "company": "",
+                        "email": "ocramsalazar@gmail.com",
+                        "name": "Marco Zolla"
+                      },
+                      "changedOn": "2021-09-24T16:28:13.445Z"
                     }
                   ]
                 },
@@ -4461,7 +5362,7 @@
                   "id": "97",
                   "guid": "9c8e5dc5-80d0-4cb2-aabb-0c82d6f777db",
                   "heading": "Políticas organizacionales",
-                  "text": "<ul><li>El sistema deberá acoplarse a las necesidades de usuarios con discapacidad física.</li><li>La visualización en la nube deberá estar respaldada por un sistema de verificación en dos pasos.</li><li>Los empleados de la empresa deberán acoplarse a un acuerdo de confiabilidad para no liberar datos personales de nuestros clientes.</li><li>El sistema deberá tener actualizaciones para mantenerse siempre a la vanguardia del conocimiento médico.</li></ul>",
+                  "type": "SEC",
                   "history": [
                     {
                       "affectedNodeId": "28",
@@ -4495,6 +5396,227 @@
                         "name": "Marco Zolla"
                       },
                       "changedOn": "2021-09-13T02:01:14.402Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": "<ul><li>El sistema deberá acoplarse a las necesidades de usuarios con discapacidad física.</li><li>La visualización en la nube deberá estar respaldada por un sistema de verificación en dos pasos.</li><li>Los empleados de la empresa deberán acoplarse a un acuerdo de confiabilidad para no liberar datos personales de nuestros clientes.</li><li>El sistema deberá tener actualizaciones para mantenerse siempre a la vanguardia del conocimiento médico.</li></ul>"
+                      },
+                      "changedBy": {
+                        "company": "",
+                        "email": "ocramsalazar@gmail.com",
+                        "name": "Marco Zolla"
+                      },
+                      "changedOn": "2021-09-24T15:52:46.390Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": "<ul><li><br></li><li>La visualización en la nube deberá estar respaldada por un sistema de verificación en dos pasos.</li><li>Los empleados de la empresa deberán acoplarse a un acuerdo de confiabilidad para no liberar datos personales de nuestros clientes.</li><li>El sistema deberá tener actualizaciones para mantenerse siempre a la vanguardia del conocimiento médico.</li></ul>"
+                      },
+                      "changedBy": {
+                        "company": "",
+                        "email": "ocramsalazar@gmail.com",
+                        "name": "Marco Zolla"
+                      },
+                      "changedOn": "2021-09-24T15:52:59.367Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": "<ul><li><br></li><li><br></li><li>Los empleados de la empresa deberán acoplarse a un acuerdo de confiabilidad para no liberar datos personales de nuestros clientes.</li><li>El sistema deberá tener actualizaciones para mantenerse siempre a la vanguardia del conocimiento médico.</li></ul>"
+                      },
+                      "changedBy": {
+                        "company": "",
+                        "email": "ocramsalazar@gmail.com",
+                        "name": "Marco Zolla"
+                      },
+                      "changedOn": "2021-09-24T15:53:13.653Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": "<ul><li><br></li><li><br></li><li><br></li><li>El sistema deberá tener actualizaciones para mantenerse siempre a la vanguardia del conocimiento médico.</li></ul>"
+                      },
+                      "changedBy": {
+                        "company": "",
+                        "email": "ocramsalazar@gmail.com",
+                        "name": "Marco Zolla"
+                      },
+                      "changedOn": "2021-09-24T15:53:23.763Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "type": null
+                      },
+                      "changedBy": {
+                        "company": "",
+                        "email": "ocramsalazar@gmail.com",
+                        "name": "Marco Zolla"
+                      },
+                      "changedOn": "2021-09-24T15:53:38.939Z"
+                    }
+                  ],
+                  "children": [
+                    {
+                      "id": "112",
+                      "guid": "55d5db25-f885-4120-a37f-e8d7db703f9a",
+                      "heading": "Discapacidad física",
+                      "text": "<p>El sistema deberá acoplarse a las necesidades de usuarios con discapacidad física.</p>",
+                      "history": [
+                        {
+                          "affectedNodeId": "97",
+                          "changedBy": {
+                            "company": "",
+                            "email": "ocramsalazar@gmail.com",
+                            "name": "Marco Zolla"
+                          },
+                          "changedOn": "2021-09-24T15:52:36.986Z",
+                          "docId": "SyRS",
+                          "structureAction": "Create"
+                        },
+                        {
+                          "attributesChanged": {
+                            "text": null
+                          },
+                          "changedBy": {
+                            "company": "",
+                            "email": "ocramsalazar@gmail.com",
+                            "name": "Marco Zolla"
+                          },
+                          "changedOn": "2021-09-24T15:52:52.440Z"
+                        },
+                        {
+                          "attributesChanged": {
+                            "heading": null
+                          },
+                          "changedBy": {
+                            "company": "",
+                            "email": "ocramsalazar@gmail.com",
+                            "name": "Marco Zolla"
+                          },
+                          "changedOn": "2021-09-24T15:53:50.838Z"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "113",
+                      "guid": "b6b77d96-db82-4f62-bbfc-2fea21cb4a19",
+                      "heading": "Verificación en dos pasos",
+                      "text": "<p>La visualización en la nube deberá estar respaldada por un sistema de verificación en dos pasos.</p>",
+                      "history": [
+                        {
+                          "affectedNodeId": "97",
+                          "changedBy": {
+                            "company": "",
+                            "email": "ocramsalazar@gmail.com",
+                            "name": "Marco Zolla"
+                          },
+                          "changedOn": "2021-09-24T15:52:54.307Z",
+                          "docId": "SyRS",
+                          "structureAction": "Create"
+                        },
+                        {
+                          "attributesChanged": {
+                            "text": null
+                          },
+                          "changedBy": {
+                            "company": "",
+                            "email": "ocramsalazar@gmail.com",
+                            "name": "Marco Zolla"
+                          },
+                          "changedOn": "2021-09-24T15:53:05.399Z"
+                        },
+                        {
+                          "attributesChanged": {
+                            "heading": null
+                          },
+                          "changedBy": {
+                            "company": "",
+                            "email": "ocramsalazar@gmail.com",
+                            "name": "Marco Zolla"
+                          },
+                          "changedOn": "2021-09-24T15:54:05.911Z"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "114",
+                      "guid": "f6ff5008-fbf5-4def-9156-4ceecedc0a66",
+                      "heading": "Confidencialidad de datos",
+                      "text": "<p>Los empleados de la empresa deberán acoplarse a un acuerdo de confiabilidad para no liberar datos personales de nuestros clientes.</p>",
+                      "history": [
+                        {
+                          "affectedNodeId": "97",
+                          "changedBy": {
+                            "company": "",
+                            "email": "ocramsalazar@gmail.com",
+                            "name": "Marco Zolla"
+                          },
+                          "changedOn": "2021-09-24T15:53:07.694Z",
+                          "docId": "SyRS",
+                          "structureAction": "Create"
+                        },
+                        {
+                          "attributesChanged": {
+                            "text": null
+                          },
+                          "changedBy": {
+                            "company": "",
+                            "email": "ocramsalazar@gmail.com",
+                            "name": "Marco Zolla"
+                          },
+                          "changedOn": "2021-09-24T15:53:19.298Z"
+                        },
+                        {
+                          "attributesChanged": {
+                            "heading": null
+                          },
+                          "changedBy": {
+                            "company": "",
+                            "email": "ocramsalazar@gmail.com",
+                            "name": "Marco Zolla"
+                          },
+                          "changedOn": "2021-09-24T15:54:20.233Z"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "115",
+                      "guid": "ddfcbbe6-f40e-45fa-b297-eca592736d96",
+                      "heading": "Actualizaciones",
+                      "text": "<p>El sistema deberá tener actualizaciones para mantenerse siempre a la vanguardia del conocimiento médico.</p>",
+                      "history": [
+                        {
+                          "affectedNodeId": "97",
+                          "changedBy": {
+                            "company": "",
+                            "email": "ocramsalazar@gmail.com",
+                            "name": "Marco Zolla"
+                          },
+                          "changedOn": "2021-09-24T15:53:29.095Z",
+                          "docId": "SyRS",
+                          "structureAction": "Create"
+                        },
+                        {
+                          "attributesChanged": {
+                            "text": null
+                          },
+                          "changedBy": {
+                            "company": "",
+                            "email": "ocramsalazar@gmail.com",
+                            "name": "Marco Zolla"
+                          },
+                          "changedOn": "2021-09-24T15:53:33.873Z"
+                        },
+                        {
+                          "attributesChanged": {
+                            "heading": null
+                          },
+                          "changedBy": {
+                            "company": "",
+                            "email": "ocramsalazar@gmail.com",
+                            "name": "Marco Zolla"
+                          },
+                          "changedOn": "2021-09-24T15:54:31.544Z"
+                        }
+                      ]
                     }
                   ]
                 },
@@ -4811,7 +5933,7 @@
                   "id": "105",
                   "guid": "b1d5583c-27f2-4f81-baf0-06e08e8379a6",
                   "heading": "Documentación técnica",
-                  "text": "<ul><li>Cada dispositivo deberá incluir un manual de uso</li><li>La empresa deberá ofrecer información de contacto para reportar averías, soporte técnico y compra de repuestos o accesorios.<br><br></li></ul>",
+                  "text": "<p>Cada dispositivo deberá incluir un manual de uso</p>",
                   "history": [
                     {
                       "affectedNodeId": "30",
@@ -4889,6 +6011,69 @@
                       "changedOn": "2021-09-13T02:19:09.387Z",
                       "docId": "SyRS",
                       "structureAction": "Demote"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": "<ul><li>Cada dispositivo deberá incluir un manual de uso</li><li>La empresa deberá ofrecer información de contacto para reportar averías, soporte técnico y compra de repuestos o accesorios.<br><br></li></ul>"
+                      },
+                      "changedBy": {
+                        "company": "",
+                        "email": "ocramsalazar@gmail.com",
+                        "name": "Marco Zolla"
+                      },
+                      "changedOn": "2021-09-24T15:51:20.148Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": "<ul><li>Cada dispositivo deberá incluir un manual de uso</li><li><br><br></li></ul>"
+                      },
+                      "changedBy": {
+                        "company": "",
+                        "email": "ocramsalazar@gmail.com",
+                        "name": "Marco Zolla"
+                      },
+                      "changedOn": "2021-09-24T15:51:33.329Z"
+                    }
+                  ]
+                },
+                {
+                  "id": "111",
+                  "guid": "3cbd2333-9df1-48d9-b825-c176ac0cdbf9",
+                  "heading": "Contacto de soporte",
+                  "text": "<p>La empresa deberá ofrecer información de contacto para reportar averías, soporte técnico y compra de repuestos o accesorios.<br><br></p>",
+                  "history": [
+                    {
+                      "affectedNodeId": "29",
+                      "changedBy": {
+                        "company": "",
+                        "email": "ocramsalazar@gmail.com",
+                        "name": "Marco Zolla"
+                      },
+                      "changedOn": "2021-09-24T15:51:14.942Z",
+                      "docId": "SyRS",
+                      "structureAction": "Create"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": null
+                      },
+                      "changedBy": {
+                        "company": "",
+                        "email": "ocramsalazar@gmail.com",
+                        "name": "Marco Zolla"
+                      },
+                      "changedOn": "2021-09-24T15:51:26.915Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "heading": null
+                      },
+                      "changedBy": {
+                        "company": "",
+                        "email": "ocramsalazar@gmail.com",
+                        "name": "Marco Zolla"
+                      },
+                      "changedOn": "2021-09-24T15:51:56.886Z"
                     }
                   ]
                 }
@@ -4918,7 +6103,7 @@
                   "id": "106",
                   "guid": "c750cc25-490f-4427-81f6-77625a564468",
                   "heading": "Protección al ambiente",
-                  "text": "<ul><li>El empaquetado deberá ser compuesto por materiales reciclables.</li><li>El empaquetado no deberá usar plásticos de un solo uso.</li></ul>",
+                  "type": "SEC",
                   "history": [
                     {
                       "affectedNodeId": "30",
@@ -4953,6 +6138,123 @@
                         "name": "Marco Zolla"
                       },
                       "changedOn": "2021-09-13T02:11:37.491Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": "<ul><li>El empaquetado deberá ser compuesto por materiales reciclables.</li><li>El empaquetado no deberá usar plásticos de un solo uso.</li></ul>"
+                      },
+                      "changedBy": {
+                        "company": "",
+                        "email": "ocramsalazar@gmail.com",
+                        "name": "Marco Zolla"
+                      },
+                      "changedOn": "2021-09-24T15:48:51.791Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": "<ul><li><br></li><li>El empaquetado no deberá usar plásticos de un solo uso.</li></ul>"
+                      },
+                      "changedBy": {
+                        "company": "",
+                        "email": "ocramsalazar@gmail.com",
+                        "name": "Marco Zolla"
+                      },
+                      "changedOn": "2021-09-24T15:50:22.711Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "type": null
+                      },
+                      "changedBy": {
+                        "company": "",
+                        "email": "ocramsalazar@gmail.com",
+                        "name": "Marco Zolla"
+                      },
+                      "changedOn": "2021-09-24T15:50:56.358Z"
+                    }
+                  ],
+                  "children": [
+                    {
+                      "id": "109",
+                      "guid": "64dba30e-01e2-4651-820b-6ebedf768480",
+                      "heading": "Materiales de empaquetado",
+                      "text": "<p>El empaquetado deberá ser compuesto por materiales reciclables.</p>",
+                      "history": [
+                        {
+                          "affectedNodeId": "106",
+                          "changedBy": {
+                            "company": "",
+                            "email": "ocramsalazar@gmail.com",
+                            "name": "Marco Zolla"
+                          },
+                          "changedOn": "2021-09-24T15:48:36.408Z",
+                          "docId": "SyRS",
+                          "structureAction": "Create"
+                        },
+                        {
+                          "attributesChanged": {
+                            "heading": null
+                          },
+                          "changedBy": {
+                            "company": "",
+                            "email": "ocramsalazar@gmail.com",
+                            "name": "Marco Zolla"
+                          },
+                          "changedOn": "2021-09-24T15:48:46.412Z"
+                        },
+                        {
+                          "attributesChanged": {
+                            "text": null
+                          },
+                          "changedBy": {
+                            "company": "",
+                            "email": "ocramsalazar@gmail.com",
+                            "name": "Marco Zolla"
+                          },
+                          "changedOn": "2021-09-24T15:49:00.506Z"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "110",
+                      "guid": "224b38af-ebe0-455a-b95e-1188eff7b225",
+                      "heading": "Plástico ",
+                      "text": "<p>El empaquetado no deberá usar plásticos de un solo uso.</p>",
+                      "history": [
+                        {
+                          "affectedNodeId": "106",
+                          "changedBy": {
+                            "company": "",
+                            "email": "ocramsalazar@gmail.com",
+                            "name": "Marco Zolla"
+                          },
+                          "changedOn": "2021-09-24T15:49:08.736Z",
+                          "docId": "SyRS",
+                          "structureAction": "Create"
+                        },
+                        {
+                          "attributesChanged": {
+                            "heading": null
+                          },
+                          "changedBy": {
+                            "company": "",
+                            "email": "ocramsalazar@gmail.com",
+                            "name": "Marco Zolla"
+                          },
+                          "changedOn": "2021-09-24T15:49:22.843Z"
+                        },
+                        {
+                          "attributesChanged": {
+                            "text": null
+                          },
+                          "changedBy": {
+                            "company": "",
+                            "email": "ocramsalazar@gmail.com",
+                            "name": "Marco Zolla"
+                          },
+                          "changedOn": "2021-09-24T15:50:28.651Z"
+                        }
+                      ]
                     }
                   ]
                 }
