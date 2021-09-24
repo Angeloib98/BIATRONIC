@@ -12,7 +12,7 @@
         "email": "francinie23@estudiantec.cr",
         "company": "Instituto de Tecnológico de Costa Rica"
       },
-      "lastChangedOn": "2021-09-24T15:46:35.521Z",
+      "lastChangedOn": "2021-09-24T23:52:50.729Z",
       "lastChangedBy": {
         "name": "Marco Zolla",
         "email": "ocramsalazar@gmail.com",
@@ -78,7 +78,7 @@
                   "id": "6",
                   "guid": "8b326009-82eb-4d52-9620-7930a736db31",
                   "heading": "Interfaces de usuario",
-                  "text": "<p>El software deberá tener una pantalla gráfica con menus, que permita un manejo táctil de fácil entendimiento.</p>",
+                  "text": "<p>El software deberá tener una pantalla gráfica con menus, que permita un manejo de fácil entendimiento.</p>",
                   "helpRef": "9.6.4.2",
                   "type": "SEC"
                 },
@@ -122,7 +122,7 @@
                       "id": "132",
                       "guid": "a5ba48df-0392-4502-9d82-49929cb81ede",
                       "heading": "Protocolo de transmisión de datos",
-                      "text": "<p>El software deberá conectarse al servicio de la nube mediante el protocolo de wifi.</p>"
+                      "text": "<p>El software deberá conectarse al servicio de la nube mediante un protocolo de comunicación inalámbrica.</p>"
                     },
                     {
                       "id": "133",
@@ -856,7 +856,7 @@
                   "id": "120",
                   "guid": "c30eeee7-f918-42e2-a4fb-6f9713dcb07f",
                   "heading": "Tiempo de medición",
-                  "text": "<p>El software deberá realizar la medición en un tiempo menor a 1 min.</p>"
+                  "text": "<p>El software deberá realizar la medición en un tiempo menor a 2 min.</p>"
                 },
                 {
                   "id": "121",
