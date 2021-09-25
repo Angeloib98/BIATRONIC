@@ -374,14 +374,14 @@
       "id": "SyRS",
       "guid": "91e7aa24-8588-4589-9514-cc8734e38f94",
       "name": "System Requirements Specification",
-      "lastId": 154,
+      "lastId": 155,
       "createdOn": "2021-09-08T15:28:22.602Z",
       "createdBy": {
         "name": "Marco Zolla",
         "email": "ocramsalazar@gmail.com",
         "company": ""
       },
-      "lastChangedOn": "2021-09-25T05:23:19.782Z",
+      "lastChangedOn": "2021-09-25T23:38:29.686Z",
       "lastChangedBy": {
         "name": "Marco Zolla",
         "email": "ocramsalazar@gmail.com",
@@ -1127,6 +1127,48 @@
                                 "name": "Marco Zolla"
                               },
                               "changedOn": "2021-09-24T23:24:10.552Z"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "155",
+                          "guid": "6a9ca904-e612-445a-bf68-35de3210399d",
+                          "heading": "Barrido de frecuencias",
+                          "text": "<p>El sistema deberá ser capaz de generar una señal de medición que recorra el rango de 0 Hz a 500 kHz.</p>",
+                          "history": [
+                            {
+                              "affectedNodeId": "35",
+                              "changedBy": {
+                                "company": "",
+                                "email": "ocramsalazar@gmail.com",
+                                "name": "Marco Zolla"
+                              },
+                              "changedOn": "2021-09-25T23:36:47.424Z",
+                              "docId": "SyRS",
+                              "structureAction": "Create"
+                            },
+                            {
+                              "attributesChanged": {
+                                "heading": null,
+                                "text": null
+                              },
+                              "changedBy": {
+                                "company": "",
+                                "email": "ocramsalazar@gmail.com",
+                                "name": "Marco Zolla"
+                              },
+                              "changedOn": "2021-09-25T23:37:54.179Z"
+                            },
+                            {
+                              "attributesChanged": {
+                                "text": "<p>El sistema deberá ser capaz de generar&nbsp;</p>"
+                              },
+                              "changedBy": {
+                                "company": "",
+                                "email": "ocramsalazar@gmail.com",
+                                "name": "Marco Zolla"
+                              },
+                              "changedOn": "2021-09-25T23:38:29.686Z"
                             }
                           ]
                         }
