@@ -381,7 +381,7 @@
         "email": "ocramsalazar@gmail.com",
         "company": ""
       },
-      "lastChangedOn": "2021-09-24T23:43:54.698Z",
+      "lastChangedOn": "2021-09-25T05:23:19.782Z",
       "lastChangedBy": {
         "name": "Marco Zolla",
         "email": "ocramsalazar@gmail.com",
@@ -4568,7 +4568,7 @@
                       "id": "58",
                       "guid": "8faaa561-d62f-40d8-8324-5bb8c2b21001",
                       "heading": "Recepción de comandos",
-                      "text": "<p>El sistema deberá poder recibir comandos del usuario por medio de un mecanismo de input.</p>",
+                      "text": "<p>El sistema deberá poder recibir comandos del usuario por medio de un mecanismo accesible de input.</p>",
                       "verMethod": "D",
                       "history": [
                         {
@@ -4626,6 +4626,17 @@
                             "name": "Marco Zolla"
                           },
                           "changedOn": "2021-09-24T23:32:31.097Z"
+                        },
+                        {
+                          "attributesChanged": {
+                            "text": "<p>El sistema deberá poder recibir comandos del usuario por medio de un mecanismo de input.</p>"
+                          },
+                          "changedBy": {
+                            "company": "",
+                            "email": "ocramsalazar@gmail.com",
+                            "name": "Marco Zolla"
+                          },
+                          "changedOn": "2021-09-25T05:23:19.782Z"
                         }
                       ]
                     },
