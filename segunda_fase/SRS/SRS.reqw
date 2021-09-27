@@ -5,14 +5,14 @@
       "id": "SRS",
       "guid": "254e2b3c-9932-458c-a99a-cec52dad5fde",
       "name": "Software Requirements Specification",
-      "lastId": 169,
+      "lastId": 170,
       "createdOn": "2021-09-08T01:58:52.746Z",
       "createdBy": {
         "name": "Francinie Rodríguez",
         "email": "francinie23@estudiantec.cr",
         "company": "Instituto de Tecnológico de Costa Rica"
       },
-      "lastChangedOn": "2021-09-27T02:43:45.025Z",
+      "lastChangedOn": "2021-09-27T02:50:19.605Z",
       "lastChangedBy": {
         "name": "Angelo",
         "email": "aisaac@estudiantec.cr",
@@ -676,6 +676,12 @@
                   "guid": "38c7a8ac-11b5-4e63-bef3-8e3017c63e58",
                   "heading": "Min",
                   "text": "<p>Minutos</p>"
+                },
+                {
+                  "id": "170",
+                  "guid": "62484448-1b0c-4c25-8d11-d68a826cbfee",
+                  "heading": "Mini",
+                  "text": "<p>Mínimo</p>"
                 }
               ]
             }
@@ -929,7 +935,7 @@
                 {
                   "id": "124",
                   "guid": "4e7ff264-093b-4364-848f-0ce2b2646edf",
-                  "heading": "Almacenamiento local",
+                  "heading": "Almacenamiento mini local",
                   "text": "<p>El software deberá tener un almacenamiento local mínimo de 8 Gb para almacenar el registro de los usarios.</p>"
                 },
                 {
