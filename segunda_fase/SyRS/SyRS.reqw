@@ -374,14 +374,14 @@
       "id": "SyRS",
       "guid": "91e7aa24-8588-4589-9514-cc8734e38f94",
       "name": "System Requirements Specification",
-      "lastId": 155,
+      "lastId": 157,
       "createdOn": "2021-09-08T15:28:22.602Z",
       "createdBy": {
         "name": "Marco Zolla",
         "email": "ocramsalazar@gmail.com",
         "company": ""
       },
-      "lastChangedOn": "2021-09-25T23:38:29.686Z",
+      "lastChangedOn": "2021-09-30T17:17:07.042Z",
       "lastChangedBy": {
         "name": "Marco Zolla",
         "email": "ocramsalazar@gmail.com",
@@ -3400,6 +3400,99 @@
                         "name": "Marco Zolla"
                       },
                       "changedOn": "2021-09-11T22:19:02.054Z"
+                    }
+                  ]
+                },
+                {
+                  "id": "156",
+                  "guid": "26a3faf7-93fa-40ec-9599-dff06e56bd2b",
+                  "heading": "Fijación de electrodos",
+                  "text": "<p>El método a utilizar para la fijación de los electrodos deberá ser reutilizable, esto para minimizar los desechos que genera el sistema.</p>",
+                  "history": [
+                    {
+                      "affectedNodeId": "13",
+                      "changedBy": {
+                        "company": "",
+                        "email": "ocramsalazar@gmail.com",
+                        "name": "Marco Zolla"
+                      },
+                      "changedOn": "2021-09-30T17:16:22.026Z",
+                      "docId": "SyRS",
+                      "structureAction": "Create"
+                    },
+                    {
+                      "attributesChanged": {
+                        "heading": null
+                      },
+                      "changedBy": {
+                        "company": "",
+                        "email": "ocramsalazar@gmail.com",
+                        "name": "Marco Zolla"
+                      },
+                      "changedOn": "2021-09-30T17:16:36.796Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": null
+                      },
+                      "changedBy": {
+                        "company": "",
+                        "email": "ocramsalazar@gmail.com",
+                        "name": "Marco Zolla"
+                      },
+                      "changedOn": "2021-09-30T17:16:44.710Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": "<p>El método a utilizar para la fijación de los electrodos deberá ser reutilizable, esto para minimizar los desechos que genera el sistema</p>"
+                      },
+                      "changedBy": {
+                        "company": "",
+                        "email": "ocramsalazar@gmail.com",
+                        "name": "Marco Zolla"
+                      },
+                      "changedOn": "2021-09-30T17:17:07.042Z"
+                    }
+                  ]
+                },
+                {
+                  "id": "157",
+                  "guid": "dd7e49b4-f1b6-40e6-982e-dd1e0c47bb7e",
+                  "heading": "Método no invasivo",
+                  "text": "<p>Los electrodos deberán ser cómodos para el usuario, minimizando la cantidad de accesorios necesarios.</p>",
+                  "history": [
+                    {
+                      "affectedNodeId": "13",
+                      "changedBy": {
+                        "company": "",
+                        "email": "ocramsalazar@gmail.com",
+                        "name": "Marco Zolla"
+                      },
+                      "changedOn": "2021-09-30T17:16:46.666Z",
+                      "docId": "SyRS",
+                      "structureAction": "Create"
+                    },
+                    {
+                      "attributesChanged": {
+                        "heading": null
+                      },
+                      "changedBy": {
+                        "company": "",
+                        "email": "ocramsalazar@gmail.com",
+                        "name": "Marco Zolla"
+                      },
+                      "changedOn": "2021-09-30T17:16:57.485Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": null
+                      },
+                      "changedBy": {
+                        "company": "",
+                        "email": "ocramsalazar@gmail.com",
+                        "name": "Marco Zolla"
+                      },
+                      "changedOn": "2021-09-30T17:17:03.376Z"
                     }
                   ]
                 }
