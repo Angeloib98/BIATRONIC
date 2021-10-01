@@ -12,7 +12,7 @@
         "email": "francinie23@estudiantec.cr",
         "company": "Instituto de Tecnológico de Costa Rica"
       },
-      "lastChangedOn": "2021-09-27T02:50:19.605Z",
+      "lastChangedOn": "2021-10-01T03:08:10.706Z",
       "lastChangedBy": {
         "name": "Angelo",
         "email": "aisaac@estudiantec.cr",
@@ -218,12 +218,6 @@
                       "guid": "57d106fc-e52d-421e-a413-2c30b0d40076",
                       "heading": "Detección de anomalías",
                       "children": [
-                        {
-                          "id": "145",
-                          "guid": "809a7806-7b25-4ace-9943-fa44c62f3c69",
-                          "heading": "Detección de anomalías: Humedad",
-                          "text": "<p>El software deberá mostrar en pantalla cuando la humedad del dispositivo superé los niveles normales.</p>"
-                        },
                         {
                           "id": "146",
                           "guid": "05223c2f-0d0c-4b40-b4f4-dd55c934b171",
