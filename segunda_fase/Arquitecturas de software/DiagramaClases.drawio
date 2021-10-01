@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-01T23:43:42.875Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36 Edg/94.0.992.31" etag="GMAmxxWMaz_nTq7x3qNM" version="15.4.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-01T23:44:34.022Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36 Edg/94.0.992.31" etag="vYEPwp9StilBv6-M_8_E" version="15.4.1" type="github">
   <diagram id="XaWv4jqbw5jjv5fujQdN" name="Page-1">
     <mxGraphModel dx="1363" dy="757" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -34,7 +34,7 @@
         <mxCell id="UsCl_k0fAf9GDx7QErYr-5" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;Transmisión de datos&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;a la nube&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ TransmisionActiva: bool&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ TransmitirDatos()&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ EstablecerConexion()&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
           <mxGeometry x="70" y="307" width="160" height="112" as="geometry" />
         </mxCell>
-        <mxCell id="UsCl_k0fAf9GDx7QErYr-7" value="Ahorro de energía a donde lo pongo&lt;br&gt;Seleccion de usuario donde?" style="html=1;" vertex="1" parent="1">
+        <mxCell id="UsCl_k0fAf9GDx7QErYr-7" value="Ahorro de energía a donde lo pongo&lt;br&gt;Seleccion de usuario donde?&lt;br&gt;&lt;a href=&quot;https://www.usmp.edu.pe/publicaciones/boletin/fia/info67/UML.pdf&quot;&gt;Herencia o Generalización (usmp.edu.pe)&lt;/a&gt;" style="html=1;" vertex="1" parent="1">
           <mxGeometry x="838" y="706" width="257" height="106" as="geometry" />
         </mxCell>
         <mxCell id="UsCl_k0fAf9GDx7QErYr-11" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="UsCl_k0fAf9GDx7QErYr-5">
