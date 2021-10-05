@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-10-03T00:53:38.558Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36 Edg/94.0.992.31" etag="t90jQK6QcSyiQOM8Sy2Z" version="15.4.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-05T17:05:01.169Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36 Edg/94.0.992.38" etag="LTwuPS1uSsRsBErIzV-0" version="15.4.1" type="github">
   <diagram id="XaWv4jqbw5jjv5fujQdN" name="Page-1">
-    <mxGraphModel dx="1635" dy="908" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="1128" dy="626" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -28,14 +28,14 @@
             <mxPoint x="1030" y="467" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="UsCl_k0fAf9GDx7QErYr-3" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;Detección de anomalías&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ Temperatura: int&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ Electrodos: bool&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ Carga: int&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ CapturaTemperatura()&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ RevisionElectrodos()&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;span&gt;+ AhorroEnergia()&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;span&gt;+ AvisosEmergencia()&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;span&gt;+ ApagadoEmergencia()&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="1" vertex="1">
-          <mxGeometry x="116" y="507" width="160" height="158" as="geometry" />
+        <mxCell id="UsCl_k0fAf9GDx7QErYr-3" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;Gestor de anomalías&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ Temperatura: int&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ Electrodos: bool&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ Carga: int&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ CapturaTemperatura()&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ RevisionElectrodos()&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;span&gt;+ AhorroEnergia()&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;span&gt;+ AvisosEmergencia()&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;span&gt;+ AislamientoAnomalía()&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;span&gt;+ ApagadoEmergencia()&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="1" vertex="1">
+          <mxGeometry x="116" y="507" width="160" height="174" as="geometry" />
         </mxCell>
         <mxCell id="UsCl_k0fAf9GDx7QErYr-5" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;Transmisión de datos&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;a la nube&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ TransmisionActiva: bool&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ TransmitirDatos()&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ EstablecerConexion()&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="1" vertex="1">
           <mxGeometry x="70" y="307" width="160" height="112" as="geometry" />
         </mxCell>
-        <mxCell id="UsCl_k0fAf9GDx7QErYr-7" value="Ahorro de energía a donde lo pongo&lt;br&gt;Seleccion de usuario donde?&lt;br&gt;&lt;a href=&quot;https://www.usmp.edu.pe/publicaciones/boletin/fia/info67/UML.pdf&quot;&gt;Herencia o Generalización (usmp.edu.pe)&lt;/a&gt;" style="html=1;" parent="1" vertex="1">
-          <mxGeometry x="838" y="706" width="257" height="106" as="geometry" />
+        <mxCell id="UsCl_k0fAf9GDx7QErYr-7" value="&lt;br&gt;&lt;a href=&quot;https://www.usmp.edu.pe/publicaciones/boletin/fia/info67/UML.pdf&quot;&gt;Herencia o Generalización (usmp.edu.pe)&lt;/a&gt;" style="html=1;" parent="1" vertex="1">
+          <mxGeometry x="843" y="744" width="257" height="106" as="geometry" />
         </mxCell>
         <mxCell id="UsCl_k0fAf9GDx7QErYr-11" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="UsCl_k0fAf9GDx7QErYr-5" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
@@ -104,8 +104,8 @@
             <mxPoint x="316" y="679" as="sourcePoint" />
             <mxPoint x="476" y="679" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="196" y="668" />
-              <mxPoint x="927" y="668" />
+              <mxPoint x="196" y="691" />
+              <mxPoint x="927" y="691" />
             </Array>
           </mxGeometry>
         </mxCell>
