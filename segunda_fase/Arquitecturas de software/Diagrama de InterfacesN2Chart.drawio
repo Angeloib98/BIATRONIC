@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2021-10-06T21:16:50.717Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="mSZ89rwH8-1jAICkd0w-" version="15.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-06T21:45:54.085Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="uo3b4aZCB8WMQe75ODXk" version="15.4.3" type="github">
   <diagram id="Nj07bCPPSiQxX_Wcg0r5" name="Page-1">
     <mxGraphModel dx="1108" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="xx2dYzDbVYMF6buf9vaY-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CXU5azMome1cHcGIRZeV-1" target="xx2dYzDbVYMF6buf9vaY-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="CXU5azMome1cHcGIRZeV-1" value="Gestor de cuentas" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#D4E1F5;" parent="1" vertex="1">
           <mxGeometry x="486" y="280.26" width="65.5" height="65.5" as="geometry" />
         </mxCell>
@@ -29,6 +32,9 @@
           <mxGeometry x="884.25" y="680" width="70" height="70" as="geometry" />
         </mxCell>
         <mxCell id="67Dht7YHLMiTtMJzF1Od-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontSize=11;" parent="1" source="CXU5azMome1cHcGIRZeV-9" target="iT-QjhbkleCrby-z9CVg-35" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xx2dYzDbVYMF6buf9vaY-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="CXU5azMome1cHcGIRZeV-9" target="iT-QjhbkleCrby-z9CVg-19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="CXU5azMome1cHcGIRZeV-9" value="Almacenar datos en la nube" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#D4E1F5;" parent="1" vertex="1">
@@ -100,10 +106,15 @@
           <mxGeometry x="281" y="423" width="99" height="44.75" as="geometry" />
         </mxCell>
         <mxCell id="67Dht7YHLMiTtMJzF1Od-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;" parent="1" source="iT-QjhbkleCrby-z9CVg-46" target="CXU5azMome1cHcGIRZeV-8" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1008" y="610" />
+              <mxPoint x="919" y="610" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="iT-QjhbkleCrby-z9CVg-46" value="señal de sensores" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="908.75" y="508" width="70" height="42" as="geometry" />
+          <mxGeometry x="972.5" y="530" width="70" height="42" as="geometry" />
         </mxCell>
         <mxCell id="67Dht7YHLMiTtMJzF1Od-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;" parent="1" source="iT-QjhbkleCrby-z9CVg-55" target="CXU5azMome1cHcGIRZeV-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -158,6 +169,9 @@
         </mxCell>
         <mxCell id="iT-QjhbkleCrby-z9CVg-80" value="Botón encendido" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="263" y="10" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xx2dYzDbVYMF6buf9vaY-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="iT-QjhbkleCrby-z9CVg-83" target="iT-QjhbkleCrby-z9CVg-15">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="iT-QjhbkleCrby-z9CVg-83" value="Sincronización con la nube" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="689.25" y="74.25" width="95" height="40.5" as="geometry" />
@@ -223,8 +237,11 @@
         <mxCell id="GFn40_tMTBPi8Aqq6Cur-2" value="Almacenar datos localmente" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#D4E1F5;" parent="1" vertex="1">
           <mxGeometry x="756" y="550" width="62.75" height="62.75" as="geometry" />
         </mxCell>
+        <mxCell id="xx2dYzDbVYMF6buf9vaY-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.63;entryY=0.053;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="iT-QjhbkleCrby-z9CVg-19" target="CXU5azMome1cHcGIRZeV-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="iT-QjhbkleCrby-z9CVg-19" value="Datos mediciones usuario" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="818.75" y="572.75" width="90" height="40" as="geometry" />
+          <mxGeometry x="860" y="495" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="67Dht7YHLMiTtMJzF1Od-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" parent="1" source="67Dht7YHLMiTtMJzF1Od-1" target="iT-QjhbkleCrby-z9CVg-39" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -311,6 +328,17 @@
         </mxCell>
         <mxCell id="67Dht7YHLMiTtMJzF1Od-74" value="Mostrar historial" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="278" y="640" width="99" height="44.75" as="geometry" />
+        </mxCell>
+        <mxCell id="xx2dYzDbVYMF6buf9vaY-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="xx2dYzDbVYMF6buf9vaY-2" target="CXU5azMome1cHcGIRZeV-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="835" y="400" />
+              <mxPoint x="835" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xx2dYzDbVYMF6buf9vaY-2" value="Expediente usuario" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="784.25" y="292.76" width="95" height="40.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
