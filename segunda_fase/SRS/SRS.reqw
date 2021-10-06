@@ -12,7 +12,7 @@
         "email": "francinie23@estudiantec.cr",
         "company": "Instituto de Tecnológico de Costa Rica"
       },
-      "lastChangedOn": "2021-10-05T23:53:40.778Z",
+      "lastChangedOn": "2021-10-01T03:08:10.706Z",
       "lastChangedBy": {
         "name": "Angelo",
         "email": "aisaac@estudiantec.cr",
@@ -414,6 +414,12 @@
                       "guid": "b5ace621-aa08-42d8-8d53-1f7e261d4e35",
                       "heading": "Reinicio del sistema",
                       "text": "<p>El software deberá permitir el reinicio del sistema ante posibles errores.</p>"
+                    },
+                    {
+                      "id": "153",
+                      "guid": "159492ad-8fea-46ec-bb16-f73cfb9830ae",
+                      "heading": "Accesibilidad no videntes",
+                      "text": "<p>El software deberá leer las opciones marcadas en pantalla mediante un altavoz.</p>"
                     },
                     {
                       "id": "158",
