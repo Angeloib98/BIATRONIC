@@ -381,7 +381,7 @@
         "email": "ocramsalazar@gmail.com",
         "company": ""
       },
-      "lastChangedOn": "2021-09-30T17:17:07.042Z",
+      "lastChangedOn": "2021-10-10T03:33:06.833Z",
       "lastChangedBy": {
         "name": "Marco Zolla",
         "email": "ocramsalazar@gmail.com",
@@ -3630,7 +3630,7 @@
                   "id": "49",
                   "guid": "6ded8669-5f78-4697-8149-9c5e033640cb",
                   "heading": "Consumo de potencia",
-                  "text": "<p>El sistema deberá tener un consumo nominal de potencia de 50 mW.</p>",
+                  "text": "<p>El sistema deberá tener un consumo nominal de potencia de 7 W.</p>",
                   "verMethod": "T",
                   "history": [
                     {
@@ -3688,6 +3688,17 @@
                         "name": "Marco Zolla"
                       },
                       "changedOn": "2021-09-12T01:02:31.224Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": "<p>El sistema deberá tener un consumo nominal de potencia de 50 mW.</p>"
+                      },
+                      "changedBy": {
+                        "company": "",
+                        "email": "ocramsalazar@gmail.com",
+                        "name": "Marco Zolla"
+                      },
+                      "changedOn": "2021-10-10T03:33:06.833Z"
                     }
                   ]
                 },
