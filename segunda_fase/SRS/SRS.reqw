@@ -12,7 +12,7 @@
         "email": "francinie23@estudiantec.cr",
         "company": "Instituto de Tecnológico de Costa Rica"
       },
-      "lastChangedOn": "2021-10-05T23:53:40.778Z",
+      "lastChangedOn": "2021-10-10T00:50:56.100Z",
       "lastChangedBy": {
         "name": "Angelo",
         "email": "aisaac@estudiantec.cr",
@@ -107,7 +107,7 @@
                   "id": "8",
                   "guid": "1bd17f4f-d159-4f8d-bcb6-c49c5ebce03e",
                   "heading": "Interfaces de software",
-                  "text": "<p>El software deberá enviar información desde el dispositivo portable a una aplicación móvil, para una mejor visualización de resultados e interacciones con la información extra brindada por el usuario.</p>",
+                  "text": "<p>El software deberá enviar información desde el dispositivo portable a la nube para luego una aplicación móvil pueda sincronizar los datos, para una mejor visualización de resultados e interacciones con la información extra brindada por el usuario.</p>",
                   "helpRef": "9.6.4.4",
                   "type": "SEC"
                 },
@@ -340,6 +340,7 @@
                       "guid": "89636bf9-ce27-4731-9e3d-3e27c5c17ff5",
                       "heading": "Ajustes de usuario",
                       "text": "<p>El software deberá contar con la opción de ingresar los datos usuarios que permita una correcta medición.</p>",
+                      "type": "SEC",
                       "children": [
                         {
                           "id": "89",
@@ -797,20 +798,14 @@
                 {
                   "id": "114",
                   "guid": "d9e82e6d-c793-44b6-8e78-959cbcf4e274",
-                  "heading": "Generación de cuentas",
+                  "heading": "Cuentas",
                   "text": "<p>El software deberá permitir la opción de crear una cuenta nueva o de seleccionar una preexistente.</p>"
                 },
                 {
                   "id": "115",
                   "guid": "6f3a681c-6485-4cdf-a831-5c37c030a788",
                   "heading": "Actualización de software",
-                  "text": "<p>El software deberá ser capaz de buscar actualizaciones y actualizarse solo.</p>"
-                },
-                {
-                  "id": "152",
-                  "guid": "a19a6754-62b7-4d0e-aa39-adaf51170509",
-                  "heading": "Lectura de pantalla",
-                  "text": "<p>El software deberá tener la opción de un altavoz que lea la opción de menú marcada.</p>"
+                  "text": "<p>El software deberá ser capaz de detectar si hay una actualización nueva en la nube.</p>"
                 },
                 {
                   "id": "156",
@@ -935,7 +930,7 @@
                 {
                   "id": "125",
                   "guid": "a19d5dec-8304-4872-b2c3-c22750dfdafd",
-                  "heading": "Cuentas",
+                  "heading": "Cuenta asociada a medición",
                   "text": "<p>El software deberá hacer mediciones solamente cuando esté asociado a una cuenta.</p>"
                 }
               ]
@@ -983,27 +978,6 @@
               ]
             }
           ]
-        },
-        {
-          "id": "29",
-          "guid": "33cd5109-774b-4e1f-a2ff-a9e7c3b6b59a",
-          "heading": "Verification",
-          "helpRef": "9.6.19",
-          "type": "SEC"
-        },
-        {
-          "id": "30",
-          "guid": "35eef667-670e-4fc9-b66d-2a75d838c1d0",
-          "heading": "Supporting information",
-          "helpRef": "9.6.20",
-          "type": "SEC"
-        },
-        {
-          "id": "31",
-          "guid": "edd4c5d2-7f01-42c2-86a7-59d3d821edfd",
-          "heading": "References",
-          "helpRef": "9.2.4",
-          "type": "SEC"
         }
       ],
       "attributes": {
