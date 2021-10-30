@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-30T22:15:26.865Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36 Edg/95.0.1020.38" etag="U2e3auIBM-W14argy_uK" version="15.5.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-30T22:16:55.442Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36 Edg/95.0.1020.38" etag="TmvLRBtaYXIS36G23cy-" version="15.5.2" type="github">
   <diagram id="vvcSt5JkOsiiw1LcVakY" name="Page-1">
     <mxGraphModel dx="1635" dy="908" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -109,7 +109,7 @@
         <mxCell id="A5wa8yoaLtPIDikdD-vy-21" value="¿Realizar otra medición?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="395" y="435" width="100" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="A5wa8yoaLtPIDikdD-vy-23" value="Volver al menú prnicipal" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="A5wa8yoaLtPIDikdD-vy-23" value="Volver al menú principal" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="395" y="610" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="A5wa8yoaLtPIDikdD-vy-41" value="Sí" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
