@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-30T22:16:55.442Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36 Edg/95.0.1020.38" etag="TmvLRBtaYXIS36G23cy-" version="15.5.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-30T22:17:16.780Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36 Edg/95.0.1020.38" etag="IL9CfuyrmMvKSu_tSwY9" version="15.5.2" type="github">
   <diagram id="vvcSt5JkOsiiw1LcVakY" name="Page-1">
     <mxGraphModel dx="1635" dy="908" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -61,7 +61,7 @@
         <mxCell id="A5wa8yoaLtPIDikdD-vy-11" value="Sensor" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.flowchart.on-page_reference;" vertex="1" parent="1">
           <mxGeometry x="682.5" y="180" width="60" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="A5wa8yoaLtPIDikdD-vy-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="A5wa8yoaLtPIDikdD-vy-13" target="A5wa8yoaLtPIDikdD-vy-15">
+        <mxCell id="A5wa8yoaLtPIDikdD-vy-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="A5wa8yoaLtPIDikdD-vy-13" target="A5wa8yoaLtPIDikdD-vy-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="A5wa8yoaLtPIDikdD-vy-13" value="Generador de señal" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.flowchart.on-page_reference;" vertex="1" parent="1">
