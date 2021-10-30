@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-30T22:14:52.252Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36 Edg/95.0.1020.38" etag="DMGWj_SzsLiMP6Oqj2VV" version="15.5.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-30T22:15:26.865Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36 Edg/95.0.1020.38" etag="U2e3auIBM-W14argy_uK" version="15.5.2" type="github">
   <diagram id="vvcSt5JkOsiiw1LcVakY" name="Page-1">
     <mxGraphModel dx="1635" dy="908" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -19,7 +19,7 @@
         <mxCell id="A5wa8yoaLtPIDikdD-vy-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="A5wa8yoaLtPIDikdD-vy-3" target="A5wa8yoaLtPIDikdD-vy-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="A5wa8yoaLtPIDikdD-vy-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="A5wa8yoaLtPIDikdD-vy-3" target="A5wa8yoaLtPIDikdD-vy-11">
+        <mxCell id="A5wa8yoaLtPIDikdD-vy-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="A5wa8yoaLtPIDikdD-vy-3" target="A5wa8yoaLtPIDikdD-vy-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="A5wa8yoaLtPIDikdD-vy-3" value="Verificación de electrodos" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
@@ -49,7 +49,7 @@
         <mxCell id="A5wa8yoaLtPIDikdD-vy-9" value="Electrodos no conectados" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;" vertex="1" parent="1">
           <mxGeometry x="835" y="170" width="160" height="95" as="geometry" />
         </mxCell>
-        <mxCell id="A5wa8yoaLtPIDikdD-vy-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="A5wa8yoaLtPIDikdD-vy-10" target="A5wa8yoaLtPIDikdD-vy-13">
+        <mxCell id="A5wa8yoaLtPIDikdD-vy-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="A5wa8yoaLtPIDikdD-vy-10" target="A5wa8yoaLtPIDikdD-vy-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="A5wa8yoaLtPIDikdD-vy-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="A5wa8yoaLtPIDikdD-vy-10" target="A5wa8yoaLtPIDikdD-vy-14">
@@ -59,7 +59,7 @@
           <mxGeometry x="1110" y="290" width="130" height="100" as="geometry" />
         </mxCell>
         <mxCell id="A5wa8yoaLtPIDikdD-vy-11" value="Sensor" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.flowchart.on-page_reference;" vertex="1" parent="1">
-          <mxGeometry x="682.5" y="170" width="60" height="60" as="geometry" />
+          <mxGeometry x="682.5" y="180" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="A5wa8yoaLtPIDikdD-vy-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="A5wa8yoaLtPIDikdD-vy-13" target="A5wa8yoaLtPIDikdD-vy-15">
           <mxGeometry relative="1" as="geometry" />
@@ -74,7 +74,7 @@
           <mxGeometry x="1110" y="440" width="130" height="70" as="geometry" />
         </mxCell>
         <mxCell id="A5wa8yoaLtPIDikdD-vy-15" value="Electrodos" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.flowchart.on-page_reference;" vertex="1" parent="1">
-          <mxGeometry x="1460" y="310" width="60" height="60" as="geometry" />
+          <mxGeometry x="1480" y="310" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="A5wa8yoaLtPIDikdD-vy-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="A5wa8yoaLtPIDikdD-vy-16" target="A5wa8yoaLtPIDikdD-vy-17">
           <mxGeometry relative="1" as="geometry" />
