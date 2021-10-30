@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-30T20:31:19.575Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36 Edg/95.0.1020.38" etag="CyO_TFm28y1vXMnXhKQ1" version="15.5.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-30T20:32:28.933Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36 Edg/95.0.1020.38" etag="x3fl-29mkKoectGW2oW_" version="15.5.2" type="github">
   <diagram id="Ib975hG2kT8Rjhy9WmjI" name="Page-1">
     <mxGraphModel dx="1635" dy="908" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -102,8 +102,10 @@
         <mxCell id="6VT2_s6x-18-C2tRzZqN-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="6VT2_s6x-18-C2tRzZqN-38" target="6VT2_s6x-18-C2tRzZqN-39">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="6VT2_s6x-18-C2tRzZqN-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="6VT2_s6x-18-C2tRzZqN-38" target="6VT2_s6x-18-C2tRzZqN-50">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="6VT2_s6x-18-C2tRzZqN-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="6VT2_s6x-18-C2tRzZqN-38" target="6VT2_s6x-18-C2tRzZqN-54">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1410" y="490" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="6VT2_s6x-18-C2tRzZqN-38" value="¿Conexión WiFi activa?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="1230" y="440" width="100" height="100" as="geometry" />
@@ -122,9 +124,6 @@
         </mxCell>
         <mxCell id="6VT2_s6x-18-C2tRzZqN-45" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1330" y="460" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="6VT2_s6x-18-C2tRzZqN-50" value="Fin" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="1410" y="460" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="6VT2_s6x-18-C2tRzZqN-52" value="Sí" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1280" y="545" width="60" height="30" as="geometry" />
