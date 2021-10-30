@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-30T20:43:09.664Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36 Edg/95.0.1020.38" etag="JgzVpT4GRdQJB5ELwl57" version="15.5.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-30T20:44:31.227Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36 Edg/95.0.1020.38" etag="ebOBdtx6Ym8YLaVr6wmr" version="15.5.2" type="github">
   <diagram id="Ib975hG2kT8Rjhy9WmjI" name="Page-1">
     <mxGraphModel dx="1635" dy="908" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -70,6 +70,14 @@
             <mxPoint x="850" y="110" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="6VT2_s6x-18-C2tRzZqN-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="6VT2_s6x-18-C2tRzZqN-14" target="6VT2_s6x-18-C2tRzZqN-40">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1180" y="40" />
+              <mxPoint x="1180" y="325" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="6VT2_s6x-18-C2tRzZqN-14" value="Encendido del dispositivo" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="800" y="10" width="100" height="60" as="geometry" />
         </mxCell>
@@ -110,6 +118,13 @@
         </mxCell>
         <mxCell id="6VT2_s6x-18-C2tRzZqN-38" value="¿Conexión WiFi activa?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="1230" y="440" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="6VT2_s6x-18-C2tRzZqN-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="6VT2_s6x-18-C2tRzZqN-39" target="6VT2_s6x-18-C2tRzZqN-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1280" y="750" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="6VT2_s6x-18-C2tRzZqN-39" value="Sincronizar datos en la nube" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="1230" y="590" width="100" height="70" as="geometry" />
