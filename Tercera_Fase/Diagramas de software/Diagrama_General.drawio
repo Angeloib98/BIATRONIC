@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-31T00:17:45.159Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36 Edg/95.0.1020.38" etag="f8WmdkazLSCH2NAQyn0K" version="15.5.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-31T00:19:10.516Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36 Edg/95.0.1020.38" etag="CZzGvXm3Yj8xZqTvCT2Y" version="15.5.2" type="github">
   <diagram id="Ib975hG2kT8Rjhy9WmjI" name="Page-1">
     <mxGraphModel dx="1635" dy="908" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -204,6 +204,9 @@
         </mxCell>
         <mxCell id="6VT2_s6x-18-C2tRzZqN-91" value="Selección de usuario" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
           <mxGeometry x="850" y="160" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6VT2_s6x-18-C2tRzZqN-93" value="Agregar gestor anomalias" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1520" y="110" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
