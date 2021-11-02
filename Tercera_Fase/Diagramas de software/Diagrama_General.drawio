@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-02T23:20:54.600Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36 Edg/95.0.1020.40" etag="dPcdiFWIIFhQP_AO0YeD" version="15.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-02T23:30:47.572Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36 Edg/95.0.1020.40" etag="7r-GY2fG1inhmsIHLVpd" version="15.6.6" type="github">
   <diagram id="Ib975hG2kT8Rjhy9WmjI" name="Page-1">
     <mxGraphModel dx="1635" dy="908" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -145,8 +145,41 @@
         <mxCell id="yv2IDGV4ERRo5olJ93gg-1" value="Selección de usuario" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="795" y="45" width="110" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="yv2IDGV4ERRo5olJ93gg-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;fontColor=default;strokeColor=default;" edge="1" parent="1" source="yv2IDGV4ERRo5olJ93gg-9" target="yv2IDGV4ERRo5olJ93gg-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="yv2IDGV4ERRo5olJ93gg-9" value="Encendido del dispositivo" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="430" y="35" width="100" height="60" as="geometry" />
+          <mxGeometry x="480" y="35" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yv2IDGV4ERRo5olJ93gg-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontColor=default;startArrow=none;startFill=0;endArrow=none;endFill=0;strokeColor=default;" edge="1" parent="1" source="yv2IDGV4ERRo5olJ93gg-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="880" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="260" y="880" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yv2IDGV4ERRo5olJ93gg-10" value="Comunicación con la nube" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;labelBackgroundColor=default;fontColor=default;fillColor=default;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="210" y="220" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="yv2IDGV4ERRo5olJ93gg-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;labelBackgroundColor=default;fontColor=default;strokeColor=default;endArrow=none;endFill=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="yv2IDGV4ERRo5olJ93gg-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="130" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="410" y="130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yv2IDGV4ERRo5olJ93gg-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;labelBackgroundColor=default;fontColor=default;startArrow=none;startFill=0;endArrow=none;endFill=0;strokeColor=default;" edge="1" parent="1" source="yv2IDGV4ERRo5olJ93gg-11" target="6VT2_s6x-18-C2tRzZqN-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="410" y="880" />
+              <mxPoint x="945" y="880" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yv2IDGV4ERRo5olJ93gg-11" value="Gestor de anomalías" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;labelBackgroundColor=default;fontColor=default;fillColor=default;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="360" y="220" width="100" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
