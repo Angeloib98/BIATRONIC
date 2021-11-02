@@ -1,17 +1,82 @@
-<mxfile host="app.diagrams.net" modified="2021-11-02T23:26:00.687Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36 Edg/95.0.1020.40" etag="tZbJcpA5wtre4_RBo9Dm" version="15.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-02T23:53:54.029Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36 Edg/95.0.1020.40" etag="AdbJoB3uXqd-thGINedg" version="15.6.6" type="github">
   <diagram id="IrKkqwVjLDlMaX7416QP" name="Page-1">
     <mxGraphModel dx="1635" dy="908" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="RqIGzOP4pkBa18sgVe00-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=default;" edge="1" parent="1" source="RqIGzOP4pkBa18sgVe00-1" target="RqIGzOP4pkBa18sgVe00-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="RqIGzOP4pkBa18sgVe00-1" value="Encendido del dispositivo" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="775" y="40" width="100" height="60" as="geometry" />
+          <mxGeometry x="620" y="30" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="RqIGzOP4pkBa18sgVe00-2" value="Apagado del dispositivo" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="1090" y="40" width="100" height="60" as="geometry" />
+          <mxGeometry x="630" y="670" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="RqIGzOP4pkBa18sgVe00-3" value="Dispositivo encendido" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="990" y="190" width="130" height="110" as="geometry" />
+          <mxGeometry x="1020" y="240" width="130" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="RqIGzOP4pkBa18sgVe00-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontColor=default;strokeColor=default;labelBackgroundColor=default;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="RqIGzOP4pkBa18sgVe00-4" target="RqIGzOP4pkBa18sgVe00-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="460" y="145" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RqIGzOP4pkBa18sgVe00-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=default;fontColor=default;startArrow=none;startFill=0;strokeColor=default;" edge="1" parent="1" source="RqIGzOP4pkBa18sgVe00-4" target="RqIGzOP4pkBa18sgVe00-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RqIGzOP4pkBa18sgVe00-4" value="Revisión temperatura" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontColor=default;fillColor=default;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="500" y="120" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="RqIGzOP4pkBa18sgVe00-5" value="Sensor&amp;nbsp;" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.flowchart.on-page_reference;fontColor=default;strokeColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="350" y="115" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RqIGzOP4pkBa18sgVe00-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;fontColor=default;startArrow=none;startFill=0;strokeColor=default;" edge="1" parent="1" source="RqIGzOP4pkBa18sgVe00-9" target="RqIGzOP4pkBa18sgVe00-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="700" y="290" />
+              <mxPoint x="700" y="145" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RqIGzOP4pkBa18sgVe00-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=default;fontColor=default;startArrow=none;startFill=0;strokeColor=default;" edge="1" parent="1" source="RqIGzOP4pkBa18sgVe00-9" target="RqIGzOP4pkBa18sgVe00-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RqIGzOP4pkBa18sgVe00-9" value="Temperatura &amp;gt; 45°C" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontColor=default;fillColor=default;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="490" y="230" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="RqIGzOP4pkBa18sgVe00-13" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="610" y="270" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="RqIGzOP4pkBa18sgVe00-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontColor=default;startArrow=none;startFill=0;strokeColor=default;exitX=0.421;exitY=0.928;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="RqIGzOP4pkBa18sgVe00-14" target="RqIGzOP4pkBa18sgVe00-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="542" y="471" />
+              <mxPoint x="550" y="471" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RqIGzOP4pkBa18sgVe00-14" value="&quot;Temperatura alta&quot;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;fontColor=default;fillColor=default;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="500" y="420" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RqIGzOP4pkBa18sgVe00-16" value="Sí" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="550" y="360" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="RqIGzOP4pkBa18sgVe00-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;labelBackgroundColor=default;fontColor=default;startArrow=none;startFill=0;strokeColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="RqIGzOP4pkBa18sgVe00-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="700" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RqIGzOP4pkBa18sgVe00-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=default;fontColor=default;startArrow=none;startFill=0;endArrow=none;endFill=0;strokeColor=default;" edge="1" parent="1" source="RqIGzOP4pkBa18sgVe00-17" target="RqIGzOP4pkBa18sgVe00-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RqIGzOP4pkBa18sgVe00-17" value="Temperatura &amp;gt; 90°C" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontColor=default;fillColor=default;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="490" y="530" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="RqIGzOP4pkBa18sgVe00-21" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="610" y="560" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="RqIGzOP4pkBa18sgVe00-23" value="Sí" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="550" y="660" width="30" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
