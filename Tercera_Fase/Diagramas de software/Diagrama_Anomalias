@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-06T19:48:54.300Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36 Edg/95.0.1020.40" etag="m7C6j8mr9vP6Hy59F4ui" version="15.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-06T20:11:36.352Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36 Edg/95.0.1020.40" etag="V80qHHxRbinDErNbGs-_" version="15.6.6" type="github">
   <diagram id="IrKkqwVjLDlMaX7416QP" name="Page-1">
     <mxGraphModel dx="1635" dy="908" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -105,8 +105,10 @@
         <mxCell id="ofhExy-NdDRJgnRBk9gF-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=default;labelBackgroundColor=default;fontColor=default;" edge="1" parent="1" source="ofhExy-NdDRJgnRBk9gF-5" target="ofhExy-NdDRJgnRBk9gF-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ofhExy-NdDRJgnRBk9gF-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;labelBackgroundColor=default;fontColor=default;startArrow=none;startFill=0;strokeColor=default;" edge="1" parent="1" source="ofhExy-NdDRJgnRBk9gF-5" target="ofhExy-NdDRJgnRBk9gF-17">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="ofhExy-NdDRJgnRBk9gF-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;labelBackgroundColor=default;fontColor=default;startArrow=none;startFill=0;strokeColor=default;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ofhExy-NdDRJgnRBk9gF-5" target="ofhExy-NdDRJgnRBk9gF-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1070" y="517.5" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="ofhExy-NdDRJgnRBk9gF-5" value="¿Electrodos conectados al dispositivo?" style="strokeWidth=2;shape=mxgraph.flowchart.decision;strokeColor=default;labelBackgroundColor=none;fontColor=default;fillColor=default;whiteSpace=wrap;html=1;labelBorderColor=none;" vertex="1" parent="1">
           <mxGeometry x="806.25" y="450" width="177.5" height="135" as="geometry" />
@@ -137,8 +139,8 @@
         <mxCell id="ofhExy-NdDRJgnRBk9gF-16" value="Sí" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="990" y="492.5" width="30" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="ofhExy-NdDRJgnRBk9gF-17" value="Seguir proceso de medición" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;labelBackgroundColor=default;fontColor=default;fillColor=default;strokeColor=default;" vertex="1" parent="1">
-          <mxGeometry x="1070" y="492.5" width="90" height="50" as="geometry" />
+        <mxCell id="ofhExy-NdDRJgnRBk9gF-24" value="Seguir proceso de medición" style="strokeWidth=2;shape=mxgraph.flowchart.start_1;labelBackgroundColor=none;labelBorderColor=none;fontColor=default;fillColor=default;strokeColor=default;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="487.5" width="100" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
