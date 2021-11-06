@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-06T19:43:38.856Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36 Edg/95.0.1020.40" etag="RWKtzzwMwzI-uO4eoCXD" version="15.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-06T19:46:02.601Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36 Edg/95.0.1020.40" etag="Cs1Gy3-tdfm3Q0xpfN-G" version="15.6.6" type="github">
   <diagram id="vvcSt5JkOsiiw1LcVakY" name="Page-1">
     <mxGraphModel dx="1635" dy="908" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -103,7 +103,7 @@
         <mxCell id="qPGoVdujf1viBavvTmoF-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=default;" edge="1" parent="1" source="qPGoVdujf1viBavvTmoF-1" target="A5wa8yoaLtPIDikdD-vy-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="qPGoVdujf1viBavvTmoF-1" value="Revisión electrodos" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
+        <mxCell id="qPGoVdujf1viBavvTmoF-1" value="Revisión electrodos&lt;br&gt;(Gestor de anomalías)" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="720" y="30" width="130" height="70" as="geometry" />
         </mxCell>
       </root>
