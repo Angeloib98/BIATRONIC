@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-07T05:06:24.398Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36 Edg/95.0.1020.40" etag="N1QtLdBeW5U3JCqcgof8" version="15.7.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-07T05:10:02.178Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36 Edg/95.0.1020.40" etag="UBW1NBZhHUYOqggSevIQ" version="15.7.0" type="github">
   <diagram id="03ZAokcntrlKChbKRNU_" name="Page-1">
     <mxGraphModel dx="1635" dy="908" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -37,11 +37,11 @@
         <mxCell id="AI65t0Lun6rir1HkQO0F-9" value="Mostrar consejos&lt;br&gt;&amp;nbsp;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;" vertex="1" parent="1">
           <mxGeometry x="765" y="485" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="AI65t0Lun6rir1HkQO0F-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="AI65t0Lun6rir1HkQO0F-10" target="AI65t0Lun6rir1HkQO0F-13">
+        <mxCell id="AI65t0Lun6rir1HkQO0F-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="AI65t0Lun6rir1HkQO0F-10" target="AI65t0Lun6rir1HkQO0F-44">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="AI65t0Lun6rir1HkQO0F-10" value="Ajustes:&lt;br&gt;Datos de usuario&lt;br&gt;Recordatorios&lt;br&gt;Ajustes&amp;nbsp;&lt;br&gt;Manual de usuario&lt;br&gt;Chatbot&lt;br&gt;Membresía" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="1010" y="472.5" width="210" height="107.5" as="geometry" />
+        <mxCell id="AI65t0Lun6rir1HkQO0F-10" value="Ajustes:&lt;br&gt;Datos de usuario&lt;br&gt;Recordatorios&lt;br&gt;Ajustes de app&lt;br&gt;Manual de usuario&lt;br&gt;Chatbot&lt;br&gt;Membresía" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="331.25" width="210" height="107.5" as="geometry" />
         </mxCell>
         <mxCell id="AI65t0Lun6rir1HkQO0F-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.2;exitY=0.14;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="AI65t0Lun6rir1HkQO0F-12" target="AI65t0Lun6rir1HkQO0F-16">
           <mxGeometry relative="1" as="geometry" />
@@ -68,10 +68,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="AI65t0Lun6rir1HkQO0F-13" value="Manual de usuario" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;" vertex="1" parent="1">
-          <mxGeometry x="1057.5" y="610" width="115" height="70" as="geometry" />
+          <mxGeometry x="1065" y="740" width="115" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="AI65t0Lun6rir1HkQO0F-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AI65t0Lun6rir1HkQO0F-15" target="AI65t0Lun6rir1HkQO0F-46">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="AI65t0Lun6rir1HkQO0F-15" value="Chatbot" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1072.5" y="720" width="85" height="50" as="geometry" />
+          <mxGeometry x="1080" y="850" width="85" height="50" as="geometry" />
         </mxCell>
         <mxCell id="AI65t0Lun6rir1HkQO0F-16" value="Masa magra" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;" vertex="1" parent="1">
           <mxGeometry x="170" y="450" width="100" height="60" as="geometry" />
@@ -90,6 +93,27 @@
         </mxCell>
         <mxCell id="AI65t0Lun6rir1HkQO0F-22" value="Ejercicio" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="540" y="668.75" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AI65t0Lun6rir1HkQO0F-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="AI65t0Lun6rir1HkQO0F-43" target="AI65t0Lun6rir1HkQO0F-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AI65t0Lun6rir1HkQO0F-43" value="Establecer recordatorios" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1072.5" y="570" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AI65t0Lun6rir1HkQO0F-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.43;entryY=0.002;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="AI65t0Lun6rir1HkQO0F-44" target="AI65t0Lun6rir1HkQO0F-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AI65t0Lun6rir1HkQO0F-44" value="Datos de usuario" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1072.5" y="480" width="85" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AI65t0Lun6rir1HkQO0F-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AI65t0Lun6rir1HkQO0F-45" target="AI65t0Lun6rir1HkQO0F-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AI65t0Lun6rir1HkQO0F-45" value="Ajustes de app" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="663.75" width="85" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AI65t0Lun6rir1HkQO0F-46" value="Membresía" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="940" width="85" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
