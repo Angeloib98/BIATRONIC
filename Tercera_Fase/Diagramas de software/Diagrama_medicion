@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-06T19:46:02.601Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36 Edg/95.0.1020.40" etag="Cs1Gy3-tdfm3Q0xpfN-G" version="15.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-09T20:57:49.875Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36 Edg/95.0.1020.44" etag="DEoQRC2y8n4XELNdjBws" version="15.7.1" type="github">
   <diagram id="vvcSt5JkOsiiw1LcVakY" name="Page-1">
     <mxGraphModel dx="1635" dy="908" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -10,7 +10,7 @@
         <mxCell id="A5wa8yoaLtPIDikdD-vy-1" value="Inicio de medición" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="140" y="35" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="qPGoVdujf1viBavvTmoF-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=default;" edge="1" parent="1" source="A5wa8yoaLtPIDikdD-vy-2" target="qPGoVdujf1viBavvTmoF-1">
+        <mxCell id="qPGoVdujf1viBavvTmoF-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=default;" parent="1" source="A5wa8yoaLtPIDikdD-vy-2" target="qPGoVdujf1viBavvTmoF-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="A5wa8yoaLtPIDikdD-vy-2" value="Defina tipo de medición:&lt;br&gt;-Masa magra&lt;br&gt;-Hidratación&amp;nbsp;&lt;br&gt;-Ambas" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" parent="1" vertex="1">
@@ -52,23 +52,11 @@
         <mxCell id="A5wa8yoaLtPIDikdD-vy-15" value="Electrodos" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.flowchart.on-page_reference;" parent="1" vertex="1">
           <mxGeometry x="1480" y="310" width="60" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="A5wa8yoaLtPIDikdD-vy-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="A5wa8yoaLtPIDikdD-vy-16" target="A5wa8yoaLtPIDikdD-vy-17" edge="1">
+        <mxCell id="Zp7SB984U8ECwgyzIGLx-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="A5wa8yoaLtPIDikdD-vy-16" target="Zp7SB984U8ECwgyzIGLx-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="A5wa8yoaLtPIDikdD-vy-16" value="Resultados" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;" parent="1" vertex="1">
           <mxGeometry x="940" y="450" width="110" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="A5wa8yoaLtPIDikdD-vy-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="A5wa8yoaLtPIDikdD-vy-17" target="A5wa8yoaLtPIDikdD-vy-19" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="A5wa8yoaLtPIDikdD-vy-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="A5wa8yoaLtPIDikdD-vy-17" target="A5wa8yoaLtPIDikdD-vy-20" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="A5wa8yoaLtPIDikdD-vy-17" value="Resultados son normales" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="772.5" y="435" width="100" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="A5wa8yoaLtPIDikdD-vy-19" value="Resultados fuera del rango normal, realice medición nuevamente" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;" parent="1" vertex="1">
-          <mxGeometry x="751.25" y="600" width="142.5" height="90" as="geometry" />
         </mxCell>
         <mxCell id="A5wa8yoaLtPIDikdD-vy-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="A5wa8yoaLtPIDikdD-vy-20" target="A5wa8yoaLtPIDikdD-vy-21" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -91,20 +79,20 @@
         <mxCell id="A5wa8yoaLtPIDikdD-vy-41" value="Sí" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="450" y="400" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="A5wa8yoaLtPIDikdD-vy-42" value="Sí" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="720" y="460" width="60" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="A5wa8yoaLtPIDikdD-vy-44" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="450" y="550" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="A5wa8yoaLtPIDikdD-vy-45" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="820" y="540" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="qPGoVdujf1viBavvTmoF-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=default;" edge="1" parent="1" source="qPGoVdujf1viBavvTmoF-1" target="A5wa8yoaLtPIDikdD-vy-6">
+        <mxCell id="qPGoVdujf1viBavvTmoF-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=default;" parent="1" source="qPGoVdujf1viBavvTmoF-1" target="A5wa8yoaLtPIDikdD-vy-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="qPGoVdujf1viBavvTmoF-1" value="Revisión electrodos&lt;br&gt;(Gestor de anomalías)" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
+        <mxCell id="qPGoVdujf1viBavvTmoF-1" value="Revisión electrodos&lt;br&gt;(Gestor de anomalías)" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=default;strokeColor=default;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="720" y="30" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Zp7SB984U8ECwgyzIGLx-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Zp7SB984U8ECwgyzIGLx-1" target="A5wa8yoaLtPIDikdD-vy-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Zp7SB984U8ECwgyzIGLx-1" value="Revisión resultados&lt;br&gt;(Gestor de anomalías)" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="750" y="450" width="130" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
